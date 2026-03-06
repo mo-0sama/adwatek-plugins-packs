@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-06T18:21:58.5532924Z",
+  "lastUpdated": "2026-03-06T19:07:40.0965790Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2285,7 +2285,7 @@
         "name": "Partner User",
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
       },
-      "downloads": 37,
+      "downloads": 40,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.1745103",
