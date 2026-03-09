@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:16:40.9614896Z",
+  "lastUpdated": "2026-03-09T21:16:45.8686374Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1935,7 +1935,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.7504541",
-      "updatedAt": "2026-03-09T21:16:39.5644705Z",
+      "updatedAt": "2026-03-09T21:16:44.4058407Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1943,8 +1943,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-toon/1.0.0/package.adwatekplugin",
-          "packageSize": 8620,
-          "packageChecksum": "35a42916fbab91befd11783c8fa3b067428d12afa86b30004a5d5b67133bdd5d",
+          "packageSize": 4625,
+          "packageChecksum": "d91c7c1004ef8652a029e1d24b1d96793081ef4385e1dff0b0447f85b582d98b",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.7504541"
         }
