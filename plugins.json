@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:10:17.0104917Z",
+  "lastUpdated": "2026-03-09T21:10:23.2312924Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -909,7 +909,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.9653652",
-      "updatedAt": "2026-03-09T21:10:14.1583789Z",
+      "updatedAt": "2026-03-09T21:10:20.6068574Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -917,8 +917,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/exam-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 263145,
-          "packageChecksum": "39c394ba1c2c91fcf73098c8544172433df805c973c19817529d6e08dfdfc341",
+          "packageSize": 190801,
+          "packageChecksum": "00baef2767f4c8c3cb94737f35449f99726ca630d4a4d9b986e1eef6c283879b",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.9653652"
         }
