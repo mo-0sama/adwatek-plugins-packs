@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:26:42.2537321Z",
+  "lastUpdated": "2026-03-09T21:26:47.1738448Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1650,8 +1650,8 @@
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T21:26:41.1184634Z",
-      "updatedAt": "2026-03-09T21:26:41.1184636Z",
+      "publishedAt": "2026-03-09T21:26:41.1184634",
+      "updatedAt": "2026-03-09T21:26:41.1184636",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1662,7 +1662,7 @@
           "packageSize": 4448,
           "packageChecksum": "f477b5017451c01feebdc0822306b785cd4e368074dd1cc90abea0c584fda250",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T21:26:41.1184634Z"
+          "publishedAt": "2026-03-09T21:26:41.1184634"
         }
       ]
     },
@@ -1710,8 +1710,8 @@
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-14T19:01:46.5830624",
-      "updatedAt": "2026-03-09T21:20:51.7964097",
+      "publishedAt": "2026-03-09T21:26:45.7538135Z",
+      "updatedAt": "2026-03-09T21:26:45.7538140Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1722,7 +1722,7 @@
           "packageSize": 4128,
           "packageChecksum": "3e47fa6bf1b025c454eeee529f4e0c5e32dd5c4e2a1b688b324d20629c7f8007",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-02-14T19:01:46.5830624"
+          "publishedAt": "2026-03-09T21:26:45.7538135Z"
         }
       ]
     },
@@ -2353,7 +2353,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-17T17:06:05.3650650",
-      "updatedAt": "2026-03-09T21:21:19.2526070",
+      "updatedAt": "2026-03-09T21:26:46.0895053",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2362,7 +2362,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/prompt-builder/1.0.0/package.adwatekplugin",
           "packageSize": 12701,
-          "packageChecksum": "c96a1c82d47e0aff4e34568802534e71266fba9af3a057871256c6af8551fa68",
+          "packageChecksum": "419548adf68ce535decfd9d58c1c954323d2b3b2742b42c354a42cc61e076a29",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-17T17:06:05.3650650"
         }
