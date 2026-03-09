@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:13:58.8646694Z",
+  "lastUpdated": "2026-03-09T21:14:06.9731288Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -673,7 +673,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.7759448",
-      "updatedAt": "2026-03-09T21:13:53.2599203Z",
+      "updatedAt": "2026-03-09T21:14:05.4406465Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -682,7 +682,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/color-tools/1.0.0/package.adwatekplugin",
           "packageSize": 12212,
-          "packageChecksum": "b0c4eaf239922d5ca958f7203dd04b77c451b8095e86df7a6247f7be77dc118f",
+          "packageChecksum": "0d2f3bf0862b5d4c5519d8a3b2bc64d6efa4b5cc7802f20c589ac13f214c88f7",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.7759448"
         }
