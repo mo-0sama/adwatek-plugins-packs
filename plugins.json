@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:27:38.0085273Z",
+  "lastUpdated": "2026-03-09T22:27:42.3485878Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1893,7 +1893,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:32:37.9912047",
-      "updatedAt": "2026-03-09T22:27:37.0248270Z",
+      "updatedAt": "2026-03-09T22:27:41.2954464Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1901,8 +1901,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-sql-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 6986,
-          "packageChecksum": "a35e2f3bbc8ac57098adad649096bb1f3953b8b8ec6b9d469fda8ed61154792b",
+          "packageSize": 7535,
+          "packageChecksum": "6cdae4b34de91ccd33232e73cd3749d6207c7e4c0f5ea3f50668fae83ef177a3",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:32:37.9912047"
         }
