@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:27:07.2852181Z",
+  "lastUpdated": "2026-03-09T22:27:11.5057132Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1770,7 +1770,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:32:28.5437954",
-      "updatedAt": "2026-03-09T22:27:06.2061605Z",
+      "updatedAt": "2026-03-09T22:27:10.4220517Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1778,8 +1778,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-obfuscator/1.0.0/package.adwatekplugin",
-          "packageSize": 3829,
-          "packageChecksum": "033f1268696f0cdd42b957ccde504bb4a7e1a1e730879e1f8c1fee8b3a8d0006",
+          "packageSize": 4375,
+          "packageChecksum": "a5e8e162f72ae9fdbe8c6d53cbe25876fd270d58a13eb823a894ba2fe51b673a",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:32:28.5437954"
         }
