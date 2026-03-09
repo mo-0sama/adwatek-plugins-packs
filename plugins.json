@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-06T22:53:33.7690409Z",
+  "lastUpdated": "2026-03-09T21:03:30.0696357Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -141,15 +141,21 @@
       "icon": "\uD83D\uDCCB",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 13,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.1424344",
-      "updatedAt": "2026-02-14T19:01:45.1424347",
+      "updatedAt": "2026-03-09T21:03:27.6794014Z",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -187,15 +193,21 @@
       "icon": "\u26A0\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 7,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.2410323",
       "updatedAt": "2026-02-14T19:01:45.2410325",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -233,15 +245,21 @@
       "icon": "\uD83C\uDFAD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.3362112",
       "updatedAt": "2026-02-14T19:01:45.3362115",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -267,6 +285,7 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
         "icon": "\uD83D\uDDBC\uFE0F",
         "color": "#8B5CF6",
         "order": 11
@@ -287,15 +306,24 @@
       "icon": "\uD83C\uDFD7\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
-      "downloads": 40,
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/arch-diagram",
+      "documentation": "https://docs.adwatek.com/tools/arch-diagram",
+      "downloads": 41,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.4161199",
       "updatedAt": "2026-02-17T21:04:22.0565043",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -321,6 +349,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -342,15 +371,21 @@
       "icon": "\uD83D\uDCE6",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.4844637",
       "updatedAt": "2026-02-14T19:01:45.4844639",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -376,6 +411,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -397,15 +433,21 @@
       "icon": "\uD83D\uDCCA",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.5386423",
       "updatedAt": "2026-02-14T19:01:45.5386427",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -431,6 +473,7 @@
         "id": "dev-utils",
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
         "icon": "\uD83D\uDEE0\uFE0F",
         "color": "#6366F1",
         "order": 7
@@ -450,15 +493,21 @@
       "icon": "\uD83D\uDD04",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.6307959",
       "updatedAt": "2026-02-14T19:01:45.6307961",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -497,15 +546,21 @@
       "icon": "\u2328\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.6882619",
       "updatedAt": "2026-02-14T19:01:45.6882620",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -543,15 +598,21 @@
       "icon": "\uD83C\uDFD7\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.7338953",
       "updatedAt": "2026-02-14T19:01:45.7338955",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -577,6 +638,7 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
         "icon": "\uD83D\uDDBC\uFE0F",
         "color": "#8B5CF6",
         "order": 11
@@ -600,15 +662,21 @@
       "icon": "\uD83C\uDFA8",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 7,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.7759448",
       "updatedAt": "2026-02-14T19:01:45.7759449",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -646,15 +714,21 @@
       "icon": "\u23F0",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 9,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.8183103",
       "updatedAt": "2026-02-14T19:01:45.8183104",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -680,6 +754,7 @@
         "id": "dev-utils",
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
         "icon": "\uD83D\uDEE0\uFE0F",
         "color": "#6366F1",
         "order": 7
@@ -702,15 +777,21 @@
       "icon": "\uD83D\uDCC5",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.8628036",
       "updatedAt": "2026-02-14T19:01:45.8628037",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -736,6 +817,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -758,15 +840,21 @@
       "icon": "\uD83D\uDDC4\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 32,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.9056160",
       "updatedAt": "2026-02-14T19:01:45.9056164",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -792,6 +880,7 @@
         "id": "generators",
         "name": "Generators",
         "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
+        "description": "Generate code, data, and assets",
         "icon": "\u26A1",
         "color": "#F59E0B",
         "order": 4
@@ -809,15 +898,21 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.9653652",
       "updatedAt": "2026-02-14T19:01:45.9653653",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -856,15 +951,21 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.0134678",
       "updatedAt": "2026-02-14T19:01:46.0134680",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -890,6 +991,7 @@
         "id": "security",
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
+        "description": "Security and encryption tools",
         "icon": "\uD83D\uDD12",
         "color": "#EF4444",
         "order": 6
@@ -909,15 +1011,23 @@
       "icon": "\uD83D\uDD12",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/hash-tools",
+      "documentation": "https://docs.adwatek.com/tools/hash-tools",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.0723857",
       "updatedAt": "2026-02-14T19:01:46.0723858",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -957,15 +1067,21 @@
       "icon": "\uD83C\uDF10",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.1342285",
       "updatedAt": "2026-02-14T19:01:46.1342287",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1012,15 +1128,21 @@
       "icon": "\uD83C\uDF10",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.1894892",
       "updatedAt": "2026-02-14T19:01:46.1894893",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1046,6 +1168,7 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
         "icon": "\uD83D\uDDBC\uFE0F",
         "color": "#8B5CF6",
         "order": 11
@@ -1067,15 +1190,21 @@
       "icon": "\uD83D\uDDBC\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.2366710",
       "updatedAt": "2026-02-14T19:01:46.2366712",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1101,6 +1230,7 @@
         "id": "dev-utils",
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
         "icon": "\uD83D\uDEE0\uFE0F",
         "color": "#6366F1",
         "order": 7
@@ -1124,15 +1254,21 @@
       "icon": "\uD83D\uDD11",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.2857366",
       "updatedAt": "2026-02-14T19:01:46.2857368",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1158,6 +1294,7 @@
         "id": "media",
         "name": "Media Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
+        "description": "Image, video, and audio processing tools",
         "icon": "\uD83C\uDFAC",
         "color": "#BE185D",
         "order": 12
@@ -1179,15 +1316,23 @@
       "icon": "\uD83D\uDDBC\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/image-tools",
+      "documentation": "https://docs.adwatek.com/tools/image-tools",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.3288759",
       "updatedAt": "2026-02-14T19:01:46.3288760",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1213,6 +1358,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1231,15 +1377,21 @@
       "icon": "\uD83C\uDF33",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.3703137",
       "updatedAt": "2026-02-14T19:01:46.3703138",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1265,6 +1417,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1283,15 +1436,21 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.4102164",
       "updatedAt": "2026-02-14T19:01:46.4102167",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1317,6 +1476,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1333,15 +1493,21 @@
       "icon": "\uD83D\uDD27",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 8,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.4522597",
       "updatedAt": "2026-02-14T19:01:46.4522600",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1367,6 +1533,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1393,15 +1560,23 @@
       "icon": "\u270F\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/json-editor",
+      "documentation": "https://docs.adwatek.com/tools/json-editor",
       "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.4950746",
       "updatedAt": "2026-02-14T19:01:46.4950748",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1427,6 +1602,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1447,15 +1623,21 @@
       "icon": "\uD83D\uDD04",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.5370104",
       "updatedAt": "2026-02-14T19:01:46.5370106",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1481,6 +1663,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1500,15 +1683,21 @@
       "icon": "\u2699\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.5830624",
       "updatedAt": "2026-02-14T19:01:46.5830625",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1534,6 +1723,7 @@
         "id": "security",
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
+        "description": "Security and encryption tools",
         "icon": "\uD83D\uDD12",
         "color": "#EF4444",
         "order": 6
@@ -1552,15 +1742,21 @@
       "icon": "\uD83C\uDFAD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 12,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.6258883",
       "updatedAt": "2026-02-14T19:01:46.6258884",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1586,6 +1782,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1605,15 +1802,21 @@
       "icon": "\uD83C\uDF4F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.6704839",
       "updatedAt": "2026-02-14T19:01:46.6704841",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1639,6 +1842,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1661,15 +1865,21 @@
       "icon": "\uD83D\uDDC4\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.7120753",
       "updatedAt": "2026-02-14T19:01:46.7120754",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1695,6 +1905,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -1713,15 +1924,21 @@
       "icon": "\uD83D\uDCE6",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.7504541",
       "updatedAt": "2026-02-14T19:01:46.7504543",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1760,15 +1977,23 @@
       "icon": "\uD83D\uDD37",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/json-to-types",
+      "documentation": "https://docs.adwatek.com/tools/json-to-types",
       "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.7912648",
       "updatedAt": "2026-02-14T19:01:46.7912650",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1794,6 +2019,7 @@
         "id": "security",
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
+        "description": "Security and encryption tools",
         "icon": "\uD83D\uDD12",
         "color": "#EF4444",
         "order": 6
@@ -1815,15 +2041,21 @@
       "icon": "\uD83D\uDD10",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 11,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.8339196",
       "updatedAt": "2026-02-14T19:01:46.8339197",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1861,15 +2093,21 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 10,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.8759602",
       "updatedAt": "2026-02-14T19:01:46.8759603",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1895,6 +2133,7 @@
         "id": "media",
         "name": "Media Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
+        "description": "Image, video, and audio processing tools",
         "icon": "\uD83C\uDFAC",
         "color": "#BE185D",
         "order": 12
@@ -1907,15 +2146,21 @@
       "icon": "\uD83D\uDCE5",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9156495",
       "updatedAt": "2026-02-14T19:01:46.9156497",
       "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -1941,6 +2186,7 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
         "icon": "\uD83D\uDDBC\uFE0F",
         "color": "#8B5CF6",
         "order": 11
@@ -1962,15 +2208,23 @@
       "icon": "\uD83E\uDDDC\u200D\u2640\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "homepage": "https://adwatek.com/tools/mermaid-editor",
+      "documentation": "https://docs.adwatek.com/tools/mermaid-editor",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9600853",
       "updatedAt": "2026-02-14T19:01:46.9600854",
       "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1",
@@ -2018,15 +2272,21 @@
       "icon": "\uD83D\uDEE0\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.0036166",
       "updatedAt": "2026-02-14T19:01:47.0036167",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2052,6 +2312,7 @@
         "id": "generators",
         "name": "Generators",
         "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
+        "description": "Generate code, data, and assets",
         "icon": "\u26A1",
         "color": "#F59E0B",
         "order": 4
@@ -2071,15 +2332,22 @@
       "icon": "\uD83E\uDD16",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-17T17:06:05.3650650",
       "updatedAt": "2026-02-17T21:03:11.2051877",
       "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2105,6 +2373,7 @@
         "id": "security",
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
+        "description": "Security and encryption tools",
         "icon": "\uD83D\uDD12",
         "color": "#EF4444",
         "order": 6
@@ -2125,15 +2394,21 @@
       "icon": "\uD83D\uDEE1\uFE0F",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.0446839",
       "updatedAt": "2026-02-14T19:01:47.0446840",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2159,6 +2434,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
         "icon": "\uD83D\uDCCA",
         "color": "#14B8A6",
         "order": 8
@@ -2180,15 +2456,21 @@
       "icon": "\uD83D\uDC8E",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.0873670",
       "updatedAt": "2026-02-14T19:01:47.0873672",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2214,6 +2496,7 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
         "icon": "\uD83D\uDDBC\uFE0F",
         "color": "#8B5CF6",
         "order": 11
@@ -2235,15 +2518,21 @@
       "icon": "\u2726",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 19,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.1310806",
       "updatedAt": "2026-02-14T19:01:47.1310807",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2269,6 +2558,7 @@
         "id": "api",
         "name": "API Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
+        "description": "REST API development and testing",
         "icon": "\uD83C\uDF10",
         "color": "#3B82F6",
         "order": 2
@@ -2290,15 +2580,22 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 41,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.1745103",
       "updatedAt": "2026-03-06T22:39:03.6028557",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
@@ -2324,6 +2621,7 @@
         "id": "media",
         "name": "Media Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
+        "description": "Image, video, and audio processing tools",
         "icon": "\uD83C\uDFAC",
         "color": "#BE185D",
         "order": 12
@@ -2346,15 +2644,21 @@
       "icon": "\uD83C\uDFAC",
       "screenshots": [],
       "author": {
-        "name": "Partner User",
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6"
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
       },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.2156929",
       "updatedAt": "2026-02-14T19:01:47.2156930",
       "isFeatured": false,
+      "allowPublicDemo": true,
+      "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
