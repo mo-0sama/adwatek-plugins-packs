@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:18:15.1995374Z",
+  "lastUpdated": "2026-03-09T21:18:19.9997909Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2157,7 +2157,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9156495",
-      "updatedAt": "2026-03-09T21:18:13.0398234Z",
+      "updatedAt": "2026-03-09T21:18:18.3780549Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2165,8 +2165,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/media-downloader/1.0.0/package.adwatekplugin",
-          "packageSize": 73090,
-          "packageChecksum": "da93db741d87b1532279c5270e39e9129501db0eb181c05f0396f17a0047d65a",
+          "packageSize": 45840,
+          "packageChecksum": "8255ed9935920f28cecde769714f7319d6a1681f180100d7d179dc2088a18dc6",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.9156495"
         }
