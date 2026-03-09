@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:21:15.5797952Z",
+  "lastUpdated": "2026-03-09T21:21:21.0381157Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2336,7 +2336,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-17T17:06:05.3650650",
-      "updatedAt": "2026-03-09T21:21:13.2306397Z",
+      "updatedAt": "2026-03-09T21:21:19.2526070Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2344,8 +2344,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/prompt-builder/1.0.0/package.adwatekplugin",
-          "packageSize": 88301,
-          "packageChecksum": "92323d46efd489813b04fb610bb96c4fa7fea660e5fde8948e40810d363b1007",
+          "packageSize": 12701,
+          "packageChecksum": "c96a1c82d47e0aff4e34568802534e71266fba9af3a057871256c6af8551fa68",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-17T17:06:05.3650650"
         }
