@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:23:20.8775006Z",
+  "lastUpdated": "2026-03-09T22:23:26.1647012Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1024,7 +1024,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:31:29.2145204",
-      "updatedAt": "2026-03-09T22:23:19.0730371Z",
+      "updatedAt": "2026-03-09T22:23:24.3596717Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1032,8 +1032,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/hash-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 67986,
-          "packageChecksum": "80840e5ae053a50c6a68db07ef8cc3941cdf56d98231a0549ea67d00d30f1795",
+          "packageSize": 71493,
+          "packageChecksum": "2d88f180d9d04de8aaddd8672c21bb7cd7562557b0bb4072194500dad3eade8a",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:31:29.2145204"
         }
