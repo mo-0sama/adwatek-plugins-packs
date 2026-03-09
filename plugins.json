@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:11:34.4883805Z",
+  "lastUpdated": "2026-03-09T21:11:39.2899324Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1139,7 +1139,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.1894892",
-      "updatedAt": "2026-03-09T21:11:33.0130337Z",
+      "updatedAt": "2026-03-09T21:11:38.0644670Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1147,8 +1147,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/i18n-extractor/1.0.0/package.adwatekplugin",
-          "packageSize": 11338,
-          "packageChecksum": "c8e2dc7cfc948adf8ac5920922b742fc7a12a6b7e0006e465c0137d74e1af866",
+          "packageSize": 4664,
+          "packageChecksum": "76b355ee04587a672bc16f55d89145ed674d94bcb8d6ffbd8a7229551497b786",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.1894892"
         }
