@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:37:55.2961903Z",
+  "lastUpdated": "2026-03-09T22:37:59.9110129Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2449,8 +2449,8 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:53.1238908Z",
-      "updatedAt": "2026-03-09T22:37:53.1238909Z",
+      "publishedAt": "2026-03-09T22:37:53.1238908",
+      "updatedAt": "2026-03-09T22:37:53.1238909",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2461,7 +2461,7 @@
           "packageSize": 42505,
           "packageChecksum": "da3406dfe3f79735b1754630269b1ed639fd6e2598d8e0423af7b56dbba98fa2",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:53.1238908Z"
+          "publishedAt": "2026-03-09T22:37:53.1238908"
         }
       ]
     },
@@ -2510,8 +2510,8 @@
       "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T21:33:36.5961442",
-      "updatedAt": "2026-03-09T22:32:37.1622267",
+      "publishedAt": "2026-03-09T22:37:58.5888535Z",
+      "updatedAt": "2026-03-09T22:37:58.5888537Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2522,7 +2522,7 @@
           "packageSize": 34273,
           "packageChecksum": "f07b049e2a5f7767397bb597d9c8e8be32b99c71aa01e27ad8729917e7dc2220",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T21:33:36.5961442"
+          "publishedAt": "2026-03-09T22:37:58.5888535Z"
         }
       ]
     },
