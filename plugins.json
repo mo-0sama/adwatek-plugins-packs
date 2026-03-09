@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:27:42.5470600Z",
-  "totalCount": 43,
+  "lastUpdated": "2026-03-09T21:27:47.6875257Z",
+  "totalCount": 45,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -2369,6 +2369,103 @@
       ]
     },
     {
+      "id": "quick-urls",
+      "latestVersion": "1.0.0",
+      "name": "Quick Urls",
+      "nameAr": "\u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0633\u0631\u064A\u0639\u0629",
+      "description": "Manage your favorite URLs with descriptions, icons, and folders.",
+      "descriptionAr": "\u0623\u062F\u0631 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0645\u0641\u0636\u0644\u0629 \u0644\u062F\u064A\u0643 \u0645\u0639 \u0627\u0644\u0623\u0648\u0635\u0627\u0641 \u0648\u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0648\u0627\u0644\u0645\u062C\u0644\u062F\u0627\u062A.",
+      "longDescription": "A simple and modern tool to manage your quick URLs. \n\nFeatures:\n- **Add/Edit/Delete**: Easily manage your URLs.\n- **Folders**: Organize URLs into folders.\n- **Icons**: Assign icons to your URLs for better recognition.\n- **Search**: Quickly find the URL you need.\n- **AI Integration**: Ask the AI to add or find URLs for you.",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0628\u0633\u064A\u0637\u0629 \u0648\u062D\u062F\u064A\u062B\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0633\u0631\u064A\u0639\u0629 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u0625\u0636\u0627\u0641\u0629/\u062A\u0639\u062F\u064A\u0644/\u062D\u0630\u0641**: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0628\u0633\u0647\u0648\u0644\u0629.\n- **\u0645\u062C\u0644\u062F\u0627\u062A**: \u062A\u0646\u0638\u064A\u0645 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0641\u064A \u0645\u062C\u0644\u062F\u0627\u062A.\n- **\u0623\u064A\u0642\u0648\u0646\u0627\u062A**: \u062A\u0639\u064A\u064A\u0646 \u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0644\u0644\u0631\u0648\u0627\u0628\u0637 \u0644\u062A\u0645\u064A\u064A\u0632 \u0623\u0641\u0636\u0644.\n- **\u0628\u062D\u062B**: \u0627\u0644\u0639\u062B\u0648\u0631 \u0628\u0633\u0631\u0639\u0629 \u0639\u0644\u0649 \u0627\u0644\u0631\u0627\u0628\u0637 \u0627\u0644\u0630\u064A \u062A\u062D\u062A\u0627\u062C\u0647.\n- **\u062A\u0643\u0627\u0645\u0644 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A**: \u0627\u0637\u0644\u0628 \u0645\u0646 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0625\u0636\u0627\u0641\u0629 \u0623\u0648 \u0627\u0644\u0628\u062D\u062B \u0639\u0646 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0644\u0643.",
+      "categoryId": "dev-utils",
+      "category": {
+        "id": "dev-utils",
+        "name": "Dev Utils",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
+        "icon": "\uD83D\uDEE0\uFE0F",
+        "color": "#6366F1",
+        "order": 7
+      },
+      "keywords": [],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "\uD83D\uDD17",
+      "screenshots": [],
+      "author": {
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
+      },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "downloads": 0,
+      "rating": 0.00,
+      "reviewCount": 0,
+      "publishedAt": "2026-03-09T21:27:42.6257612",
+      "updatedAt": "2026-03-09T21:27:42.6257618",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/quick-urls/1.0.0/package.adwatekplugin",
+          "packageSize": 49198,
+          "packageChecksum": "75ffded7559afc4507d9907dcaaff477f3f7d910dd1f720437473ac452952aad",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-03-09T21:27:42.6257612"
+        }
+      ]
+    },
+    {
+      "id": "regex-tester",
+      "latestVersion": "1.0.0",
+      "name": "Regex Tester",
+      "nameAr": "\u0645\u062E\u062A\u0628\u0631 \u0627\u0644\u062A\u0639\u0627\u0628\u064A\u0631 \u0627\u0644\u0646\u0645\u0637\u064A\u0629",
+      "description": "Test, debug, and optimize regular expressions in real-time.",
+      "descriptionAr": "\u0627\u062E\u062A\u0628\u0631 \u0648\u0635\u062D\u062D \u0648\u062D\u0633\u0646 \u0627\u0644\u062A\u0639\u0627\u0628\u064A\u0631 \u0627\u0644\u0646\u0645\u0637\u064A\u0629 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A.",
+      "longDescription": "Test, debug, and optimize regular expressions in real-time.",
+      "longDescriptionAr": "Test, debug, and optimize regular expressions in real-time.",
+      "categoryId": "other",
+      "keywords": [],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "\uD83D\uDD0D",
+      "screenshots": [],
+      "author": {
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Partner User"
+      },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "downloads": 0,
+      "rating": 0.00,
+      "reviewCount": 0,
+      "publishedAt": "2026-03-09T21:27:46.2112283Z",
+      "updatedAt": "2026-03-09T21:27:46.2112290Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/regex-tester/1.0.0/package.adwatekplugin",
+          "packageSize": 39505,
+          "packageChecksum": "fcc46efddb0b65e861941d8ec92981044e80aa8a7acdd2bd6ef5a0652da134fd",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-03-09T21:27:46.2112283Z"
+        }
+      ]
+    },
+    {
       "id": "security-tools",
       "latestVersion": "1.0.0",
       "name": "Security Tools",
@@ -2414,7 +2511,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.0446839",
-      "updatedAt": "2026-03-09T21:27:40.7917056Z",
+      "updatedAt": "2026-03-09T21:27:40.7917056",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
