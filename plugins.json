@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:10:30.2871431Z",
+  "lastUpdated": "2026-03-09T21:10:34.7456408Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -152,7 +152,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.1424344",
-      "updatedAt": "2026-03-09T21:10:28.8620420Z",
+      "updatedAt": "2026-03-09T21:10:33.6086687Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -161,7 +161,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-contract-analyzer/1.0.0/package.adwatekplugin",
           "packageSize": 7074,
-          "packageChecksum": "4a0380ccfd3904240bd053d0b9b6dfb7a964b186be95a7733edf244c9a3b78b5",
+          "packageChecksum": "a1590a86c6c1a7c9c38b517da72236e227daf9d357f916688d1b29300f96e714",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.1424344"
         }
