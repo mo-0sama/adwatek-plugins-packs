@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:07:39.4496170Z",
+  "lastUpdated": "2026-03-09T21:07:44.5154247Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -609,7 +609,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.7338953",
-      "updatedAt": "2026-03-09T21:07:38.0241603Z",
+      "updatedAt": "2026-03-09T21:07:43.2189029Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -617,8 +617,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/code-architecture-blueprint/1.0.0/package.adwatekplugin",
-          "packageSize": 16768,
-          "packageChecksum": "4879954418f9b207cd04d8d198b4e6f0e7ed97a723a1e27ddaafc05a42195286",
+          "packageSize": 6588,
+          "packageChecksum": "cbd87711e9f2dda613efbe2436d8ff9e3def45ffaf1d4b193791dd6722e408ec",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.7338953"
         }
