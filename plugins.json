@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:17:23.9526127Z",
+  "lastUpdated": "2026-03-09T21:17:28.6046061Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1201,7 +1201,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.2366710",
-      "updatedAt": "2026-03-09T21:17:22.1699033Z",
+      "updatedAt": "2026-03-09T21:17:27.6017297",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1210,7 +1210,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/icon-explorer/1.0.0/package.adwatekplugin",
           "packageSize": 9636,
-          "packageChecksum": "60fe3fcb70c3fe7dc5a9072219d9889d27b441babc150a4cc4e74e96a44cd664",
+          "packageChecksum": "42ddfac1e4bc469c0e5c46806890435003e06dbcabf2cd4e0eba9dab38147208",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.2366710"
         }
@@ -2052,7 +2052,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.8339196",
-      "updatedAt": "2026-02-14T19:01:46.8339197",
+      "updatedAt": "2026-03-09T21:17:27.0417933Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
