@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:34:07.2789787Z",
+  "lastUpdated": "2026-03-09T22:34:12.2461195Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2759,7 +2759,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:33:58.0790807",
-      "updatedAt": "2026-03-09T22:34:05.6531682Z",
+      "updatedAt": "2026-03-09T22:34:10.3532382Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2768,7 +2768,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/swagger-editor/1.0.0/package.adwatekplugin",
           "packageSize": 41183,
-          "packageChecksum": "8cf34c1a9419b5d96dd811897fecf02aa50f5e04e65d9107994d3aaf426b255a",
+          "packageChecksum": "9018b220ca18ed42e995e1c506e61264a86bf66d1d299ef84163c52ff33cc60a",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:33:58.0790807"
         }
