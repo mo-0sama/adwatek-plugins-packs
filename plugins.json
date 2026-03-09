@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:16:03.7165486Z",
+  "lastUpdated": "2026-03-09T21:16:09.0138435Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -962,7 +962,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.0134678",
-      "updatedAt": "2026-03-09T21:16:02.5314403Z",
+      "updatedAt": "2026-03-09T21:16:07.7219553Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -971,7 +971,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/form-builder/1.0.0/package.adwatekplugin",
           "packageSize": 5202,
-          "packageChecksum": "a8bce7650b18826afd2bdd0508a272e4a11ad27a4e567381606759660b809658",
+          "packageChecksum": "f0c19f70ba2e6743f157b0159a4d63aadec8fb40e0bbebfe59c9206ce5d679b6",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.0134678"
         }
