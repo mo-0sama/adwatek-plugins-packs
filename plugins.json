@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:22:57.8950008Z",
+  "lastUpdated": "2026-03-09T21:23:02.6972811Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2052,7 +2052,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.8339196",
-      "updatedAt": "2026-03-09T21:22:56.7540975Z",
+      "updatedAt": "2026-03-09T21:23:01.1709716Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2061,7 +2061,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/jwt-tools/1.0.0/package.adwatekplugin",
           "packageSize": 6536,
-          "packageChecksum": "4fd04a915f8777ba05341976c93d11782b572b6b42ca574ec28f7d9a35f86436",
+          "packageChecksum": "a9fc31c0628ea618d5e5fdf3bc597c7a9255a49c28beca36ba127cfd4dd42906",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.8339196"
         }
@@ -2459,7 +2459,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.0873670",
-      "updatedAt": "2026-03-09T21:22:53.1877046",
+      "updatedAt": "2026-03-09T21:22:58.5372418",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2467,8 +2467,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/sql-formatter/1.0.0/package.adwatekplugin",
-          "packageSize": 38494,
-          "packageChecksum": "6c45dca053de218c4cc40a0aeba3350a4220f69ff223a877dcd220e4b1dcd266",
+          "packageSize": 10807,
+          "packageChecksum": "d49063f3d86453d04a45d71d47eeb74061b00b390199da5c2c2b27e327ec2d97",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:47.0873670"
         }
