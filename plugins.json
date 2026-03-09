@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:06:37.8020859Z",
+  "lastUpdated": "2026-03-09T21:06:42.8987493Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -504,7 +504,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.6307959",
-      "updatedAt": "2026-03-09T21:06:36.0615846Z",
+      "updatedAt": "2026-03-09T21:06:41.5269877Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -512,8 +512,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/circular-detector/1.0.0/package.adwatekplugin",
-          "packageSize": 10794,
-          "packageChecksum": "9302712c2aaae894c854d07eee286b70378f5458d5fa0e9900694ed31ddbbb4d",
+          "packageSize": 4716,
+          "packageChecksum": "5ff7d213176e34b38f7a3916b41a42df85acdb2bd2698d7072513ff9889f5536",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.6307959"
         }
