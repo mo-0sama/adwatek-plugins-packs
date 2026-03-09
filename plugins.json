@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:09:10.4098622Z",
+  "lastUpdated": "2026-03-09T21:09:14.9325450Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -788,7 +788,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.8628036",
-      "updatedAt": "2026-03-09T21:09:08.1526808Z",
+      "updatedAt": "2026-03-09T21:09:13.6738757Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -796,8 +796,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/date-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 20562,
-          "packageChecksum": "f17b0aa83289dc0f2e9ca0619f8a9fac29a5cc2e41e5f3a76e70a8ad9be492b7",
+          "packageSize": 6808,
+          "packageChecksum": "942a2837d49ec94d12044eeac458fa22b05ed36fb7fb8e82701f327d421cc215",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.8628036"
         }
