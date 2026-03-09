@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:26:00.2662152Z",
+  "lastUpdated": "2026-03-09T21:26:04.4716511Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1041,13 +1041,13 @@
     },
     {
       "id": "http-client",
-      "latestVersion": "1.0.0",
+      "latestVersion": "2.0.0",
       "name": "HTTP Client",
       "nameAr": "\u0639\u0645\u064A\u0644 HTTP",
-      "description": "Professional HTTP client with Proxy support, History, and Backup",
-      "descriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u0639 \u062F\u0639\u0645 \u0627\u0644\u0648\u0643\u064A\u0644 \u0648\u0627\u0644\u0633\u062C\u0644 \u0648\u0627\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A",
-      "longDescription": "The ultimate HTTP client for your workspace. Capable of bypassing CORS using Chrome Extensions or Custom Proxies, alongside full history management.\\n\\nFeatures:\\n- **\uD83D\uDEE1\uFE0F CORS Bypass**: Built-in support for Chrome Extension Proxy and CORS Anywhere\\n- **\uD83D\uDCDC Request History**: Auto-saves requests with search and filters\\n- **\uD83D\uDCBE Backup**: Import/Export your history safely\\n- **\u26A1 Full Methods**: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS\\n- **\uD83D\uDCCA Response Metrics**: Detailed timing, status, and size analysis\\n- **\uD83D\uDD0C Pluggable**: Auto-detects Adwatek DevProxy extension",
-      "longDescriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u0644\u0645\u0633\u0627\u062D\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643. \u0642\u0627\u062F\u0631 \u0639\u0644\u0649 \u062A\u062C\u0627\u0648\u0632 CORS \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0644\u062D\u0642\u0627\u062A Chrome \u0623\u0648 \u0627\u0644\u0648\u0643\u0644\u0627\u0621 \u0627\u0644\u0645\u062E\u0635\u0635\u064A\u0646\u060C \u062C\u0646\u0628\u0627\u064B \u0625\u0644\u0649 \u062C\u0646\u0628 \u0645\u0639 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0633\u062C\u0644 \u0627\u0644\u0643\u0627\u0645\u0644\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDEE1\uFE0F \u062A\u062C\u0627\u0648\u0632 CORS**: \u062F\u0639\u0645 \u0645\u062F\u0645\u062C \u0644\u0648\u0643\u064A\u0644 \u0645\u0644\u062D\u0642 Chrome \u0648 CORS Anywhere\\n- **\uD83D\uDCDC \u0633\u062C\u0644 \u0627\u0644\u0637\u0644\u0628\u0627\u062A**: \u064A\u062D\u0641\u0638 \u0627\u0644\u0637\u0644\u0628\u0627\u062A \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0645\u0639 \u0627\u0644\u0628\u062D\u062B \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A\\n- **\uD83D\uDCBE \u0627\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A**: \u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u062A\u0635\u062F\u064A\u0631 \u0633\u062C\u0644\u0643 \u0628\u0623\u0645\u0627\u0646\\n- **\u26A1 \u0637\u0631\u0642 \u0643\u0627\u0645\u0644\u0629**: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS\\n- **\uD83D\uDCCA \u0645\u0642\u0627\u064A\u064A\u0633 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0641\u0635\u0644 \u0644\u0644\u062A\u0648\u0642\u064A\u062A \u0648\u0627\u0644\u062D\u0627\u0644\u0629 \u0648\u0627\u0644\u062D\u062C\u0645\\n- **\uD83D\uDD0C \u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u0648\u0635\u064A\u0644**: \u064A\u0643\u062A\u0634\u0641 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0645\u0644\u062D\u0642 Adwatek DevProxy",
+      "description": "Professional HTTP client with Collections, Environments, Auth, Code Snippets, and CORS bypass",
+      "descriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u0639 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0627\u0644\u0628\u064A\u0626\u0627\u062A \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0648\u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0643\u0648\u062F \u0648\u062A\u062C\u0627\u0648\u0632 CORS",
+      "longDescription": "A full-featured HTTP client for API testing and development.\n\n**Features:**\n- **\uD83D\uDCE6 Collections**: Organize requests into collections and folders\n- **\uD83C\uDF0D Environments**: Define variables with {{variable}} syntax\n- **\uD83D\uDD10 Authentication**: Bearer Token, Basic Auth, API Key\n- **\uD83D\uDCDD Body Types**: JSON, XML, Text, Form Data, URL Encoded\n- **\uD83D\uDCCA Query Params**: Dedicated parameter management\n- **\uD83D\uDCBB Code Snippets**: Generate cURL, JavaScript, Python code\n- **\uD83D\uDCDC History**: Auto-save with search, filter, import/export\n- **\uD83D\uDEE1\uFE0F CORS Bypass**: Chrome Extension Proxy, CORS Anywhere\n- **\u2328\uFE0F Shortcuts**: Ctrl\u002BEnter to send, Ctrl\u002BS to save\n- **\uD83C\uDFA8 Themes**: Full dark/light mode support\n- **\uD83C\uDF10 i18n**: English and Arabic with RTL",
+      "longDescriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0643\u0627\u0645\u0644 \u0627\u0644\u0645\u0632\u0627\u064A\u0627 \u0644\u0627\u062E\u062A\u0628\u0627\u0631 \u0648\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062C\u0647\u0627\u062A \u0628\u0631\u0645\u062C\u0629 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A.\n\n**\u0627\u0644\u0645\u064A\u0632\u0627\u062A:**\n- **\uD83D\uDCE6 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A**: \u0646\u0638\u0645 \u0627\u0644\u0637\u0644\u0628\u0627\u062A \u0641\u064A \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0645\u062C\u0644\u062F\u0627\u062A\n- **\uD83C\uDF0D \u0627\u0644\u0628\u064A\u0626\u0627\u062A**: \u062D\u062F\u062F \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0635\u064A\u063A\u0629 {{\u0645\u062A\u063A\u064A\u0631}}\n- **\uD83D\uDD10 \u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629**: \u0631\u0645\u0632 Bearer \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064A\u0629 \u0648\u0645\u0641\u062A\u0627\u062D API\n- **\uD83D\uDCDD \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0645\u062D\u062A\u0648\u0649**: JSON \u0648XML \u0648\u0627\u0644\u0646\u0635 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0646\u0645\u0648\u0630\u062C \u0648URL \u0645\u0634\u0641\u0631\n- **\uD83D\uDCCA \u0627\u0644\u0645\u0639\u0644\u0645\u0627\u062A**: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0645\u0639\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u062E\u0635\u0635\u0629\n- **\uD83D\uDCBB \u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0643\u0648\u062F**: \u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F cURL \u0648\u062C\u0627\u0641\u0627\u0633\u0643\u0631\u0628\u062A \u0648\u0628\u0627\u064A\u062B\u0648\u0646\n- **\uD83D\uDCDC \u0627\u0644\u0633\u062C\u0644**: \u0627\u0644\u062D\u0641\u0638 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0645\u0639 \u0627\u0644\u0628\u062D\u062B \u0648\u0627\u0644\u062A\u0635\u0641\u064A\u0629 \u0648\u0627\u0644\u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u0627\u0644\u062A\u0635\u062F\u064A\u0631\n- **\uD83D\uDEE1\uFE0F \u062A\u062C\u0627\u0648\u0632 CORS**: \u0648\u0643\u064A\u0644 \u0645\u0644\u062D\u0642 Chrome \u0648 CORS Anywhere\n- **\u2328\uFE0F \u0627\u0644\u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A**: Ctrl\u002BEnter \u0644\u0644\u0625\u0631\u0633\u0627\u0644\u060C Ctrl\u002BS \u0644\u0644\u062D\u0641\u0638\n- **\uD83C\uDFA8 \u0627\u0644\u0633\u0645\u0627\u062A**: \u062F\u0639\u0645 \u0643\u0627\u0645\u0644 \u0644\u0644\u0648\u0636\u0639 \u0627\u0644\u062F\u0627\u0643\u0646/\u0627\u0644\u0641\u0627\u062A\u062D\n- **\uD83C\uDF10 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0644\u063A\u0627\u062A**: \u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629 \u0648\u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0645\u0639 RTL",
       "categoryId": "other",
       "keywords": [
         "http",
@@ -1056,9 +1056,18 @@
         "client",
         "proxy",
         "cors",
-        "history",
-        "backup",
-        "postman"
+        "postman",
+        "insomnia",
+        "collections",
+        "environments",
+        "authentication",
+        "bearer",
+        "basic-auth",
+        "api-key",
+        "curl",
+        "fetch",
+        "request",
+        "response"
       ],
       "platforms": [
         "web",
@@ -1074,15 +1083,23 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 2,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-14T19:01:46.1342285",
-      "updatedAt": "2026-02-14T19:01:46.1342287",
+      "publishedAt": "2026-03-09T21:26:01.7171835",
+      "updatedAt": "2026-03-09T21:26:01.7171841",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "2.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/2.0.0/package.adwatekplugin",
+          "packageSize": 32755,
+          "packageChecksum": "d7d28b505cde3d5ff240e210ef1abd3cf61c028825e5462cb59e291a01ddb42d",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-03-09T21:26:01.7171835"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/1.0.0/package.adwatekplugin",
@@ -1138,8 +1155,8 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-14T19:01:46.1894892",
-      "updatedAt": "2026-03-09T21:17:06.4599482",
+      "publishedAt": "2026-03-09T21:26:03.2538392Z",
+      "updatedAt": "2026-03-09T21:26:03.2538395Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1150,7 +1167,7 @@
           "packageSize": 4664,
           "packageChecksum": "0a13fb062e32f9800bcd4df9a3db6815fcd0e0eea95beb1178029888892edf81",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-02-14T19:01:46.1894892"
+          "publishedAt": "2026-03-09T21:26:03.2538392Z"
         }
       ]
     },
@@ -2221,7 +2238,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9600853",
-      "updatedAt": "2026-03-09T21:25:56.8175334Z",
+      "updatedAt": "2026-03-09T21:25:56.8175334",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
