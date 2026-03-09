@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:13:34.8908075Z",
+  "lastUpdated": "2026-03-09T21:13:38.7580727Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -609,7 +609,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.7338953",
-      "updatedAt": "2026-03-09T21:13:34.4096955",
+      "updatedAt": "2026-03-09T21:13:37.6449758Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -618,7 +618,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/code-architecture-blueprint/1.0.0/package.adwatekplugin",
           "packageSize": 6588,
-          "packageChecksum": "cbd87711e9f2dda613efbe2436d8ff9e3def45ffaf1d4b193791dd6722e408ec",
+          "packageChecksum": "3260ad81790e742783c6e81a072748fc89b3b55026c862746c2ae6c956af2691",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.7338953"
         }
@@ -1504,7 +1504,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.4522597",
-      "updatedAt": "2026-03-09T21:13:33.6457415Z",
+      "updatedAt": "2026-03-09T21:13:38.5269451",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1512,8 +1512,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-diff-replay/1.0.0/package.adwatekplugin",
-          "packageSize": 9323,
-          "packageChecksum": "62aac626234094fedbb48789755449b5d4c48f5b40264f84499fbdb8283ec6b6",
+          "packageSize": 4921,
+          "packageChecksum": "c6d55d3853d2228d7b1fd88c33d70a777ef6ebf45036b379800940cdda166c20",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.4522597"
         }
