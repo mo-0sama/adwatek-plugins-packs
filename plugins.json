@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:25:53.0666293Z",
+  "lastUpdated": "2026-03-09T21:25:58.1084286Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -961,8 +961,8 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-14T19:01:46.0134678",
-      "updatedAt": "2026-03-09T21:16:07.7219553",
+      "publishedAt": "2026-03-09T21:25:53.1411383",
+      "updatedAt": "2026-03-09T21:25:53.1411386",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -973,7 +973,7 @@
           "packageSize": 5202,
           "packageChecksum": "f0c19f70ba2e6743f157b0159a4d63aadec8fb40e0bbebfe59c9206ce5d679b6",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-02-14T19:01:46.0134678"
+          "publishedAt": "2026-03-09T21:25:53.1411383"
         }
       ]
     },
@@ -1023,8 +1023,8 @@
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-14T19:01:46.0723857",
-      "updatedAt": "2026-03-09T21:16:33.6268969",
+      "publishedAt": "2026-03-09T21:25:56.5008658Z",
+      "updatedAt": "2026-03-09T21:25:56.5008660Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1035,7 +1035,7 @@
           "packageSize": 67986,
           "packageChecksum": "80840e5ae053a50c6a68db07ef8cc3941cdf56d98231a0549ea67d00d30f1795",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-02-14T19:01:46.0723857"
+          "publishedAt": "2026-03-09T21:25:56.5008658Z"
         }
       ]
     },
@@ -2221,7 +2221,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9600853",
-      "updatedAt": "2026-03-09T21:25:49.3980277Z",
+      "updatedAt": "2026-03-09T21:25:56.8175334",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2230,7 +2230,7 @@
           "version": "1",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mermaid-editor/1/package.adwatekplugin",
           "packageSize": 1030227,
-          "packageChecksum": "ed8753a3a1afa2c9b07aad021ff7f922dec2ba0f65750e7ec46a41ef0205c695",
+          "packageChecksum": "100dcf83c61bc0032fa2fb9e12e1961a66ce2c5fa6358586143bea3bea61e63b",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:46.9600853"
         },
