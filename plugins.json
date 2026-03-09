@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:19:14.7233362Z",
+  "lastUpdated": "2026-03-09T22:19:19.6855544Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -256,7 +256,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:30:22.6473632",
-      "updatedAt": "2026-03-09T22:19:12.5522273Z",
+      "updatedAt": "2026-03-09T22:19:18.3807445Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -265,7 +265,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-personality-analyzer/1.0.0/package.adwatekplugin",
           "packageSize": 8618,
-          "packageChecksum": "4acd6337c2dc9c7971a1ec9aa5aebbb7275f441e3a7f55298ff246ded1e7ff4b",
+          "packageChecksum": "321d56c891103ed1bee037d09463fe3782a3cadc6aee81e089ce27a31c930d2a",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:30:22.6473632"
         }
