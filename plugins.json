@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:32:54.9710351Z",
+  "lastUpdated": "2026-03-09T22:32:59.6799608Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2581,7 +2581,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:33:42.0628307",
-      "updatedAt": "2026-03-09T22:32:53.3196655Z",
+      "updatedAt": "2026-03-09T22:32:58.4512566Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2589,8 +2589,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/seo-social-studio/1.0.0/package.adwatekplugin",
-          "packageSize": 18838,
-          "packageChecksum": "f9c644fec9c1717d2b5b657dc6510e97dc032093efe1f80aca006a30442ed571",
+          "packageSize": 21726,
+          "packageChecksum": "41994f7e553f2030169df00f454599737c5c56abbf8f2fb6a81ce50bcb52ac4d",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:33:42.0628307"
         }
