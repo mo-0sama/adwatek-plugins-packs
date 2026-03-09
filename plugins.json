@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:33:43.0966141Z",
+  "lastUpdated": "2026-03-09T22:33:49.8590580Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2705,7 +2705,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:33:52.0722817",
-      "updatedAt": "2026-03-09T22:33:40.2897278Z",
+      "updatedAt": "2026-03-09T22:33:47.1621533Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2714,7 +2714,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/svg-studio/1.0.0/package.adwatekplugin",
           "packageSize": 318230,
-          "packageChecksum": "51244d5faec7aca67c9f07b623d6cfc0db7df1f3ce0c68fcbc780fcbba910c1d",
+          "packageChecksum": "4c1f03f98cca683718307cb68b749485a48d17d3ed643d84a9b32d395d19bafe",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:33:52.0722817"
         }
