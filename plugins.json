@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:08:40.7696681Z",
+  "lastUpdated": "2026-03-09T21:08:45.7644531Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -725,7 +725,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.8183103",
-      "updatedAt": "2026-03-09T21:08:39.4317508Z",
+      "updatedAt": "2026-03-09T21:08:44.2605189Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -733,8 +733,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/cron-parser/1.0.0/package.adwatekplugin",
-          "packageSize": 18870,
-          "packageChecksum": "bb0386fd3f2d071a2834c55dda7ef733698503446fc8c07c1f90d502af1f0f1c",
+          "packageSize": 11178,
+          "packageChecksum": "c662e16ea0da603e7a700abe02af7699cc981b4adfcd64f9f19781c4b90d5d84",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-14T19:01:45.8183103"
         }
