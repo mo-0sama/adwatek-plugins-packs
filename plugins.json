@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:23:51.4764426Z",
+  "lastUpdated": "2026-03-09T21:24:01.5955191Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2157,7 +2157,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:46.9156495",
-      "updatedAt": "2026-03-09T21:23:49.6891317Z",
+      "updatedAt": "2026-03-09T21:23:49.6891317",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2539,22 +2539,13 @@
     {
       "id": "swagger-editor",
       "latestVersion": "1.0.0",
-      "name": "Swagger Editorrr",
+      "name": "Swagger Editor",
       "nameAr": "\u0633\u0648\u062C\u0631",
       "description": "Professional tool for editing, filtering, and splitting OpenAPI/Swagger specifications.",
       "descriptionAr": "\u0623\u062F\u0627\u0629 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u062A\u062D\u0631\u064A\u0631 \u0648\u062A\u0635\u0641\u064A\u0629 \u0648\u062A\u0642\u0633\u064A\u0645 \u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI / Swagger.",
       "longDescription": "A specialized tool for managing large API specifications with surgical precision.\\n\\nFeatures:\\n- **\uD83D\uDCC1 Intelligent Filtering**: Remove tags, paths, or entire sections with ease.\\n- **\u2702\uFE0F Schema Splitting**: Divide large specs into manageable parts based on tags.\\n- **\uD83D\uDD04 Format Conversion**: Seamlessly switch between JSON and YAML.\\n- **\uD83C\uDF33 Tree Visualization**: Navigate your API structure visually before exporting.\\n- **\uD83D\uDE80 Instant Preview**: See the results of your modifications in real-time.",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u062E\u0635\u0635\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0648\u0627\u0635\u0641\u0627\u062A API \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0628\u062F\u0642\u0629 \u062C\u0631\u0627\u062D\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCC1 \u062A\u0635\u0641\u064A\u0629 \u0630\u0643\u064A\u0629**: \u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0623\u0648 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062A \u0623\u0648 \u0623\u0642\u0633\u0627\u0645 \u0643\u0627\u0645\u0644\u0629 \u0628\u0633\u0647\u0648\u0644\u0629.\\n- **\u2702\uFE0F \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u062E\u0637\u0637**: \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0625\u0644\u0649 \u0623\u062C\u0632\u0627\u0621 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u0625\u062F\u0627\u0631\u0629 \u0628\u0646\u0627\u0621\u064B \u0639\u0644\u0649 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A.\\n- **\uD83D\uDD04 \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0646\u0633\u064A\u0642**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u0633\u0644\u0627\u0633\u0629 \u0628\u064A\u0646 JSON \u0648 YAML.\\n- **\uD83C\uDF33 \u062A\u0635\u0648\u0631 \u0634\u062C\u0631\u064A**: \u062A\u0635\u0641\u062D \u0647\u064A\u0643\u0644 API \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0645\u0631\u0626\u064A\u0627\u064B \u0642\u0628\u0644 \u0627\u0644\u062A\u0635\u062F\u064A\u0631.\\n- **\uD83D\uDE80 \u0645\u0639\u0627\u064A\u0646\u0629 \u0641\u0648\u0631\u064A\u0629**: \u0634\u0627\u0647\u062F \u0646\u062A\u0627\u0626\u062C \u062A\u0639\u062F\u064A\u0644\u0627\u062A\u0643 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A.",
-      "categoryId": "api",
-      "category": {
-        "id": "api",
-        "name": "API Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
-        "description": "REST API development and testing",
-        "icon": "\uD83C\uDF10",
-        "color": "#3B82F6",
-        "order": 2
-      },
+      "categoryId": "other",
       "keywords": [
         "swagger",
         "openapi",
@@ -2584,7 +2575,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:47.1745103",
-      "updatedAt": "2026-03-06T22:39:03.6028557",
+      "updatedAt": "2026-03-09T21:23:59.3837005Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
