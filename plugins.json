@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T22:18:55.7358931Z",
+  "lastUpdated": "2026-03-09T22:19:00.5029145Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -204,7 +204,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T21:30:18.0002285",
-      "updatedAt": "2026-03-09T22:18:53.7668099Z",
+      "updatedAt": "2026-03-09T22:18:59.2453773Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -213,7 +213,7 @@
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-error-rewriter/1.0.0/package.adwatekplugin",
           "packageSize": 8114,
-          "packageChecksum": "0e2013155ea35df076f4b0b2ddb02e246dd3af1b809b6ec7a8866e80270989ee",
+          "packageChecksum": "2f2dac6559610383afa9ab1d3085cb2e70b690b0c8f54fbb87a6bae97f748743",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T21:30:18.0002285"
         }
