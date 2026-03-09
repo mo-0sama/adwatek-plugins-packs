@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-09T21:09:46.2245484Z",
+  "lastUpdated": "2026-03-09T21:10:17.0104917Z",
   "totalCount": 43,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -851,7 +851,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.9056160",
-      "updatedAt": "2026-03-09T21:09:44.0309578Z",
+      "updatedAt": "2026-03-09T21:09:44.0309578",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -869,21 +869,21 @@
     {
       "id": "exam-generator",
       "latestVersion": "1.0.0",
-      "name": "Exam Generator",
-      "nameAr": "\u0645\u0646\u0634\u0626 \u0627\u0644\u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A",
+      "name": "Exams",
+      "nameAr": "\u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A",
       "description": "Create simple, standalone exams from templates.",
       "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A \u0628\u0633\u064A\u0637\u0629 \u0648\u0645\u0633\u062A\u0642\u0644\u0629 \u0645\u0646 \u0627\u0644\u0642\u0648\u0627\u0644\u0628.",
       "longDescription": "Easily create interactive exams/quizzes for children or adults. \n\nFeatures:\n- **Templates**: Choose from various visual themes.\n- **Flexible Input**: Upload Excel/JSON questions or enter them manually.\n- **Portable**: Generates a single HTML file that works offline everywhere.",
       "longDescriptionAr": "\u0623\u0646\u0634\u0626 \u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u0623\u0637\u0641\u0627\u0644 \u0623\u0648 \u0627\u0644\u0643\u0628\u0627\u0631 \u0628\u0633\u0647\u0648\u0644\u0629. \u0627\u0644\u0645\u064A\u0632\u0627\u062A: \u0642\u0648\u0627\u0644\u0628 \u0645\u062A\u0639\u062F\u062F\u0629\u060C \u0625\u062F\u062E\u0627\u0644 \u0645\u0631\u0646 (Excel/JSON \u0623\u0648 \u064A\u062F\u0648\u064A)\u060C \u0648\u0625\u0646\u062A\u0627\u062C \u0645\u0644\u0641 HTML \u0645\u0633\u062A\u0642\u0644 \u064A\u0639\u0645\u0644 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644.",
-      "categoryId": "generators",
+      "categoryId": "dev-utils",
       "category": {
-        "id": "generators",
-        "name": "Generators",
-        "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
-        "description": "Generate code, data, and assets",
-        "icon": "\u26A1",
-        "color": "#F59E0B",
-        "order": 4
+        "id": "dev-utils",
+        "name": "Dev Utils",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
+        "icon": "\uD83D\uDEE0\uFE0F",
+        "color": "#6366F1",
+        "order": 7
       },
       "keywords": [
         "exam",
@@ -909,7 +909,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-14T19:01:45.9653652",
-      "updatedAt": "2026-02-14T19:01:45.9653653",
+      "updatedAt": "2026-03-09T21:10:14.1583789Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
