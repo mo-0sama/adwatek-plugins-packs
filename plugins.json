@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-10T12:14:09.8474143Z",
+  "lastUpdated": "2026-03-10T12:14:16.6012550Z",
   "totalCount": 46,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2301,7 +2301,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-09T22:37:38.4966796",
-      "updatedAt": "2026-03-10T12:14:07.4268405Z",
+      "updatedAt": "2026-03-10T12:14:14.5384584Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2309,8 +2309,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mock-api-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 20627,
-          "packageChecksum": "b0ea4b2560012ed22675e550fbdbb0bffdd7ce221ef47343e481e535f5a4433d",
+          "packageSize": 20888,
+          "packageChecksum": "b65b2f7199266053ec5f2587fec565e32bb3b984b6080a1c46fcd05d2ae9ad26",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-09T22:37:38.4966796"
         }
