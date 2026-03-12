@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-12T09:00:07.3803339Z",
-  "totalCount": 27,
+  "lastUpdated": "2026-03-12T09:39:48.7114547Z",
+  "totalCount": 28,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -114,6 +114,59 @@
     }
   ],
   "plugins": [
+    {
+      "id": "arch-diagram",
+      "latestVersion": "1.0.0",
+      "name": "Arch Diagram",
+      "nameAr": "\u0645\u062E\u0637\u0637 \u0645\u0639\u0645\u0627\u0631\u064A",
+      "description": "Interactive system architecture diagram builder with animated data flow visualization",
+      "descriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0628\u0646\u0627\u0621 \u0645\u062E\u0637\u0637\u0627\u062A \u0647\u0646\u062F\u0633\u0629 \u0627\u0644\u0646\u0638\u0627\u0645 \u0645\u0639 \u062A\u0635\u0648\u0631 \u0645\u062A\u062D\u0631\u0643 \u0644\u062A\u062F\u0641\u0642 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+      "longDescription": "Design and visualize system architecture with an interactive SVG canvas. Create layered diagrams showing microservices, API gateways, message buses, databases, and external systems with animated data-flow connections. Features drag-and-drop nodes, customizable properties, pre-built templates, and export to SVG/PNG/JSON.",
+      "categoryId": "design",
+      "category": {
+        "id": "design",
+        "name": "Design",
+        "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
+        "icon": "\uD83D\uDDBC\uFE0F",
+        "color": "#8B5CF6",
+        "order": 11
+      },
+      "keywords": [],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "\uD83C\uDFD7\uFE0F",
+      "screenshots": [],
+      "author": {
+        "id": "eea5fe3b-07ab-426f-916c-17afbf10d19b",
+        "name": "Super Admin"
+      },
+      "authorId": "eea5fe3b-07ab-426f-916c-17afbf10d19b",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
+      "downloads": 0,
+      "rating": 0.00,
+      "reviewCount": 0,
+      "publishedAt": "2026-03-12T09:39:45.7016186",
+      "updatedAt": "2026-03-12T09:39:46.9117446Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/arch-diagram/1.0.0/package.adwatekplugin",
+          "packageSize": 69171,
+          "packageChecksum": "027448761bfb150d6b580a0f1ee56d28c9922994722c2ee54b3cdf05e3d0aa1e",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-03-12T09:39:45.7016186"
+        }
+      ]
+    },
     {
       "id": "batch-processor",
       "latestVersion": "1.0.0",
@@ -720,7 +773,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 1,
+      "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.8185034",
@@ -1768,7 +1821,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 44,
+      "downloads": 45,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:59.0636866",
