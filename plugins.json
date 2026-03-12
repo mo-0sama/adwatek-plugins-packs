@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-11T03:10:42.9605463Z",
-  "totalCount": 46,
+  "lastUpdated": "2026-03-12T09:00:07.3803339Z",
+  "totalCount": 27,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -115,227 +115,6 @@
   ],
   "plugins": [
     {
-      "id": "api-contract-analyzer",
-      "latestVersion": "1.0.0",
-      "name": "API Contracts",
-      "nameAr": "\u0639\u0642\u0648\u062F API",
-      "description": "Analyze OpenAPI specs for breaking changes, unused schemas, and missing documentation",
-      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI \u0644\u0644\u062A\u063A\u064A\u064A\u0631\u0627\u062A \u0627\u0644\u062C\u0630\u0631\u064A\u0629 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u0629 \u0648\u0627\u0644\u0648\u062B\u0627\u0626\u0642 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629",
-      "longDescription": "A comprehensive tool for analyzing OpenAPI/Swagger specifications. Detects breaking changes, deprecated endpoints, unused schemas, circular references, duplicate schemas, missing examples, and incomplete documentation. Perfect for API developers and architects who want to maintain high-quality API contracts.\\n\\nFeatures:\\n- **Breaking Changes Detection**: Identify circular references and structural issues\\n- **Schema Analysis**: Find unused and duplicate schemas\\n- **Documentation Validation**: Check for missing descriptions and examples\\n- **Deprecation Tracking**: Monitor deprecated endpoints\\n- **Security Review**: Verify security scheme definitions",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u062A\u062D\u0644\u064A\u0644 \u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI/Swagger. \u062A\u0643\u062A\u0634\u0641 \u0627\u0644\u062A\u063A\u064A\u064A\u0631\u0627\u062A \u0627\u0644\u062C\u0630\u0631\u064A\u0629 \u0648\u0646\u0642\u0627\u0637 \u0627\u0644\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u0645\u0647\u0645\u0644\u0629 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u0629 \u0648\u0627\u0644\u0645\u0631\u0627\u062C\u0639 \u0627\u0644\u062F\u0627\u0626\u0631\u064A\u0629 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0645\u0643\u0631\u0631\u0629 \u0648\u0627\u0644\u0623\u0645\u062B\u0644\u0629 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629 \u0648\u0627\u0644\u0648\u062B\u0627\u0626\u0642 \u063A\u064A\u0631 \u0627\u0644\u0645\u0643\u062A\u0645\u0644\u0629. \u0645\u062B\u0627\u0644\u064A\u0629 \u0644\u0645\u0637\u0648\u0631\u064A \u0648\u0645\u0647\u0646\u062F\u0633\u064A API \u0627\u0644\u0630\u064A\u0646 \u064A\u0631\u064A\u062F\u0648\u0646 \u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0639\u0642\u0648\u062F API \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u062C\u0648\u062F\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u0643\u0634\u0641 \u0627\u0644\u062A\u063A\u064A\u064A\u0631\u0627\u062A \u0627\u0644\u062C\u0630\u0631\u064A\u0629**: \u062A\u062D\u062F\u064A\u062F \u0627\u0644\u0645\u0631\u0627\u062C\u0639 \u0627\u0644\u062F\u0627\u0626\u0631\u064A\u0629 \u0648\u0627\u0644\u0645\u0634\u0627\u0643\u0644 \u0627\u0644\u0647\u064A\u0643\u0644\u064A\u0629\\n- **\u062A\u062D\u0644\u064A\u0644 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A**: \u0627\u0644\u0639\u062B\u0648\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u0629 \u0648\u0627\u0644\u0645\u0643\u0631\u0631\u0629\\n- **\u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0648\u062B\u0627\u0626\u0642**: \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0623\u0648\u0635\u0627\u0641 \u0648\u0627\u0644\u0623\u0645\u062B\u0644\u0629 \u0627\u0644\u0645\u0641\u0642\u0648\u062F\u0629\\n- **\u062A\u062A\u0628\u0639 \u0627\u0644\u0625\u0647\u0645\u0627\u0644**: \u0645\u0631\u0627\u0642\u0628\u0629 \u0646\u0642\u0627\u0637 \u0627\u0644\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u0645\u0647\u0645\u0644\u0629\\n- **\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0623\u0645\u0627\u0646**: \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0645\u062E\u0637\u0637 \u0627\u0644\u0623\u0645\u0627\u0646",
-      "categoryId": "other",
-      "keywords": [
-        "api",
-        "openapi",
-        "swagger",
-        "contract",
-        "analyzer",
-        "validation",
-        "schema",
-        "documentation"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDCCB",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 13,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:34:44.1878805",
-      "updatedAt": "2026-03-09T22:34:44.1878806",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-contract-analyzer/1.0.0/package.adwatekplugin",
-          "packageSize": 9776,
-          "packageChecksum": "e9ab0ea8dc99747d47b06ba4cef405f697f377d3672c7938af9ff9023a530695",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:34:44.1878805"
-        }
-      ]
-    },
-    {
-      "id": "api-error-rewriter",
-      "latestVersion": "1.0.0",
-      "name": "Error Rewriter",
-      "nameAr": "\u0631\u0633\u0627\u0626\u0644 \u0627\u0644\u0623\u062E\u0637\u0627\u0621",
-      "description": "Transform technical backend exceptions into user-friendly error messages with suggestions and summaries.",
-      "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0627\u0633\u062A\u062B\u0646\u0627\u0621\u0627\u062A \u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u062E\u0644\u0641\u064A\u0629 \u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0625\u0644\u0649 \u0631\u0633\u0627\u0626\u0644 \u062E\u0637\u0623 \u0645\u0641\u0647\u0648\u0645\u0629 \u0644\u0644\u0645\u0633\u062A\u062E\u062F\u0645 \u0645\u0639 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u062A \u0627\u0644\u062D\u0644\u0648\u0644.",
-      "longDescription": "Convert cryptic error messages and stack traces into human-readable explanations.\\n\\nFeatures:\\n- **\uD83D\uDD0D Pattern Matching**: Recognizes common error patterns (401, 403, 404, 500, etc.)\\n- **\uD83D\uDCA1 Smart Suggestions**: Provides actionable fix recommendations\\n- **\uD83D\uDCDD Summary Generation**: Creates concise, user-friendly error summaries\\n- **\uD83C\uDFA8 Categorization**: Groups errors by type (auth, network, validation)",
-      "longDescriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0631\u0633\u0627\u0626\u0644 \u0627\u0644\u062E\u0637\u0623 \u0627\u0644\u063A\u0627\u0645\u0636\u0629 \u0648\u062A\u062A\u0628\u0639\u0627\u062A \u0627\u0644\u0645\u0643\u062F\u0633 \u0625\u0644\u0649 \u0634\u0631\u0648\u062D\u0627\u062A \u0645\u0641\u0647\u0648\u0645\u0629 \u0644\u0644\u0625\u0646\u0633\u0627\u0646.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD0D \u0645\u0637\u0627\u0628\u0642\u0629 \u0627\u0644\u0623\u0646\u0645\u0627\u0637**: \u064A\u062A\u0639\u0631\u0641 \u0639\u0644\u0649 \u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0623\u062E\u0637\u0627\u0621 \u0627\u0644\u0634\u0627\u0626\u0639\u0629 (401\u060C 403\u060C 404\u060C 500\u060C \u0625\u0644\u062E)\\n- **\uD83D\uDCA1 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u062A \u0630\u0643\u064A\u0629**: \u064A\u0642\u062F\u0645 \u062A\u0648\u0635\u064A\u0627\u062A \u0625\u0635\u0644\u0627\u062D \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062A\u0646\u0641\u064A\u0630\\n- **\uD83D\uDCDD \u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0645\u0644\u062E\u0635\u0627\u062A**: \u0625\u0646\u0634\u0627\u0621 \u0645\u0644\u062E\u0635\u0627\u062A \u062E\u0637\u0623 \u0645\u0648\u062C\u0632\u0629 \u0648\u0645\u0641\u0647\u0648\u0645\u0629 \u0644\u0644\u0645\u0633\u062A\u062E\u062F\u0645\\n- **\uD83C\uDFA8 \u0627\u0644\u062A\u0635\u0646\u064A\u0641**: \u062A\u062C\u0645\u064A\u0639 \u0627\u0644\u0623\u062E\u0637\u0627\u0621 \u062D\u0633\u0628 \u0627\u0644\u0646\u0648\u0639 (\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629\u060C \u0627\u0644\u0634\u0628\u0643\u0629\u060C \u0627\u0644\u062A\u062D\u0642\u0642)",
-      "categoryId": "other",
-      "keywords": [
-        "api",
-        "error",
-        "exception",
-        "rewrite",
-        "user-friendly",
-        "debug",
-        "message"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\u26A0\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 7,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:34:48.7085209",
-      "updatedAt": "2026-03-09T22:34:48.7085211",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-error-rewriter/1.0.0/package.adwatekplugin",
-          "packageSize": 8114,
-          "packageChecksum": "2f2dac6559610383afa9ab1d3085cb2e70b690b0c8f54fbb87a6bae97f748743",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:34:48.7085209"
-        }
-      ]
-    },
-    {
-      "id": "api-personality-analyzer",
-      "latestVersion": "1.0.0",
-      "name": "API Analyzer",
-      "nameAr": "\u062A\u062D\u0644\u064A\u0644 API",
-      "description": "Analyze API behavior patterns, stability, and consistency to generate a personality profile for your endpoints.",
-      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0623\u0646\u0645\u0627\u0637 \u0633\u0644\u0648\u0643 \u0648\u0627\u062C\u0647\u0629 \u0628\u0631\u0645\u062C\u0629 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A\u060C \u0648\u0627\u0633\u062A\u0642\u0631\u0627\u0631\u0647\u0627\u060C \u0648\u0627\u062A\u0633\u0627\u0642\u0647\u0627 \u0644\u062A\u0648\u0644\u064A\u062F \u0645\u0644\u0641 \u062A\u0639\u0631\u064A\u0641 \u0634\u062E\u0635\u064A\u0629 \u0644\u0646\u0642\u0627\u0637 \u0627\u0644\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.",
-      "longDescription": "Discover the personality of your API by analyzing response patterns and behavior.\\n\\nFeatures:\\n- **\uD83C\uDFAD Personality Traits**: Identify verbosity, stability, consistency, and more\\n- **\uD83C\uDFF7\uFE0F Archetypes**: Classify APIs as Reliable, Verbose, Minimalist, or Unpredictable\\n- **\uD83D\uDCCA Scoring System**: Get numerical scores for each personality dimension\\n- **\uD83D\uDCE5 Sample Data**: Built-in sample responses for testing",
-      "longDescriptionAr": "\u0627\u0643\u062A\u0634\u0641 \u0634\u062E\u0635\u064A\u0629 API \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0645\u0646 \u062E\u0644\u0627\u0644 \u062A\u062D\u0644\u064A\u0644 \u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u0648\u0627\u0644\u0633\u0644\u0648\u0643.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83C\uDFAD \u0633\u0645\u0627\u062A \u0627\u0644\u0634\u062E\u0635\u064A\u0629**: \u062A\u062D\u062F\u064A\u062F \u0627\u0644\u0625\u0633\u0647\u0627\u0628 \u0648\u0627\u0644\u0627\u0633\u062A\u0642\u0631\u0627\u0631 \u0648\u0627\u0644\u0627\u062A\u0633\u0627\u0642 \u0648\u0627\u0644\u0645\u0632\u064A\u062F\\n- **\uD83C\uDFF7\uFE0F \u0627\u0644\u0646\u0645\u0627\u0630\u062C \u0627\u0644\u0623\u0635\u0644\u064A\u0629**: \u062A\u0635\u0646\u064A\u0641 APIs \u0643\u0645\u0648\u062B\u0648\u0642 \u0623\u0648 \u0645\u0633\u0647\u0628 \u0623\u0648 \u0628\u0633\u064A\u0637 \u0623\u0648 \u063A\u064A\u0631 \u0645\u062A\u0648\u0642\u0639\\n- **\uD83D\uDCCA \u0646\u0638\u0627\u0645 \u0627\u0644\u062A\u0642\u064A\u064A\u0645**: \u0627\u0644\u062D\u0635\u0648\u0644 \u0639\u0644\u0649 \u062F\u0631\u062C\u0627\u062A \u0631\u0642\u0645\u064A\u0629 \u0644\u0643\u0644 \u0628\u064F\u0639\u062F \u0634\u062E\u0635\u064A\u0629\\n- **\uD83D\uDCE5 \u0628\u064A\u0627\u0646\u0627\u062A \u0639\u064A\u0646\u0629**: \u0627\u0633\u062A\u062C\u0627\u0628\u0627\u062A \u0639\u064A\u0646\u0629 \u0645\u062F\u0645\u062C\u0629 \u0644\u0644\u0627\u062E\u062A\u0628\u0627\u0631",
-      "categoryId": "other",
-      "keywords": [
-        "api",
-        "analysis",
-        "personality",
-        "stability",
-        "consistency",
-        "profile",
-        "behavior"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83C\uDFAD",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 5,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:34:53.3888638",
-      "updatedAt": "2026-03-09T22:34:53.3888643",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/api-personality-analyzer/1.0.0/package.adwatekplugin",
-          "packageSize": 8618,
-          "packageChecksum": "321d56c891103ed1bee037d09463fe3782a3cadc6aee81e089ce27a31c930d2a",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:34:53.3888638"
-        }
-      ]
-    },
-    {
-      "id": "arch-diagram",
-      "latestVersion": "1.0.0",
-      "name": "Arch Diagram",
-      "nameAr": "\u0645\u062E\u0637\u0637 \u0645\u0639\u0645\u0627\u0631\u064A",
-      "description": "Interactive system architecture diagram builder with animated data flow visualization",
-      "descriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0628\u0646\u0627\u0621 \u0645\u062E\u0637\u0637\u0627\u062A \u0647\u0646\u062F\u0633\u0629 \u0627\u0644\u0646\u0638\u0627\u0645 \u0645\u0639 \u062A\u0635\u0648\u0631 \u0645\u062A\u062D\u0631\u0643 \u0644\u062A\u062F\u0641\u0642 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-      "longDescription": "Design and visualize system architecture with an interactive SVG canvas. Create layered diagrams showing microservices, API gateways, message buses, databases, and external systems with animated data-flow connections. Features drag-and-drop nodes, customizable properties, pre-built templates, and export to SVG/PNG/JSON.",
-      "longDescriptionAr": "\u0635\u0645\u0645 \u0648\u062A\u0635\u0648\u0631 \u0647\u0646\u062F\u0633\u0629 \u0627\u0644\u0646\u0638\u0627\u0645 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0644\u0648\u062D\u0629 SVG \u062A\u0641\u0627\u0639\u0644\u064A\u0629. \u0623\u0646\u0634\u0626 \u0645\u062E\u0637\u0637\u0627\u062A \u0637\u0628\u0642\u064A\u0629 \u062A\u0639\u0631\u0636 \u0627\u0644\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0645\u0635\u063A\u0631\u0629 \u0648\u0628\u0648\u0627\u0628\u0627\u062A API \u0648\u0646\u0627\u0642\u0644\u0627\u062A \u0627\u0644\u0631\u0633\u0627\u0626\u0644 \u0648\u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0627\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u062E\u0627\u0631\u062C\u064A\u0629 \u0645\u0639 \u0627\u062A\u0635\u0627\u0644\u0627\u062A \u0645\u062A\u062D\u0631\u0643\u0629 \u0644\u062A\u062F\u0641\u0642 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A. \u064A\u062A\u0645\u064A\u0632 \u0628\u0633\u062D\u0628 \u0648\u0625\u0641\u0644\u0627\u062A \u0627\u0644\u0639\u0642\u062F \u0648\u062E\u0635\u0627\u0626\u0635 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062A\u062E\u0635\u064A\u0635 \u0648\u0642\u0648\u0627\u0644\u0628 \u062C\u0627\u0647\u0632\u0629 \u0648\u0627\u0644\u062A\u0635\u062F\u064A\u0631 \u0625\u0644\u0649 SVG/PNG/JSON.",
-      "categoryId": "design",
-      "category": {
-        "id": "design",
-        "name": "Design",
-        "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
-        "color": "#8B5CF6",
-        "order": 11
-      },
-      "keywords": [
-        "architecture",
-        "diagram",
-        "microservices",
-        "system-design",
-        "visualization",
-        "flowchart",
-        "infrastructure"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83C\uDFD7\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "price": 0,
-      "currency": "USD",
-      "licenseType": "MIT",
-      "homepage": "https://adwatek.com/tools/arch-diagram",
-      "documentation": "https://docs.adwatek.com/tools/arch-diagram",
-      "downloads": 41,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:34:58.0169480",
-      "updatedAt": "2026-03-09T22:34:58.0169481",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/arch-diagram/1.0.0/package.adwatekplugin",
-          "packageSize": 69171,
-          "packageChecksum": "027448761bfb150d6b580a0f1ee56d28c9922994722c2ee54b3cdf05e3d0aa1e",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:34:58.0169480"
-        }
-      ]
-    },
-    {
       "id": "batch-processor",
       "latestVersion": "1.0.0",
       "name": "JSON Batch",
@@ -344,15 +123,15 @@
       "descriptionAr": "\u0645\u0639\u0627\u0644\u062C\u0629 \u062F\u0641\u0639\u0627\u062A \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u0639 \u0639\u0645\u0644\u064A\u0627\u062A \u0645\u062B\u0644 \u0627\u0644\u062A\u0646\u0633\u064A\u0642 \u0648\u0627\u0644\u0636\u063A\u0637 \u0648\u0627\u0644\u0641\u0631\u0632 \u0648\u0627\u0644\u062A\u0633\u0637\u064A\u062D.",
       "longDescription": "Process multiple JSON files or objects in bulk with powerful transformation operations.\\n\\nFeatures:\\n- **\uD83D\uDCE6 Bulk Processing**: Handle multiple JSON objects at once\\n- **\uD83D\uDD27 Operations**: Format, minify, sort keys, flatten, unflatten\\n- **\uD83D\uDCCA Statistics**: View processing results and success rates\\n- **\uD83D\uDCCB Copy Results**: Copy processed output to clipboard",
       "longDescriptionAr": "\u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u0644\u0641\u0627\u062A \u0623\u0648 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u062A\u0639\u062F\u062F\u0629 \u0628\u0634\u0643\u0644 \u0645\u062C\u0645\u0639 \u0645\u0639 \u0639\u0645\u0644\u064A\u0627\u062A \u062A\u062D\u0648\u064A\u0644 \u0642\u0648\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCE6 \u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u062C\u0645\u0639\u0629**: \u0627\u0644\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u062A\u0639\u062F\u062F\u0629 \u0641\u064A \u0648\u0642\u062A \u0648\u0627\u062D\u062F\\n- **\uD83D\uDD27 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A**: \u0627\u0644\u062A\u0646\u0633\u064A\u0642 \u0648\u0627\u0644\u0636\u063A\u0637 \u0648\u0641\u0631\u0632 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0648\u0627\u0644\u062A\u0633\u0637\u064A\u062D \u0648\u0625\u0644\u063A\u0627\u0621 \u0627\u0644\u062A\u0633\u0637\u064A\u062D\\n- **\uD83D\uDCCA \u0627\u0644\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A**: \u0639\u0631\u0636 \u0646\u062A\u0627\u0626\u062C \u0627\u0644\u0645\u0639\u0627\u0644\u062C\u0629 \u0648\u0645\u0639\u062F\u0644\u0627\u062A \u0627\u0644\u0646\u062C\u0627\u062D\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0627\u0644\u0646\u062A\u0627\u0626\u062C**: \u0646\u0633\u062E \u0627\u0644\u0625\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u0639\u0627\u0644\u062C \u0625\u0644\u0649 \u0627\u0644\u062D\u0627\u0641\u0638\u0629",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -372,28 +151,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 4,
+      "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:02.8708542",
-      "updatedAt": "2026-03-09T22:35:02.8708546",
+      "publishedAt": "2026-02-09T17:26:58.6280417",
+      "updatedAt": "2026-02-09T17:26:58.6280419",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/batch-processor/1.0.0/package.adwatekplugin",
-          "packageSize": 5320,
-          "packageChecksum": "d6f95333197c3f2b105778dc0d1d93bd091df44001195daea15ce6c279255302",
+          "packageSize": 12209,
+          "packageChecksum": "0a5c5d9e1193bb958b9fe38478692c5e9a93aa498274a64455d19b8e02063873",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:02.8708542"
+          "publishedAt": "2026-02-09T17:26:58.6280417"
         }
       ]
     },
@@ -434,193 +213,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 3,
+      "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:06.9104883",
-      "updatedAt": "2026-03-09T22:35:06.9104886",
+      "publishedAt": "2026-02-09T17:26:58.6399804",
+      "updatedAt": "2026-02-09T17:26:58.6399806",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/chart-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 70224,
-          "packageChecksum": "09fa7b6ebaa6d85d4b942ef6bed9777c32e8c0b88a72f5fa555e54fd3f102020",
+          "packageSize": 199319,
+          "packageChecksum": "aee507b1fe3eb894a0c41a4da606a2978489af1c0629d7a87773843ba4cefc66",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:06.9104883"
-        }
-      ]
-    },
-    {
-      "id": "circular-detector",
-      "latestVersion": "1.0.0",
-      "name": "Circular Detect",
-      "nameAr": "\u0643\u0627\u0634\u0641 \u0627\u0644\u062F\u0627\u0626\u0631\u064A",
-      "description": "Detect circular or duplicate object references in JSON data.",
-      "descriptionAr": "\u0627\u0643\u062A\u0634\u0627\u0641 \u0627\u0644\u0645\u0631\u0627\u062C\u0639 \u0627\u0644\u062F\u0627\u0626\u0631\u064A\u0629 \u0623\u0648 \u0627\u0644\u0645\u0643\u0631\u0631\u0629 \u0641\u064A \u0628\u064A\u0627\u0646\u0627\u062A JSON.",
-      "longDescription": "A debugging utility that analyzes JSON structures to find duplicate object patterns.\\n\\nFeatures:\\n- **\uD83D\uDD04 Circular Detection**: Identifies patterns that indicate potential circular dependencies\\n- **\uD83D\uDCCD Path Tracking**: Shows exact paths where duplicates occur\\n- **\uD83D\uDCE5 Sample Data**: Built-in example with circular references\\n- **\u2705 Clear Results**: Visual feedback for clean vs problematic structures",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u0635\u062D\u064A\u062D \u062A\u062D\u0644\u0644 \u0647\u064A\u0627\u0643\u0644 JSON \u0644\u0644\u0639\u062B\u0648\u0631 \u0639\u0644\u0649 \u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u0643\u0631\u0631\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD04 \u0643\u0634\u0641 \u062F\u0627\u0626\u0631\u064A**: \u064A\u062D\u062F\u062F \u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u062A\u064A \u062A\u0634\u064A\u0631 \u0625\u0644\u0649 \u062A\u0628\u0639\u064A\u0627\u062A \u062F\u0627\u0626\u0631\u064A\u0629 \u0645\u062D\u062A\u0645\u0644\u0629\\n- **\uD83D\uDCCD \u062A\u062A\u0628\u0639 \u0627\u0644\u0645\u0633\u0627\u0631**: \u064A\u0638\u0647\u0631 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062A \u0627\u0644\u062F\u0642\u064A\u0642\u0629 \u062D\u064A\u062B \u062A\u062D\u062F\u062B \u0627\u0644\u062A\u0643\u0631\u0627\u0631\u0627\u062A\\n- **\uD83D\uDCE5 \u0628\u064A\u0627\u0646\u0627\u062A \u0639\u064A\u0646\u0629**: \u0645\u062B\u0627\u0644 \u0645\u062F\u0645\u062C \u0645\u0639 \u0645\u0631\u0627\u062C\u0639 \u062F\u0627\u0626\u0631\u064A\u0629\\n- **\u2705 \u0646\u062A\u0627\u0626\u062C \u0648\u0627\u0636\u062D\u0629**: \u062A\u0639\u0644\u064A\u0642\u0627\u062A \u0645\u0631\u0626\u064A\u0629 \u0644\u0644\u0647\u064A\u0627\u0643\u0644 \u0627\u0644\u0646\u0638\u064A\u0641\u0629 \u0645\u0642\u0627\u0628\u0644 \u0627\u0644\u0625\u0634\u0643\u0627\u0644\u064A\u0629",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
-      },
-      "keywords": [
-        "json",
-        "circular",
-        "reference",
-        "detector",
-        "debug",
-        "duplicate"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDD04",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 3,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:11.6664663",
-      "updatedAt": "2026-03-09T22:35:11.6664672",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/circular-detector/1.0.0/package.adwatekplugin",
-          "packageSize": 5059,
-          "packageChecksum": "de89c54d9fba1ecb266065279d48ee1f561888ed8709d7c021e6ab2b1c20ca90",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:11.6664663"
-        }
-      ]
-    },
-    {
-      "id": "cli-generator",
-      "latestVersion": "1.0.0",
-      "name": "CLI Builder",
-      "nameAr": "\u0623\u0648\u0627\u0645\u0631 CLI",
-      "description": "Generate cURL, HTTPie, wget, and Fetch commands from JSON data and URL.",
-      "descriptionAr": "\u062A\u0648\u0644\u064A\u062F \u0623\u0648\u0627\u0645\u0631 cURL \u0648 HTTPie \u0648 wget \u0648 Fetch \u0645\u0646 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0648\u0639\u0646\u0648\u0627\u0646 URL.",
-      "longDescription": "Convert your API request configuration into ready-to-use CLI commands.\\n\\nFeatures:\\n- **\uD83D\uDD27 Multiple Tools**: Generate commands for cURL, HTTPie, wget, and JavaScript fetch\\n- **\uD83D\uDCDD All HTTP Methods**: Support for GET, POST, PUT, PATCH, DELETE\\n- **\uD83D\uDCCB One-Click Copy**: Copy generated commands to clipboard\\n- **\uD83C\uDFA8 Pretty Output**: Formatted multi-line commands for readability",
-      "longDescriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u062A\u0643\u0648\u064A\u0646 \u0637\u0644\u0628 API \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0625\u0644\u0649 \u0623\u0648\u0627\u0645\u0631 CLI \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD27 \u0623\u062F\u0648\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062A\u0648\u0644\u064A\u062F \u0623\u0648\u0627\u0645\u0631 \u0644\u0640 cURL \u0648 HTTPie \u0648 wget \u0648 JavaScript fetch\\n- **\uD83D\uDCDD \u062C\u0645\u064A\u0639 \u0637\u0631\u0642 HTTP**: \u062F\u0639\u0645 GET \u0648 POST \u0648 PUT \u0648 PATCH \u0648 DELETE\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629**: \u0646\u0633\u062E \u0627\u0644\u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0645\u0648\u0644\u062F\u0629 \u0625\u0644\u0649 \u0627\u0644\u062D\u0627\u0641\u0638\u0629\\n- **\uD83C\uDFA8 \u0625\u062E\u0631\u0627\u062C \u0645\u0646\u0633\u0642**: \u0623\u0648\u0627\u0645\u0631 \u0645\u062A\u0639\u062F\u062F\u0629 \u0627\u0644\u0623\u0633\u0637\u0631 \u0645\u0646\u0633\u0642\u0629 \u0644\u0644\u0642\u0631\u0627\u0621\u0629",
-      "categoryId": "other",
-      "keywords": [
-        "api",
-        "cli",
-        "curl",
-        "httpie",
-        "wget",
-        "fetch",
-        "generator",
-        "command"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\u2328\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 6,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:16.4583812",
-      "updatedAt": "2026-03-09T22:35:16.4583817",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/cli-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 4969,
-          "packageChecksum": "8af320f3e91bb05a7c03678b094c65ea4b672d4902897ed7a3a9416b165105a5",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:16.4583812"
-        }
-      ]
-    },
-    {
-      "id": "code-architecture-blueprint",
-      "latestVersion": "1.0.0",
-      "name": "Code Blueprint",
-      "nameAr": "\u0628\u0646\u064A\u0629 \u0627\u0644\u0643\u0648\u062F",
-      "description": "Visualize your code architecture, including modules, imports, and data flow.",
-      "descriptionAr": "\u062A\u0635\u0648\u0631 \u0628\u0646\u064A\u0629 \u0627\u0644\u0643\u0648\u062F \u0627\u0644\u062E\u0627\u0635 \u0628\u0643\u060C \u0628\u0645\u0627 \u0641\u064A \u0630\u0644\u0643 \u0627\u0644\u0648\u062D\u062F\u0627\u062A \u0648\u0627\u0644\u0648\u0627\u0631\u062F\u0627\u062A \u0648\u062A\u062F\u0641\u0642 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A.",
-      "longDescription": "Analyze code to generate visual architecture diagrams showing module relationships.\\n\\nFeatures:\\n- **\uD83D\uDCCA Visual Graph**: Interactive SVG graph showing module connections\\n- **\uD83C\uDFD7\uFE0F Module Detection**: Parses classes, functions, and React components\\n- **\uD83D\uDD17 Data Flow**: Tracks imports, calls, and event-based connections\\n- **\uD83D\uDCCB Export JSON**: Copy detailed architecture analysis as JSON",
-      "longDescriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0627\u0644\u0643\u0648\u062F \u0644\u062A\u0648\u0644\u064A\u062F \u0645\u062E\u0637\u0637\u0627\u062A \u0628\u0646\u064A\u0629 \u0645\u0631\u0626\u064A\u0629 \u062A\u0638\u0647\u0631 \u0639\u0644\u0627\u0642\u0627\u062A \u0627\u0644\u0648\u062D\u062F\u0627\u062A.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCCA \u0631\u0633\u0645 \u0628\u064A\u0627\u0646\u064A \u0645\u0631\u0626\u064A**: \u0631\u0633\u0645 \u0628\u064A\u0627\u0646\u064A SVG \u062A\u0641\u0627\u0639\u0644\u064A \u064A\u0638\u0647\u0631 \u0627\u062A\u0635\u0627\u0644\u0627\u062A \u0627\u0644\u0648\u062D\u062F\u0627\u062A\\n- **\uD83C\uDFD7\uFE0F \u0643\u0634\u0641 \u0627\u0644\u0648\u062D\u062F\u0627\u062A**: \u064A\u062D\u0644\u0644 \u0627\u0644\u0641\u0626\u0627\u062A \u0648\u0627\u0644\u062F\u0648\u0627\u0644 \u0648\u0645\u0643\u0648\u0646\u0627\u062A React\\n- **\uD83D\uDD17 \u062A\u062F\u0641\u0642 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A**: \u064A\u062A\u062A\u0628\u0639 \u0627\u0644\u0648\u0627\u0631\u062F\u0627\u062A \u0648\u0627\u0644\u0645\u0643\u0627\u0644\u0645\u0627\u062A \u0648\u0627\u0644\u0627\u062A\u0635\u0627\u0644\u0627\u062A \u0627\u0644\u0642\u0627\u0626\u0645\u0629 \u0639\u0644\u0649 \u0627\u0644\u0623\u062D\u062F\u0627\u062B\\n- **\uD83D\uDCCB \u062A\u0635\u062F\u064A\u0631 JSON**: \u0646\u0633\u062E \u062A\u062D\u0644\u064A\u0644 \u0627\u0644\u0628\u0646\u064A\u0629 \u0627\u0644\u0645\u0641\u0635\u0644 \u0643\u0640 JSON",
-      "categoryId": "other",
-      "keywords": [
-        "code",
-        "architecture",
-        "visualize",
-        "diagram",
-        "module",
-        "analysis",
-        "graph"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83C\uDFD7\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 1,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:20.4613210",
-      "updatedAt": "2026-03-09T22:35:20.4613211",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/code-architecture-blueprint/1.0.0/package.adwatekplugin",
-          "packageSize": 6924,
-          "packageChecksum": "499ad6728fb7633cf8b75e7c317e713dce45c90abd32fddea700dfa8d2f75f8d",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:20.4613210"
+          "publishedAt": "2026-02-09T17:26:58.6399804"
         }
       ]
     },
@@ -663,28 +277,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 7,
+      "downloads": 8,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:24.8350007",
-      "updatedAt": "2026-03-09T22:35:24.8350008",
+      "publishedAt": "2026-02-09T17:26:58.6902178",
+      "updatedAt": "2026-02-09T17:26:58.6902179",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/color-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 12794,
-          "packageChecksum": "3a76a61069517099cf00a726c90973874c019a568148201e4a689fd14e4499db",
+          "packageSize": 38293,
+          "packageChecksum": "ff13b192cbd4004458b4625f2bdecf38b8d04635500d081a7df5bf5baf37a803",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:24.8350007"
+          "publishedAt": "2026-02-09T17:26:58.6902178"
         }
       ]
     },
@@ -693,11 +307,20 @@
       "latestVersion": "1.0.0",
       "name": "Cron Parser",
       "nameAr": "\u062A\u0639\u0628\u064A\u0631\u0627\u062A Cron",
-      "description": "Parse, visualize, and debug cron expressions with AI-powered assistance.",
-      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0648\u062A\u0635\u0648\u0631 \u0648\u062A\u0635\u062D\u064A\u062D \u062A\u0639\u0628\u064A\u0631\u0627\u062A cron \u0628\u0645\u0633\u0627\u0639\u062F\u0629 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A.",
+      "description": "Parse and understand cron expressions with visual breakdown and next run predictions.",
+      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0648\u0641\u0647\u0645 \u062A\u0639\u0628\u064A\u0631\u0627\u062A cron \u0645\u0639 \u062A\u0648\u0632\u064A\u0639 \u0645\u0631\u0626\u064A \u0648\u062A\u0648\u0642\u0639\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u0629.",
       "longDescription": "A tool for developers to debug and visualize cron schedules. It provides a readable English/Arabic description of the expression and predicts future execution times.\\n\\nFeatures:\\n- **\uD83D\uDD0D Visual Breakdown**: Highlights each part of the expression (minute, hour, day, etc.)\\n- **\uD83D\uDCC5 Next Run Predictions**: Lists the next 10 scheduled execution times\\n- **\uD83D\uDC8E Presets**: Common cron patterns (every minute, daily at midnight, etc.)\\n- **\uD83D\uDCD6 Syntax Reference**: Built-in guide for cron characters and ranges",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u062A\u0635\u062D\u064A\u062D \u0648\u062A\u0635\u0648\u0631 \u062C\u062F\u0627\u0648\u0644 cron. \u062A\u0648\u0641\u0631 \u0648\u0635\u0641\u0627\u064B \u0645\u0641\u0647\u0648\u0645\u0627\u064B \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629/\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629 \u0644\u0644\u062A\u0639\u0628\u064A\u0631 \u0648\u062A\u062A\u0648\u0642\u0639 \u0645\u0648\u0627\u0639\u064A\u062F \u0627\u0644\u062A\u0646\u0641\u064A\u0630 \u0627\u0644\u0645\u0633\u062A\u0642\u0628\u0644\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD0D \u062A\u0648\u0632\u064A\u0639 \u0645\u0631\u0626\u064A**: \u064A\u0628\u0631\u0632 \u0643\u0644 \u062C\u0632\u0621 \u0645\u0646 \u0627\u0644\u062A\u0639\u0628\u064A\u0631 (\u0627\u0644\u062F\u0642\u064A\u0642\u0629\u060C \u0627\u0644\u0633\u0627\u0639\u0629\u060C \u0627\u0644\u064A\u0648\u0645\u060C \u0625\u0644\u062E)\\n- **\uD83D\uDCC5 \u062A\u0648\u0642\u0639\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644**: \u064A\u0633\u0631\u062F \u0623\u0648\u0642\u0627\u062A \u0627\u0644\u062A\u0646\u0641\u064A\u0630 \u0627\u0644\u0639\u0634\u0631\u0629 \u0627\u0644\u0642\u0627\u062F\u0645\u0629 \u0627\u0644\u0645\u062C\u062F\u0648\u0644\u0629\\n- **\uD83D\uDC8E \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0645\u0633\u0628\u0642\u0629**: \u0623\u0646\u0645\u0627\u0637 cron \u0634\u0627\u0626\u0639\u0629 (\u0643\u0644 \u062F\u0642\u064A\u0642\u0629\u060C \u064A\u0648\u0645\u064A\u0627\u064B \u0641\u064A \u0645\u0646\u062A\u0635\u0641 \u0627\u0644\u0644\u064A\u0644\u060C \u0625\u0644\u062E)\\n- **\uD83D\uDCD6 \u0645\u0631\u062C\u0639 \u0627\u0644\u062A\u0635\u062D\u064A\u062D**: \u062F\u0644\u064A\u0644 \u0645\u062F\u0645\u062C \u0644\u0623\u062D\u0631\u0641 \u0648\u0646\u0637\u0627\u0642\u0627\u062A cron",
-      "categoryId": "other",
+      "categoryId": "dev-utils",
+      "category": {
+        "id": "dev-utils",
+        "name": "Dev Utils",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
+        "icon": "\uD83D\uDEE0\uFE0F",
+        "color": "#6366F1",
+        "order": 7
+      },
       "keywords": [
         "cron",
         "parser",
@@ -715,28 +338,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 9,
+      "downloads": 8,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:29.9096947",
-      "updatedAt": "2026-03-09T22:35:29.9096949",
+      "publishedAt": "2026-02-09T17:26:58.7025313",
+      "updatedAt": "2026-02-09T17:26:58.7025314",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/cron-parser/1.0.0/package.adwatekplugin",
-          "packageSize": 12941,
-          "packageChecksum": "a1657faf5f5bbd2da41abda477fc1699fb86143b986bafa81038932222dbb09c",
+          "packageSize": 18868,
+          "packageChecksum": "efe687840d0ed7fae1e46901881d13536142bb128c65634196bc6825e2896be1",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:29.9096947"
+          "publishedAt": "2026-02-09T17:26:58.7025313"
         }
       ]
     },
@@ -778,28 +401,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:34.6601529",
-      "updatedAt": "2026-03-09T22:35:34.6601535",
+      "publishedAt": "2026-02-09T17:26:58.7142475",
+      "updatedAt": "2026-02-09T17:26:58.7142477",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/date-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 7350,
-          "packageChecksum": "9235d71b6ec76da9f8433a2a177321899142013a9b7105f6b728940243b0aa98",
+          "packageSize": 20562,
+          "packageChecksum": "01305a9207cb150143a7a7677652ef4991698b92cc9f601780579e935fcd4ff5",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:34.6601529"
+          "publishedAt": "2026-02-09T17:26:58.7142475"
         }
       ]
     },
@@ -812,15 +435,15 @@
       "descriptionAr": "\u062A\u0635\u0645\u064A\u0645 \u0648\u062A\u0635\u0648\u0631 \u0645\u062E\u0637\u0637\u0627\u062A \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0628\u0645\u062E\u0637\u0637\u0627\u062A \u062A\u0641\u0627\u0639\u0644\u064A\u0629\u060C \u0648\u062A\u0635\u062F\u064A\u0631 SQL\u060C \u0648\u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0635\u062D\u0629.",
       "longDescription": "A professional database modeling tool that allows you to create Entity-Relationship Diagrams (ERD) visually. Support for multiple SQL dialects and high-quality image exports.\\n\\nFeatures:\\n- **\uD83C\uDFD7\uFE0F Interactive Canvas**: Drag-and-drop tables, columns, and relationships\\n- **\uD83D\uDCBE Multiple Dialects**: Support for PostgreSQL, MySQL, SQL Server, and SQLite\\n- **\u26A1 SQL Import/Export**: Import from existing SQL scripts or export your design to code\\n- **\uD83D\uDDBC\uFE0F High-Res Export**: Save your diagrams as PNG, JPEG, SVG, or PDF\\n- **\uD83D\uDD0D Schema Validation**: Real-time checking for duplicate names or invalid data types",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u0646\u0645\u0630\u062C\u0629 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u062A\u062A\u064A\u062D \u0644\u0643 \u0625\u0646\u0634\u0627\u0621 \u0645\u062E\u0637\u0637\u0627\u062A \u0639\u0644\u0627\u0642\u0627\u062A \u0627\u0644\u0643\u064A\u0627\u0646\u0627\u062A (ERD) \u0628\u0635\u0631\u064A\u0627\u064B. \u062F\u0639\u0645 \u0644\u0644\u0639\u062F\u064A\u062F \u0645\u0646 \u0625\u0635\u062F\u0627\u0631\u0627\u062A SQL \u0648\u062A\u0635\u062F\u064A\u0631 \u0635\u0648\u0631 \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u062C\u0648\u062F\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83C\uDFD7\uFE0F \u0643\u0627\u0646\u0641\u0627\u0633 \u062A\u0641\u0627\u0639\u0644\u064A**: \u0633\u062D\u0628 \u0648\u0625\u0641\u0644\u0627\u062A \u0627\u0644\u062C\u062F\u0627\u0648\u0644 \u0648\u0627\u0644\u0623\u0639\u0645\u062F\u0629 \u0648\u0627\u0644\u0639\u0644\u0627\u0642\u0627\u062A\\n- **\uD83D\uDCBE \u0625\u0635\u062F\u0627\u0631\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062F\u0639\u0645 \u0644\u0640 PostgreSQL \u0648 MySQL \u0648 SQL Server \u0648 SQLite\\n- **\u26A1 \u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u062A\u0635\u062F\u064A\u0631 SQL**: \u0627\u0633\u062A\u064A\u0631\u0627\u062F \u0645\u0646 \u0646\u0635\u0648\u0635 SQL \u0627\u0644\u062D\u0627\u0644\u064A\u0629 \u0623\u0648 \u062A\u0635\u062F\u064A\u0631 \u062A\u0635\u0645\u064A\u0645\u0643 \u0625\u0644\u0649 \u0643\u0648\u062F\\n- **\uD83D\uDDBC\uFE0F \u062A\u0635\u062F\u064A\u0631 \u0639\u0627\u0644\u064A \u0627\u0644\u062F\u0642\u0629**: \u062D\u0641\u0638 \u0645\u062E\u0637\u0637\u0627\u062A\u0643 \u0628\u062A\u0646\u0633\u064A\u0642\u0627\u062A PNG \u0623\u0648 JPEG \u0623\u0648 SVG \u0623\u0648 PDF\\n- **\uD83D\uDD0D \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0645\u062E\u0637\u0637**: \u0641\u062D\u0635 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A \u0644\u0644\u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0645\u0643\u0631\u0631\u0629 \u0623\u0648 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0635\u0627\u0644\u062D\u0629",
-      "categoryId": "data",
+      "categoryId": "diagram",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "diagram",
+        "name": "Diagrams",
+        "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
+        "description": "Diagram and flowchart tools",
+        "icon": "\uD83D\uDCD0",
+        "color": "#F97316",
+        "order": 9
       },
       "keywords": [
         "database",
@@ -841,139 +464,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 32,
+      "downloads": 14,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:38.8429039",
-      "updatedAt": "2026-03-09T22:35:38.8429041",
+      "publishedAt": "2026-02-09T17:26:58.7265306",
+      "updatedAt": "2026-02-09T17:26:58.7265307",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/db-diagram/1.0.0/package.adwatekplugin",
-          "packageSize": 67180,
-          "packageChecksum": "c3e723a1ba268b85864bb68b0526c41c12247aca695092579acf4c2032fc0679",
+          "packageSize": 210259,
+          "packageChecksum": "0fb82c427336961af730ea52153132b573f3bfca772649ad6ef0c759ff186812",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:38.8429039"
-        }
-      ]
-    },
-    {
-      "id": "exam-generator",
-      "latestVersion": "1.0.0",
-      "name": "Exams",
-      "nameAr": "\u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A",
-      "description": "Create simple, standalone exams from templates.",
-      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A \u0628\u0633\u064A\u0637\u0629 \u0648\u0645\u0633\u062A\u0642\u0644\u0629 \u0645\u0646 \u0627\u0644\u0642\u0648\u0627\u0644\u0628.",
-      "longDescription": "Easily create interactive exams/quizzes for children or adults. \n\nFeatures:\n- **Templates**: Choose from various visual themes.\n- **Flexible Input**: Upload Excel/JSON questions or enter them manually.\n- **Portable**: Generates a single HTML file that works offline everywhere.",
-      "longDescriptionAr": "\u0623\u0646\u0634\u0626 \u0627\u062E\u062A\u0628\u0627\u0631\u0627\u062A \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u0623\u0637\u0641\u0627\u0644 \u0623\u0648 \u0627\u0644\u0643\u0628\u0627\u0631 \u0628\u0633\u0647\u0648\u0644\u0629. \u0627\u0644\u0645\u064A\u0632\u0627\u062A: \u0642\u0648\u0627\u0644\u0628 \u0645\u062A\u0639\u062F\u062F\u0629\u060C \u0625\u062F\u062E\u0627\u0644 \u0645\u0631\u0646 (Excel/JSON \u0623\u0648 \u064A\u062F\u0648\u064A)\u060C \u0648\u0625\u0646\u062A\u0627\u062C \u0645\u0644\u0641 HTML \u0645\u0633\u062A\u0642\u0644 \u064A\u0639\u0645\u0644 \u062F\u0648\u0646 \u0627\u062A\u0635\u0627\u0644.",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
-      },
-      "keywords": [
-        "exam",
-        "quiz",
-        "test",
-        "generator"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDCDD",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 1,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:43.7725427",
-      "updatedAt": "2026-03-09T22:35:43.7725428",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/exam-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 193214,
-          "packageChecksum": "ccb8ebb36c506487eb5502b7a4350777c20494cb8417f19b6445fdc2a40abc33",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:43.7725427"
-        }
-      ]
-    },
-    {
-      "id": "form-builder",
-      "latestVersion": "1.0.0",
-      "name": "Forms",
-      "nameAr": "\u0646\u0645\u0627\u0630\u062C",
-      "description": "Generate React, Vue, or HTML forms from JSON schema automatically",
-      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0646\u0645\u0627\u0630\u062C React \u0623\u0648 Vue \u0623\u0648 HTML \u0645\u0646 \u0645\u062E\u0637\u0637 JSON \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B",
-      "longDescription": "A powerful form generator that creates production-ready form code from JSON objects. Automatically infers field types and generates clean, functional code.\\n\\nFeatures:\\n- **Multi-Framework Support**: Generate React, Vue 3, or HTML forms\\n- **Smart Type Inference**: Automatically detects field types (email, URL, date, etc.)\\n- **Customizable**: Set form name and choose output format\\n- **Production Ready**: Generates clean, working code with state management\\n- **Field Types**: Supports text, number, email, URL, date, checkbox, select, and textarea\\n- **Validation**: Includes required field validation",
-      "longDescriptionAr": "\u0645\u0648\u0644\u062F \u0646\u0645\u0627\u0630\u062C \u0642\u0648\u064A \u064A\u0646\u0634\u0626 \u0643\u0648\u062F \u0646\u0645\u0627\u0630\u062C \u062C\u0627\u0647\u0632 \u0644\u0644\u0625\u0646\u062A\u0627\u062C \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A JSON. \u064A\u0633\u062A\u0646\u062A\u062C \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u062D\u0642\u0648\u0644 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0648\u064A\u0646\u0634\u0626 \u0643\u0648\u062F\u0627\u064B \u0646\u0638\u064A\u0641\u0627\u064B \u0648\u0639\u0645\u0644\u064A\u0627\u064B.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u062F\u0639\u0645 \u0623\u0637\u0631 \u0645\u062A\u0639\u062F\u062F\u0629**: \u0625\u0646\u0634\u0627\u0621 \u0646\u0645\u0627\u0630\u062C React \u0623\u0648 Vue 3 \u0623\u0648 HTML\\n- **\u0627\u0633\u062A\u0646\u062A\u0627\u062C \u0630\u0643\u064A \u0644\u0644\u0623\u0646\u0648\u0627\u0639**: \u064A\u0643\u062A\u0634\u0641 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u062D\u0642\u0648\u0644 (\u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u060C URL\u060C \u0627\u0644\u062A\u0627\u0631\u064A\u062E\u060C \u0625\u0644\u062E)\\n- **\u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u062E\u0635\u064A\u0635**: \u062A\u0639\u064A\u064A\u0646 \u0627\u0633\u0645 \u0627\u0644\u0646\u0645\u0648\u0630\u062C \u0648\u0627\u062E\u062A\u064A\u0627\u0631 \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u0625\u062E\u0631\u0627\u062C\\n- **\u062C\u0627\u0647\u0632 \u0644\u0644\u0625\u0646\u062A\u0627\u062C**: \u064A\u0646\u0634\u0626 \u0643\u0648\u062F\u0627\u064B \u0646\u0638\u064A\u0641\u0627\u064B \u0648\u0639\u0627\u0645\u0644\u0627\u064B \u0645\u0639 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u062D\u0627\u0644\u0629\\n- **\u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u062D\u0642\u0648\u0644**: \u064A\u062F\u0639\u0645 \u0627\u0644\u0646\u0635\u060C \u0627\u0644\u0631\u0642\u0645\u060C \u0627\u0644\u0628\u0631\u064A\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u060C URL\u060C \u0627\u0644\u062A\u0627\u0631\u064A\u062E\u060C \u062E\u0627\u0646\u0629 \u0627\u0644\u0627\u062E\u062A\u064A\u0627\u0631\u060C \u0627\u0644\u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0646\u0633\u062F\u0644\u0629\u060C \u0648\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0646\u0635\\n- **\u0627\u0644\u062A\u062D\u0642\u0642**: \u064A\u062A\u0636\u0645\u0646 \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u062D\u0642\u0648\u0644 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629",
-      "categoryId": "other",
-      "keywords": [
-        "form",
-        "builder",
-        "generator",
-        "react",
-        "vue",
-        "html",
-        "code-gen",
-        "schema"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDCDD",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 1,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:49.4458393",
-      "updatedAt": "2026-03-09T22:35:49.4458395",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/form-builder/1.0.0/package.adwatekplugin",
-          "packageSize": 7969,
-          "packageChecksum": "5ef8b74820702f108cbefbaeed302f63c671e2da9a1a8c4d75e2d4d202d2ecc8",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:49.4458393"
+          "publishedAt": "2026-02-09T17:26:58.7265306"
         }
       ]
     },
@@ -982,10 +494,10 @@
       "latestVersion": "1.0.0",
       "name": "Hashes",
       "nameAr": "\u062A\u0634\u0641\u064A\u0631",
-      "description": "Professional cryptographic utility for hashing (SHA3, RIPEMD160, etc.) and integrity verification.",
-      "descriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u0634\u0641\u064A\u0631 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 (SHA3, RIPEMD160, \u0625\u0644\u062E) \u0648\u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0646\u0632\u0627\u0647\u0629.",
-      "longDescription": "A complete suite for cryptographic operations.\n\nFeatures:\n- **Advanced Algorithms**: Support for MD5, SHA1, SHA2, and SHA3\n- **Drag \u0026 Drop**: Easily calculate checksums for files\n- **Multiple Formats**: Toggle between Hex and Base64 output\n- **HMAC Studio**: Generate secure message authentication codes\n- **Secure**: All operations run locally in your browser",
-      "longDescriptionAr": "\u0645\u062C\u0645\u0648\u0639\u0629 \u0643\u0627\u0645\u0644\u0629 \u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062A\u0634\u0641\u064A\u0631.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062E\u0648\u0627\u0631\u0632\u0645\u064A\u0627\u062A \u0645\u062A\u0642\u062F\u0645\u0629**: \u062F\u0639\u0645 \u0644\u0640 MD5, SHA1, SHA2, SHA3\n- **\u0633\u062D\u0628 \u0648\u0625\u0641\u0644\u0627\u062A**: \u062D\u0633\u0627\u0628 \u0633\u0647\u0644 \u0644\u0644\u0645\u0644\u0641\u0627\u062A\n- **\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u064A\u0646 Hex \u0648 Base64\n- **\u0627\u0633\u062A\u0648\u062F\u064A\u0648 HMAC**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0635\u0627\u062F\u0642\u0629 \u0622\u0645\u0646\u0629\n- **\u0622\u0645\u0646**: \u062C\u0645\u064A\u0639 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u062A\u062A\u0645 \u0645\u062D\u0644\u064A\u0627\u064B",
+      "description": "Generate and compare cryptographic hashes (MD5, SHA1, SHA256, SHA512).",
+      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u0645\u0642\u0627\u0631\u0646\u0629 \u0631\u0645\u0648\u0632 \u0627\u0644\u062A\u0634\u0641\u064A\u0631 (MD5, SHA1, SHA256, SHA512).",
+      "longDescription": "A robust utility for generating and increasing security hashes.\n\nFeatures:\n- **Text Hashing**: Generate hashes from any text input\n- **File Hashing**: Calculate checksums for local files (MD5, SHA1, SHA256, SHA512)\n- **HMAC Generator**: Create Hash-based Message Authentication Codes with secret keys\n- **Hash Comparison**: Securely compare two hash strings to verify integrity\n- **Privacy Focused**: All calculations happen locally in your browser",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0642\u0648\u064A\u0629 \u0644\u0625\u0646\u0634\u0627\u0621 \u0648\u0632\u064A\u0627\u062F\u0629 \u0623\u0645\u0627\u0646 \u0627\u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0645\u0634\u0641\u0631\u0629.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062A\u0634\u0641\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0646 \u0623\u064A \u0646\u0635 \u0645\u062F\u062E\u0644\n- **\u062A\u0634\u0641\u064A\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062A**: \u062D\u0633\u0627\u0628 \u0627\u0644\u0645\u062C\u0645\u0648\u0639 \u0627\u0644\u0627\u062E\u062A\u0628\u0627\u0631\u064A \u0644\u0644\u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0645\u062D\u0644\u064A\u0629 (MD5, SHA1, SHA256, SHA512)\n- **\u0645\u0648\u0644\u062F HMAC**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0635\u0627\u062F\u0642\u0629 \u0627\u0644\u0631\u0633\u0627\u0626\u0644 \u0627\u0644\u0642\u0627\u0626\u0645\u0629 \u0639\u0644\u0649 \u0627\u0644\u062A\u0634\u0641\u064A\u0631 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0633\u0631\u064A\u0629\n- **\u0645\u0642\u0627\u0631\u0646\u0629 \u0627\u0644\u0631\u0645\u0648\u0632**: \u0645\u0642\u0627\u0631\u0646\u0629 \u0631\u0645\u0632\u064A\u0646 \u0645\u0634\u0641\u0631\u064A\u0646 \u0628\u0623\u0645\u0627\u0646 \u0644\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0646\u0632\u0627\u0647\u0629\n- **\u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629 \u0623\u0648\u0644\u0627\u064B**: \u062C\u0645\u064A\u0639 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062D\u0633\u0627\u0628\u064A\u0629 \u062A\u062A\u0645 \u0645\u062D\u0644\u064A\u0627\u064B \u0641\u064A \u0645\u062A\u0635\u0641\u062D\u0643",
       "categoryId": "security",
       "category": {
         "id": "security",
@@ -999,20 +511,21 @@
       "keywords": [
         "hash",
         "crypto",
-        "sha3",
-        "ripemd",
-        "security",
-        "checksum"
+        "md5",
+        "sha",
+        "hmac",
+        "checksum",
+        "security"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDD12",
+      "icon": "#\uFE0F\u20E3",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1020,35 +533,44 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/hash-tools",
       "documentation": "https://docs.adwatek.com/tools/hash-tools",
-      "downloads": 4,
+      "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:54.2128228",
-      "updatedAt": "2026-03-09T22:35:54.2128229",
+      "publishedAt": "2026-02-09T17:26:58.7602427",
+      "updatedAt": "2026-02-09T17:26:58.7602429",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/hash-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 71493,
-          "packageChecksum": "2d88f180d9d04de8aaddd8672c21bb7cd7562557b0bb4072194500dad3eade8a",
+          "packageSize": 48502,
+          "packageChecksum": "8bd46bb0b015730e3ffb2e415063295e3f62ff0f8f6114ef6466f1fe3a92a2ed",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:54.2128228"
+          "publishedAt": "2026-02-09T17:26:58.7602427"
         }
       ]
     },
     {
       "id": "http-client",
-      "latestVersion": "2.0.0",
+      "latestVersion": "1.2.0",
       "name": "HTTP Client",
       "nameAr": "\u0639\u0645\u064A\u0644 HTTP",
-      "description": "Professional HTTP client with Collections, Environments, Auth, Code Snippets, and CORS bypass",
-      "descriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u0639 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0627\u0644\u0628\u064A\u0626\u0627\u062A \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0648\u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0643\u0648\u062F \u0648\u062A\u062C\u0627\u0648\u0632 CORS",
-      "longDescription": "A full-featured HTTP client for API testing and development.\n\n**Features:**\n- **\uD83D\uDCE6 Collections**: Organize requests into collections and folders\n- **\uD83C\uDF0D Environments**: Define variables with {{variable}} syntax\n- **\uD83D\uDD10 Authentication**: Bearer Token, Basic Auth, API Key\n- **\uD83D\uDCDD Body Types**: JSON, XML, Text, Form Data, URL Encoded\n- **\uD83D\uDCCA Query Params**: Dedicated parameter management\n- **\uD83D\uDCBB Code Snippets**: Generate cURL, JavaScript, Python code\n- **\uD83D\uDCDC History**: Auto-save with search, filter, import/export\n- **\uD83D\uDEE1\uFE0F CORS Bypass**: Chrome Extension Proxy, CORS Anywhere\n- **\u2328\uFE0F Shortcuts**: Ctrl\u002BEnter to send, Ctrl\u002BS to save\n- **\uD83C\uDFA8 Themes**: Full dark/light mode support\n- **\uD83C\uDF10 i18n**: English and Arabic with RTL",
-      "longDescriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0643\u0627\u0645\u0644 \u0627\u0644\u0645\u0632\u0627\u064A\u0627 \u0644\u0627\u062E\u062A\u0628\u0627\u0631 \u0648\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062C\u0647\u0627\u062A \u0628\u0631\u0645\u062C\u0629 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A.\n\n**\u0627\u0644\u0645\u064A\u0632\u0627\u062A:**\n- **\uD83D\uDCE6 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A**: \u0646\u0638\u0645 \u0627\u0644\u0637\u0644\u0628\u0627\u062A \u0641\u064A \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0645\u062C\u0644\u062F\u0627\u062A\n- **\uD83C\uDF0D \u0627\u0644\u0628\u064A\u0626\u0627\u062A**: \u062D\u062F\u062F \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0635\u064A\u063A\u0629 {{\u0645\u062A\u063A\u064A\u0631}}\n- **\uD83D\uDD10 \u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629**: \u0631\u0645\u0632 Bearer \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064A\u0629 \u0648\u0645\u0641\u062A\u0627\u062D API\n- **\uD83D\uDCDD \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0645\u062D\u062A\u0648\u0649**: JSON \u0648XML \u0648\u0627\u0644\u0646\u0635 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0646\u0645\u0648\u0630\u062C \u0648URL \u0645\u0634\u0641\u0631\n- **\uD83D\uDCCA \u0627\u0644\u0645\u0639\u0644\u0645\u0627\u062A**: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0645\u0639\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u062E\u0635\u0635\u0629\n- **\uD83D\uDCBB \u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0643\u0648\u062F**: \u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F cURL \u0648\u062C\u0627\u0641\u0627\u0633\u0643\u0631\u0628\u062A \u0648\u0628\u0627\u064A\u062B\u0648\u0646\n- **\uD83D\uDCDC \u0627\u0644\u0633\u062C\u0644**: \u0627\u0644\u062D\u0641\u0638 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0645\u0639 \u0627\u0644\u0628\u062D\u062B \u0648\u0627\u0644\u062A\u0635\u0641\u064A\u0629 \u0648\u0627\u0644\u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u0627\u0644\u062A\u0635\u062F\u064A\u0631\n- **\uD83D\uDEE1\uFE0F \u062A\u062C\u0627\u0648\u0632 CORS**: \u0648\u0643\u064A\u0644 \u0645\u0644\u062D\u0642 Chrome \u0648 CORS Anywhere\n- **\u2328\uFE0F \u0627\u0644\u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A**: Ctrl\u002BEnter \u0644\u0644\u0625\u0631\u0633\u0627\u0644\u060C Ctrl\u002BS \u0644\u0644\u062D\u0641\u0638\n- **\uD83C\uDFA8 \u0627\u0644\u0633\u0645\u0627\u062A**: \u062F\u0639\u0645 \u0643\u0627\u0645\u0644 \u0644\u0644\u0648\u0636\u0639 \u0627\u0644\u062F\u0627\u0643\u0646/\u0627\u0644\u0641\u0627\u062A\u062D\n- **\uD83C\uDF10 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0644\u063A\u0627\u062A**: \u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629 \u0648\u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0645\u0639 RTL",
-      "categoryId": "other",
+      "description": "Professional HTTP client with Proxy support, History, and Backup",
+      "descriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u0639 \u062F\u0639\u0645 \u0627\u0644\u0648\u0643\u064A\u0644 \u0648\u0627\u0644\u0633\u062C\u0644 \u0648\u0627\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A",
+      "longDescription": "The ultimate HTTP client for your workspace. Capable of bypassing CORS using Chrome Extensions or Custom Proxies, alongside full history management.\\n\\nFeatures:\\n- **\uD83D\uDEE1\uFE0F CORS Bypass**: Built-in support for Chrome Extension Proxy and CORS Anywhere\\n- **\uD83D\uDCDC Request History**: Auto-saves requests with search and filters\\n- **\uD83D\uDCBE Backup**: Import/Export your history safely\\n- **\u26A1 Full Methods**: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS\\n- **\uD83D\uDCCA Response Metrics**: Detailed timing, status, and size analysis\\n- **\uD83D\uDD0C Pluggable**: Auto-detects Adwatek DevProxy extension",
+      "longDescriptionAr": "\u0639\u0645\u064A\u0644 HTTP \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u0644\u0645\u0633\u0627\u062D\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643. \u0642\u0627\u062F\u0631 \u0639\u0644\u0649 \u062A\u062C\u0627\u0648\u0632 CORS \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0644\u062D\u0642\u0627\u062A Chrome \u0623\u0648 \u0627\u0644\u0648\u0643\u0644\u0627\u0621 \u0627\u0644\u0645\u062E\u0635\u0635\u064A\u0646\u060C \u062C\u0646\u0628\u0627\u064B \u0625\u0644\u0649 \u062C\u0646\u0628 \u0645\u0639 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0633\u062C\u0644 \u0627\u0644\u0643\u0627\u0645\u0644\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDEE1\uFE0F \u062A\u062C\u0627\u0648\u0632 CORS**: \u062F\u0639\u0645 \u0645\u062F\u0645\u062C \u0644\u0648\u0643\u064A\u0644 \u0645\u0644\u062D\u0642 Chrome \u0648 CORS Anywhere\\n- **\uD83D\uDCDC \u0633\u062C\u0644 \u0627\u0644\u0637\u0644\u0628\u0627\u062A**: \u064A\u062D\u0641\u0638 \u0627\u0644\u0637\u0644\u0628\u0627\u062A \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0645\u0639 \u0627\u0644\u0628\u062D\u062B \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A\\n- **\uD83D\uDCBE \u0627\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A**: \u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u062A\u0635\u062F\u064A\u0631 \u0633\u062C\u0644\u0643 \u0628\u0623\u0645\u0627\u0646\\n- **\u26A1 \u0637\u0631\u0642 \u0643\u0627\u0645\u0644\u0629**: GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS\\n- **\uD83D\uDCCA \u0645\u0642\u0627\u064A\u064A\u0633 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0641\u0635\u0644 \u0644\u0644\u062A\u0648\u0642\u064A\u062A \u0648\u0627\u0644\u062D\u0627\u0644\u0629 \u0648\u0627\u0644\u062D\u062C\u0645\\n- **\uD83D\uDD0C \u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u0648\u0635\u064A\u0644**: \u064A\u0643\u062A\u0634\u0641 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0645\u0644\u062D\u0642 Adwatek DevProxy",
+      "categoryId": "api",
+      "category": {
+        "id": "api",
+        "name": "API Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
+        "description": "REST API development and testing",
+        "icon": "\uD83C\uDF10",
+        "color": "#3B82F6",
+        "order": 2
+      },
       "keywords": [
         "http",
         "rest",
@@ -1056,18 +578,9 @@
         "client",
         "proxy",
         "cors",
-        "postman",
-        "insomnia",
-        "collections",
-        "environments",
-        "authentication",
-        "bearer",
-        "basic-auth",
-        "api-key",
-        "curl",
-        "fetch",
-        "request",
-        "response"
+        "history",
+        "backup",
+        "postman"
       ],
       "platforms": [
         "web",
@@ -1077,37 +590,21 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
+      "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:35:59.8379730",
-      "updatedAt": "2026-03-09T22:35:59.8379730",
+      "publishedAt": "2026-02-08T10:03:50.2660607",
+      "updatedAt": "2026-02-08T11:19:23.1844114",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
-        {
-          "version": "2.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/2.0.0/package.adwatekplugin",
-          "packageSize": 35873,
-          "packageChecksum": "f7322633e8addd7c084034b69901df1df8c8e42050b2aedea5e8078105b0124f",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:35:59.8379730"
-        },
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/1.0.0/package.adwatekplugin",
-          "packageSize": 14205,
-          "packageChecksum": "ebad48b00a008aff0f9c37b182ccc596bb35ea917b9f63135db40961751aaecf",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-02-14T19:01:46.1342285"
-        },
         {
           "version": "1.2.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/1.2.0/package.adwatekplugin",
@@ -1127,7 +624,16 @@
       "descriptionAr": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0645\u0646 JSON \u0644\u0644\u062A\u0631\u062C\u0645\u0629 \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062E\u062A\u0644\u0641\u0629 (JSON\u060C CSV\u060C PO).",
       "longDescription": "A utility tool for developers to extract hardcoded strings from JSON objects and convert them into organized i18n key-value pairs.\\n\\nFeatures:\\n- **\uD83D\uDCC2 Multiple Formats**: Export strings as JSON, CSV, or PO (gettext) files\\n- **\uD83D\uDD11 Key Prefixes**: Add custom prefixes to generated keys for better organization\\n- **\uD83C\uDF32 Deep Extraction**: Recursively extracts strings from nested objects and arrays\\n- **\uD83D\uDCCB One-Click Copy**: Copy generated translation files instantly",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u0633\u0627\u0639\u062F\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0648\u062A\u062D\u0648\u064A\u0644\u0647\u0627 \u0625\u0644\u0649 \u0623\u0632\u0648\u0627\u062C \u0645\u0641\u062A\u0627\u062D-\u0642\u064A\u0645\u0629 \u0645\u0646\u0638\u0645\u0629 \u0644\u0644\u062A\u0631\u062C\u0645\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCC2 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635 \u0643\u0645\u0644\u0641\u0627\u062A JSON \u0623\u0648 CSV \u0623\u0648 PO (gettext)\\n- **\uD83D\uDD11 \u0628\u0627\u062F\u0626\u0627\u062A \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D**: \u0625\u0636\u0627\u0641\u0629 \u0628\u0627\u062F\u0626\u0627\u062A \u0645\u062E\u0635\u0635\u0629 \u0644\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0648\u0644\u062F\u0629 \u0644\u062A\u0646\u0638\u064A\u0645 \u0623\u0641\u0636\u0644\\n- **\uD83C\uDF32 \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0639\u0645\u064A\u0642**: \u064A\u0633\u062A\u062E\u0631\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0628\u0634\u0643\u0644 \u0645\u062A\u0643\u0631\u0631 \u0645\u0646 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0648\u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629**: \u0646\u0633\u062E \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0631\u062C\u0645\u0629 \u0627\u0644\u0645\u0648\u0644\u062F\u0629 \u0641\u0648\u0631\u0627\u064B",
-      "categoryId": "other",
+      "categoryId": "frontend",
+      "category": {
+        "id": "frontend",
+        "name": "Frontend",
+        "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
+        "description": "Frontend development tools",
+        "icon": "\uD83C\uDFA8",
+        "color": "#EC4899",
+        "order": 5
+      },
       "keywords": [
         "i18n",
         "extractor",
@@ -1146,7 +652,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1155,19 +661,19 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:05.1869642",
-      "updatedAt": "2026-03-09T22:36:05.1869644",
+      "publishedAt": "2026-02-09T17:26:58.7911051",
+      "updatedAt": "2026-02-09T17:26:58.7911052",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/i18n-extractor/1.0.0/package.adwatekplugin",
-          "packageSize": 5217,
-          "packageChecksum": "767e24cb6e013d5f56745fbd8b0025ec85be32af64eb71fc4f21e340f53a2188",
+          "packageSize": 11335,
+          "packageChecksum": "e7f529a1225c96c5d3dbe786d1a49d64579508432dd07b922505bb4cac2ff487",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:05.1869642"
+          "publishedAt": "2026-02-09T17:26:58.7911051"
         }
       ]
     },
@@ -1208,7 +714,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1217,19 +723,19 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:09.9720843",
-      "updatedAt": "2026-03-09T22:36:09.9720844",
+      "publishedAt": "2026-02-09T17:26:58.8185034",
+      "updatedAt": "2026-02-09T17:26:58.8185036",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/icon-explorer/1.0.0/package.adwatekplugin",
-          "packageSize": 10226,
-          "packageChecksum": "5285f21b7f698a9e040f190a5e03ae18df95f8e1ef5a6a5933a896232e2c2867",
+          "packageSize": 24677,
+          "packageChecksum": "41971e30c6487ba0ba659e57afad1496c34ff0cf79de6b695f8c1bec73b019c0",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:09.9720843"
+          "publishedAt": "2026-02-09T17:26:58.8185034"
         }
       ]
     },
@@ -1242,15 +748,15 @@
       "descriptionAr": "\u062A\u0648\u0644\u064A\u062F UUIDs \u0648 NanoIDs \u0648 ULIDs \u0648 Snowflakes \u0648\u0627\u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u064A\u062F\u0629 \u0645\u0639 \u062E\u064A\u0627\u0631\u0627\u062A \u0645\u062A\u0642\u062F\u0645\u0629.",
       "longDescription": "A comprehensive ID generation tool combining UUID Generator and ID Generators into one powerful utility. Supports multiple ID formats for any use case.\\n\\nFeatures:\\n- **\uD83D\uDD11 UUID Versions**: Generate v1 (time-based), v4 (random), and v7 (time-ordered) UUIDs\\n- **\u26A1 Modern IDs**: NanoID, ULID, CUID for modern applications\\n- **\uD83C\uDFE2 Enterprise IDs**: MongoDB ObjectID, Twitter Snowflake for distributed systems\\n- **\u2699\uFE0F Customization**: Custom alphabets, length, case, hyphens\\n- **\uD83D\uDCCA Comparison Table**: Understand which ID type fits your needs\\n- **\uD83D\uDCCB Bulk Generation**: Generate up to 100 IDs at once\\n- **\uD83D\uDCBE Export**: Copy or download as JSON",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u062A\u062C\u0645\u0639 \u0628\u064A\u0646 \u0645\u0648\u0644\u062F UUID \u0648\u0645\u0648\u0644\u062F\u0627\u062A ID \u0641\u064A \u0623\u062F\u0627\u0629 \u0648\u0627\u062D\u062F\u0629 \u0642\u0648\u064A\u0629. \u062A\u062F\u0639\u0645 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0644\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0644\u0623\u064A \u062D\u0627\u0644\u0629 \u0627\u0633\u062A\u062E\u062F\u0627\u0645.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD11 \u0625\u0635\u062F\u0627\u0631\u0627\u062A UUID**: \u062A\u0648\u0644\u064A\u062F v1 (\u0645\u0628\u0646\u064A \u0639\u0644\u0649 \u0627\u0644\u0648\u0642\u062A) \u0648 v4 (\u0639\u0634\u0648\u0627\u0626\u064A) \u0648 v7 (\u0645\u0631\u062A\u0628 \u0632\u0645\u0646\u064A\u0627\u064B)\\n- **\u26A1 \u0645\u0639\u0631\u0641\u0627\u062A \u062D\u062F\u064A\u062B\u0629**: NanoID \u0648 ULID \u0648 CUID \u0644\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A \u0627\u0644\u062D\u062F\u064A\u062B\u0629\\n- **\uD83C\uDFE2 \u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0645\u0624\u0633\u0633\u0627\u062A**: MongoDB ObjectID \u0648 Twitter Snowflake \u0644\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u0648\u0632\u0639\u0629\\n- **\u2699\uFE0F \u0627\u0644\u062A\u062E\u0635\u064A\u0635**: \u0623\u0628\u062C\u062F\u064A\u0627\u062A \u0645\u062E\u0635\u0635\u0629\u060C \u0627\u0644\u0637\u0648\u0644\u060C \u0627\u0644\u062D\u0627\u0644\u0629\u060C \u0627\u0644\u0634\u0631\u0637\u0627\u062A\\n- **\uD83D\uDCCA \u062C\u062F\u0648\u0644 \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629**: \u0641\u0647\u0645 \u0646\u0648\u0639 \u0627\u0644\u0645\u0639\u0631\u0641 \u0627\u0644\u0645\u0646\u0627\u0633\u0628 \u0644\u0627\u062D\u062A\u064A\u0627\u062C\u0627\u062A\u0643\\n- **\uD83D\uDCCB \u062A\u0648\u0644\u064A\u062F \u062C\u0645\u0627\u0639\u064A**: \u062A\u0648\u0644\u064A\u062F \u062D\u062A\u0649 100 \u0645\u0639\u0631\u0641 \u062F\u0641\u0639\u0629 \u0648\u0627\u062D\u062F\u0629\\n- **\uD83D\uDCBE \u0627\u0644\u062A\u0635\u062F\u064A\u0631**: \u0646\u0633\u062E \u0623\u0648 \u062A\u062D\u0645\u064A\u0644 \u0643\u0640 JSON",
-      "categoryId": "dev-utils",
+      "categoryId": "generators",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
+        "id": "generators",
+        "name": "Generators",
+        "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
+        "description": "Generate code, data, and assets",
+        "icon": "\u26A1",
+        "color": "#F59E0B",
+        "order": 4
       },
       "keywords": [
         "uuid",
@@ -1272,7 +778,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1281,19 +787,19 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:15.2042530",
-      "updatedAt": "2026-03-09T22:36:15.2042531",
+      "publishedAt": "2026-02-09T17:26:58.8338511",
+      "updatedAt": "2026-02-09T17:26:58.8338513",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/id-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 9788,
-          "packageChecksum": "c6fabfd557cf5ecf0c228b65022f341dfde93c14b7993776346f3dff957ec46f",
+          "packageSize": 28059,
+          "packageChecksum": "b2588930228dd6387aedcceed19da434d4046cd48b65d4c48c8a5381cdf5a7aa",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:15.2042530"
+          "publishedAt": "2026-02-09T17:26:58.8338511"
         }
       ]
     },
@@ -1334,7 +840,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1342,22 +848,22 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/image-tools",
       "documentation": "https://docs.adwatek.com/tools/image-tools",
-      "downloads": 4,
+      "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:20.0370164",
-      "updatedAt": "2026-03-09T22:36:20.0370167",
+      "publishedAt": "2026-02-09T17:26:58.8438878",
+      "updatedAt": "2026-02-09T17:26:58.8438880",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/image-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 43913,
-          "packageChecksum": "b22d95460fe3814bf0167b79019f52647dab8ae49f853fc00bdb80534a9edede",
+          "packageSize": 65457,
+          "packageChecksum": "0721767f22e5cf348684fa599d4691adea5f256749f09a1554fa421134b39eb2",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:20.0370164"
+          "publishedAt": "2026-02-09T17:26:58.8438878"
         }
       ]
     },
@@ -1370,15 +876,15 @@
       "descriptionAr": "\u062A\u0635\u0648\u0631 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0643\u0647\u064A\u0643\u0644 \u0634\u062C\u0631\u0629 \u0646\u0635\u064A\u0629 ASCII",
       "longDescription": "Visualize JSON data as an ASCII text tree structure",
       "longDescriptionAr": "Visualize JSON data as an ASCII text tree structure",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1395,7 +901,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1404,19 +910,19 @@
       "downloads": 2,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:25.6087071",
-      "updatedAt": "2026-03-09T22:36:25.6087073",
+      "publishedAt": "2026-02-09T17:26:58.8553528",
+      "updatedAt": "2026-02-09T17:26:58.8553529",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-ascii/1.0.0/package.adwatekplugin",
-          "packageSize": 6768,
-          "packageChecksum": "7307385660a63e77ae8424448da9830a7d45d702ce0b20aa68e2b407f38e9715",
+          "packageSize": 7862,
+          "packageChecksum": "4f4c835f4c74824457fc24379d5de90abff01388fe86a54434808379fb104f0f",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:25.6087071"
+          "publishedAt": "2026-02-09T17:26:58.8553528"
         }
       ]
     },
@@ -1429,15 +935,15 @@
       "descriptionAr": "\u062A\u062A\u0628\u0639 \u0627\u0644\u062A\u063A\u064A\u064A\u0631\u0627\u062A \u0628\u064A\u0646 \u0627\u0644\u0625\u0635\u062F\u0627\u0631\u0627\u062A \u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 \u0644\u0643\u0627\u0626\u0646\u0627\u062A JSON",
       "longDescription": "Track changes between different versions of JSON objects",
       "longDescriptionAr": "Track changes between different versions of JSON objects",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1454,7 +960,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1463,19 +969,19 @@
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:30.5009924",
-      "updatedAt": "2026-03-09T22:36:30.5009925",
+      "publishedAt": "2026-02-09T17:26:58.8660556",
+      "updatedAt": "2026-02-09T17:26:58.8660558",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-changelog/1.0.0/package.adwatekplugin",
-          "packageSize": 6317,
-          "packageChecksum": "0267282a2945cdc62e64b206ac60c74b5b1741bee855e169248ba4b9b592cea6",
+          "packageSize": 7337,
+          "packageChecksum": "ca8caa0a1f385e691db5ef27ebacdfc2d0a9c679600151b3c104cbdb781663af",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:30.5009924"
+          "publishedAt": "2026-02-09T17:26:58.8660556"
         }
       ]
     },
@@ -1488,15 +994,15 @@
       "descriptionAr": "JsonDiffReplay \u0644\u0645\u0646\u0635\u0629 \u0623\u062F\u0648\u062A\u0643",
       "longDescription": "A powerful JsonDiffReplay tool for the Adwatek Platform.",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 JsonDiffReplay \u0642\u0648\u064A\u0629 \u0644\u0645\u0646\u0635\u0629 \u0623\u062F\u0648\u062A\u0643.",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json-diff-replay",
@@ -1511,7 +1017,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1520,19 +1026,19 @@
       "downloads": 8,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:34.7334273",
-      "updatedAt": "2026-03-09T22:36:34.7334274",
+      "publishedAt": "2026-02-09T17:26:58.8773771",
+      "updatedAt": "2026-02-09T17:26:58.8773772",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-diff-replay/1.0.0/package.adwatekplugin",
-          "packageSize": 7903,
-          "packageChecksum": "5018fb6b327ed5d8b9885c57e489e584d2438ef528254b7fa9810386a54f4108",
+          "packageSize": 9321,
+          "packageChecksum": "ce3bd492b2a6547ca5cd750f97fdac1f4282d218cfebce56e3aff895716958e2",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:34.7334273"
+          "publishedAt": "2026-02-09T17:26:58.8773771"
         }
       ]
     },
@@ -1545,15 +1051,15 @@
       "descriptionAr": "\u0645\u062D\u0631\u0631 JSON \u0645\u062A\u0642\u062F\u0645 \u0645\u0639 \u0627\u0644\u062A\u0646\u0633\u064A\u0642\u060C \u0627\u0644\u062A\u062D\u0642\u0642\u060C \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629\u060C \u0627\u0633\u062A\u0639\u0644\u0627\u0645 JSONPath\u060C \u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A\u060C \u0648\u0627\u0644\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A",
       "longDescription": "A comprehensive JSON editing tool featuring:\n\n- **Multiple View Modes**: Code editor, tree view, table view, split view\n- **Format \u0026 Validate**: Pretty-print or minify JSON with validation\n- **Compare**: Side-by-side diff of two JSON objects\n- **JSONPath Query**: Extract data using JSONPath expressions\n- **Schema**: Generate and validate JSON schemas\n- **Statistics**: Analyze JSON structure and get detailed stats\n- **Base64**: Encode/decode JSON to/from Base64\n- **Import/Export**: Upload and download JSON files\n- **Monaco Editor**: Powered by VS Code\u0027s editor with syntax highlighting\n\nPerfect for developers, API testing, data analysis, and configuration management.",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u062D\u0631\u064A\u0631 JSON \u0634\u0627\u0645\u0644\u0629 \u062A\u062A\u0645\u064A\u0632 \u0628\u0640:\n\n- **\u0623\u0648\u0636\u0627\u0639 \u0639\u0631\u0636 \u0645\u062A\u0639\u062F\u062F\u0629**: \u0645\u062D\u0631\u0631 \u0627\u0644\u0643\u0648\u062F\u060C \u0639\u0631\u0636 \u0627\u0644\u0634\u062C\u0631\u0629\u060C \u0639\u0631\u0636 \u0627\u0644\u062C\u062F\u0648\u0644\u060C \u0639\u0631\u0636 \u0645\u0642\u0633\u0645\n- **\u062A\u0646\u0633\u064A\u0642 \u0648\u062A\u062D\u0642\u0642**: \u062A\u062C\u0645\u064A\u0644 \u0623\u0648 \u062A\u0635\u063A\u064A\u0631 JSON \u0645\u0639 \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0635\u062D\u062A\u0647\n- **\u0645\u0642\u0627\u0631\u0646\u0629**: \u0641\u0631\u0642 \u062C\u0646\u0628\u0627\u064B \u0625\u0644\u0649 \u062C\u0646\u0628 \u0628\u064A\u0646 \u0643\u0627\u0626\u0646\u064A JSON\n- **\u0627\u0633\u062A\u0639\u0644\u0627\u0645 JSONPath**: \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u062A\u0639\u0628\u064A\u0631\u0627\u062A JSONPath\n- **\u0645\u062E\u0637\u0637**: \u062A\u0648\u0644\u064A\u062F \u0648\u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0645\u062E\u0637\u0637\u0627\u062A JSON\n- **\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A**: \u062A\u062D\u0644\u064A\u0644 \u0647\u064A\u0643\u0644 JSON \u0648\u0627\u0644\u062D\u0635\u0648\u0644 \u0639\u0644\u0649 \u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A \u0645\u0641\u0635\u0644\u0629\n- **Base64**: \u062A\u0631\u0645\u064A\u0632/\u0641\u0643 \u062A\u0631\u0645\u064A\u0632 JSON \u0625\u0644\u0649/\u0645\u0646 Base64\n- **\u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u062A\u0635\u062F\u064A\u0631**: \u0631\u0641\u0639 \u0648\u062A\u0646\u0632\u064A\u0644 \u0645\u0644\u0641\u0627\u062A JSON\n- **\u0645\u062D\u0631\u0631 Monaco**: \u0645\u062F\u0639\u0648\u0645 \u0628\u0648\u0627\u0633\u0637\u0629 \u0645\u062D\u0631\u0631 VS Code \u0645\u0639 \u062A\u0645\u064A\u064A\u0632 \u0627\u0644\u0635\u064A\u063A\u0629\n\n\u0645\u062B\u0627\u0644\u064A \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646\u060C \u0627\u062E\u062A\u0628\u0627\u0631 API\u060C \u062A\u062D\u0644\u064A\u0644 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A\u060C \u0648\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u062A\u0643\u0648\u064A\u0646.",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1578,7 +1084,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1586,11 +1092,11 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-editor",
       "documentation": "https://docs.adwatek.com/tools/json-editor",
-      "downloads": 2,
+      "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:39.3191774",
-      "updatedAt": "2026-03-09T22:36:39.3191775",
+      "publishedAt": "2026-02-09T17:26:58.8895956",
+      "updatedAt": "2026-02-09T17:26:58.8895958",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1598,10 +1104,10 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-editor/1.0.0/package.adwatekplugin",
-          "packageSize": 788570,
-          "packageChecksum": "16e4313e5de3331a306ac218a0c45825e6ab45b5798b150bfa5634d389f24da9",
+          "packageSize": 1108650,
+          "packageChecksum": "34c9c91a68dec8d099748cc813036f8c43b7802b9fdc05e56e6ab87084c9e47e",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:39.3191774"
+          "publishedAt": "2026-02-09T17:26:58.8895956"
         }
       ]
     },
@@ -1614,15 +1120,15 @@
       "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648 .env \u0645\u0639 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0628\u0627\u062F\u0626\u0629 \u0648\u0627\u0644\u062D\u0627\u0644\u0629",
       "longDescription": "A bidirectional converter between JSON and environment variable (.env) formats. Perfect for managing configuration files and environment variables.\\n\\nFeatures:\\n- **JSON to ENV**: Flatten JSON objects to environment variables\\n- **ENV to JSON**: Parse .env files back to JSON\\n- **Custom Prefix**: Add prefixes to all environment variables\\n- **Case Control**: Toggle between uppercase and lowercase keys\\n- **Nested Objects**: Handles deeply nested JSON structures\\n- **Array Support**: Converts arrays to indexed environment variables",
       "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629 (.env). \u0645\u062B\u0627\u0644\u064A \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0648\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **JSON \u0625\u0644\u0649 ENV**: \u062A\u0633\u0637\u064A\u062D \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u064A\u0626\u0629\\n- **ENV \u0625\u0644\u0649 JSON**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0644\u0641\u0627\u062A .env \u0625\u0644\u0649 JSON\\n- **\u0628\u0627\u062F\u0626\u0629 \u0645\u062E\u0635\u0635\u0629**: \u0625\u0636\u0627\u0641\u0629 \u0628\u0627\u062F\u0626\u0627\u062A \u0644\u062C\u0645\u064A\u0639 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629\\n- **\u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A \u0627\u0644\u062D\u0627\u0644\u0629**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u064A\u0646 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0648\u0627\u0644\u0635\u063A\u064A\u0631\u0629\\n- **\u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629**: \u064A\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0647\u064A\u0627\u0643\u0644 JSON \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0628\u0639\u0645\u0642\\n- **\u062F\u0639\u0645 \u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A**: \u064A\u062D\u0648\u0644 \u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0625\u0644\u0649 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u064A\u0626\u0629 \u0645\u0641\u0647\u0631\u0633\u0629",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1641,7 +1147,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1650,19 +1156,19 @@
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:45.2384680",
-      "updatedAt": "2026-03-09T22:36:45.2384682",
+      "publishedAt": "2026-02-09T17:26:58.8991821",
+      "updatedAt": "2026-02-09T17:26:58.8991822",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-env/1.0.0/package.adwatekplugin",
-          "packageSize": 7221,
-          "packageChecksum": "65d3ac302d386bdc38e9c94c238d65ad4177ba3028d901569c6bbc333da9c66e",
+          "packageSize": 8245,
+          "packageChecksum": "7b3cbd49edcbf249b089ad782ad48f63269f56a526e42d4d0e2d5b4afc2afc59",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:45.2384680"
+          "publishedAt": "2026-02-09T17:26:58.8991821"
         }
       ]
     },
@@ -1675,15 +1181,15 @@
       "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 JSON \u0648 INI",
       "longDescription": "A bidirectional converter between JSON and INI configuration file formats. Perfect for managing application configuration files.\\n\\nFeatures:\\n- **JSON to INI**: Convert JSON objects to INI format\\n- **INI to JSON**: Parse INI files back to JSON\\n- **Nested Sections**: Handles nested objects as INI sections\\n- **Type Preservation**: Maintains data types during conversion\\n- **Comment Support**: Preserves comments in INI files\\n- **Section Hierarchy**: Supports dotted section names for deep nesting",
       "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 JSON \u0648 INI. \u0645\u062B\u0627\u0644\u064A \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0644\u0641\u0627\u062A \u062A\u0643\u0648\u064A\u0646 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **JSON \u0625\u0644\u0649 INI**: \u062A\u062D\u0648\u064A\u0644 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642 INI\\n- **INI \u0625\u0644\u0649 JSON**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0644\u0641\u0627\u062A INI \u0625\u0644\u0649 JSON\\n- **\u0627\u0644\u0623\u0642\u0633\u0627\u0645 \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629**: \u064A\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0643\u0623\u0642\u0633\u0627\u0645 INI\\n- **\u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0623\u0646\u0648\u0627\u0639**: \u064A\u062D\u0627\u0641\u0638 \u0639\u0644\u0649 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u062A\u062D\u0648\u064A\u0644\\n- **\u062F\u0639\u0645 \u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A**: \u064A\u062D\u0627\u0641\u0638 \u0639\u0644\u0649 \u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A \u0641\u064A \u0645\u0644\u0641\u0627\u062A INI\\n- **\u062A\u0633\u0644\u0633\u0644 \u0627\u0644\u0623\u0642\u0633\u0627\u0645**: \u064A\u062F\u0639\u0645 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0623\u0642\u0633\u0627\u0645 \u0627\u0644\u0645\u0646\u0642\u0637\u0629 \u0644\u0644\u062A\u062F\u0627\u062E\u0644 \u0627\u0644\u0639\u0645\u064A\u0642",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1701,7 +1207,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1710,19 +1216,19 @@
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:49.5551441",
-      "updatedAt": "2026-03-09T22:36:49.5551442",
+      "publishedAt": "2026-02-09T17:26:58.9133504",
+      "updatedAt": "2026-02-09T17:26:58.9133511",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-ini/1.0.0/package.adwatekplugin",
-          "packageSize": 6892,
-          "packageChecksum": "de867dc323eaa58b0998f6f22e5e00bbd5c791cc35496254d38a2d97f19495d5",
+          "packageSize": 7877,
+          "packageChecksum": "6a8ab10d2f52c163a081dbc2f4d7b281ba343025c68b5d6bdd355c759b15d6bf",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:49.5551441"
+          "publishedAt": "2026-02-09T17:26:58.9133504"
         }
       ]
     },
@@ -1735,15 +1241,15 @@
       "descriptionAr": "\u062A\u0634\u0648\u064A\u0634 \u0648\u0625\u062E\u0641\u0627\u0621 \u0627\u0644\u0642\u064A\u0645 \u0627\u0644\u062D\u0633\u0627\u0633\u0629 \u0641\u064A \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0645\u0639 \u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u064A\u0629",
       "longDescription": "Scramble and mask sensitive values in JSON data while preserving structure",
       "longDescriptionAr": "Scramble and mask sensitive values in JSON data while preserving structure",
-      "categoryId": "security",
+      "categoryId": "json",
       "category": {
-        "id": "security",
-        "name": "Security",
-        "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
-        "description": "Security and encryption tools",
-        "icon": "\uD83D\uDD12",
-        "color": "#EF4444",
-        "order": 6
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1760,7 +1266,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1769,19 +1275,19 @@
       "downloads": 12,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:53.9523852",
-      "updatedAt": "2026-03-09T22:36:53.9523853",
+      "publishedAt": "2026-02-09T17:26:58.9249403",
+      "updatedAt": "2026-02-09T17:26:58.9249404",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-obfuscator/1.0.0/package.adwatekplugin",
-          "packageSize": 4375,
-          "packageChecksum": "a5e8e162f72ae9fdbe8c6d53cbe25876fd270d58a13eb823a894ba2fe51b673a",
+          "packageSize": 4304,
+          "packageChecksum": "a2f0aef69e137d56697b1bb40d1cec42e8089c94bd5cc0f901532345524047d7",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:53.9523852"
+          "publishedAt": "2026-02-09T17:26:58.9249403"
         }
       ]
     },
@@ -1794,15 +1300,15 @@
       "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648 Apple Property List (XML)",
       "longDescription": "Convert between JSON and Apple Property List (XML) formats",
       "longDescriptionAr": "Convert between JSON and Apple Property List (XML) formats",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1820,28 +1326,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 4,
+      "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:36:58.1930475",
-      "updatedAt": "2026-03-09T22:36:58.1930476",
+      "publishedAt": "2026-02-09T17:26:58.9336305",
+      "updatedAt": "2026-02-09T17:26:58.9336306",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-plist/1.0.0/package.adwatekplugin",
-          "packageSize": 6720,
-          "packageChecksum": "4d26d3800b2632c117d3d85aae569f197d47ec4438ef45081d4a30dc15758002",
+          "packageSize": 7686,
+          "packageChecksum": "b49d2de5c8c93e9475b30d36705108591862326dc83b6d7f79f410a1d7f2d427",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:36:58.1930475"
+          "publishedAt": "2026-02-09T17:26:58.9336305"
         }
       ]
     },
@@ -1854,15 +1360,15 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u062C\u0645\u0644 SQL (\u0625\u0646\u0634\u0627\u0621 \u062C\u062F\u0627\u0648\u0644 \u0648\u0625\u062F\u0631\u0627\u062C \u0628\u064A\u0627\u0646\u0627\u062A) \u0644\u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A PostgreSQL \u0648 MySQL \u0648 SQLite \u0648 SQL Server.",
       "longDescription": "Transform your JSON data into ready-to-use SQL statements for any major database.\\n\\nFeatures:\\n- **\uD83D\uDDC4\uFE0F Multiple Databases**: PostgreSQL, MySQL, SQLite, SQL Server support\\n- **\uD83D\uDCDD CREATE TABLE**: Auto-generates table schemas from JSON structure\\n- **\uD83D\uDCE5 INSERT Statements**: Creates INSERT statements for your data\\n- **\uD83D\uDD04 Type Inference**: Automatically detects column types from values\\n- **\uD83D\uDCCB Copy Output**: One-click copy for generated SQL",
       "longDescriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643 \u0625\u0644\u0649 \u062C\u0645\u0644 SQL \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0644\u0623\u064A \u0642\u0627\u0639\u062F\u0629 \u0628\u064A\u0627\u0646\u0627\u062A \u0631\u0626\u064A\u0633\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDDC4\uFE0F \u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062F\u0639\u0645 PostgreSQL \u0648 MySQL \u0648 SQLite \u0648 SQL Server\\n- **\uD83D\uDCDD \u0625\u0646\u0634\u0627\u0621 \u0627\u0644\u062C\u062F\u0627\u0648\u0644**: \u062A\u0648\u0644\u064A\u062F \u062A\u0644\u0642\u0627\u0626\u064A \u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062C\u062F\u0648\u0644 \u0645\u0646 \u0628\u0646\u064A\u0629 JSON\\n- **\uD83D\uDCE5 \u062C\u0645\u0644 \u0627\u0644\u0625\u062F\u0631\u0627\u062C**: \u0625\u0646\u0634\u0627\u0621 \u062C\u0645\u0644 INSERT \u0644\u0628\u064A\u0627\u0646\u0627\u062A\u0643\\n- **\uD83D\uDD04 \u0627\u0633\u062A\u0646\u062A\u0627\u062C \u0627\u0644\u0623\u0646\u0648\u0627\u0639**: \u0627\u0644\u0643\u0634\u0641 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0639\u0646 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0623\u0639\u0645\u062F\u0629 \u0645\u0646 \u0627\u0644\u0642\u064A\u0645\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0627\u0644\u0625\u062E\u0631\u0627\u062C**: \u0646\u0633\u062E \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629 \u0644\u0640 SQL \u0627\u0644\u0645\u0648\u0644\u062F",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1883,28 +1389,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 4,
+      "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:02.4819671",
-      "updatedAt": "2026-03-09T22:37:02.4819673",
+      "publishedAt": "2026-02-09T17:26:58.9448701",
+      "updatedAt": "2026-02-09T17:26:58.9448702",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-sql-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 7535,
-          "packageChecksum": "6cdae4b34de91ccd33232e73cd3749d6207c7e4c0f5ea3f50668fae83ef177a3",
+          "packageSize": 18516,
+          "packageChecksum": "2a4394d2559b60bb751771f5ea372d5df968e0ee6ab9993625af6a24e07e0bce",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:02.4819671"
+          "publishedAt": "2026-02-09T17:26:58.9448701"
         }
       ]
     },
@@ -1917,15 +1423,15 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 JSON \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642 \u0646\u0635\u064A \u0645\u0636\u063A\u0648\u0637 \u0648\u0642\u0627\u0628\u0644 \u0644\u0644\u0642\u0631\u0627\u0621\u0629 (Toon)",
       "longDescription": "Convert JSON to a compact, human-readable text format (Toon)",
       "longDescriptionAr": "Convert JSON to a compact, human-readable text format (Toon)",
-      "categoryId": "data",
+      "categoryId": "json",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "json",
+        "name": "JSON Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
+        "description": "Tools for working with JSON data",
+        "icon": "\uD83D\uDCCB",
+        "color": "#10B981",
+        "order": 1
       },
       "keywords": [
         "json",
@@ -1942,28 +1448,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 3,
+      "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:06.7473138",
-      "updatedAt": "2026-03-09T22:37:06.7473139",
+      "publishedAt": "2026-02-09T17:26:58.9604549",
+      "updatedAt": "2026-02-09T17:26:58.9604551",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-toon/1.0.0/package.adwatekplugin",
-          "packageSize": 7406,
-          "packageChecksum": "30a4ac0ce29fa584ccba53d22b7562c6c3189904a4fb402e4ab7cd530852e2eb",
+          "packageSize": 8616,
+          "packageChecksum": "aadc99444b5022510e5fb4c2f8481214fa6ffaecb3cf542ae87559f1050f2918",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:06.7473138"
+          "publishedAt": "2026-02-09T17:26:58.9604549"
         }
       ]
     },
@@ -1976,7 +1482,16 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 JSON \u0625\u0644\u0649 \u062A\u0639\u0631\u064A\u0641\u0627\u062A TypeScript, Zod, JSON Schema, io-ts, \u0648 Yup.",
       "longDescription": "Instantly generate type definitions and schemas from your JSON data.\n\nSupported output formats:\n- **TypeScript**: Interfaces and types\n- **Zod**: Runtime validation schemas\n- **JSON Schema**: Standard JSON Schema definitions\n- **io-ts**: Runtime type system codecs\n- **Yup**: Object schema validation\n\nFeatures:\n- **Real-time Conversion**: See results as you type\n- **Smart Inference**: Detects dates, integers, and common patterns\n- **Customizable**: Toggle optional properties, export keywords, and more\n- **Monaco Editor**: High-performance editor with syntax highlighting",
       "longDescriptionAr": "\u062A\u0648\u0644\u064A\u062F \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0641\u0648\u0631\u064A\u0627\u064B \u0645\u0646 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.\n\n\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0627\u0644\u0625\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u062F\u0639\u0648\u0645\u0629:\n- **TypeScript**: \u0648\u0627\u062C\u0647\u0627\u062A \u0648\u0623\u0646\u0648\u0627\u0639\n- **Zod**: \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u062D\u0642\u0642 \u0641\u064A \u0648\u0642\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644\n- **JSON Schema**: \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0645\u062E\u0637\u0637 JSON \u0627\u0644\u0642\u064A\u0627\u0633\u064A\u0629\n- **io-ts**: \u0628\u0631\u0627\u0645\u062C \u062A\u0631\u0645\u064A\u0632 \u0646\u0638\u0627\u0645 \u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0641\u064A \u0648\u0642\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644\n- **Yup**: \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0645\u062E\u0637\u0637 \u0627\u0644\u0643\u0627\u0626\u0646\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062A\u062D\u0648\u064A\u0644 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A**: \u0631\u0624\u064A\u0629 \u0627\u0644\u0646\u062A\u0627\u0626\u062C \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0643\u062A\u0627\u0628\u0629\n- **\u0627\u0633\u062A\u062F\u0644\u0627\u0644 \u0630\u0643\u064A**: \u064A\u0643\u062A\u0634\u0641 \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E \u0648\u0627\u0644\u0623\u0639\u062F\u0627\u062F \u0627\u0644\u0635\u062D\u064A\u062D\u0629 \u0648\u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0634\u0627\u0626\u0639\u0629\n- **\u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u062E\u0635\u064A\u0635**: \u062A\u0628\u062F\u064A\u0644 \u0627\u0644\u062E\u0635\u0627\u0626\u0635 \u0627\u0644\u0627\u062E\u062A\u064A\u0627\u0631\u064A\u0629\u060C \u0648\u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F\n- **\u0645\u062D\u0631\u0631 Monaco**: \u0645\u062D\u0631\u0631 \u0639\u0627\u0644\u064A \u0627\u0644\u0623\u062F\u0627\u0621 \u0645\u0639 \u062A\u0645\u064A\u064A\u0632 \u0627\u0644\u0635\u064A\u063A\u0629",
-      "categoryId": "other",
+      "categoryId": "converters",
+      "category": {
+        "id": "converters",
+        "name": "Converters",
+        "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
+        "description": "Convert between different formats",
+        "icon": "\uD83D\uDD04",
+        "color": "#8B5CF6",
+        "order": 3
+      },
       "keywords": [
         "json",
         "typescript",
@@ -1995,7 +1510,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -2003,22 +1518,22 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-to-types",
       "documentation": "https://docs.adwatek.com/tools/json-to-types",
-      "downloads": 2,
+      "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:11.9604299",
-      "updatedAt": "2026-03-09T22:37:11.9604300",
+      "publishedAt": "2026-02-09T17:26:58.9792477",
+      "updatedAt": "2026-02-09T17:26:58.9792479",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-types/1.0.0/package.adwatekplugin",
-          "packageSize": 59401,
-          "packageChecksum": "f1ce47431a2af2b9cb3205765245f13475acc3b509e4c0ce2066aee841594032",
+          "packageSize": 86348,
+          "packageChecksum": "068c29c776b9e5aee10f756bbd6a22d791b3fa5c12458eef235a54bba420b8f1",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:11.9604299"
+          "publishedAt": "2026-02-09T17:26:58.9792477"
         }
       ]
     },
@@ -2059,28 +1574,28 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 11,
+      "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:16.8874582",
-      "updatedAt": "2026-03-09T22:37:16.8874583",
+      "publishedAt": "2026-02-09T17:26:58.9911740",
+      "updatedAt": "2026-02-09T17:26:58.9911742",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/jwt-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 7065,
-          "packageChecksum": "8536f06b428b110e0f2ef1256bfbd0cba0345d25d29546a886cf2a7b831e7ebe",
+          "packageSize": 16937,
+          "packageChecksum": "3a2bf4e5f126cb8c2416bf92dc0429db4bc52357be77f93b37891f7e924fe0fd",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:16.8874582"
+          "publishedAt": "2026-02-09T17:26:58.9911740"
         }
       ]
     },
@@ -2093,7 +1608,16 @@
       "descriptionAr": "\u0645\u062D\u0631\u0631 \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u060C \u0648\u0645\u0639\u0627\u064A\u0646\u0629 \u0645\u0628\u0627\u0634\u0631\u0629\u060C \u0648\u0645\u062D\u0648\u0644 HTML.",
       "longDescription": "A complete environment for creating and converting markdown documents.\\n\\nFeatures:\\n- **\uD83D\uDCDD Side-by-Side Editor**: Write markdown with immediate visual feedback.\\n- **\uD83D\uDD17 HTML Converter**: Advanced bidirectional conversion between HTML and Markdown.\\n- **\uD83D\uDCE5 Export Options**: Download your work as .md or .html files.\\n- **\uD83C\uDFA8 Styled Preview**: Clean, consistent typography for previewing your content.\\n- **\uD83D\uDE80 Ready Samples**: Quick templates to get you started.",
       "longDescriptionAr": "\u0628\u064A\u0626\u0629 \u0645\u062A\u0643\u0627\u0645\u0644\u0629 \u0644\u0625\u0646\u0634\u0627\u0621 \u0648\u062A\u062D\u0648\u064A\u0644 \u0645\u0633\u062A\u0646\u062F\u0627\u062A \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCDD \u0645\u062D\u0631\u0631 \u062C\u0646\u0628\u0627\u064B \u0625\u0644\u0649 \u062C\u0646\u0628**: \u0627\u0643\u062A\u0628 \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646 \u0645\u0639 \u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0645\u0631\u0626\u064A\u0629 \u0641\u0648\u0631\u064A\u0629.\\n- **\uD83D\uDD17 \u0645\u062D\u0648\u0644 HTML**: \u062A\u062D\u0648\u064A\u0644 \u0645\u062A\u0642\u062F\u0645 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 HTML \u0648 Markdown.\\n- **\uD83D\uDCE5 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u062A\u0635\u062F\u064A\u0631**: \u0642\u0645 \u0628\u062A\u0646\u0632\u064A\u0644 \u0639\u0645\u0644\u0643 \u0643\u0645\u0644\u0641\u0627\u062A .md \u0623\u0648 .html.\\n- **\uD83C\uDFA8 \u0645\u0639\u0627\u064A\u0646\u0629 \u0645\u0646\u0633\u0642\u0629**: \u0637\u0628\u0627\u0639\u0629 \u0646\u0638\u064A\u0641\u0629 \u0648\u0645\u062A\u0633\u0642\u0629 \u0644\u0645\u0639\u0627\u064A\u0646\u0629 \u0627\u0644\u0645\u062D\u062A\u0648\u0649 \u0627\u0644\u062E\u0627\u0635 \u0628\u0643.\\n- **\uD83D\uDE80 \u0639\u064A\u0646\u0627\u062A \u062C\u0627\u0647\u0632\u0629**: \u0642\u0648\u0627\u0644\u0628 \u0633\u0631\u064A\u0639\u0629 \u0644\u062A\u0628\u062F\u0623 \u0627\u0644\u0639\u0645\u0644 \u0628\u0647\u0627.",
-      "categoryId": "other",
+      "categoryId": "frontend",
+      "category": {
+        "id": "frontend",
+        "name": "Frontend",
+        "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
+        "description": "Frontend development tools",
+        "icon": "\uD83C\uDFA8",
+        "color": "#EC4899",
+        "order": 5
+      },
       "keywords": [
         "markdown",
         "editor",
@@ -2111,17 +1635,17 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 10,
+      "downloads": 25,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:21.7820548",
-      "updatedAt": "2026-03-09T22:37:21.7820554",
+      "publishedAt": "2026-02-09T17:26:59.0067234",
+      "updatedAt": "2026-02-09T17:26:59.0067236",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2129,84 +1653,31 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/markdown-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 24659,
-          "packageChecksum": "6457f747098d438399c1735a8a2359f4005ed98f0b3cdf5dfd9dd75f30f2beaa",
+          "packageSize": 74786,
+          "packageChecksum": "7074910cf09255f763d75d85606f8963eb605abc806dfb5e68660e0b54552aeb",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:21.7820548"
-        }
-      ]
-    },
-    {
-      "id": "media-downloader",
-      "latestVersion": "1.0.0",
-      "name": "Media Downloader",
-      "nameAr": "\u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
-      "description": "Download videos from YouTube and Facebook with various qualities.",
-      "descriptionAr": "\u062A\u062D\u0645\u064A\u0644 \u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0641\u064A\u062F\u064A\u0648 \u0645\u0646 \u064A\u0648\u062A\u064A\u0648\u0628 \u0648\u0641\u064A\u0633\u0628\u0648\u0643 \u0628\u062C\u0648\u062F\u0627\u062A \u0645\u062E\u062A\u0644\u0641\u0629.",
-      "longDescription": "Download videos from YouTube and Facebook with various qualities.",
-      "longDescriptionAr": "Download videos from YouTube and Facebook with various qualities.",
-      "categoryId": "media",
-      "category": {
-        "id": "media",
-        "name": "Media Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
-        "description": "Image, video, and audio processing tools",
-        "icon": "\uD83C\uDFAC",
-        "color": "#BE185D",
-        "order": 12
-      },
-      "keywords": [],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDCE5",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:25.9106940",
-      "updatedAt": "2026-03-09T22:37:25.9106941",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/media-downloader/1.0.0/package.adwatekplugin",
-          "packageSize": 49133,
-          "packageChecksum": "69b2c0474c91ac15328c0797aa2769d793f21b52f9547f386ed1484fb397d8de",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:25.9106940"
+          "publishedAt": "2026-02-09T17:26:59.0067234"
         }
       ]
     },
     {
       "id": "mermaid-editor",
-      "latestVersion": "1",
-      "name": "Mermaid Editor",
-      "nameAr": "\u0645\u062D\u0631\u0631 Mermaid",
+      "latestVersion": "1.0.0",
+      "name": "Mermaid",
+      "nameAr": "Mermaid",
       "description": "Interactive diagram editor supporting flowcharts, sequence diagrams, Gantt charts, and more using Mermaid.js",
       "descriptionAr": "\u0645\u062D\u0631\u0631 \u062A\u0641\u0627\u0639\u0644\u064A \u0644\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0628\u064A\u0627\u0646\u064A\u0629 \u064A\u062F\u0639\u0645 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0627\u0646\u0633\u064A\u0627\u0628\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A\u0629\u060C \u0648\u0645\u062E\u0637\u0637\u0627\u062A \u063A\u0627\u0646\u062A\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 Mermaid.js",
       "longDescription": "Create and edit beautiful diagrams with live preview. Supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, Gantt charts, pie charts, and more. Features syntax highlighting, real-time rendering, export to SVG/PNG, and template library.",
       "longDescriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u062A\u062D\u0631\u064A\u0631 \u0631\u0633\u0648\u0645 \u0628\u064A\u0627\u0646\u064A\u0629 \u062C\u0645\u064A\u0644\u0629 \u0645\u0639 \u0645\u0639\u0627\u064A\u0646\u0629 \u062D\u064A\u0629. \u064A\u062F\u0639\u0645 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0627\u0646\u0633\u064A\u0627\u0628\u064A\u0629\u060C \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A\u0629\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0641\u0626\u0627\u062A\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062D\u0627\u0644\u0629\u060C \u0645\u062E\u0637\u0637\u0627\u062A ER\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u063A\u0627\u0646\u062A\u060C \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062F\u0627\u0626\u0631\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F. \u064A\u062A\u0645\u064A\u0632 \u0628\u062A\u0645\u064A\u064A\u0632 \u0627\u0644\u0635\u064A\u063A\u0629\u060C \u0627\u0644\u0639\u0631\u0636 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A\u060C \u0627\u0644\u062A\u0635\u062F\u064A\u0631 \u0625\u0644\u0649 SVG/PNG\u060C \u0648\u0645\u0643\u062A\u0628\u0629 \u0627\u0644\u0642\u0648\u0627\u0644\u0628.",
-      "categoryId": "design",
+      "categoryId": "diagram",
       "category": {
-        "id": "design",
-        "name": "Design",
-        "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
-        "color": "#8B5CF6",
-        "order": 11
+        "id": "diagram",
+        "name": "Diagrams",
+        "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
+        "description": "Diagram and flowchart tools",
+        "icon": "\uD83D\uDCD0",
+        "color": "#F97316",
+        "order": 9
       },
       "keywords": [
         "mermaid",
@@ -2226,7 +1697,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -2234,23 +1705,15 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/mermaid-editor",
       "documentation": "https://docs.adwatek.com/tools/mermaid-editor",
-      "downloads": 4,
+      "downloads": 18,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:31.4135494",
-      "updatedAt": "2026-03-09T22:37:31.4135495",
+      "publishedAt": "2026-02-09T17:26:59.0206090",
+      "updatedAt": "2026-02-09T17:26:59.0206092",
       "isFeatured": false,
-      "allowPublicDemo": false,
+      "allowPublicDemo": true,
       "videoUrls": [],
       "versions": [
-        {
-          "version": "1",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mermaid-editor/1/package.adwatekplugin",
-          "packageSize": 1033568,
-          "packageChecksum": "42520fcf27f7d7be9d1c7ef214ceaee29b00d2a470b038be357b00095aa44bae",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:31.4135494"
-        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mermaid-editor/1.0.0/package.adwatekplugin",
@@ -2258,465 +1721,6 @@
           "packageChecksum": "fd81045d136e0906a3f6fe9b647b3f29877f0d925d64e904a63b598ac8d8c23e",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:59.0206090"
-        }
-      ]
-    },
-    {
-      "id": "mock-api-generator",
-      "latestVersion": "1.0.0",
-      "name": "Mock API",
-      "nameAr": "API \u0648\u0647\u0645\u064A",
-      "description": "Create and manage mock REST APIs with entity-based endpoints and Swagger documentation",
-      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u0625\u062F\u0627\u0631\u0629 \u0648\u0627\u062C\u0647\u0627\u062A REST API \u0648\u0647\u0645\u064A\u0629 \u0645\u0639 \u0646\u0642\u0627\u0637 \u0646\u0647\u0627\u064A\u0629 \u0642\u0627\u0626\u0645\u0629 \u0639\u0644\u0649 \u0627\u0644\u0643\u064A\u0627\u0646\u0627\u062A \u0648\u0648\u062B\u0627\u0626\u0642 Swagger",
-      "longDescription": "A powerful tool for creating mock API servers for frontend development and testing.\\n\\nFeatures:\\n- **\uD83C\uDFD7\uFE0F Entity-Based Design**: Create entities (Users, Products, Orders) with auto-generated CRUD endpoints\\n- **\uD83D\uDCDD Response Types**: Fixed, Dynamic, Conditional, and Generated response modes\\n- **\uD83D\uDCC4 OpenAPI/Swagger**: Auto-generates OpenAPI 3.0 specifications\\n- **\uD83D\uDCE5 Import Support**: Import from Swagger/OpenAPI or Postman collections\\n- **\uD83C\uDFA8 Template Variables**: Use {{params.id}}, {{body.field}}, {{timestamp}} for dynamic responses\\n- **\u23F1\uFE0F Response Delay**: Simulate network latency\\n- **\uD83D\uDD12 Auth Simulation**: Mark endpoints as requiring authentication",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0642\u0648\u064A\u0629 \u0644\u0625\u0646\u0634\u0627\u0621 \u062E\u0648\u0627\u062F\u0645 API \u0648\u0647\u0645\u064A\u0629 \u0644\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062E\u062A\u0628\u0627\u0631 \u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83C\uDFD7\uFE0F \u0627\u0644\u062A\u0635\u0645\u064A\u0645 \u0627\u0644\u0642\u0627\u0626\u0645 \u0639\u0644\u0649 \u0627\u0644\u0643\u064A\u0627\u0646\u0627\u062A**: \u0625\u0646\u0634\u0627\u0621 \u0643\u064A\u0627\u0646\u0627\u062A (\u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u064A\u0646\u060C \u0627\u0644\u0645\u0646\u062A\u062C\u0627\u062A\u060C \u0627\u0644\u0637\u0644\u0628\u0627\u062A) \u0645\u0639 \u0646\u0642\u0627\u0637 \u0646\u0647\u0627\u064A\u0629 CRUD \u0645\u064F\u0648\u0644\u064E\u0651\u062F\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B\\n- **\uD83D\uDCDD \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u0623\u0648\u0636\u0627\u0639 \u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u062B\u0627\u0628\u062A\u0629 \u0648\u062F\u064A\u0646\u0627\u0645\u064A\u0643\u064A\u0629 \u0648\u0634\u0631\u0637\u064A\u0629 \u0648\u0645\u064F\u0648\u0644\u064E\u0651\u062F\u0629\\n- **\uD83D\uDCC4 OpenAPI/Swagger**: \u062A\u0648\u0644\u064A\u062F \u062A\u0644\u0642\u0627\u0626\u064A \u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI 3.0\\n- **\uD83D\uDCE5 \u062F\u0639\u0645 \u0627\u0644\u0627\u0633\u062A\u064A\u0631\u0627\u062F**: \u0627\u0633\u062A\u064A\u0631\u0627\u062F \u0645\u0646 \u0645\u062C\u0645\u0648\u0639\u0627\u062A Swagger/OpenAPI \u0623\u0648 Postman\\n- **\uD83C\uDFA8 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0642\u0627\u0644\u0628**: \u0627\u0633\u062A\u062E\u062F\u0627\u0645 {{params.id}}\u060C {{body.field}}\u060C {{timestamp}} \u0644\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0627\u062A \u0627\u0644\u062F\u064A\u0646\u0627\u0645\u064A\u0643\u064A\u0629\\n- **\u23F1\uFE0F \u062A\u0623\u062E\u064A\u0631 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u0645\u062D\u0627\u0643\u0627\u0629 \u062A\u0623\u062E\u0631 \u0627\u0644\u0634\u0628\u0643\u0629\\n- **\uD83D\uDD12 \u0645\u062D\u0627\u0643\u0627\u0629 \u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629**: \u0648\u0636\u0639 \u0639\u0644\u0627\u0645\u0629 \u0639\u0644\u0649 \u0646\u0642\u0627\u0637 \u0627\u0644\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u062A\u064A \u062A\u062A\u0637\u0644\u0628 \u0645\u0635\u0627\u062F\u0642\u0629",
-      "categoryId": "other",
-      "keywords": [
-        "mock",
-        "api",
-        "rest",
-        "swagger",
-        "openapi",
-        "postman",
-        "testing",
-        "development",
-        "server",
-        "endpoints"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDEE0\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 16,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:38.4966796",
-      "updatedAt": "2026-03-11T03:10:41.1961285Z",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mock-api-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 23463,
-          "packageChecksum": "94f6e85b831b784e679f3857b1a6e60193f3ee8cd3eeb335460d67f1af18a4d8",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:38.4966796"
-        }
-      ]
-    },
-    {
-      "id": "prompt-builder",
-      "latestVersion": "1.0.0",
-      "name": "Prompt Builder",
-      "nameAr": "\u0645\u0646\u0634\u0626 \u0627\u0644\u0623\u0648\u0627\u0645\u0631",
-      "description": "Generate effective prompts for AI coding assistants.",
-      "descriptionAr": "\u0642\u0645 \u0628\u0625\u0646\u0634\u0627\u0621 \u0623\u0648\u0627\u0645\u0631 \u0641\u0639\u0627\u0644\u0629 \u0644\u0645\u0633\u0627\u0639\u062F\u064A \u0627\u0644\u062A\u0631\u0645\u064A\u0632 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A.",
-      "longDescription": "A tool to craft precise, structured prompts for AI models like Claude, ChatGPT, and Gemini, tailored for software development contexts.",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0644\u0635\u064A\u0627\u063A\u0629 \u0623\u0648\u0627\u0645\u0631 \u062F\u0642\u064A\u0642\u0629 \u0648\u0645\u0647\u064A\u0643\u0644\u0629 \u0644\u0646\u0645\u0627\u0630\u062C \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0645\u062B\u0644 Claude \u0648 ChatGPT \u0648 Gemini\u060C \u0645\u0635\u0645\u0645\u0629 \u062E\u0635\u064A\u0635\u064B\u0627 \u0644\u0633\u064A\u0627\u0642\u0627\u062A \u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A.",
-      "categoryId": "other",
-      "keywords": [
-        "prompt",
-        "ai",
-        "generator",
-        "claude",
-        "chatgpt",
-        "gemini"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83E\uDD16",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "price": 0,
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 3,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:43.5217338",
-      "updatedAt": "2026-03-09T22:37:43.5217339",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/prompt-builder/1.0.0/package.adwatekplugin",
-          "packageSize": 15916,
-          "packageChecksum": "a205912f1519fb4efd8e27f5a6c48b8caf5f34b0a4b43b1eb24284776572efc7",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:43.5217338"
-        }
-      ]
-    },
-    {
-      "id": "quick-urls",
-      "latestVersion": "1.0.0",
-      "name": "Quick Urls",
-      "nameAr": "\u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0633\u0631\u064A\u0639\u0629",
-      "description": "Manage your favorite URLs with descriptions, icons, and folders.",
-      "descriptionAr": "\u0623\u062F\u0631 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0645\u0641\u0636\u0644\u0629 \u0644\u062F\u064A\u0643 \u0645\u0639 \u0627\u0644\u0623\u0648\u0635\u0627\u0641 \u0648\u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0648\u0627\u0644\u0645\u062C\u0644\u062F\u0627\u062A.",
-      "longDescription": "A simple and modern tool to manage your quick URLs. \n\nFeatures:\n- **Add/Edit/Delete**: Easily manage your URLs.\n- **Folders**: Organize URLs into folders.\n- **Icons**: Assign icons to your URLs for better recognition.\n- **Search**: Quickly find the URL you need.\n- **AI Integration**: Ask the AI to add or find URLs for you.",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0628\u0633\u064A\u0637\u0629 \u0648\u062D\u062F\u064A\u062B\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0633\u0631\u064A\u0639\u0629 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u0625\u0636\u0627\u0641\u0629/\u062A\u0639\u062F\u064A\u0644/\u062D\u0630\u0641**: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0628\u0633\u0647\u0648\u0644\u0629.\n- **\u0645\u062C\u0644\u062F\u0627\u062A**: \u062A\u0646\u0638\u064A\u0645 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0641\u064A \u0645\u062C\u0644\u062F\u0627\u062A.\n- **\u0623\u064A\u0642\u0648\u0646\u0627\u062A**: \u062A\u0639\u064A\u064A\u0646 \u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0644\u0644\u0631\u0648\u0627\u0628\u0637 \u0644\u062A\u0645\u064A\u064A\u0632 \u0623\u0641\u0636\u0644.\n- **\u0628\u062D\u062B**: \u0627\u0644\u0639\u062B\u0648\u0631 \u0628\u0633\u0631\u0639\u0629 \u0639\u0644\u0649 \u0627\u0644\u0631\u0627\u0628\u0637 \u0627\u0644\u0630\u064A \u062A\u062D\u062A\u0627\u062C\u0647.\n- **\u062A\u0643\u0627\u0645\u0644 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A**: \u0627\u0637\u0644\u0628 \u0645\u0646 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0625\u0636\u0627\u0641\u0629 \u0623\u0648 \u0627\u0644\u0628\u062D\u062B \u0639\u0646 \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0644\u0643.",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
-      },
-      "keywords": [],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDD17",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:48.5515931",
-      "updatedAt": "2026-03-09T22:37:48.5515932",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/quick-urls/1.0.0/package.adwatekplugin",
-          "packageSize": 53151,
-          "packageChecksum": "43c9da19f5707be97228701eefb74fc4263e9c41c9a1fe503f87a1dd6249c506",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:48.5515931"
-        }
-      ]
-    },
-    {
-      "id": "regex-tester",
-      "latestVersion": "1.0.0",
-      "name": "Regex Tester",
-      "nameAr": "\u0645\u062E\u062A\u0628\u0631 \u0627\u0644\u062A\u0639\u0627\u0628\u064A\u0631 \u0627\u0644\u0646\u0645\u0637\u064A\u0629",
-      "description": "Test, debug, and optimize regular expressions in real-time.",
-      "descriptionAr": "\u0627\u062E\u062A\u0628\u0631 \u0648\u0635\u062D\u062D \u0648\u062D\u0633\u0646 \u0627\u0644\u062A\u0639\u0627\u0628\u064A\u0631 \u0627\u0644\u0646\u0645\u0637\u064A\u0629 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A.",
-      "longDescription": "Test, debug, and optimize regular expressions in real-time.",
-      "longDescriptionAr": "Test, debug, and optimize regular expressions in real-time.",
-      "categoryId": "other",
-      "keywords": [],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDD0D",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 1,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:53.1238908",
-      "updatedAt": "2026-03-09T22:37:53.1238909",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/regex-tester/1.0.0/package.adwatekplugin",
-          "packageSize": 42505,
-          "packageChecksum": "da3406dfe3f79735b1754630269b1ed639fd6e2598d8e0423af7b56dbba98fa2",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:53.1238908"
-        }
-      ]
-    },
-    {
-      "id": "security-tools",
-      "latestVersion": "1.0.0",
-      "name": "Security Tools",
-      "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u062D\u0645\u0627\u064A\u0629",
-      "description": "Essential security tools: Password analysis, encryption, and secure generation.",
-      "descriptionAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064A\u0629: \u062A\u062D\u0644\u064A\u0644 \u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u0631\u0648\u0631\u060C \u0627\u0644\u062A\u0634\u0641\u064A\u0631\u060C \u0648\u0627\u0644\u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0622\u0645\u0646.",
-      "longDescription": "A comprehensive suite for individual and professional security needs.\\n\\nFeatures:\\n- **\uD83D\uDEE1\uFE0F Password Analysis**: Entropy calculation, pattern detection, and strength scoring.\\n- **\uD83D\uDD10 Multi-Algo Encryption**: AES-256, DES, 3DES, and Rabbit ciphers with custom keys.\\n- **\uD83C\uDFB2 Secure Generator**: Cryptographically secure random passwords with configurable complexity.\\n- **\uD83D\uDCA1 Security Tips**: Live suggestions to improve your password habits.\\n- **\uD83D\uDD12 Local Only**: No data ever leaves your device.",
-      "longDescriptionAr": "\u0645\u062C\u0645\u0648\u0639\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u0627\u062D\u062A\u064A\u0627\u062C\u0627\u062A \u0627\u0644\u062D\u0645\u0627\u064A\u0629 \u0627\u0644\u0641\u0631\u062F\u064A\u0629 \u0648\u0627\u0644\u0645\u0647\u0646\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDEE1\uFE0F \u062A\u062D\u0644\u064A\u0644 \u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631**: \u062D\u0633\u0627\u0628 \u0627\u0644\u0639\u0634\u0648\u0627\u0626\u064A\u0629 (Entropy)\u060C \u0648\u0643\u0634\u0641 \u0627\u0644\u0623\u0646\u0645\u0627\u0637\u060C \u0648\u0642\u064A\u0627\u0633 \u0627\u0644\u0642\u0648\u0629.\\n- **\uD83D\uDD10 \u062A\u0634\u0641\u064A\u0631 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u062E\u0648\u0627\u0631\u0632\u0645\u064A\u0627\u062A**: AES-256 \u0648 DES \u0648 3DES \u0648 Rabbit \u0645\u0639 \u0645\u0641\u0627\u062A\u064A\u062D \u0645\u062E\u0635\u0635\u0629.\\n- **\uD83C\uDFB2 \u0645\u0648\u0644\u062F \u0622\u0645\u0646**: \u0643\u0644\u0645\u0627\u062A \u0645\u0631\u0648\u0631 \u0639\u0634\u0648\u0627\u0626\u064A\u0629 \u0622\u0645\u0646\u0629 \u0645\u0634\u0641\u0631\u0629 \u0645\u0639 \u062A\u0639\u0642\u064A\u062F \u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u0647\u064A\u0626\u0629.\\n- **\uD83D\uDCA1 \u0646\u0635\u0627\u0626\u062D \u0627\u0644\u062D\u0645\u0627\u064A\u0629**: \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u062A \u0645\u0628\u0627\u0634\u0631\u0629 \u0644\u062A\u062D\u0633\u064A\u0646 \u0639\u0627\u062F\u0627\u062A \u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u0631\u0648\u0631 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.\\n- **\uD83D\uDD12 \u0645\u062D\u0644\u064A \u0641\u0642\u0637**: \u0644\u0627 \u062A\u063A\u0627\u062F\u0631 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u062C\u0647\u0627\u0632\u0643 \u0623\u0628\u062F\u0627\u064B.",
-      "categoryId": "security",
-      "category": {
-        "id": "security",
-        "name": "Security",
-        "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
-        "description": "Security and encryption tools",
-        "icon": "\uD83D\uDD12",
-        "color": "#EF4444",
-        "order": 6
-      },
-      "keywords": [
-        "security",
-        "password",
-        "encryption",
-        "aes",
-        "entropy",
-        "generator",
-        "privacy"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDEE1\uFE0F",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 6,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:37:58.5888535",
-      "updatedAt": "2026-03-09T22:37:58.5888537",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/security-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 34273,
-          "packageChecksum": "f07b049e2a5f7767397bb597d9c8e8be32b99c71aa01e27ad8729917e7dc2220",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:37:58.5888535"
-        }
-      ]
-    },
-    {
-      "id": "seo-social-studio",
-      "latestVersion": "1.0.0",
-      "name": "SEO \u0026 Social Studio",
-      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0627\u0644\u0633\u064A\u0648 \u0648\u0627\u0644\u062A\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u062C\u062A\u0645\u0627\u0639\u064A",
-      "description": "Preview social cards, generate meta tags, simulate SERP results, and build PWA manifests.",
-      "descriptionAr": "\u0645\u0639\u0627\u064A\u0646\u0629 \u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u062A\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u062C\u062A\u0645\u0627\u0639\u064A\u060C \u0648\u062A\u0648\u0644\u064A\u062F \u0648\u0633\u0648\u0645 \u0627\u0644\u0645\u064A\u062A\u0627\u060C \u0648\u0645\u062D\u0627\u0643\u0627\u0629 \u0646\u062A\u0627\u0626\u062C \u0627\u0644\u0628\u062D\u062B\u060C \u0648\u0628\u0646\u0627\u0621 \u0645\u0644\u0641\u0627\u062A PWA.",
-      "longDescription": "A comprehensive SEO and social media optimization studio for developers and marketers.\\n\\nFeatures:\\n- **\uD83D\uDD0D SERP Simulator**: Preview how your page appears in Google search results (desktop \u0026 mobile).\\n- **\uD83D\uDCF1 Social Card Previewer**: Live preview of Open Graph (Facebook/LinkedIn) and Twitter Cards.\\n- **\uD83C\uDFF7\uFE0F Meta Tag Generator**: Generate complete \u0060\u003Chead\u003E\u0060 HTML with OG, Twitter, and SEO meta tags.\\n- **\uD83D\uDCCA JSON-LD Generator**: Build structured data with presets for WebSite, Article, Product, Organization, Breadcrumbs, and FAQ.\\n- **\uD83D\uDCE6 PWA Manifest Builder**: Visual form to create your \u0060manifest.json\u0060 with icon and theme configuration.\\n- **\uD83E\uDD16 Robots.txt Generator**: Build exclusion rules with common presets.\\n- **\uD83D\uDDFA\uFE0F Sitemap Generator**: Create XML sitemaps with priority and change frequency controls.\\n- **\u2705 SEO Audit**: Real-time scoring across 10\u002B checks with actionable pass/warn/fail results.",
-      "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0634\u0627\u0645\u0644 \u0644\u062A\u062D\u0633\u064A\u0646 \u0645\u062D\u0631\u0643\u0627\u062A \u0627\u0644\u0628\u062D\u062B \u0648\u0648\u0633\u0627\u0626\u0644 \u0627\u0644\u062A\u0648\u0627\u0635\u0644 \u0627\u0644\u0627\u062C\u062A\u0645\u0627\u0639\u064A \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0648\u0627\u0644\u0645\u0633\u0648\u0642\u064A\u0646.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD0D \u0645\u062D\u0627\u0643\u064A \u0646\u062A\u0627\u0626\u062C \u0627\u0644\u0628\u062D\u062B**: \u0645\u0639\u0627\u064A\u0646\u0629 \u0643\u064A\u0641 \u062A\u0638\u0647\u0631 \u0635\u0641\u062D\u062A\u0643 \u0641\u064A \u0646\u062A\u0627\u0626\u062C \u0628\u062D\u062B \u062C\u0648\u062C\u0644 (\u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628 \u0648\u0627\u0644\u062C\u0648\u0627\u0644).\\n- **\uD83D\uDCF1 \u0645\u0639\u0627\u064A\u0646\u0629 \u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u062A\u0648\u0627\u0635\u0644**: \u0645\u0639\u0627\u064A\u0646\u0629 \u0645\u0628\u0627\u0634\u0631\u0629 \u0644\u0640 Open Graph (\u0641\u064A\u0633\u0628\u0648\u0643/\u0644\u064A\u0646\u0643\u062F\u0625\u0646) \u0648\u0628\u0637\u0627\u0642\u0627\u062A \u062A\u0648\u064A\u062A\u0631.\\n- **\uD83C\uDFF7\uFE0F \u0645\u0648\u0644\u062F \u0648\u0633\u0648\u0645 \u0627\u0644\u0645\u064A\u062A\u0627**: \u062A\u0648\u0644\u064A\u062F HTML \u0643\u0627\u0645\u0644 \u0644\u0639\u0646\u0635\u0631 \u0060\u003Chead\u003E\u0060 \u0645\u0639 \u0648\u0633\u0648\u0645 OG \u0648\u062A\u0648\u064A\u062A\u0631 \u0648SEO.\\n- **\uD83D\uDCCA \u0645\u0648\u0644\u062F JSON-LD**: \u0628\u0646\u0627\u0621 \u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0646\u0638\u0645\u0629 \u0645\u0639 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0645\u0633\u0628\u0642\u0629 \u0644\u0645\u0648\u0642\u0639 \u0648\u064A\u0628\u060C \u0645\u0642\u0627\u0644\u0629\u060C \u0645\u0646\u062A\u062C\u060C \u0645\u0646\u0638\u0645\u0629\u060C \u0645\u0633\u0627\u0631\u0627\u062A \u062A\u0646\u0642\u0644\u060C \u0648\u0623\u0633\u0626\u0644\u0629 \u0634\u0627\u0626\u0639\u0629.\\n- **\uD83D\uDCE6 \u0645\u0646\u0634\u0626 \u0645\u0644\u0641 PWA**: \u0646\u0645\u0648\u0630\u062C \u0645\u0631\u0626\u064A \u0644\u0625\u0646\u0634\u0627\u0621 \u0645\u0644\u0641 \u0060manifest.json\u0060 \u0645\u0639 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0648\u0627\u0644\u0633\u0645\u0627\u062A.\\n- **\uD83E\uDD16 \u0645\u0648\u0644\u062F Robots.txt**: \u0628\u0646\u0627\u0621 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0627\u0633\u062A\u0628\u0639\u0627\u062F \u0645\u0639 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0645\u0633\u0628\u0642\u0629 \u0634\u0627\u0626\u0639\u0629.\\n- **\uD83D\uDDFA\uFE0F \u0645\u0648\u0644\u062F \u062E\u0631\u064A\u0637\u0629 \u0627\u0644\u0645\u0648\u0642\u0639**: \u0625\u0646\u0634\u0627\u0621 \u062E\u0631\u0627\u0626\u0637 \u0645\u0648\u0627\u0642\u0639 XML \u0645\u0639 \u0623\u0648\u0644\u0648\u064A\u0627\u062A \u0648\u062A\u0643\u0631\u0627\u0631 \u0627\u0644\u062A\u063A\u064A\u064A\u0631.\\n- **\u2705 \u062A\u062F\u0642\u064A\u0642 SEO**: \u062A\u0642\u064A\u064A\u0645 \u0641\u0648\u0631\u064A \u0639\u0628\u0631 \u0623\u0643\u062B\u0631 \u0645\u0646 10 \u0641\u062D\u0648\u0635\u0627\u062A \u0645\u0639 \u0646\u062A\u0627\u0626\u062C \u0646\u0627\u062C\u062D/\u062A\u062D\u0630\u064A\u0631/\u0641\u0634\u0644.",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
-      },
-      "keywords": [
-        "seo",
-        "social",
-        "meta",
-        "opengraph",
-        "twitter",
-        "serp",
-        "jsonld",
-        "json-ld",
-        "schema",
-        "structured-data",
-        "audit",
-        "pwa",
-        "manifest",
-        "robots",
-        "sitemap",
-        "preview"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDD0D",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:38:03.4767405",
-      "updatedAt": "2026-03-09T22:38:03.4767406",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/seo-social-studio/1.0.0/package.adwatekplugin",
-          "packageSize": 21726,
-          "packageChecksum": "41994f7e553f2030169df00f454599737c5c56abbf8f2fb6a81ce50bcb52ac4d",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:38:03.4767405"
-        }
-      ]
-    },
-    {
-      "id": "sql-formatter",
-      "latestVersion": "1.0.0",
-      "name": "SQL Formatter",
-      "nameAr": "\u062A\u0646\u0633\u064A\u0642 SQL",
-      "description": "Professional SQL formatter and minifier with support for multiple dialects.",
-      "descriptionAr": "\u0645\u0646\u0633\u0642 \u0648\u0645\u0635\u063A\u0631 SQL \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u0639 \u062F\u0639\u0645 \u0644\u0647\u062C\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629.",
-      "longDescription": "Clean up your SQL queries with ease. This tool supports various SQL dialects and offers advanced formatting options.\\n\\nFeatures:\\n- **\uD83D\uDC8E Dialect Support**: PostgreSQL, MySQL, MS SQL, Oracle, and SQLite.\\n- **\uD83D\uDEE0\uFE0F Custom Indentation**: Choose between spaces and tabs with customizable sizes.\\n- **\uD83D\uDCDD Case Formatting**: Automatically convert keywords to UPPERCASE, lowercase, or Capitalize.\\n- **\uD83D\uDCD0 Comma Control**: Place commas before or after columns for distinct styles.\\n- **\uD83D\uDCE6 Minification**: Compress your SQL for production use.\\n- **\uD83D\uDE80 Samples**: Quick-load sample queries for testing.",
-      "longDescriptionAr": "\u0646\u0638\u0641 \u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A SQL \u0628\u0633\u0647\u0648\u0644\u0629. \u062A\u062F\u0639\u0645 \u0647\u0630\u0647 \u0627\u0644\u0623\u062F\u0627\u0629 \u0644\u0647\u062C\u0627\u062A SQL \u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 \u0648\u062A\u0642\u062F\u0645 \u062E\u064A\u0627\u0631\u0627\u062A \u062A\u0646\u0633\u064A\u0642 \u0645\u062A\u0642\u062F\u0645\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDC8E \u062F\u0639\u0645 \u0627\u0644\u0644\u0647\u062C\u0627\u062A**: PostgreSQL \u0648 MySQL \u0648 MS SQL \u0648 Oracle \u0648 SQLite.\\n- **\uD83D\uDEE0\uFE0F \u0625\u0632\u0627\u062D\u0629 \u0645\u062E\u0635\u0635\u0629**: \u0627\u062E\u062A\u0631 \u0628\u064A\u0646 \u0627\u0644\u0645\u0633\u0627\u0641\u0627\u062A \u0648\u0639\u0644\u0627\u0645\u0627\u062A \u0627\u0644\u062A\u0628\u0648\u064A\u0628 \u0628\u0623\u062D\u062C\u0627\u0645 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062A\u062E\u0635\u064A\u0635.\\n- **\uD83D\uDCDD \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u062D\u0627\u0644\u0629**: \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u0641\u062A\u0627\u062D\u064A\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B \u0625\u0644\u0649 \u0623\u062D\u0631\u0641 \u0643\u0628\u064A\u0631\u0629 \u0623\u0648 \u0635\u063A\u064A\u0631\u0629 \u0623\u0648 \u062D\u0627\u0644\u0629 \u0627\u0644\u0639\u0646\u0648\u0627\u0646.\\n- **\uD83D\uDCD0 \u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A \u0627\u0644\u0641\u0648\u0627\u0635\u0644**: \u0636\u0639 \u0627\u0644\u0641\u0648\u0627\u0635\u0644 \u0642\u0628\u0644 \u0623\u0648 \u0628\u0639\u062F \u0627\u0644\u0623\u0639\u0645\u062F\u0629 \u0644\u0623\u0646\u0645\u0627\u0637 \u0645\u062E\u062A\u0644\u0641\u0629.\\n- **\uD83D\uDCE6 \u0627\u0644\u062A\u0635\u063A\u064A\u0631**: \u0636\u063A\u0637 SQL \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645\u0647 \u0641\u064A \u0627\u0644\u0625\u0646\u062A\u0627\u062C.\\n- **\uD83D\uDE80 \u0639\u064A\u0646\u0627\u062A**: \u062A\u062D\u0645\u064A\u0644 \u0633\u0631\u064A\u0639 \u0644\u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A \u0639\u064A\u0646\u0629 \u0644\u0644\u0627\u062E\u062A\u0628\u0627\u0631.",
-      "categoryId": "data",
-      "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
-        "color": "#14B8A6",
-        "order": 8
-      },
-      "keywords": [
-        "sql",
-        "formatter",
-        "minifier",
-        "postgresql",
-        "mysql",
-        "database",
-        "query",
-        "cleanup"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83D\uDC8E",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 6,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:38:08.0838432",
-      "updatedAt": "2026-03-09T22:38:08.0838433",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/sql-formatter/1.0.0/package.adwatekplugin",
-          "packageSize": 13667,
-          "packageChecksum": "374f422e901c01bf9bbb49611912fb1ab8515546bb53ebac6a07702481656cf9",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:38:08.0838432"
-        }
-      ]
-    },
-    {
-      "id": "svg-studio",
-      "latestVersion": "1.0.0",
-      "name": "SVG Studio",
-      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 SVG",
-      "description": "Visual SVG editor, viewer, animator and multi-format exporter",
-      "descriptionAr": "\u0645\u062D\u0631\u0631 SVG \u0645\u0631\u0626\u064A \u0645\u062A\u0643\u0627\u0645\u0644 \u0645\u0639 \u062F\u0639\u0645 \u0627\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0645\u062A\u062D\u0631\u0643\u0629 \u0648\u0627\u0644\u062A\u0635\u062F\u064A\u0631 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0635\u064A\u063A",
-      "longDescription": "SVG Studio is a full-featured vector graphics tool. View and inspect any SVG, build shapes from scratch with the visual editor, animate elements with a keyframe timeline, then export to PNG, JPG, WebP, PDF, React component, or Ant Design Icon \u2014 all without leaving the platform.",
-      "longDescriptionAr": "SVG Studio is a full-featured vector graphics tool. View and inspect any SVG, build shapes from scratch with the visual editor, animate elements with a keyframe timeline, then export to PNG, JPG, WebP, PDF, React component, or Ant Design Icon \u2014 all without leaving the platform.",
-      "categoryId": "design",
-      "category": {
-        "id": "design",
-        "name": "Design",
-        "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
-        "color": "#8B5CF6",
-        "order": 11
-      },
-      "keywords": [
-        "svg",
-        "vector",
-        "editor",
-        "animator",
-        "export",
-        "react",
-        "antd",
-        "design"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\u2726",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 20,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:38:13.2389410",
-      "updatedAt": "2026-03-09T22:38:13.2389411",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/svg-studio/1.0.0/package.adwatekplugin",
-          "packageSize": 318230,
-          "packageChecksum": "4c1f03f98cca683718307cb68b749485a48d17d3ed643d84a9b32d395d19bafe",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:38:13.2389410"
         }
       ]
     },
@@ -2729,7 +1733,16 @@
       "descriptionAr": "\u0623\u062F\u0627\u0629 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u062A\u062D\u0631\u064A\u0631 \u0648\u062A\u0635\u0641\u064A\u0629 \u0648\u062A\u0642\u0633\u064A\u0645 \u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI / Swagger.",
       "longDescription": "A specialized tool for managing large API specifications with surgical precision.\\n\\nFeatures:\\n- **\uD83D\uDCC1 Intelligent Filtering**: Remove tags, paths, or entire sections with ease.\\n- **\u2702\uFE0F Schema Splitting**: Divide large specs into manageable parts based on tags.\\n- **\uD83D\uDD04 Format Conversion**: Seamlessly switch between JSON and YAML.\\n- **\uD83C\uDF33 Tree Visualization**: Navigate your API structure visually before exporting.\\n- **\uD83D\uDE80 Instant Preview**: See the results of your modifications in real-time.",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u062E\u0635\u0635\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0648\u0627\u0635\u0641\u0627\u062A API \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0628\u062F\u0642\u0629 \u062C\u0631\u0627\u062D\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCC1 \u062A\u0635\u0641\u064A\u0629 \u0630\u0643\u064A\u0629**: \u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0623\u0648 \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062A \u0623\u0648 \u0623\u0642\u0633\u0627\u0645 \u0643\u0627\u0645\u0644\u0629 \u0628\u0633\u0647\u0648\u0644\u0629.\\n- **\u2702\uFE0F \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u062E\u0637\u0637**: \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0625\u0644\u0649 \u0623\u062C\u0632\u0627\u0621 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u0625\u062F\u0627\u0631\u0629 \u0628\u0646\u0627\u0621\u064B \u0639\u0644\u0649 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A.\\n- **\uD83D\uDD04 \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0646\u0633\u064A\u0642**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u0633\u0644\u0627\u0633\u0629 \u0628\u064A\u0646 JSON \u0648 YAML.\\n- **\uD83C\uDF33 \u062A\u0635\u0648\u0631 \u0634\u062C\u0631\u064A**: \u062A\u0635\u0641\u062D \u0647\u064A\u0643\u0644 API \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0645\u0631\u0626\u064A\u0627\u064B \u0642\u0628\u0644 \u0627\u0644\u062A\u0635\u062F\u064A\u0631.\\n- **\uD83D\uDE80 \u0645\u0639\u0627\u064A\u0646\u0629 \u0641\u0648\u0631\u064A\u0629**: \u0634\u0627\u0647\u062F \u0646\u062A\u0627\u0626\u062C \u062A\u0639\u062F\u064A\u0644\u0627\u062A\u0643 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A.",
-      "categoryId": "other",
+      "categoryId": "api",
+      "category": {
+        "id": "api",
+        "name": "API Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
+        "description": "REST API development and testing",
+        "icon": "\uD83C\uDF10",
+        "color": "#3B82F6",
+        "order": 2
+      },
       "keywords": [
         "swagger",
         "openapi",
@@ -2748,18 +1761,18 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 45,
+      "downloads": 44,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:38:18.6157196",
-      "updatedAt": "2026-03-09T22:38:18.6157197",
+      "publishedAt": "2026-02-09T17:26:59.0636866",
+      "updatedAt": "2026-02-21T13:29:23.1643393",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2767,73 +1780,10 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/swagger-editor/1.0.0/package.adwatekplugin",
-          "packageSize": 41183,
-          "packageChecksum": "9018b220ca18ed42e995e1c506e61264a86bf66d1d299ef84163c52ff33cc60a",
+          "packageSize": 127106,
+          "packageChecksum": "c03cc42b1b59b28fa92cbe934744df42538835e9b1183105aabb006c53bf03da",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:38:18.6157196"
-        }
-      ]
-    },
-    {
-      "id": "video-tools",
-      "latestVersion": "1.0.0",
-      "name": "Video Tools",
-      "nameAr": "\u0641\u064A\u062F\u064A\u0648",
-      "description": "Powerful in-browser video processing suite: convert, blur, watermark, and create GIFs securely without uploading files.",
-      "descriptionAr": "\u0645\u062C\u0645\u0648\u0639\u0629 \u0623\u062F\u0648\u0627\u062A \u0642\u0648\u064A\u0629 \u0644\u0645\u0639\u0627\u0644\u062C\u0629 \u0627\u0644\u0641\u064A\u062F\u064A\u0648 \u0641\u064A \u0627\u0644\u0645\u062A\u0635\u0641\u062D: \u062A\u062D\u0648\u064A\u0644\u060C \u062A\u0639\u062A\u064A\u0645\u060C \u0625\u0636\u0627\u0641\u0629 \u0639\u0644\u0627\u0645\u0629 \u0645\u0627\u0626\u064A\u0629\u060C \u0648\u0625\u0646\u0634\u0627\u0621 \u0635\u0648\u0631 \u0645\u062A\u062D\u0631\u0643\u0629 \u0628\u0623\u0645\u0627\u0646 \u062F\u0648\u0646 \u0631\u0641\u0639 \u0627\u0644\u0645\u0644\u0641\u0627\u062A.",
-      "longDescription": "Transform your video workflow with a complete suite of professional tools running entirely in your browser.\\n\\nFeatures:\\n- **\uD83D\uDD04 Format Conversion**: Convert between MP4, WebM, and GIF seamlessly.\\n- **\uD83D\uDCA7 Watermarking**: Brand your content with custom image overlays.\\n- **\uD83C\uDF2B\uFE0F Smart Blur**: Protect privacy by blurring specific video regions.\\n- **\u2702\uFE0F Trim \u0026 Cut**: Precisely edit video length.\\n- **\uD83D\uDD12 Private \u0026 Secure**: All processing happens locally on your device - no uploads required.",
-      "longDescriptionAr": "\u062D\u0648\u0651\u0644 \u0633\u064A\u0631 \u0639\u0645\u0644 \u0627\u0644\u0641\u064A\u062F\u064A\u0648 \u0627\u0644\u062E\u0627\u0635 \u0628\u0643 \u0645\u0639 \u0645\u062C\u0645\u0648\u0639\u0629 \u0623\u062F\u0648\u0627\u062A \u0643\u0627\u0645\u0644\u0629 \u062A\u0639\u0645\u0644 \u0641\u064A \u0645\u062A\u0635\u0641\u062D\u0643 \u0628\u0634\u0643\u0644 \u0643\u0627\u0645\u0644.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD04 \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0646\u0633\u064A\u0642**: \u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u0633\u0644\u0627\u0633\u0629 \u0628\u064A\u0646 MP4 \u0648 WebM \u0648 GIF.\\n- **\uD83D\uDCA7 \u0627\u0644\u0639\u0644\u0627\u0645\u0629 \u0627\u0644\u0645\u0627\u0626\u064A\u0629**: \u0636\u0639 \u0639\u0644\u0627\u0645\u062A\u0643 \u0627\u0644\u062A\u062C\u0627\u0631\u064A\u0629 \u0639\u0644\u0649 \u0645\u062D\u062A\u0648\u0627\u0643 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u062A\u0631\u0627\u0643\u0628\u0627\u062A \u0627\u0644\u0635\u0648\u0631 \u0627\u0644\u0645\u062E\u0635\u0635\u0629.\\n- **\uD83C\uDF2B\uFE0F \u062A\u0639\u062A\u064A\u0645 \u0630\u0643\u064A**: \u062D\u0645\u0627\u064A\u0629 \u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629 \u0639\u0646 \u0637\u0631\u064A\u0642 \u062A\u0639\u062A\u064A\u0645 \u0645\u0646\u0627\u0637\u0642 \u0645\u062D\u062F\u062F\u0629 \u0645\u0646 \u0627\u0644\u0641\u064A\u062F\u064A\u0648.\\n- **\u2702\uFE0F \u0642\u0635 \u0648\u062A\u0634\u0630\u064A\u0628**: \u062A\u0639\u062F\u064A\u0644 \u0637\u0648\u0644 \u0627\u0644\u0641\u064A\u062F\u064A\u0648 \u0628\u062F\u0642\u0629.\\n- **\uD83D\uDD12 \u062E\u0627\u0635 \u0648\u0622\u0645\u0646**: \u062A\u062A\u0645 \u062C\u0645\u064A\u0639 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0645\u062D\u0644\u064A\u0627\u064B \u0639\u0644\u0649 \u062C\u0647\u0627\u0632\u0643 - \u0644\u0627 \u064A\u0644\u0632\u0645 \u0627\u0644\u0631\u0641\u0639.",
-      "categoryId": "media",
-      "category": {
-        "id": "media",
-        "name": "Media Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
-        "description": "Image, video, and audio processing tools",
-        "icon": "\uD83C\uDFAC",
-        "color": "#BE185D",
-        "order": 12
-      },
-      "keywords": [
-        "video",
-        "blur",
-        "watermark",
-        "gif",
-        "converter",
-        "mp4",
-        "webm",
-        "ffmpeg",
-        "editor"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "\uD83C\uDFAC",
-      "screenshots": [],
-      "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Partner User"
-      },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 4,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-03-09T22:38:23.9465094",
-      "updatedAt": "2026-03-09T22:38:23.9465095",
-      "isFeatured": false,
-      "allowPublicDemo": true,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/video-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 10307343,
-          "packageChecksum": "055eb44c8338145f95d1cdc62126137ea899f2dcdb8ac6528b5370a3119f19d0",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-03-09T22:38:23.9465094"
+          "publishedAt": "2026-02-09T17:26:59.0636866"
         }
       ]
     }
