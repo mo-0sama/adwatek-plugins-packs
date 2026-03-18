@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-17T20:07:30.3743328Z",
+  "lastUpdated": "2026-03-18T13:41:07.8563568Z",
   "totalCount": 29,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -951,6 +951,7 @@
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
+      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/image-tools",
@@ -959,9 +960,9 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.8438878",
-      "updatedAt": "2026-02-09T17:26:58.8438880",
+      "updatedAt": "2026-03-18T13:41:04.8724477Z",
       "isFeatured": false,
-      "allowPublicDemo": false,
+      "allowPublicDemo": true,
       "videoUrls": [],
       "versions": [
         {
@@ -1877,7 +1878,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 63,
+      "downloads": 64,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:59.0636866",
