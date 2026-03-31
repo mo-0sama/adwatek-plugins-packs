@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-03-31T16:58:02.6904282Z",
+  "lastUpdated": "2026-03-31T16:58:56.2009107Z",
   "totalCount": 29,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1821,7 +1821,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:59.0206090",
-      "updatedAt": "2026-03-31T16:58:00.2009346Z",
+      "updatedAt": "2026-03-31T16:58:00.2009346",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1872,10 +1872,10 @@
       "icon": "\uD83D\uDCDD",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Adwatek Team"
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama Mohamed Khalil"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
@@ -1884,7 +1884,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:59.0636866",
-      "updatedAt": "2026-02-21T13:29:23.1643393",
+      "updatedAt": "2026-03-31T16:58:54.4036996Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
