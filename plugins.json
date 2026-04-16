@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-04-14T05:46:58.3692447Z",
-  "totalCount": 30,
+  "lastUpdated": "2026-04-16T08:21:24.8330436Z",
+  "totalCount": 31,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -578,7 +578,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 14,
+      "downloads": 15,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.7265306",
@@ -765,7 +765,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 6,
+      "downloads": 7,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-08T10:03:50.2660607",
@@ -1138,7 +1138,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.8660556",
@@ -1266,7 +1266,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-editor",
       "documentation": "https://docs.adwatek.com/tools/json-editor",
-      "downloads": 17,
+      "downloads": 18,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:58.8895956",
@@ -1526,6 +1526,67 @@
       ]
     },
     {
+      "id": "json-to-csharp",
+      "latestVersion": "1.0.0",
+      "name": "JSON to C# Classes",
+      "nameAr": "JSON \u0625\u0644\u0649 \u0643\u0644\u0627\u0633\u0627\u062A C#",
+      "description": "Convert JSON to C# class definitions instantly",
+      "descriptionAr": "\u062D\u0648\u0651\u0644 JSON \u0625\u0644\u0649 \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0643\u0644\u0627\u0633\u0627\u062A C# \u0628\u0634\u0643\u0644 \u0641\u0648\u0631\u064A",
+      "longDescription": " What it does:\n  - Maps all JSON types \u2192 string, int, double, bool, List\u003CT\u003E, nested classes\n  - Handles arrays of objects, merges them for the most complete class shape\n  - Auto-converts any key format (camelCase, snake_case, kebab-case) to valid PascalCase C# identifiers\n  - Singularizes array names (orders \u2192 Order)\n  - One-click Copy to Clipboard\n  - Full Arabic \u0026 English UI support \uD83C\uDF0D",
+      "longDescriptionAr": " What it does:\n  - Maps all JSON types \u2192 string, int, double, bool, List\u003CT\u003E, nested classes\n  - Handles arrays of objects, merges them for the most complete class shape\n  - Auto-converts any key format (camelCase, snake_case, kebab-case) to valid PascalCase C# identifiers\n  - Singularizes array names (orders \u2192 Order)\n  - One-click Copy to Clipboard\n  - Full Arabic \u0026 English UI support \uD83C\uDF0D",
+      "categoryId": "converters",
+      "category": {
+        "id": "converters",
+        "name": "Converters",
+        "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
+        "description": "Convert between different formats",
+        "icon": "\uD83D\uDD04",
+        "color": "#8B5CF6",
+        "order": 3
+      },
+      "keywords": [
+        "json",
+        "csharp",
+        "c#",
+        "converter",
+        "classes"
+      ],
+      "platforms": [
+        "desktop",
+        "web"
+      ],
+      "icon": "{}",
+      "screenshots": [],
+      "author": {
+        "id": "ac7a3132-ce00-45a8-9b27-49a9427a4dda",
+        "name": "Osama Ahmed"
+      },
+      "authorId": "ac7a3132-ce00-45a8-9b27-49a9427a4dda",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "documentation": "./docs/README.md",
+      "changelog": "./docs/changelog.md",
+      "downloads": 0,
+      "rating": 0.00,
+      "reviewCount": 0,
+      "publishedAt": "2026-04-16T08:21:22.2653136Z",
+      "updatedAt": "2026-04-16T08:21:22.2654119Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-csharp/1.0.0/package.adwatekplugin",
+          "packageSize": 12244,
+          "packageChecksum": "52531ce9dc20f97ba7c1ddc1128d6c5e37cac8b55cb5217c954d48e594753f1f",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-04-16T08:21:22.2653136Z"
+        }
+      ]
+    },
+    {
       "id": "json-to-sql-generator",
       "latestVersion": "1.0.0",
       "name": "JSON to SQL",
@@ -1692,7 +1753,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-to-types",
       "documentation": "https://docs.adwatek.com/tools/json-to-types",
-      "downloads": 2,
+      "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.9792477",
@@ -1948,11 +2009,11 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 83,
+      "downloads": 86,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:59.0636866",
-      "updatedAt": "2026-04-14T05:46:55.9743323Z",
+      "updatedAt": "2026-04-14T05:46:55.9743323",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
