@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-08T06:25:11.3318287Z",
+  "lastUpdated": "2026-09-08T06:26:41.1321560Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2059,7 +2059,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-08T06:23:04.6533981",
-      "updatedAt": "2026-09-08T06:25:09.4710487Z",
+      "updatedAt": "2026-09-08T06:25:09.4710487",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
