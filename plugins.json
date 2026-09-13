@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:04:04.4984514Z",
+  "lastUpdated": "2026-09-13T10:08:17.5830160Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -756,11 +756,11 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 6,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-10T06:44:59.4568500",
-      "updatedAt": "2026-09-13T10:04:02.4721300Z",
+      "updatedAt": "2026-09-13T10:04:02.4721300",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2042,7 +2042,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDCDD",
+      "icon": "FileCode2",
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
@@ -2058,7 +2058,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-08T06:23:04.6533981",
-      "updatedAt": "2026-09-08T06:34:07.3078300",
+      "updatedAt": "2026-09-13T10:08:15.8519555Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
