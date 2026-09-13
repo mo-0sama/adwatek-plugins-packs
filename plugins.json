@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:22:12.8961856Z",
+  "lastUpdated": "2026-09-13T10:22:18.8890465Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1939,7 +1939,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:59.0067234",
-      "updatedAt": "2026-09-13T10:22:10.9149894Z",
+      "updatedAt": "2026-09-13T10:22:16.9986281Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1947,8 +1947,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/markdown-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 74786,
-          "packageChecksum": "7074910cf09255f763d75d85606f8963eb605abc806dfb5e68660e0b54552aeb",
+          "packageSize": 70168,
+          "packageChecksum": "d5861c995f98bf3e0385b785c0dbeaffe4f14e86654617cd5c2300ac952a4aad",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:59.0067234"
         }
