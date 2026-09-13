@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:20:04.2357657Z",
+  "lastUpdated": "2026-09-13T10:20:54.0447830Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -364,22 +364,22 @@
       "description": "Professional connection string generator and parser with security scanning and code snippet generation.",
       "descriptionAr": "\u0645\u0646\u0634\u0626 \u0648\u0645\u062D\u0644\u0644 \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0644\u0633\u0644\u0627\u0633\u0644 \u0627\u062A\u0635\u0627\u0644 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0639 \u0645\u0633\u062D \u0623\u0645\u0646\u064A \u0648\u062A\u0648\u0644\u064A\u062F \u0642\u0635\u0627\u0635\u0627\u062A \u0628\u0631\u0645\u062C\u064A\u0629.",
       "longDescription": "Building database connection strings is complex. This tool simplifies the process for multiple database engines with a focus on security and developer productivity.\n\n### \uD83D\uDE80 Features:\n- **\uD83D\uDC8E Multi-DB Support**: SQL Server, PostgreSQL, MySQL, Redis, Oracle, Snowflake, MongoDB, and more.\n- **\uD83D\uDD75\uFE0F Connection Parser**: Paste an existing string to decode its parameters instantly.\n- **\uD83D\uDEE1\uFE0F Security Scanner**: Detects exposed passwords and insecure configurations.\n- **\uD83D\uDCBB Code Snippets**: Generate ready-to-use code for .NET, NodeJS, Docker, and environment variables.\n- **\uD83D\uDCC1 Multiple Formats**: Export to \u0060.udl\u0060, \u0060.json\u0060, \u0060.env\u0060, \u0060.yaml\u0060, and \u0060.config\u0060.\n- **\uD83E\uDD16 Agent Ready**: Optimized for Adwatek AI to help fix, convert, and generate connection strings via voice or chat.\n\n### \uD83E\uDD16 Example AI Prompts:\n- \u0022Generate SQL Server connection string for Azure SQL\u0022\n- \u0022Convert this SQL Server string to PostgreSQL format\u0022\n- \u0022Fix my broken connection string: [paste string]\u0022\n- \u0022Generate environment variables for Redis on localhost\u0022",
-      "categoryId": "data",
+      "categoryId": "utilities",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
-        "icon": "Database",
-        "color": "#14B8A6",
-        "order": 8
+        "id": "utilities",
+        "name": "Utilities",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
+        "description": "General purpose utilities",
+        "icon": "Wrench",
+        "color": "#6B7280",
+        "order": 10
       },
       "keywords": [],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDD17",
+      "icon": "Link",
       "screenshots": [],
       "author": {
         "id": "eacde3db-03fa-42d7-8bea-7583204416f2",
@@ -395,7 +395,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-16T00:18:45.3434327",
-      "updatedAt": "2026-04-12T18:49:18.3775740",
+      "updatedAt": "2026-09-13T10:20:52.4556466Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1270,7 +1270,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:58.8895956",
-      "updatedAt": "2026-09-13T10:20:01.2901866Z",
+      "updatedAt": "2026-09-13T10:20:01.2901866",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
