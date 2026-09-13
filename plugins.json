@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T06:08:29.4775394Z",
+  "lastUpdated": "2026-09-13T10:03:58.8404108Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -9,7 +9,7 @@
       "name": "JSON Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
       "description": "Tools for working with JSON data",
-      "icon": "\uD83D\uDCCB",
+      "icon": "Braces",
       "color": "#10B981",
       "order": 1
     },
@@ -18,7 +18,7 @@
       "name": "API Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
       "description": "REST API development and testing",
-      "icon": "\uD83C\uDF10",
+      "icon": "Globe",
       "color": "#3B82F6",
       "order": 2
     },
@@ -27,7 +27,7 @@
       "name": "Converters",
       "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
       "description": "Convert between different formats",
-      "icon": "\uD83D\uDD04",
+      "icon": "ArrowLeftRight",
       "color": "#8B5CF6",
       "order": 3
     },
@@ -36,7 +36,7 @@
       "name": "Generators",
       "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
       "description": "Generate code, data, and assets",
-      "icon": "\u26A1",
+      "icon": "Zap",
       "color": "#F59E0B",
       "order": 4
     },
@@ -45,7 +45,7 @@
       "name": "Frontend",
       "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
       "description": "Frontend development tools",
-      "icon": "\uD83C\uDFA8",
+      "icon": "Layout",
       "color": "#EC4899",
       "order": 5
     },
@@ -54,7 +54,7 @@
       "name": "Security",
       "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
       "description": "Security and encryption tools",
-      "icon": "\uD83D\uDD12",
+      "icon": "Shield",
       "color": "#EF4444",
       "order": 6
     },
@@ -63,7 +63,7 @@
       "name": "Dev Utils",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
       "description": "Developer utilities and helpers",
-      "icon": "\uD83D\uDEE0\uFE0F",
+      "icon": "Wrench",
       "color": "#6366F1",
       "order": 7
     },
@@ -72,7 +72,7 @@
       "name": "Data Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
       "description": "Data analysis and visualization",
-      "icon": "\uD83D\uDCCA",
+      "icon": "Database",
       "color": "#14B8A6",
       "order": 8
     },
@@ -81,7 +81,7 @@
       "name": "Diagrams",
       "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
       "description": "Diagram and flowchart tools",
-      "icon": "\uD83D\uDCD0",
+      "icon": "Workflow",
       "color": "#F97316",
       "order": 9
     },
@@ -90,7 +90,7 @@
       "name": "Utilities",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
       "description": "General purpose utilities",
-      "icon": "\uD83D\uDD27",
+      "icon": "Wrench",
       "color": "#6B7280",
       "order": 10
     },
@@ -99,7 +99,7 @@
       "name": "Design",
       "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
       "description": "Design and asset tools",
-      "icon": "\uD83D\uDDBC\uFE0F",
+      "icon": "Palette",
       "color": "#8B5CF6",
       "order": 11
     },
@@ -108,7 +108,7 @@
       "name": "Media Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
       "description": "Image, video, and audio processing tools",
-      "icon": "\uD83C\uDFAC",
+      "icon": "Film",
       "color": "#BE185D",
       "order": 12
     }
@@ -128,7 +128,7 @@
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
         "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
+        "icon": "Palette",
         "color": "#8B5CF6",
         "order": 11
       },
@@ -183,7 +183,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -245,7 +245,7 @@
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
         "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
+        "icon": "Database",
         "color": "#14B8A6",
         "order": 8
       },
@@ -307,7 +307,7 @@
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
         "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
+        "icon": "Palette",
         "color": "#8B5CF6",
         "order": 11
       },
@@ -370,7 +370,7 @@
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
         "description": "Data analysis and visualization",
-        "icon": "\uD83D\uDCCA",
+        "icon": "Database",
         "color": "#14B8A6",
         "order": 8
       },
@@ -425,7 +425,7 @@
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
         "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
+        "icon": "Wrench",
         "color": "#6366F1",
         "order": 7
       },
@@ -486,7 +486,7 @@
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
         "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
+        "icon": "Wrench",
         "color": "#6366F1",
         "order": 7
       },
@@ -549,7 +549,7 @@
         "name": "Diagrams",
         "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
         "description": "Diagram and flowchart tools",
-        "icon": "\uD83D\uDCD0",
+        "icon": "Workflow",
         "color": "#F97316",
         "order": 9
       },
@@ -611,7 +611,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -673,7 +673,7 @@
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
         "description": "Security and encryption tools",
-        "icon": "\uD83D\uDD12",
+        "icon": "Shield",
         "color": "#EF4444",
         "order": 6
       },
@@ -735,7 +735,7 @@
         "name": "API Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
         "description": "REST API development and testing",
-        "icon": "\uD83C\uDF10",
+        "icon": "Globe",
         "color": "#3B82F6",
         "order": 2
       },
@@ -744,7 +744,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83C\uDF10",
+      "icon": "Send",
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
@@ -760,7 +760,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-10T06:44:59.4568500",
-      "updatedAt": "2026-09-13T06:08:27.4744015Z",
+      "updatedAt": "2026-09-13T10:03:56.2216311Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -798,7 +798,7 @@
         "name": "Frontend",
         "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
         "description": "Frontend development tools",
-        "icon": "\uD83C\uDFA8",
+        "icon": "Layout",
         "color": "#EC4899",
         "order": 5
       },
@@ -860,7 +860,7 @@
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
         "description": "Design and asset tools",
-        "icon": "\uD83D\uDDBC\uFE0F",
+        "icon": "Palette",
         "color": "#8B5CF6",
         "order": 11
       },
@@ -922,7 +922,7 @@
         "name": "Generators",
         "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
         "description": "Generate code, data, and assets",
-        "icon": "\u26A1",
+        "icon": "Zap",
         "color": "#F59E0B",
         "order": 4
       },
@@ -987,7 +987,7 @@
         "name": "Media Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
         "description": "Image, video, and audio processing tools",
-        "icon": "\uD83C\uDFAC",
+        "icon": "Film",
         "color": "#BE185D",
         "order": 12
       },
@@ -1052,7 +1052,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1111,7 +1111,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1171,7 +1171,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1228,7 +1228,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1299,7 +1299,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1360,7 +1360,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1420,7 +1420,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1479,7 +1479,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1539,7 +1539,7 @@
         "name": "Converters",
         "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
         "description": "Convert between different formats",
-        "icon": "\uD83D\uDD04",
+        "icon": "ArrowLeftRight",
         "color": "#8B5CF6",
         "order": 3
       },
@@ -1602,7 +1602,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1665,7 +1665,7 @@
         "name": "JSON Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
         "description": "Tools for working with JSON data",
-        "icon": "\uD83D\uDCCB",
+        "icon": "Braces",
         "color": "#10B981",
         "order": 1
       },
@@ -1724,7 +1724,7 @@
         "name": "Converters",
         "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
         "description": "Convert between different formats",
-        "icon": "\uD83D\uDD04",
+        "icon": "ArrowLeftRight",
         "color": "#8B5CF6",
         "order": 3
       },
@@ -1788,7 +1788,7 @@
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
         "description": "Security and encryption tools",
-        "icon": "\uD83D\uDD12",
+        "icon": "Shield",
         "color": "#EF4444",
         "order": 6
       },
@@ -1850,7 +1850,7 @@
         "name": "Dev Utils",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
         "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
+        "icon": "Wrench",
         "color": "#6366F1",
         "order": 7
       },
@@ -1905,7 +1905,7 @@
         "name": "Frontend",
         "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
         "description": "Frontend development tools",
-        "icon": "\uD83C\uDFA8",
+        "icon": "Layout",
         "color": "#EC4899",
         "order": 5
       },
@@ -1968,7 +1968,7 @@
         "name": "Diagrams",
         "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
         "description": "Diagram and flowchart tools",
-        "icon": "\uD83D\uDCD0",
+        "icon": "Workflow",
         "color": "#F97316",
         "order": 9
       },
@@ -2033,7 +2033,7 @@
         "name": "API Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
         "description": "REST API development and testing",
-        "icon": "\uD83C\uDF10",
+        "icon": "Globe",
         "color": "#3B82F6",
         "order": 2
       },
