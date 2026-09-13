@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:43:03.4384153Z",
+  "lastUpdated": "2026-09-13T10:59:52.0665197Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -761,7 +761,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-10T06:44:59.4568500",
-      "updatedAt": "2026-09-13T10:43:00.5417381Z",
+      "updatedAt": "2026-09-13T10:43:00.5417381",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1660,15 +1660,15 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 JSON \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642 \u0646\u0635\u064A \u0645\u0636\u063A\u0648\u0637 \u0648\u0642\u0627\u0628\u0644 \u0644\u0644\u0642\u0631\u0627\u0621\u0629 (Toon)",
       "longDescription": "Convert JSON to a compact, human-readable text format (Toon)",
       "longDescriptionAr": "Convert JSON to a compact, human-readable text format (Toon)",
-      "categoryId": "json",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
@@ -1681,7 +1681,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDCE6",
+      "icon": "Sparkles",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -1689,13 +1689,14 @@
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
+      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 4,
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.9604549",
-      "updatedAt": "2026-02-09T17:26:58.9604551",
+      "updatedAt": "2026-09-13T10:59:50.5456202Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
