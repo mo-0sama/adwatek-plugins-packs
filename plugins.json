@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:20:54.0447830Z",
+  "lastUpdated": "2026-09-13T10:20:58.6002379Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -395,7 +395,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-03-16T00:18:45.3434327",
-      "updatedAt": "2026-09-13T10:20:52.4556466Z",
+      "updatedAt": "2026-09-13T10:20:56.8687085Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -403,8 +403,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/connection-string-builder/1.0.0/package.adwatekplugin",
-          "packageSize": 16344,
-          "packageChecksum": "4259710ef3e1ee4fe070cc1d0f6c627927b4f1f3e7b5bb3b308583bb579e88ee",
+          "packageSize": 39197,
+          "packageChecksum": "412aa8c8afc7516eb66883391e7badffe737a07ddf13c88d272b86a6bb56a168",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-03-16T00:18:45.3434327"
         }
