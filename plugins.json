@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T10:08:24.3766746Z",
+  "lastUpdated": "2026-09-13T10:10:00.7791857Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1956,21 +1956,21 @@
     {
       "id": "mermaid-editor",
       "latestVersion": "1.0.0",
-      "name": "Mermaid",
-      "nameAr": "Mermaid",
+      "name": "Mermaid Editor",
+      "nameAr": "\u0645\u062D\u0631\u0631 Mermaid",
       "description": "Interactive diagram editor supporting flowcharts, sequence diagrams, Gantt charts, and more using Mermaid.js",
       "descriptionAr": "\u0645\u062D\u0631\u0631 \u062A\u0641\u0627\u0639\u0644\u064A \u0644\u0644\u0631\u0633\u0648\u0645 \u0627\u0644\u0628\u064A\u0627\u0646\u064A\u0629 \u064A\u062F\u0639\u0645 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0627\u0646\u0633\u064A\u0627\u0628\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A\u0629\u060C \u0648\u0645\u062E\u0637\u0637\u0627\u062A \u063A\u0627\u0646\u062A\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 Mermaid.js",
       "longDescription": "Create and edit beautiful diagrams with live preview. Supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, Gantt charts, pie charts, and more. Features syntax highlighting, real-time rendering, export to SVG/PNG, and template library.",
       "longDescriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u062A\u062D\u0631\u064A\u0631 \u0631\u0633\u0648\u0645 \u0628\u064A\u0627\u0646\u064A\u0629 \u062C\u0645\u064A\u0644\u0629 \u0645\u0639 \u0645\u0639\u0627\u064A\u0646\u0629 \u062D\u064A\u0629. \u064A\u062F\u0639\u0645 \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0627\u0646\u0633\u064A\u0627\u0628\u064A\u0629\u060C \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A\u0629\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u0641\u0626\u0627\u062A\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062D\u0627\u0644\u0629\u060C \u0645\u062E\u0637\u0637\u0627\u062A ER\u060C \u0645\u062E\u0637\u0637\u0627\u062A \u063A\u0627\u0646\u062A\u060C \u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062F\u0627\u0626\u0631\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F. \u064A\u062A\u0645\u064A\u0632 \u0628\u062A\u0645\u064A\u064A\u0632 \u0627\u0644\u0635\u064A\u063A\u0629\u060C \u0627\u0644\u0639\u0631\u0636 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A\u060C \u0627\u0644\u062A\u0635\u062F\u064A\u0631 \u0625\u0644\u0649 SVG/PNG\u060C \u0648\u0645\u0643\u062A\u0628\u0629 \u0627\u0644\u0642\u0648\u0627\u0644\u0628.",
-      "categoryId": "diagram",
+      "categoryId": "design",
       "category": {
-        "id": "diagram",
-        "name": "Diagrams",
-        "nameAr": "\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A",
-        "description": "Diagram and flowchart tools",
-        "icon": "Workflow",
-        "color": "#F97316",
-        "order": 9
+        "id": "design",
+        "name": "Design",
+        "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+        "description": "Design and asset tools",
+        "icon": "Palette",
+        "color": "#8B5CF6",
+        "order": 11
       },
       "keywords": [
         "mermaid",
@@ -1986,7 +1986,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83E\uDDDC\u200D\u2640\uFE0F",
+      "icon": "Workflow",
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
@@ -2004,7 +2004,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:59.0206090",
-      "updatedAt": "2026-03-31T16:58:00.2009346",
+      "updatedAt": "2026-09-13T10:09:54.0861754Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2058,7 +2058,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-08T06:23:04.6533981",
-      "updatedAt": "2026-09-13T10:08:22.5644177Z",
+      "updatedAt": "2026-09-13T10:08:22.5644177",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
