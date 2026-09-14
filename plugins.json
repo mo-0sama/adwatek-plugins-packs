@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-14T04:06:21.4330318Z",
+  "lastUpdated": "2026-09-14T04:06:26.8396261Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1869,7 +1869,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-08-16T08:05:28.4010281",
-      "updatedAt": "2026-09-14T04:06:18.8843458Z",
+      "updatedAt": "2026-09-14T04:06:24.9292090Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1877,8 +1877,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/liquid-playground/1.0.0/package.adwatekplugin",
-          "packageSize": 56692,
-          "packageChecksum": "06e86a7f2a6c4df1ddbf7f17444ba2f234cdf76cff0e67470bbf53120fbf4815",
+          "packageSize": 155252,
+          "packageChecksum": "5113929fd67f3a566389c39871a81e3df8a4c631af58298ff9179aeb9836fb5e",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-08-16T08:05:28.4010281"
         }
