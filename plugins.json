@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-14T04:06:26.8396261Z",
+  "lastUpdated": "2026-09-14T05:02:50.1453899Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1720,16 +1720,7 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 JSON \u0625\u0644\u0649 \u062A\u0639\u0631\u064A\u0641\u0627\u062A TypeScript, Zod, JSON Schema, io-ts, \u0648 Yup.",
       "longDescription": "Instantly generate type definitions and schemas from your JSON data.\n\nSupported output formats:\n- **TypeScript**: Interfaces and types\n- **Zod**: Runtime validation schemas\n- **JSON Schema**: Standard JSON Schema definitions\n- **io-ts**: Runtime type system codecs\n- **Yup**: Object schema validation\n\nFeatures:\n- **Real-time Conversion**: See results as you type\n- **Smart Inference**: Detects dates, integers, and common patterns\n- **Customizable**: Toggle optional properties, export keywords, and more\n- **Monaco Editor**: High-performance editor with syntax highlighting",
       "longDescriptionAr": "\u062A\u0648\u0644\u064A\u062F \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0641\u0648\u0631\u064A\u0627\u064B \u0645\u0646 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643.\n\n\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0627\u0644\u0625\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u062F\u0639\u0648\u0645\u0629:\n- **TypeScript**: \u0648\u0627\u062C\u0647\u0627\u062A \u0648\u0623\u0646\u0648\u0627\u0639\n- **Zod**: \u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062A\u062D\u0642\u0642 \u0641\u064A \u0648\u0642\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644\n- **JSON Schema**: \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0645\u062E\u0637\u0637 JSON \u0627\u0644\u0642\u064A\u0627\u0633\u064A\u0629\n- **io-ts**: \u0628\u0631\u0627\u0645\u062C \u062A\u0631\u0645\u064A\u0632 \u0646\u0638\u0627\u0645 \u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0641\u064A \u0648\u0642\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644\n- **Yup**: \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0645\u062E\u0637\u0637 \u0627\u0644\u0643\u0627\u0626\u0646\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062A\u062D\u0648\u064A\u0644 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A**: \u0631\u0624\u064A\u0629 \u0627\u0644\u0646\u062A\u0627\u0626\u062C \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0643\u062A\u0627\u0628\u0629\n- **\u0627\u0633\u062A\u062F\u0644\u0627\u0644 \u0630\u0643\u064A**: \u064A\u0643\u062A\u0634\u0641 \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E \u0648\u0627\u0644\u0623\u0639\u062F\u0627\u062F \u0627\u0644\u0635\u062D\u064A\u062D\u0629 \u0648\u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0634\u0627\u0626\u0639\u0629\n- **\u0642\u0627\u0628\u0644 \u0644\u0644\u062A\u062E\u0635\u064A\u0635**: \u062A\u0628\u062F\u064A\u0644 \u0627\u0644\u062E\u0635\u0627\u0626\u0635 \u0627\u0644\u0627\u062E\u062A\u064A\u0627\u0631\u064A\u0629\u060C \u0648\u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629\u060C \u0648\u0627\u0644\u0645\u0632\u064A\u062F\n- **\u0645\u062D\u0631\u0631 Monaco**: \u0645\u062D\u0631\u0631 \u0639\u0627\u0644\u064A \u0627\u0644\u0623\u062F\u0627\u0621 \u0645\u0639 \u062A\u0645\u064A\u064A\u0632 \u0627\u0644\u0635\u064A\u063A\u0629",
-      "categoryId": "converters",
-      "category": {
-        "id": "converters",
-        "name": "Converters",
-        "nameAr": "\u0627\u0644\u0645\u062D\u0648\u0644\u0627\u062A",
-        "description": "Convert between different formats",
-        "icon": "ArrowLeftRight",
-        "color": "#8B5CF6",
-        "order": 3
-      },
+      "categoryId": "other",
       "keywords": [
         "json",
         "typescript",
@@ -1744,7 +1735,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDD37",
+      "icon": "Code2",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -1752,6 +1743,7 @@
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
+      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-to-types",
@@ -1760,7 +1752,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.9792477",
-      "updatedAt": "2026-02-09T17:26:58.9792479",
+      "updatedAt": "2026-09-14T05:02:47.4102448Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1869,7 +1861,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-08-16T08:05:28.4010281",
-      "updatedAt": "2026-09-14T04:06:24.9292090Z",
+      "updatedAt": "2026-09-14T04:06:24.9292090",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
