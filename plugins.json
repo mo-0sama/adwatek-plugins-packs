@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-09-13T11:02:10.3342616Z",
+  "lastUpdated": "2026-09-14T04:06:21.4330318Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1023,7 +1023,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.8438878",
-      "updatedAt": "2026-09-13T11:02:08.6172400Z",
+      "updatedAt": "2026-09-13T11:02:08.6172400",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1845,23 +1845,15 @@
       "nameAr": "\u0633\u0627\u062D\u0629 \u0644\u064A\u0643\u0648\u064A\u062F",
       "description": "Write and evaluate Liquid templates against JSON data with live output.",
       "descriptionAr": "\u0627\u0643\u062A\u0628 \u0642\u0648\u0627\u0644\u0628 \u0644\u064A\u0643\u0648\u064A\u062F \u0648\u0642\u064A\u0651\u0645\u0647\u0627 \u0645\u0642\u0627\u0628\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0645\u0639 \u0639\u0631\u0636 \u0641\u0648\u0631\u064A \u0644\u0644\u0646\u0627\u062A\u062C.",
-      "longDescription": "# Liquid Playground\n\nAn interactive **Liquid template playground powered by LiquidJS**. Write Liquid templates, provide JSON data, and see the rendered result instantly\u2014all directly in your browser.\n\n### Features\n\n* \u26A1 **Live Rendering** \u2014 Render templates and JSON data instantly as you type, with render-time information.\n* \uD83C\uDFAF **Precise Error Reporting** \u2014 Quickly identify Liquid syntax/runtime errors and JSON data issues with clear line-level feedback.\n* \uD83C\uDFA8 **Liquid Syntax Highlighting** \u2014 Monaco-based editor with autocomplete for built-in Liquid tags and filters.\n* \uD83D\uDCDA **Liquid Reference** \u2014 Search and explore available tags and filters, then insert them directly into your template.\n* \uD83E\uDDEA **Strict Modes** \u2014 Enable strict variables, strict filters, and whitespace control to match production Liquid behavior.\n* \uD83D\uDC41 **Raw Output \u0026 HTML Preview** \u2014 Inspect the exact rendered text or preview HTML safely in a sandboxed frame.\n* \uD83D\uDCBE **Auto-Save** \u2014 Your templates, JSON data, and settings are automatically restored when you return.\n\n**Perfect for developers working with Liquid templates, debugging LiquidJS rendering, testing templates, and experimenting with filters, tags, and JSON data.**\n",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
-        "color": "#6366F1",
-        "order": 7
-      },
+      "longDescription": "An interactive playground for the Liquid templating language, powered by LiquidJS.\\n\\nFeatures:\\n- **\u26A1 Live rendering**: Template and JSON data are evaluated as you type, with render timing.\\n- **\uD83C\uDFAF Precise errors**: Syntax and runtime failures are reported with the offending line, and JSON problems are attributed to the data pane.\\n- **\uD83C\uDFA8 Liquid syntax highlighting**: A dedicated Monaco language with completions for every built-in tag and filter.\\n- **\uD83D\uDCDA Reference sidebar**: Searchable catalogue of Liquid tags and filters, click to insert at the cursor.\\n- **\uD83E\uDDEA Strict modes**: Toggle strict variables, strict filters, and whitespace trimming to match your production engine.\\n- **\uD83D\uDC41 Raw \u0026 preview**: Inspect the exact output text, or preview the rendered HTML in a sandboxed frame.\\n- **\uD83D\uDCBE Auto-save**: Your template, data and settings are restored the next time you open the tool.",
+      "longDescriptionAr": "\u0633\u0627\u062D\u0629 \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u063A\u0629 \u0627\u0644\u0642\u0648\u0627\u0644\u0628 \u0644\u064A\u0643\u0648\u064A\u062F\u060C \u0645\u0628\u0646\u064A\u0629 \u0639\u0644\u0649 LiquidJS.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u26A1 \u0639\u0631\u0636 \u0641\u0648\u0631\u064A**: \u064A\u062A\u0645 \u062A\u0642\u064A\u064A\u0645 \u0627\u0644\u0642\u0627\u0644\u0628 \u0648\u0628\u064A\u0627\u0646\u0627\u062A JSON \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0643\u062A\u0627\u0628\u0629 \u0645\u0639 \u0642\u064A\u0627\u0633 \u0632\u0645\u0646 \u0627\u0644\u0639\u0631\u0636.\\n- **\uD83C\uDFAF \u0623\u062E\u0637\u0627\u0621 \u062F\u0642\u064A\u0642\u0629**: \u062A\u064F\u0639\u0631\u0636 \u0623\u062E\u0637\u0627\u0621 \u0627\u0644\u0635\u064A\u0627\u063A\u0629 \u0648\u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0645\u0639 \u0631\u0642\u0645 \u0627\u0644\u0633\u0637\u0631\u060C \u0648\u062A\u064F\u0646\u0633\u0628 \u0623\u062E\u0637\u0627\u0621 JSON \u0625\u0644\u0649 \u0644\u0648\u062D\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A.\\n- **\uD83C\uDFA8 \u062A\u0644\u0648\u064A\u0646 \u0635\u064A\u0627\u063A\u0629 \u0644\u064A\u0643\u0648\u064A\u062F**: \u0644\u063A\u0629 \u0645\u062E\u0635\u0635\u0629 \u0641\u064A \u0627\u0644\u0645\u062D\u0631\u0631 \u0645\u0639 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u062A \u0644\u0643\u0644 \u0627\u0644\u0648\u0633\u0648\u0645 \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A \u0627\u0644\u0645\u062F\u0645\u062C\u0629.\\n- **\uD83D\uDCDA \u0644\u0648\u062D\u0629 \u0645\u0631\u062C\u0639\u064A\u0629**: \u0641\u0647\u0631\u0633 \u0642\u0627\u0628\u0644 \u0644\u0644\u0628\u062D\u062B \u0644\u0648\u0633\u0648\u0645 \u0648\u0645\u0631\u0634\u062D\u0627\u062A \u0644\u064A\u0643\u0648\u064A\u062F\u060C \u0627\u0646\u0642\u0631 \u0644\u0644\u0625\u062F\u0631\u0627\u062C \u0639\u0646\u062F \u0627\u0644\u0645\u0624\u0634\u0631.\\n- **\uD83E\uDDEA \u0627\u0644\u0623\u0648\u0636\u0627\u0639 \u0627\u0644\u0635\u0627\u0631\u0645\u0629**: \u0641\u0639\u0651\u0644 \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A \u0627\u0644\u0635\u0627\u0631\u0645\u0629 \u0648\u062A\u0642\u0644\u064A\u0645 \u0627\u0644\u0645\u0633\u0627\u0641\u0627\u062A \u0644\u062A\u0637\u0627\u0628\u0642 \u0645\u062D\u0631\u0643 \u0627\u0644\u0625\u0646\u062A\u0627\u062C \u0644\u062F\u064A\u0643.\\n- **\uD83D\uDC41 \u0646\u0635 \u062E\u0627\u0645 \u0648\u0645\u0639\u0627\u064A\u0646\u0629**: \u0627\u0641\u062D\u0635 \u0627\u0644\u0646\u0635 \u0627\u0644\u0646\u0627\u062A\u062C \u062A\u0645\u0627\u0645\u0627\u064B\u060C \u0623\u0648 \u0639\u0627\u064A\u0646 HTML \u0627\u0644\u0645\u0639\u0631\u0648\u0636 \u0641\u064A \u0625\u0637\u0627\u0631 \u0645\u0639\u0632\u0648\u0644.\\n- **\uD83D\uDCBE \u062D\u0641\u0638 \u062A\u0644\u0642\u0627\u0626\u064A**: \u064A\u062A\u0645 \u0627\u0633\u062A\u0639\u0627\u062F\u0629 \u0627\u0644\u0642\u0627\u0644\u0628 \u0648\u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0639\u0646\u062F \u0641\u062A\u062D \u0627\u0644\u0623\u062F\u0627\u0629 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649.",
+      "categoryId": "other",
       "keywords": [],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDCA7",
+      "icon": "Droplets",
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
@@ -1877,7 +1869,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-08-16T08:05:28.4010281",
-      "updatedAt": "2026-08-16T08:05:29.9660206",
+      "updatedAt": "2026-09-14T04:06:18.8843458Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
