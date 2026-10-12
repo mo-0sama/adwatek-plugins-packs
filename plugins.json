@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:57:44.7044703Z",
+  "lastUpdated": "2026-10-12T22:57:51.0397100Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -977,8 +977,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:57:42.5323917Z",
-      "updatedAt": "2026-10-12T22:57:42.5324024Z",
+      "publishedAt": "2026-10-12T22:57:42.5323917",
+      "updatedAt": "2026-10-12T22:57:42.5324024",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -989,7 +989,7 @@
           "packageSize": 546055,
           "packageChecksum": "7d8f44753c31c41b0e5782505d889d8b4a3deb4b045895d5e0cdee23712b7654",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:57:42.5323917Z"
+          "publishedAt": "2026-10-12T22:57:42.5323917"
         },
         {
           "version": "1.0.0",
@@ -1010,15 +1010,15 @@
       "descriptionAr": "\u062A\u0648\u0644\u064A\u062F UUIDs \u0648 NanoIDs \u0648 ULIDs \u0648 Snowflakes \u0648\u0627\u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u064A\u062F\u0629 \u0645\u0639 \u062E\u064A\u0627\u0631\u0627\u062A \u0645\u062A\u0642\u062F\u0645\u0629.",
       "longDescription": "A comprehensive ID generation tool combining UUID Generator and ID Generators into one powerful utility. Supports multiple ID formats for any use case.\\n\\nFeatures:\\n- **\uD83D\uDD11 UUID Versions**: Generate v1 (time-based), v4 (random), and v7 (time-ordered) UUIDs\\n- **\u26A1 Modern IDs**: NanoID, ULID, CUID for modern applications\\n- **\uD83C\uDFE2 Enterprise IDs**: MongoDB ObjectID, Twitter Snowflake for distributed systems\\n- **\u2699\uFE0F Customization**: Custom alphabets, length, case, hyphens\\n- **\uD83D\uDCCA Comparison Table**: Understand which ID type fits your needs\\n- **\uD83D\uDCCB Bulk Generation**: Generate up to 100 IDs at once\\n- **\uD83D\uDCBE Export**: Copy or download as JSON",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u062A\u062C\u0645\u0639 \u0628\u064A\u0646 \u0645\u0648\u0644\u062F UUID \u0648\u0645\u0648\u0644\u062F\u0627\u062A ID \u0641\u064A \u0623\u062F\u0627\u0629 \u0648\u0627\u062D\u062F\u0629 \u0642\u0648\u064A\u0629. \u062A\u062F\u0639\u0645 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0644\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0644\u0623\u064A \u062D\u0627\u0644\u0629 \u0627\u0633\u062A\u062E\u062F\u0627\u0645.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD11 \u0625\u0635\u062F\u0627\u0631\u0627\u062A UUID**: \u062A\u0648\u0644\u064A\u062F v1 (\u0645\u0628\u0646\u064A \u0639\u0644\u0649 \u0627\u0644\u0648\u0642\u062A) \u0648 v4 (\u0639\u0634\u0648\u0627\u0626\u064A) \u0648 v7 (\u0645\u0631\u062A\u0628 \u0632\u0645\u0646\u064A\u0627\u064B)\\n- **\u26A1 \u0645\u0639\u0631\u0641\u0627\u062A \u062D\u062F\u064A\u062B\u0629**: NanoID \u0648 ULID \u0648 CUID \u0644\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A \u0627\u0644\u062D\u062F\u064A\u062B\u0629\\n- **\uD83C\uDFE2 \u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0645\u0624\u0633\u0633\u0627\u062A**: MongoDB ObjectID \u0648 Twitter Snowflake \u0644\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u0648\u0632\u0639\u0629\\n- **\u2699\uFE0F \u0627\u0644\u062A\u062E\u0635\u064A\u0635**: \u0623\u0628\u062C\u062F\u064A\u0627\u062A \u0645\u062E\u0635\u0635\u0629\u060C \u0627\u0644\u0637\u0648\u0644\u060C \u0627\u0644\u062D\u0627\u0644\u0629\u060C \u0627\u0644\u0634\u0631\u0637\u0627\u062A\\n- **\uD83D\uDCCA \u062C\u062F\u0648\u0644 \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629**: \u0641\u0647\u0645 \u0646\u0648\u0639 \u0627\u0644\u0645\u0639\u0631\u0641 \u0627\u0644\u0645\u0646\u0627\u0633\u0628 \u0644\u0627\u062D\u062A\u064A\u0627\u062C\u0627\u062A\u0643\\n- **\uD83D\uDCCB \u062A\u0648\u0644\u064A\u062F \u062C\u0645\u0627\u0639\u064A**: \u062A\u0648\u0644\u064A\u062F \u062D\u062A\u0649 100 \u0645\u0639\u0631\u0641 \u062F\u0641\u0639\u0629 \u0648\u0627\u062D\u062F\u0629\\n- **\uD83D\uDCBE \u0627\u0644\u062A\u0635\u062F\u064A\u0631**: \u0646\u0633\u062E \u0623\u0648 \u062A\u062D\u0645\u064A\u0644 \u0643\u0640 JSON",
-      "categoryId": "generators",
+      "categoryId": "dev-utils",
       "category": {
-        "id": "generators",
-        "name": "Generators",
-        "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
-        "description": "Generate code, data, and assets",
-        "icon": "Zap",
-        "color": "#F59E0B",
-        "order": 4
+        "id": "dev-utils",
+        "name": "Dev Utils",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities and helpers",
+        "icon": "Wrench",
+        "color": "#6366F1",
+        "order": 7
       },
       "keywords": [
         "uuid",
@@ -1036,7 +1036,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDD11",
+      "icon": "KeyRound",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -1051,7 +1051,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:58.8338511",
-      "updatedAt": "2026-03-17T20:07:13.5648293",
+      "updatedAt": "2026-10-12T22:57:49.1540604Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
