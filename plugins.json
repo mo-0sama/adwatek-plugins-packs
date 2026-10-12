@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:59:11.8193330Z",
+  "lastUpdated": "2026-10-12T22:59:17.0078483Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1538,8 +1538,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:59:10.6930770Z",
-      "updatedAt": "2026-10-12T22:59:10.6930899Z",
+      "publishedAt": "2026-10-12T22:59:10.6930770",
+      "updatedAt": "2026-10-12T22:59:10.6930899",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1550,7 +1550,7 @@
           "packageSize": 56214,
           "packageChecksum": "875214d801b9f3e98060a63a252a494514d011a7087995474f8ff1890a17c9dd",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:59:10.6930770Z"
+          "publishedAt": "2026-10-12T22:59:10.6930770"
         },
         {
           "version": "1.0.0",
@@ -1564,53 +1564,65 @@
     },
     {
       "id": "json-obfuscator",
-      "latestVersion": "1.0.0",
-      "name": "JSON Mask",
-      "nameAr": "\u062A\u0639\u062A\u064A\u0645 JSON",
-      "description": "Scramble and mask sensitive values in JSON data while preserving structure",
-      "descriptionAr": "\u062A\u0634\u0648\u064A\u0634 \u0648\u0625\u062E\u0641\u0627\u0621 \u0627\u0644\u0642\u064A\u0645 \u0627\u0644\u062D\u0633\u0627\u0633\u0629 \u0641\u064A \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0645\u0639 \u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0628\u0646\u064A\u0629",
-      "longDescription": "Scramble and mask sensitive values in JSON data while preserving structure",
-      "longDescriptionAr": "Scramble and mask sensitive values in JSON data while preserving structure",
-      "categoryId": "json",
+      "latestVersion": "1.1.0",
+      "name": "JSON Obfuscator \u0026 Anonymizer",
+      "nameAr": "\u062A\u0634\u0648\u064A\u0634 \u0648\u062A\u0639\u062A\u064A\u0645 JSON",
+      "description": "Scramble and mask sensitive values, PII, and credentials in JSON while preserving data structures",
+      "descriptionAr": "\u062A\u0634\u0648\u064A\u0634 \u0648\u0625\u062E\u0641\u0627\u0621 \u0627\u0644\u0642\u064A\u0645 \u0627\u0644\u062D\u0633\u0627\u0633\u0629 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0647\u0648\u064A\u0629 \u0648\u0627\u0644\u0627\u0639\u062A\u0645\u0627\u062F\u0627\u062A \u0641\u064A \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u0639 \u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0647\u064A\u0643\u0644",
+      "longDescription": "A data privacy and test fixture generator that masks sensitive customer PII, credit card details, medical records, and credentials in JSON.\n\nKey Features:\n- **Multiple Strategies**: Redaction masking (\u0060***\u0060), realistic fake mock data, cryptographic hashing, and random scrambling\n- **Preserve Structure**: Retains JSON hierarchy, array lengths, and object shapes\n- **Email \u0026 Domain Control**: Keep valid email domain names while anonymizing user handles\n- **Selective Exclusions**: Skip operational keys like \u0060id\u0060, \u0060type\u0060, \u0060status\u0060 to keep tests working\n- **Monaco Code Editors**: Instant side-by-side comparison between raw and protected data",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u0642\u062F\u0645\u0629 \u0644\u062D\u0645\u0627\u064A\u0629 \u062E\u0635\u0648\u0635\u064A\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u062A\u0648\u0644\u064A\u062F \u0628\u064A\u0627\u0646\u0627\u062A \u0627\u062E\u062A\u0628\u0627\u0631\u064A\u0629 \u0622\u0645\u0646\u0629 \u0639\u0628\u0631 \u062A\u0639\u062A\u064A\u0645 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u062D\u0633\u0627\u0633\u0629 \u0648\u062A\u0648\u0644\u064A\u062F \u0628\u064A\u0627\u0646\u0627\u062A \u0628\u062F\u064A\u0644\u0629 \u0648\u0627\u0642\u0639\u064A\u0629.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u0627\u0633\u062A\u0631\u0627\u062A\u064A\u062C\u064A\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062D\u062C\u0628 \u0628\u0627\u0644\u0646\u062C\u0648\u0645 (***)\u060C \u0648\u062A\u0648\u0644\u064A\u062F \u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0647\u0645\u064A\u0629 \u0648\u0627\u0642\u0639\u064A\u0629\u060C \u0648\u062A\u062C\u0632\u0626\u0629 \u062A\u0634\u0641\u064A\u0631\u064A\u0629\u060C \u0648\u0623\u062D\u0631\u0641 \u0639\u0634\u0648\u0627\u0626\u064A\u0629\n- **\u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0647\u064A\u0643\u0644**: \u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u062A\u0633\u0644\u0633\u0644 JSON \u0648\u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0623\u062D\u062C\u0627\u0645 \u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A\n- **\u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A \u0646\u0637\u0627\u0642 \u0627\u0644\u0628\u0631\u064A\u062F**: \u0625\u0628\u0642\u0627\u0621 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0646\u0637\u0627\u0642\u0627\u062A \u0635\u062D\u064A\u062D\u0629 \u0645\u0639 \u0625\u062E\u0641\u0627\u0621 \u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\n- **\u0627\u0633\u062A\u062B\u0646\u0627\u0621\u0627\u062A \u0645\u062D\u062F\u062F\u0629**: \u0627\u0633\u062A\u062B\u0646\u0627\u0621 \u0645\u0641\u0627\u062A\u064A\u062D \u0645\u0639\u064A\u0646\u0629 \u0645\u062B\u0644 id \u0648 status \u0648 type \u0644\u0636\u0645\u0627\u0646 \u0639\u0645\u0644 \u0628\u064A\u0626\u0627\u062A \u0627\u0644\u0627\u062E\u062A\u0628\u0627\u0631\n- **\u0645\u062D\u0631\u0631\u0627\u062A Monaco \u0627\u0644\u0645\u0632\u062F\u0648\u062C\u0629**: \u0645\u0642\u0627\u0631\u0646\u0629 \u0641\u0648\u0631\u064A\u0629 \u0628\u064A\u0646 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0623\u0635\u0644\u064A\u0629 \u0648\u0627\u0644\u0645\u062D\u0645\u064A\u0629",
+      "categoryId": "security",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "security",
+        "name": "Security",
+        "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
+        "description": "Security and encryption tools",
+        "icon": "Shield",
+        "color": "#EF4444",
+        "order": 6
       },
       "keywords": [
         "json",
         "obfuscator",
         "masking",
+        "anonymizer",
         "privacy",
-        "security"
+        "security",
+        "pii",
+        "gdpr",
+        "hipaa"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83C\uDFAD",
+      "icon": "ShieldCheck",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 13,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.9249403",
-      "updatedAt": "2026-02-09T17:26:58.9249404",
+      "publishedAt": "2026-10-12T22:59:15.2158347",
+      "updatedAt": "2026-10-12T22:59:15.7537475Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-obfuscator/1.1.0/package.adwatekplugin",
+          "packageSize": 57966,
+          "packageChecksum": "a6c26955d2d3602d40d9f46f6f999180a868fce011749386137583d62479db23",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:59:15.2158347"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-obfuscator/1.0.0/package.adwatekplugin",
