@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T23:01:02.6841560Z",
+  "lastUpdated": "2026-10-12T23:01:09.7042480Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2225,7 +2225,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-02-09T17:26:59.0206090",
-      "updatedAt": "2026-10-12T23:01:01.4275324Z",
+      "updatedAt": "2026-10-12T23:01:06.9358000Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2233,8 +2233,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mermaid-editor/1.0.0/package.adwatekplugin",
-          "packageSize": 51407,
-          "packageChecksum": "eee44ff8f27da674390b530935be39386b7dc72ac007fedbde2421945bb0fe60",
+          "packageSize": 2720054,
+          "packageChecksum": "a3f12080e14c215081292a050822c39dde5f501a923f10917909aadd1748123c",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:59.0206090"
         }
