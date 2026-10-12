@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:58:53.6161508Z",
+  "lastUpdated": "2026-10-12T22:58:58.3804187Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1396,8 +1396,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:58:51.3967767Z",
-      "updatedAt": "2026-10-12T22:58:51.3968036Z",
+      "publishedAt": "2026-10-12T22:58:51.3967767",
+      "updatedAt": "2026-10-12T22:58:51.3968036",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1408,7 +1408,7 @@
           "packageSize": 2831204,
           "packageChecksum": "1ca1f31bfb19edc81e46815826188c027f129244931044b414a851ebdef93360",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:58:51.3967767Z"
+          "publishedAt": "2026-10-12T22:58:51.3967767"
         },
         {
           "version": "1.0.0",
@@ -1422,22 +1422,22 @@
     },
     {
       "id": "json-env",
-      "latestVersion": "1.0.0",
-      "name": "JSON to ENV",
-      "nameAr": "JSON \u0625\u0644\u0649 ENV",
-      "description": "Convert between JSON and .env file formats with prefix and case options",
-      "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648 .env \u0645\u0639 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0628\u0627\u062F\u0626\u0629 \u0648\u0627\u0644\u062D\u0627\u0644\u0629",
-      "longDescription": "A bidirectional converter between JSON and environment variable (.env) formats. Perfect for managing configuration files and environment variables.\\n\\nFeatures:\\n- **JSON to ENV**: Flatten JSON objects to environment variables\\n- **ENV to JSON**: Parse .env files back to JSON\\n- **Custom Prefix**: Add prefixes to all environment variables\\n- **Case Control**: Toggle between uppercase and lowercase keys\\n- **Nested Objects**: Handles deeply nested JSON structures\\n- **Array Support**: Converts arrays to indexed environment variables",
-      "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629 (.env). \u0645\u062B\u0627\u0644\u064A \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 \u0648\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **JSON \u0625\u0644\u0649 ENV**: \u062A\u0633\u0637\u064A\u062D \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u064A\u0626\u0629\\n- **ENV \u0625\u0644\u0649 JSON**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0644\u0641\u0627\u062A .env \u0625\u0644\u0649 JSON\\n- **\u0628\u0627\u062F\u0626\u0629 \u0645\u062E\u0635\u0635\u0629**: \u0625\u0636\u0627\u0641\u0629 \u0628\u0627\u062F\u0626\u0627\u062A \u0644\u062C\u0645\u064A\u0639 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629\\n- **\u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A \u0627\u0644\u062D\u0627\u0644\u0629**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u064A\u0646 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0643\u0628\u064A\u0631\u0629 \u0648\u0627\u0644\u0635\u063A\u064A\u0631\u0629\\n- **\u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629**: \u064A\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0647\u064A\u0627\u0643\u0644 JSON \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0628\u0639\u0645\u0642\\n- **\u062F\u0639\u0645 \u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A**: \u064A\u062D\u0648\u0644 \u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0625\u0644\u0649 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u064A\u0626\u0629 \u0645\u0641\u0647\u0631\u0633\u0629",
-      "categoryId": "json",
+      "latestVersion": "1.1.0",
+      "name": "JSON \u21C4 .env",
+      "nameAr": "JSON \u21C4 .env",
+      "description": "Bidirectional converter between JSON configurations and environment variable (.env) files",
+      "descriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0643\u0648\u064A\u0646\u0627\u062A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629 (.env)",
+      "longDescription": "A bidirectional converter between JSON and environment variable (.env) formats.\n\nKey Features:\n- **Bidirectional**: Fast conversion from JSON to .env and .env to structured JSON with 1-click swap\n- **Monaco Code Editors**: Full syntax highlighting for both JSON and Shell/Bash .env files\n- **Prefix \u0026 Formatting**: Custom prefixes (e.g. NEXT_PUBLIC_, VITE_), uppercase formatting, and delimiters\n- **Quote Control**: Auto-quote values with spaces/special characters, always quote, or unquoted\n- **Unflattening**: Intelligent unflattening of composite keys into nested JSON objects",
+      "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0643\u0648\u064A\u0646\u0627\u062A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629 (.env).\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647**: \u062A\u062D\u0648\u064A\u0644 \u0633\u0631\u064A\u0639 \u0645\u0646 JSON \u0625\u0644\u0649 .env \u0648\u0627\u0644\u0639\u0643\u0633 \u0645\u0639 \u0632\u0631 \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0627\u0644\u0641\u0648\u0631\u064A\n- **\u0645\u062D\u0631\u0631\u0627\u062A Monaco \u0627\u0644\u0645\u0632\u062F\u0648\u062C\u0629**: \u062A\u0645\u064A\u064A\u0632 \u0643\u0627\u0645\u0644 \u0644\u0635\u064A\u063A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629 Shell/.env\n- **\u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u062A\u0633\u0645\u064A\u0629**: \u0628\u0627\u062F\u0626\u0627\u062A \u0645\u062E\u0635\u0635\u0629 (\u0645\u062B\u0644 NEXT_PUBLIC_)\u060C \u0648\u062A\u062D\u0648\u064A\u0644 \u0644\u0644\u0623\u062D\u0631\u0641 \u0627\u0644\u0643\u0628\u064A\u0631\u0629\u060C \u0648\u0641\u0648\u0627\u0635\u0644 \u0645\u062E\u0635\u0635\u0629\n- **\u0627\u0644\u062A\u062D\u0643\u0645 \u0641\u064A \u0627\u0644\u062A\u0646\u0635\u064A\u0635**: \u062A\u0646\u0635\u064A\u0635 \u0630\u0643\u064A \u062A\u0644\u0642\u0627\u0626\u064A \u0623\u0648 \u062A\u0646\u0635\u064A\u0635 \u062F\u0627\u0626\u0645 \u0623\u0648 \u0628\u062F\u0648\u0646 \u062A\u0646\u0635\u064A\u0635\n- **\u062A\u0641\u0643\u064A\u0643 \u0627\u0644\u0647\u064A\u0627\u0643\u0644 \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629**: \u0625\u0639\u0627\u062F\u0629 \u0628\u0646\u0627\u0621 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0645\u0646 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0631\u0643\u0628\u0629",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
@@ -1446,31 +1446,41 @@
         "variables",
         "config",
         "converter",
-        "dotenv"
+        "dotenv",
+        "docker",
+        "devops"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDD04",
+      "icon": "ArrowLeftRight",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 3,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.8991821",
-      "updatedAt": "2026-02-09T17:26:58.8991822",
+      "publishedAt": "2026-10-12T22:58:56.7227956",
+      "updatedAt": "2026-10-12T22:58:57.2883112Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-env/1.1.0/package.adwatekplugin",
+          "packageSize": 56592,
+          "packageChecksum": "efdb38918a8fea6b5e80713f40597812db177d6795d89537969331c46c0d63be",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:58:56.7227956"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-env/1.0.0/package.adwatekplugin",
