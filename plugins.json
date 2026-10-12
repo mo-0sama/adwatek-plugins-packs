@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:56:41.5867766Z",
+  "lastUpdated": "2026-10-12T22:56:48.7078755Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -572,8 +572,8 @@
       "downloads": 7,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:56:40.4148236Z",
-      "updatedAt": "2026-10-12T22:56:40.4148389Z",
+      "publishedAt": "2026-10-12T22:56:40.4148236",
+      "updatedAt": "2026-10-12T22:56:40.4148389",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -584,13 +584,13 @@
           "packageSize": 24679,
           "packageChecksum": "4327bb410a53418caec4b014dbdc03d0f0ff6c08bb604c4f374b393a56f05bd6",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:56:40.4148236Z"
+          "publishedAt": "2026-10-12T22:56:40.4148236"
         }
       ]
     },
     {
       "id": "db-diagram",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "name": "DB Diagram",
       "nameAr": "\u0645\u062E\u0637\u0637 \u0642\u0627\u0639\u062F\u0629 \u0628\u064A\u0627\u0646\u0627\u062A",
       "description": "Design and visualize database schemas with interactive diagrams, SQL export, and validation.",
@@ -625,23 +625,30 @@
       "icon": "Database",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
-      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 16,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.7265306",
-      "updatedAt": "2026-09-13T10:11:13.4989324",
+      "publishedAt": "2026-10-12T22:56:45.3296891",
+      "updatedAt": "2026-10-12T22:56:46.5752755Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/db-diagram/1.1.0/package.adwatekplugin",
+          "packageSize": 1399358,
+          "packageChecksum": "99068020cc89ef2023a2f0548c4ad2dcedf57e91bf956533f7b5f46d016e05ea",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:56:45.3296891"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/db-diagram/1.0.0/package.adwatekplugin",
