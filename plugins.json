@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:55:46.7335581Z",
+  "lastUpdated": "2026-10-12T22:55:51.7345960Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -294,7 +294,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.6399804",
-      "updatedAt": "2026-10-12T22:55:45.0227522Z",
+      "updatedAt": "2026-10-12T22:55:50.2913924Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -302,8 +302,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/chart-generator/1.0.0/package.adwatekplugin",
-          "packageSize": 199319,
-          "packageChecksum": "aee507b1fe3eb894a0c41a4da606a2978489af1c0629d7a87773843ba4cefc66",
+          "packageSize": 256718,
+          "packageChecksum": "afa8ec52b723c362abf77ba670bd1aa3bb186d23a480cdc6503cc20a3ca3eab8",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:58.6399804"
         }
