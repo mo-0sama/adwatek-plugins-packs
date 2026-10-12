@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:55:40.6964545Z",
+  "lastUpdated": "2026-10-12T22:55:46.7335581Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -231,8 +231,8 @@
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:55:39.4743211Z",
-      "updatedAt": "2026-10-12T22:55:39.4743357Z",
+      "publishedAt": "2026-10-12T22:55:39.4743211",
+      "updatedAt": "2026-10-12T22:55:39.4743357",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -243,7 +243,7 @@
           "packageSize": 18806,
           "packageChecksum": "128ed34432ccab2a5755b104f31a3ae3b3548dd3eed5a9bca99700570ab9612d",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:55:39.4743211Z"
+          "publishedAt": "2026-10-12T22:55:39.4743211"
         }
       ]
     },
@@ -280,7 +280,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDCCA",
+      "icon": "BarChart3",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -294,7 +294,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.6399804",
-      "updatedAt": "2026-02-09T17:26:58.6399806",
+      "updatedAt": "2026-10-12T22:55:45.0227522Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
