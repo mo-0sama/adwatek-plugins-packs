@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:59:01.8227200Z",
+  "lastUpdated": "2026-10-12T22:59:08.1661843Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1467,8 +1467,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:59:00.5869908Z",
-      "updatedAt": "2026-10-12T22:59:00.5870765Z",
+      "publishedAt": "2026-10-12T22:59:00.5869908",
+      "updatedAt": "2026-10-12T22:59:00.5870765",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1479,7 +1479,7 @@
           "packageSize": 56592,
           "packageChecksum": "efdb38918a8fea6b5e80713f40597812db177d6795d89537969331c46c0d63be",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:59:00.5869908Z"
+          "publishedAt": "2026-10-12T22:59:00.5869908"
         },
         {
           "version": "1.0.0",
@@ -1493,22 +1493,22 @@
     },
     {
       "id": "json-ini",
-      "latestVersion": "1.0.0",
-      "name": "JSON to INI",
-      "nameAr": "JSON \u0625\u0644\u0649 INI",
-      "description": "Convert between JSON and INI configuration file formats",
-      "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 JSON \u0648 INI",
-      "longDescription": "A bidirectional converter between JSON and INI configuration file formats. Perfect for managing application configuration files.\\n\\nFeatures:\\n- **JSON to INI**: Convert JSON objects to INI format\\n- **INI to JSON**: Parse INI files back to JSON\\n- **Nested Sections**: Handles nested objects as INI sections\\n- **Type Preservation**: Maintains data types during conversion\\n- **Comment Support**: Preserves comments in INI files\\n- **Section Hierarchy**: Supports dotted section names for deep nesting",
-      "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0643\u0648\u064A\u0646 JSON \u0648 INI. \u0645\u062B\u0627\u0644\u064A \u0644\u0625\u062F\u0627\u0631\u0629 \u0645\u0644\u0641\u0627\u062A \u062A\u0643\u0648\u064A\u0646 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **JSON \u0625\u0644\u0649 INI**: \u062A\u062D\u0648\u064A\u0644 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642 INI\\n- **INI \u0625\u0644\u0649 JSON**: \u062A\u062D\u0644\u064A\u0644 \u0645\u0644\u0641\u0627\u062A INI \u0625\u0644\u0649 JSON\\n- **\u0627\u0644\u0623\u0642\u0633\u0627\u0645 \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629**: \u064A\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0643\u0623\u0642\u0633\u0627\u0645 INI\\n- **\u0627\u0644\u062D\u0641\u0627\u0638 \u0639\u0644\u0649 \u0627\u0644\u0623\u0646\u0648\u0627\u0639**: \u064A\u062D\u0627\u0641\u0638 \u0639\u0644\u0649 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u062A\u062D\u0648\u064A\u0644\\n- **\u062F\u0639\u0645 \u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A**: \u064A\u062D\u0627\u0641\u0638 \u0639\u0644\u0649 \u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A \u0641\u064A \u0645\u0644\u0641\u0627\u062A INI\\n- **\u062A\u0633\u0644\u0633\u0644 \u0627\u0644\u0623\u0642\u0633\u0627\u0645**: \u064A\u062F\u0639\u0645 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0623\u0642\u0633\u0627\u0645 \u0627\u0644\u0645\u0646\u0642\u0637\u0629 \u0644\u0644\u062A\u062F\u0627\u062E\u0644 \u0627\u0644\u0639\u0645\u064A\u0642",
-      "categoryId": "json",
+      "latestVersion": "1.1.0",
+      "name": "JSON \u21C4 INI",
+      "nameAr": "JSON \u21C4 INI",
+      "description": "Bidirectional converter between JSON configurations and INI configuration files",
+      "descriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0643\u0648\u064A\u0646\u0627\u062A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u062A\u0643\u0648\u064A\u0646 INI",
+      "longDescription": "A bidirectional converter between JSON and INI configuration formats.\n\nKey Features:\n- **Bidirectional**: Fast conversion from JSON to INI and INI to JSON with 1-click swap\n- **Monaco Code Editors**: Full syntax highlighting for both JSON and INI files\n- **Configurable Delimiters**: Support for \u0060=\u0060 and \u0060:\u0060 delimiters with optional spacing\n- **Boolean Formats**: Customizable boolean styles (true/false, on/off, yes/no, 1/0)\n- **Comment Support**: Customizable comment syntax (\u0060;\u0060 or \u0060#\u0060)",
+      "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0643\u0648\u064A\u0646\u0627\u062A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u062A\u0643\u0648\u064A\u0646 INI.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647**: \u062A\u062D\u0648\u064A\u0644 \u0633\u0631\u064A\u0639 \u0645\u0646 JSON \u0625\u0644\u0649 INI \u0648\u0627\u0644\u0639\u0643\u0633 \u0645\u0639 \u0632\u0631 \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0627\u0644\u0641\u0648\u0631\u064A\n- **\u0645\u062D\u0631\u0631\u0627\u062A Monaco \u0627\u0644\u0645\u0632\u062F\u0648\u062C\u0629**: \u062A\u0645\u064A\u064A\u0632 \u062F\u0642\u064A\u0642 \u0644\u0635\u064A\u063A JSON \u0648\u0645\u0644\u0641\u0627\u062A \u062A\u0643\u0648\u064A\u0646 INI\n- **\u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0641\u0648\u0627\u0635\u0644**: \u062F\u0639\u0645 \u0641\u0627\u0635\u0644 \u0627\u0644\u0645\u0633\u0627\u0648\u0627\u0629 (=) \u0648\u0627\u0644\u0646\u0642\u0637\u062A\u064A\u0646 (:) \u0645\u0639 \u0627\u0644\u062A\u062D\u0643\u0645 \u0628\u0627\u0644\u0645\u0633\u0627\u0641\u0627\u062A\n- **\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0627\u0644\u0642\u064A\u0645 \u0627\u0644\u0645\u0646\u0637\u0642\u064A\u0629**: \u062A\u062E\u0635\u064A\u0635 \u0623\u0633\u0644\u0648\u0628 \u0627\u0644\u0642\u064A\u0645 \u0627\u0644\u0645\u0646\u0637\u0642\u064A\u0629 (true/false, on/off, yes/no, 1/0)\n- **\u062F\u0639\u0645 \u0627\u0644\u062A\u0639\u0644\u064A\u0642\u0627\u062A**: \u062F\u0639\u0645 \u0631\u0645\u0648\u0632 \u0627\u0644\u062A\u0639\u0644\u064A\u0642 \u0627\u0644\u0645\u062E\u062A\u0644\u0641\u0629 (; \u0623\u0648 #)",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
@@ -1516,31 +1516,42 @@
         "config",
         "configuration",
         "converter",
-        "settings"
+        "settings",
+        "php",
+        "git",
+        "desktop"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\u2699\uFE0F",
+      "icon": "Settings",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.9133504",
-      "updatedAt": "2026-02-09T17:26:58.9133511",
+      "publishedAt": "2026-10-12T22:59:06.0048194",
+      "updatedAt": "2026-10-12T22:59:07.0247552Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-ini/1.1.0/package.adwatekplugin",
+          "packageSize": 56214,
+          "packageChecksum": "875214d801b9f3e98060a63a252a494514d011a7087995474f8ff1890a17c9dd",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:59:06.0048194"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-ini/1.0.0/package.adwatekplugin",
