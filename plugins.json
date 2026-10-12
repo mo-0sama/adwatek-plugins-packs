@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:56:54.1242487Z",
+  "lastUpdated": "2026-10-12T22:56:58.5709925Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -635,8 +635,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:56:51.8660021Z",
-      "updatedAt": "2026-10-12T22:56:51.8660137Z",
+      "publishedAt": "2026-10-12T22:56:51.8660021",
+      "updatedAt": "2026-10-12T22:56:51.8660137",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -647,7 +647,7 @@
           "packageSize": 1399358,
           "packageChecksum": "99068020cc89ef2023a2f0548c4ad2dcedf57e91bf956533f7b5f46d016e05ea",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:56:51.8660021Z"
+          "publishedAt": "2026-10-12T22:56:51.8660021"
         },
         {
           "version": "1.0.0",
@@ -724,10 +724,10 @@
       "latestVersion": "1.0.0",
       "name": "Hashes",
       "nameAr": "\u062A\u0634\u0641\u064A\u0631",
-      "description": "Generate and compare cryptographic hashes (MD5, SHA1, SHA256, SHA512).",
-      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u0645\u0642\u0627\u0631\u0646\u0629 \u0631\u0645\u0648\u0632 \u0627\u0644\u062A\u0634\u0641\u064A\u0631 (MD5, SHA1, SHA256, SHA512).",
-      "longDescription": "A robust utility for generating and increasing security hashes.\n\nFeatures:\n- **Text Hashing**: Generate hashes from any text input\n- **File Hashing**: Calculate checksums for local files (MD5, SHA1, SHA256, SHA512)\n- **HMAC Generator**: Create Hash-based Message Authentication Codes with secret keys\n- **Hash Comparison**: Securely compare two hash strings to verify integrity\n- **Privacy Focused**: All calculations happen locally in your browser",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0642\u0648\u064A\u0629 \u0644\u0625\u0646\u0634\u0627\u0621 \u0648\u0632\u064A\u0627\u062F\u0629 \u0623\u0645\u0627\u0646 \u0627\u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0645\u0634\u0641\u0631\u0629.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062A\u0634\u0641\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0646 \u0623\u064A \u0646\u0635 \u0645\u062F\u062E\u0644\n- **\u062A\u0634\u0641\u064A\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062A**: \u062D\u0633\u0627\u0628 \u0627\u0644\u0645\u062C\u0645\u0648\u0639 \u0627\u0644\u0627\u062E\u062A\u0628\u0627\u0631\u064A \u0644\u0644\u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0645\u062D\u0644\u064A\u0629 (MD5, SHA1, SHA256, SHA512)\n- **\u0645\u0648\u0644\u062F HMAC**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0635\u0627\u062F\u0642\u0629 \u0627\u0644\u0631\u0633\u0627\u0626\u0644 \u0627\u0644\u0642\u0627\u0626\u0645\u0629 \u0639\u0644\u0649 \u0627\u0644\u062A\u0634\u0641\u064A\u0631 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0633\u0631\u064A\u0629\n- **\u0645\u0642\u0627\u0631\u0646\u0629 \u0627\u0644\u0631\u0645\u0648\u0632**: \u0645\u0642\u0627\u0631\u0646\u0629 \u0631\u0645\u0632\u064A\u0646 \u0645\u0634\u0641\u0631\u064A\u0646 \u0628\u0623\u0645\u0627\u0646 \u0644\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0646\u0632\u0627\u0647\u0629\n- **\u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629 \u0623\u0648\u0644\u0627\u064B**: \u062C\u0645\u064A\u0639 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062D\u0633\u0627\u0628\u064A\u0629 \u062A\u062A\u0645 \u0645\u062D\u0644\u064A\u0627\u064B \u0641\u064A \u0645\u062A\u0635\u0641\u062D\u0643",
+      "description": "Professional cryptographic utility for hashing (SHA3, RIPEMD160, etc.) and integrity verification.",
+      "descriptionAr": "\u0623\u062F\u0627\u0629 \u062A\u0634\u0641\u064A\u0631 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 (SHA3, RIPEMD160, \u0625\u0644\u062E) \u0648\u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0646\u0632\u0627\u0647\u0629.",
+      "longDescription": "A complete suite for cryptographic operations.\n\nFeatures:\n- **Advanced Algorithms**: Support for MD5, SHA1, SHA2, and SHA3\n- **Drag \u0026 Drop**: Easily calculate checksums for files\n- **Multiple Formats**: Toggle between Hex and Base64 output\n- **HMAC Studio**: Generate secure message authentication codes\n- **Secure**: All operations run locally in your browser",
+      "longDescriptionAr": "\u0645\u062C\u0645\u0648\u0639\u0629 \u0643\u0627\u0645\u0644\u0629 \u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062A\u0634\u0641\u064A\u0631.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\u062E\u0648\u0627\u0631\u0632\u0645\u064A\u0627\u062A \u0645\u062A\u0642\u062F\u0645\u0629**: \u062F\u0639\u0645 \u0644\u0640 MD5, SHA1, SHA2, SHA3\n- **\u0633\u062D\u0628 \u0648\u0625\u0641\u0644\u0627\u062A**: \u062D\u0633\u0627\u0628 \u0633\u0647\u0644 \u0644\u0644\u0645\u0644\u0641\u0627\u062A\n- **\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u0627\u0644\u062A\u0628\u062F\u064A\u0644 \u0628\u064A\u0646 Hex \u0648 Base64\n- **\u0627\u0633\u062A\u0648\u062F\u064A\u0648 HMAC**: \u0625\u0646\u0634\u0627\u0621 \u0631\u0645\u0648\u0632 \u0645\u0635\u0627\u062F\u0642\u0629 \u0622\u0645\u0646\u0629\n- **\u0622\u0645\u0646**: \u062C\u0645\u064A\u0639 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u062A\u062A\u0645 \u0645\u062D\u0644\u064A\u0627\u064B",
       "categoryId": "security",
       "category": {
         "id": "security",
@@ -741,17 +741,16 @@
       "keywords": [
         "hash",
         "crypto",
-        "md5",
-        "sha",
-        "hmac",
-        "checksum",
-        "security"
+        "sha3",
+        "ripemd",
+        "security",
+        "checksum"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "#\uFE0F\u20E3",
+      "icon": "Hash",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -767,7 +766,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.7602427",
-      "updatedAt": "2026-02-09T17:26:58.7602429",
+      "updatedAt": "2026-10-12T22:56:57.3151274Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
