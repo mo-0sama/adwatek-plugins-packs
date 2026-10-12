@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:55:28.6321227Z",
+  "lastUpdated": "2026-10-12T22:55:33.2783442Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -161,8 +161,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:55:27.2304537Z",
-      "updatedAt": "2026-10-12T22:55:27.2304785Z",
+      "publishedAt": "2026-10-12T22:55:27.2304537",
+      "updatedAt": "2026-10-12T22:55:27.2304785",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -173,7 +173,7 @@
           "packageSize": 280158,
           "packageChecksum": "832a1daaa865b9daddaea8f7413d28bc5672f29575d9f7a1085de18761af3ab2",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:55:27.2304537Z"
+          "publishedAt": "2026-10-12T22:55:27.2304537"
         },
         {
           "version": "1.0.0",
@@ -194,15 +194,15 @@
       "descriptionAr": "\u0645\u0639\u0627\u0644\u062C\u0629 \u062F\u0641\u0639\u0627\u062A \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u0639 \u0639\u0645\u0644\u064A\u0627\u062A \u0645\u062B\u0644 \u0627\u0644\u062A\u0646\u0633\u064A\u0642 \u0648\u0627\u0644\u0636\u063A\u0637 \u0648\u0627\u0644\u0641\u0631\u0632 \u0648\u0627\u0644\u062A\u0633\u0637\u064A\u062D.",
       "longDescription": "Process multiple JSON files or objects in bulk with powerful transformation operations.\\n\\nFeatures:\\n- **\uD83D\uDCE6 Bulk Processing**: Handle multiple JSON objects at once\\n- **\uD83D\uDD27 Operations**: Format, minify, sort keys, flatten, unflatten\\n- **\uD83D\uDCCA Statistics**: View processing results and success rates\\n- **\uD83D\uDCCB Copy Results**: Copy processed output to clipboard",
       "longDescriptionAr": "\u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u0644\u0641\u0627\u062A \u0623\u0648 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u062A\u0639\u062F\u062F\u0629 \u0628\u0634\u0643\u0644 \u0645\u062C\u0645\u0639 \u0645\u0639 \u0639\u0645\u0644\u064A\u0627\u062A \u062A\u062D\u0648\u064A\u0644 \u0642\u0648\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCE6 \u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u062C\u0645\u0639\u0629**: \u0627\u0644\u062A\u0639\u0627\u0645\u0644 \u0645\u0639 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0645\u062A\u0639\u062F\u062F\u0629 \u0641\u064A \u0648\u0642\u062A \u0648\u0627\u062D\u062F\\n- **\uD83D\uDD27 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A**: \u0627\u0644\u062A\u0646\u0633\u064A\u0642 \u0648\u0627\u0644\u0636\u063A\u0637 \u0648\u0641\u0631\u0632 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0648\u0627\u0644\u062A\u0633\u0637\u064A\u062D \u0648\u0625\u0644\u063A\u0627\u0621 \u0627\u0644\u062A\u0633\u0637\u064A\u062D\\n- **\uD83D\uDCCA \u0627\u0644\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A**: \u0639\u0631\u0636 \u0646\u062A\u0627\u0626\u062C \u0627\u0644\u0645\u0639\u0627\u0644\u062C\u0629 \u0648\u0645\u0639\u062F\u0644\u0627\u062A \u0627\u0644\u0646\u062C\u0627\u062D\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0627\u0644\u0646\u062A\u0627\u0626\u062C**: \u0646\u0633\u062E \u0627\u0644\u0625\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u0639\u0627\u0644\u062C \u0625\u0644\u0649 \u0627\u0644\u062D\u0627\u0641\u0638\u0629",
-      "categoryId": "json",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
@@ -218,7 +218,7 @@
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDCE6",
+      "icon": "Boxes",
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
@@ -232,7 +232,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.6280417",
-      "updatedAt": "2026-02-09T17:26:58.6280419",
+      "updatedAt": "2026-10-12T22:55:32.0866193Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
