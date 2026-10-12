@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:58:41.4659543Z",
+  "lastUpdated": "2026-10-12T22:58:49.0646496Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1319,8 +1319,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:58:40.2814400Z",
-      "updatedAt": "2026-10-12T22:58:40.2814536Z",
+      "publishedAt": "2026-10-12T22:58:40.2814400",
+      "updatedAt": "2026-10-12T22:58:40.2814536",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1331,7 +1331,7 @@
           "packageSize": 60122,
           "packageChecksum": "f45c81fa266e85736699d1ba12c110bb224b825477bcad3d1c898b879061a819",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:58:40.2814400Z"
+          "publishedAt": "2026-10-12T22:58:40.2814400"
         },
         {
           "version": "1.0.0",
@@ -1345,7 +1345,7 @@
     },
     {
       "id": "json-editor",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.1.0",
       "name": "JSON Editor",
       "nameAr": "\u0645\u062D\u0631\u0631 JSON",
       "description": "Advanced JSON editor with formatting, validation, diff, JSONPath query, schema generation, and statistics",
@@ -1384,25 +1384,32 @@
       "icon": "Braces",
       "screenshots": [],
       "author": {
-        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
-      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-editor",
       "documentation": "https://docs.adwatek.com/tools/json-editor",
-      "downloads": 23,
-      "rating": 5.00,
-      "reviewCount": 1,
-      "publishedAt": "2026-02-09T17:26:58.8895956",
-      "updatedAt": "2026-09-15T01:49:44.5692410",
+      "downloads": 0,
+      "rating": 0.00,
+      "reviewCount": 0,
+      "publishedAt": "2026-10-12T22:58:44.8632689",
+      "updatedAt": "2026-10-12T22:58:46.9853028Z",
       "isFeatured": false,
-      "allowPublicDemo": true,
+      "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-editor/1.1.0/package.adwatekplugin",
+          "packageSize": 2831204,
+          "packageChecksum": "1ca1f31bfb19edc81e46815826188c027f129244931044b414a851ebdef93360",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:58:44.8632689"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-editor/1.0.0/package.adwatekplugin",
