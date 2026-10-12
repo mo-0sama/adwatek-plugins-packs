@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:59:20.5406274Z",
+  "lastUpdated": "2026-10-12T22:59:27.8045471Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1609,8 +1609,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:59:19.4551537Z",
-      "updatedAt": "2026-10-12T22:59:19.4551685Z",
+      "publishedAt": "2026-10-12T22:59:19.4551537",
+      "updatedAt": "2026-10-12T22:59:19.4551685",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1621,7 +1621,7 @@
           "packageSize": 57966,
           "packageChecksum": "a6c26955d2d3602d40d9f46f6f999180a868fce011749386137583d62479db23",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:59:19.4551537Z"
+          "publishedAt": "2026-10-12T22:59:19.4551537"
         },
         {
           "version": "1.0.0",
@@ -1635,22 +1635,22 @@
     },
     {
       "id": "json-plist",
-      "latestVersion": "1.0.0",
-      "name": "JSON Plist",
-      "nameAr": "JSON Plist",
-      "description": "Convert between JSON and Apple Property List (XML) formats",
-      "descriptionAr": "\u0627\u0644\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648 Apple Property List (XML)",
-      "longDescription": "Convert between JSON and Apple Property List (XML) formats",
-      "longDescriptionAr": "Convert between JSON and Apple Property List (XML) formats",
-      "categoryId": "json",
+      "latestVersion": "1.1.0",
+      "name": "JSON \u21C4 Apple Plist",
+      "nameAr": "JSON \u21C4 Apple Plist",
+      "description": "Bidirectional converter between JSON documents and Apple Property List (XML) files",
+      "descriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u0645\u0633\u062A\u0646\u062F\u0627\u062A JSON \u0648\u0642\u0648\u0627\u0626\u0645 \u062E\u0635\u0627\u0626\u0635 Apple (Plist XML)",
+      "longDescription": "A bidirectional converter between JSON and Apple Property List (XML) formats for iOS and macOS development.\n\nKey Features:\n- **Bidirectional**: Convert JSON to Apple Plist XML and parse Plist XML back to JSON\n- **Monaco Code Editors**: Full syntax highlighting for both JSON and XML\n- **Native Plist Types**: Full support for \u0060\u003Cdict\u003E\u0060, \u0060\u003Carray\u003E\u0060, \u0060\u003Cstring\u003E\u0060, \u0060\u003Cinteger\u003E\u0060, \u0060\u003Creal\u003E\u0060, \u0060\u003Ctrue/\u003E\u0060, \u0060\u003Cfalse/\u003E\u0060, \u0060\u003Cdate\u003E\u0060, and \u0060\u003Cdata\u003E\u0060\n- **Apple Templates**: Built-in samples for iOS Info.plist, macOS launchd daemons, and Xcode build settings\n- **DocType Header**: Optional XML declaration and Apple DTD header formatting",
+      "longDescriptionAr": "\u0645\u062D\u0648\u0644 \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0628\u064A\u0646 \u062A\u0646\u0633\u064A\u0642\u0627\u062A JSON \u0648\u0642\u0648\u0627\u0626\u0645 \u062E\u0635\u0627\u0626\u0635 Apple (Plist XML) \u0644\u062A\u0637\u0648\u064A\u0631 \u062A\u0637\u0628\u064A\u0642\u0627\u062A iOS \u0648 macOS.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647**: \u062A\u062D\u0648\u064A\u0644 \u0645\u0646 JSON \u0625\u0644\u0649 Plist XML \u0648\u062A\u062D\u0644\u064A\u0644 \u0645\u0644\u0641\u0627\u062A Plist \u0625\u0644\u0649 JSON\n- **\u0645\u062D\u0631\u0631\u0627\u062A Monaco \u0627\u0644\u0645\u0632\u062F\u0648\u062C\u0629**: \u062A\u0645\u064A\u064A\u0632 \u062F\u0642\u064A\u0642 \u0644\u0635\u064A\u063A JSON \u0648 XML\n- **\u062F\u0639\u0645 \u062C\u0645\u064A\u0639 \u0623\u0646\u0648\u0627\u0639 Plist**: \u062F\u0639\u0645 \u0627\u0644\u0642\u0648\u0627\u0645\u064A\u0633 \u0648\u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0648\u0627\u0644\u0623\u0631\u0642\u0627\u0645 \u0648\u0627\u0644\u0646\u0635\u0648\u0635 \u0648\u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E \u0648\u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u062B\u0646\u0627\u0626\u064A\u0629\n- **\u0642\u0648\u0627\u0644\u0628 \u062C\u0627\u0647\u0632\u0629 \u0644\u0646\u0638\u0627\u0645 Apple**: \u0646\u0645\u0627\u0630\u062C Info.plist \u0648\u062E\u062F\u0645\u0627\u062A launchd \u0648\u0625\u0639\u062F\u0627\u062F\u0627\u062A Xcode\n- **\u062A\u0631\u0648\u064A\u0633\u0629 DocType**: \u062E\u064A\u0627\u0631 \u062A\u0636\u0645\u064A\u0646 \u0625\u0639\u0644\u0627\u0646 XML \u0648\u062A\u0631\u0648\u064A\u0633\u0629 DTD \u0627\u0644\u0631\u0633\u0645\u064A\u0629 \u0644\u0634\u0631\u0643\u0629 Apple",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
@@ -1658,31 +1658,42 @@
         "xml",
         "apple",
         "ios",
-        "macos"
+        "macos",
+        "xcode",
+        "swift",
+        "converter"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83C\uDF4F",
+      "icon": "FileCog",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 3,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.9336305",
-      "updatedAt": "2026-02-09T17:26:58.9336306",
+      "publishedAt": "2026-10-12T22:59:25.5031257",
+      "updatedAt": "2026-10-12T22:59:26.4656817Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-plist/1.1.0/package.adwatekplugin",
+          "packageSize": 55947,
+          "packageChecksum": "7f4fade6fb4f01357e864789a0126523216abe0033073f3ce9411a6257c7a1ca",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:59:25.5031257"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-plist/1.0.0/package.adwatekplugin",
