@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:56:19.2649267Z",
+  "lastUpdated": "2026-10-12T22:56:24.8192841Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -438,8 +438,8 @@
       "downloads": 3,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:56:17.8832853Z",
-      "updatedAt": "2026-10-12T22:56:17.8833143Z",
+      "publishedAt": "2026-10-12T22:56:17.8832853",
+      "updatedAt": "2026-10-12T22:56:17.8833143",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -450,19 +450,19 @@
           "packageSize": 41814,
           "packageChecksum": "7b0743bba782bfdd9f0210d8b2a94b3581eb9ba15a82743606def9e7ab370055",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:56:17.8832853Z"
+          "publishedAt": "2026-10-12T22:56:17.8832853"
         }
       ]
     },
     {
       "id": "cron-parser",
-      "latestVersion": "1.0.0",
-      "name": "Cron Parser",
-      "nameAr": "\u062A\u0639\u0628\u064A\u0631\u0627\u062A Cron",
-      "description": "Parse and understand cron expressions with visual breakdown and next run predictions.",
-      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0648\u0641\u0647\u0645 \u062A\u0639\u0628\u064A\u0631\u0627\u062A cron \u0645\u0639 \u062A\u0648\u0632\u064A\u0639 \u0645\u0631\u0626\u064A \u0648\u062A\u0648\u0642\u0639\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u0629.",
-      "longDescription": "A tool for developers to debug and visualize cron schedules. It provides a readable English/Arabic description of the expression and predicts future execution times.\\n\\nFeatures:\\n- **\uD83D\uDD0D Visual Breakdown**: Highlights each part of the expression (minute, hour, day, etc.)\\n- **\uD83D\uDCC5 Next Run Predictions**: Lists the next 10 scheduled execution times\\n- **\uD83D\uDC8E Presets**: Common cron patterns (every minute, daily at midnight, etc.)\\n- **\uD83D\uDCD6 Syntax Reference**: Built-in guide for cron characters and ranges",
-      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u062A\u0635\u062D\u064A\u062D \u0648\u062A\u0635\u0648\u0631 \u062C\u062F\u0627\u0648\u0644 cron. \u062A\u0648\u0641\u0631 \u0648\u0635\u0641\u0627\u064B \u0645\u0641\u0647\u0648\u0645\u0627\u064B \u0628\u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629/\u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629 \u0644\u0644\u062A\u0639\u0628\u064A\u0631 \u0648\u062A\u062A\u0648\u0642\u0639 \u0645\u0648\u0627\u0639\u064A\u062F \u0627\u0644\u062A\u0646\u0641\u064A\u0630 \u0627\u0644\u0645\u0633\u062A\u0642\u0628\u0644\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD0D \u062A\u0648\u0632\u064A\u0639 \u0645\u0631\u0626\u064A**: \u064A\u0628\u0631\u0632 \u0643\u0644 \u062C\u0632\u0621 \u0645\u0646 \u0627\u0644\u062A\u0639\u0628\u064A\u0631 (\u0627\u0644\u062F\u0642\u064A\u0642\u0629\u060C \u0627\u0644\u0633\u0627\u0639\u0629\u060C \u0627\u0644\u064A\u0648\u0645\u060C \u0625\u0644\u062E)\\n- **\uD83D\uDCC5 \u062A\u0648\u0642\u0639\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644**: \u064A\u0633\u0631\u062F \u0623\u0648\u0642\u0627\u062A \u0627\u0644\u062A\u0646\u0641\u064A\u0630 \u0627\u0644\u0639\u0634\u0631\u0629 \u0627\u0644\u0642\u0627\u062F\u0645\u0629 \u0627\u0644\u0645\u062C\u062F\u0648\u0644\u0629\\n- **\uD83D\uDC8E \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0645\u0633\u0628\u0642\u0629**: \u0623\u0646\u0645\u0627\u0637 cron \u0634\u0627\u0626\u0639\u0629 (\u0643\u0644 \u062F\u0642\u064A\u0642\u0629\u060C \u064A\u0648\u0645\u064A\u0627\u064B \u0641\u064A \u0645\u0646\u062A\u0635\u0641 \u0627\u0644\u0644\u064A\u0644\u060C \u0625\u0644\u062E)\\n- **\uD83D\uDCD6 \u0645\u0631\u062C\u0639 \u0627\u0644\u062A\u0635\u062D\u064A\u062D**: \u062F\u0644\u064A\u0644 \u0645\u062F\u0645\u062C \u0644\u0623\u062D\u0631\u0641 \u0648\u0646\u0637\u0627\u0642\u0627\u062A cron",
+      "latestVersion": "1.2.0",
+      "name": "Cron Studio",
+      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u062A\u0639\u0628\u064A\u0631\u0627\u062A Cron",
+      "description": "Parse, visually build, predict upcoming runs, and generate code for cron expressions with AI assistance.",
+      "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0648\u0628\u0646\u0627\u0621 \u062A\u0639\u0628\u064A\u0631\u0627\u062A cron \u0645\u0631\u0626\u064A\u0627\u064B\u060C \u0648\u062A\u0648\u0642\u0639 \u0623\u0648\u0642\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u0629\u060C \u0648\u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F \u0627\u0644\u062A\u0643\u0627\u0645\u0644 \u0644\u0645\u062E\u062A\u0644\u0641 \u0627\u0644\u0644\u063A\u0627\u062A.",
+      "longDescription": "A complete studio for developers to inspect, design, and automate cron schedules. Features visual field builders, live countdown timers, 24-hour daily timeline distribution, production-ready templates, and multi-language code snippets.\\n\\nFeatures:\\n- **Visual Segment Inspector**: Interactive breakdown of minute, hour, day, month, and day-of-week fields\\n- **Interactive Visual Builder**: Clickable interval sliders, specific value matrices, and range pickers\\n- **Live Execution Countdown**: Real-time ticker counting down to the exact second of the next run\\n- **24-Hour Timeline Distribution**: Visual hourly heatmap of daily triggers\\n- **Multi-Language Generator**: Ready-to-copy integration code for Node.js, Python, Go, Bash, Kubernetes, GitHub Actions, and AWS EventBridge\\n- **Production Presets \u0026 Favorites**: Categorized templates for database backups, log rotation, and business reports with local bookmarks",
+      "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u0641\u062D\u0635 \u0648\u062A\u0635\u0645\u064A\u0645 \u0648\u0623\u062A\u0645\u062A\u0629 \u062C\u062F\u0627\u0648\u0644 cron. \u064A\u062A\u0645\u064A\u0632 \u0628\u0645\u0646\u0634\u0626 \u0645\u0631\u0626\u064A \u0644\u0644\u062D\u0642\u0648\u0644\u060C \u0648\u0639\u062F \u062A\u0646\u0627\u0632\u0644\u064A \u0645\u0628\u0627\u0634\u0631 \u0644\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u060C \u0648\u062A\u0648\u0632\u064A\u0639 \u0633\u0627\u0639\u0627\u062A \u0627\u0644\u064A\u0648\u0645 \u0639\u0644\u0649 24 \u0633\u0627\u0639\u0629\u060C \u0648\u0642\u0648\u0627\u0644\u0628 \u0625\u0646\u062A\u0627\u062C \u062C\u0627\u0647\u0632\u0629\u060C \u0648\u0645\u0648\u0644\u062F \u0643\u0648\u062F \u0644\u0645\u062E\u062A\u0644\u0641 \u0644\u063A\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u0641\u0627\u062D\u0635 \u0627\u0644\u062D\u0642\u0648\u0644 \u0627\u0644\u0645\u0631\u0626\u064A**: \u062A\u062D\u0644\u064A\u0644 \u062A\u0641\u0627\u0639\u0644\u064A \u0644\u062D\u0642\u0648\u0644 \u0627\u0644\u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u0644\u0633\u0627\u0639\u0629 \u0648\u064A\u0648\u0645 \u0627\u0644\u0634\u0647\u0631 \u0648\u0627\u0644\u0634\u0647\u0631 \u0648\u064A\u0648\u0645 \u0627\u0644\u0623\u0633\u0628\u0648\u0639\\n- **\u0627\u0644\u0645\u0646\u0634\u0626 \u0627\u0644\u0645\u0631\u0626\u064A**: \u0634\u0631\u0627\u0626\u062D \u062A\u062D\u062F\u064A\u062F \u0627\u0644\u062E\u0637\u0648\u0627\u062A \u0627\u0644\u0632\u0645\u0646\u064A\u0629\u060C \u0648\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0627\u062E\u062A\u064A\u0627\u0631 \u0627\u0644\u0642\u064A\u0645\u060C \u0648\u0646\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0633\u0627\u0639\u0627\u062A\\n- **\u0639\u062F \u062A\u0646\u0627\u0632\u0644\u064A \u0645\u0628\u0627\u0634\u0631**: \u0639\u062F\u0627\u062F \u0641\u0648\u0631\u064A \u064A\u062D\u0633\u0628 \u0628\u0627\u0644\u062B\u0648\u0627\u0646\u064A \u0627\u0644\u0645\u062A\u0628\u0642\u064A\u0629 \u062D\u062A\u0649 \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\\n- **\u062E\u0631\u064A\u0637\u0629 24 \u0633\u0627\u0639\u0629**: \u0645\u062E\u0637\u0637 \u0628\u064A\u0627\u0646\u064A \u0644\u0633\u0627\u0639\u0627\u062A \u0627\u0644\u0639\u0645\u0644 \u0639\u0644\u0649 \u0645\u062F\u0627\u0631 \u0627\u0644\u064A\u0648\u0645\\n- **\u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0644\u063A\u0627\u062A**: \u0623\u0643\u0648\u0627\u062F \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0646\u0633\u062E \u0644\u0640 Node.js \u0648 Python \u0648 Go \u0648 Bash \u0648 Kubernetes \u0648 GitHub Actions \u0648 AWS EventBridge\\n- **\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0625\u0646\u062A\u0627\u062C \u0648\u0627\u0644\u0645\u0641\u0636\u0644\u0629**: \u0646\u0645\u0627\u0630\u062C \u0645\u062C\u062F\u0648\u0644\u0629 \u0644\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A \u0648\u062A\u062F\u0648\u064A\u0631 \u0627\u0644\u0633\u062C\u0644\u0627\u062A \u0645\u0639 \u0625\u0645\u0643\u0627\u0646\u064A\u0629 \u062D\u0641\u0638 \u0627\u0644\u062A\u0639\u0628\u064A\u0631\u0627\u062A \u0627\u0644\u0645\u062E\u0635\u0635\u0629",
       "categoryId": "dev-utils",
       "category": {
         "id": "dev-utils",
@@ -476,35 +476,45 @@
       "keywords": [
         "cron",
         "parser",
+        "builder",
         "schedule",
-        "time",
-        "debug",
+        "timer",
         "automation",
-        "predict"
+        "kubernetes",
+        "devops",
+        "countdown"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\u23F0",
+      "icon": "Clock",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 8,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.7025313",
-      "updatedAt": "2026-02-09T17:26:58.7025314",
+      "publishedAt": "2026-10-12T22:56:22.9178676",
+      "updatedAt": "2026-10-12T22:56:23.4591902Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.2.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/cron-parser/1.2.0/package.adwatekplugin",
+          "packageSize": 78610,
+          "packageChecksum": "349c788ce2e74e4d7b08d21eeb2626c3aa2732f16dc58a32b2d8622e04b436a3",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:56:22.9178676"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/cron-parser/1.0.0/package.adwatekplugin",
