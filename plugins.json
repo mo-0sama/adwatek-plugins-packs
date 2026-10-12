@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T23:01:15.3348798Z",
+  "lastUpdated": "2026-10-12T23:01:20.5158272Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2224,8 +2224,8 @@
       "downloads": 36,
       "rating": 5.00,
       "reviewCount": 1,
-      "publishedAt": "2026-10-12T23:01:13.3430818Z",
-      "updatedAt": "2026-10-12T23:01:13.3430949Z",
+      "publishedAt": "2026-10-12T23:01:13.3430818",
+      "updatedAt": "2026-10-12T23:01:13.3430949",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2236,7 +2236,7 @@
           "packageSize": 2720054,
           "packageChecksum": "a3f12080e14c215081292a050822c39dde5f501a923f10917909aadd1748123c",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T23:01:13.3430818Z"
+          "publishedAt": "2026-10-12T23:01:13.3430818"
         }
       ]
     },
@@ -2248,6 +2248,7 @@
       "description": "Professional OpenAPI/Swagger studio: edit, validate, split, import (cURL, Postman, HAR), merge, and generate SDKs.",
       "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 OpenAPI / Swagger \u0627\u062D\u062A\u0631\u0627\u0641\u064A: \u062A\u062D\u0631\u064A\u0631\u060C \u062A\u062D\u0642\u0642\u060C \u062A\u0642\u0633\u064A\u0645\u060C \u0627\u0633\u062A\u064A\u0631\u0627\u062F (cURL\u060C Postman\u060C HAR)\u060C \u062F\u0645\u062C\u060C \u0648\u062A\u0648\u0644\u064A\u062F \u062D\u0632\u0645 SDK.",
       "longDescription": "A specialized suite for designing, transforming, and managing OpenAPI/Swagger specifications with precision.\n\nFeatures:\n- **\uD83D\uDCE5 Multi-Source Import**: Convert Postman Collections (v2.0/v2.1), cURL command scripts, HAR archives, and remote URLs into OpenAPI.\n- **\uD83D\uDD00 Smart Spec Merging**: Merge multiple APIs with duplicate endpoint detection, tag synchronization, and configurable conflict resolution (skip/overwrite).\n- **\uD83D\uDCC1 Intelligent Filtering**: Filter endpoints by tags, methods, paths, or text with live preview.\n- **\u2702\uFE0F Schema Splitting**: Extract and divide large specifications into modular microservice specs.\n- **\uD83D\uDE80 Universal Export \u0026 SDK Generator**: Generate Client \u0026 Server SDKs (TypeScript, Python, Go, Node.js, C#, Swift), interactive HTML documentation, Markdown READMEs, printable PDFs, Postman Collections, and quick cURL/Fetch snippets.\n- **\uD83D\uDD04 Live Two-Way Sync**: Monaco Editor with instant Swagger UI preview, syntax diagnostics, and JSON/YAML conversion.",
+      "longDescriptionAr": "\u0645\u062C\u0645\u0648\u0639\u0629 \u0645\u062A\u062E\u0635\u0635\u0629 \u0644\u062A\u0635\u0645\u064A\u0645 \u0648\u062A\u062D\u0648\u064A\u0644 \u0648\u0625\u062F\u0627\u0631\u0629 \u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI / Swagger \u0628\u062F\u0642\u0629 \u0645\u062A\u0646\u0627\u0647\u064A\u0629.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\uD83D\uDCE5 \u0627\u0633\u062A\u064A\u0631\u0627\u062F \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0645\u0635\u0627\u062F\u0631**: \u062A\u062D\u0648\u064A\u0644 \u0645\u062C\u0645\u0648\u0639\u0627\u062A Postman (v2.0/v2.1) \u0648\u0623\u0648\u0627\u0645\u0631 cURL \u0648\u0633\u062C\u0644\u0627\u062A HAR \u0648\u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0627\u0644\u0645\u0628\u0627\u0634\u0631\u0629 \u0625\u0644\u0649 OpenAPI.\n- **\uD83D\uDD00 \u062F\u0645\u062C \u0630\u0643\u064A \u0644\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A**: \u062F\u0645\u062C \u0648\u0627\u062C\u0647\u0627\u062A \u0628\u0631\u0645\u062C\u0629 \u062A\u0637\u0628\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0645\u0639 \u0643\u0634\u0641 \u0627\u0644\u0646\u0642\u0627\u0637 \u0627\u0644\u0645\u0643\u0631\u0631\u0629 \u0648\u0645\u0632\u0627\u0645\u0646\u0629 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A \u0648\u062D\u0644 \u0627\u0644\u0646\u0632\u0627\u0639\u0627\u062A (\u062A\u062E\u0637\u064A/\u0627\u0633\u062A\u0628\u062F\u0627\u0644).\n- **\uD83D\uDCC1 \u062A\u0635\u0641\u064A\u0629 \u0630\u0643\u064A\u0629**: \u062A\u0635\u0641\u064A\u0629 \u0627\u0644\u0646\u0642\u0627\u0637 \u062D\u0633\u0628 \u0627\u0644\u0639\u0644\u0627\u0645\u0627\u062A\u060C \u0637\u0631\u0642 HTTP\u060C \u0627\u0644\u0645\u0633\u0627\u0631\u0627\u062A\u060C \u0623\u0648 \u0627\u0644\u0628\u062D\u062B \u0627\u0644\u0646\u0635\u064A \u0645\u0639 \u0645\u0639\u0627\u064A\u0646\u0629 \u0645\u0628\u0627\u0634\u0631\u0629.\n- **\u2702\uFE0F \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u062E\u0637\u0637**: \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0648\u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A \u0627\u0644\u0636\u062E\u0645\u0629 \u0625\u0644\u0649 \u0645\u0648\u0627\u0635\u0641\u0627\u062A \u0641\u0631\u0639\u064A\u0629 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u0625\u062F\u0627\u0631\u0629.\n- **\uD83D\uDE80 \u062A\u0635\u062F\u064A\u0631 \u0634\u0627\u0645\u0644 \u0648\u0645\u0648\u0644\u062F SDK**: \u062A\u0648\u0644\u064A\u062F \u062D\u0632\u0645 \u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0644\u0644\u0639\u0645\u064A\u0644 \u0648\u0627\u0644\u062E\u0627\u062F\u0645 (TypeScript, Python, Go, Node.js, C#, Swift)\u060C \u062A\u0648\u062B\u064A\u0642 HTML \u062A\u0641\u0627\u0639\u0644\u064A\u060C \u0645\u0644\u0641\u0627\u062A Markdown\u060C \u0645\u0633\u062A\u0646\u062F\u0627\u062A PDF \u0644\u0644\u0637\u0628\u0627\u0639\u0629\u060C \u0648\u0645\u0642\u0627\u0637\u0639 cURL/Fetch \u0627\u0644\u0633\u0631\u064A\u0639\u0629.\n- **\uD83D\uDD04 \u0645\u0632\u0627\u0645\u0646\u0629 \u0641\u0648\u0631\u064A\u0629**: \u0645\u062D\u0631\u0631 Monaco \u0645\u0639 \u0645\u0639\u0627\u064A\u0646\u0629 Swagger UI \u0645\u0628\u0627\u0634\u0631\u0629 \u0648\u062A\u062F\u0642\u064A\u0642 \u0628\u0646\u064A\u0648\u064A \u0648\u062A\u062D\u0648\u064A\u0644 \u0633\u0644\u0633 \u0628\u064A\u0646 JSON \u0648 YAML.",
       "categoryId": "api",
       "category": {
         "id": "api",
@@ -2258,7 +2259,25 @@
         "color": "#3B82F6",
         "order": 2
       },
-      "keywords": [],
+      "keywords": [
+        "swagger",
+        "openapi",
+        "editor",
+        "api",
+        "json",
+        "yaml",
+        "postman",
+        "curl",
+        "har",
+        "import",
+        "export",
+        "sdk",
+        "codegen",
+        "filter",
+        "split",
+        "merge",
+        "documentation"
+      ],
       "platforms": [
         "web",
         "desktop"
@@ -2278,7 +2297,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-08T06:23:04.6533981",
-      "updatedAt": "2026-09-13T10:08:22.5644177",
+      "updatedAt": "2026-10-12T23:01:19.0086701Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
