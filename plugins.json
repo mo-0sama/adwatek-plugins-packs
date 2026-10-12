@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:55:33.2783442Z",
+  "lastUpdated": "2026-10-12T22:55:36.9963419Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -232,7 +232,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-02-09T17:26:58.6280417",
-      "updatedAt": "2026-10-12T22:55:32.0866193Z",
+      "updatedAt": "2026-10-12T22:55:35.8453006Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -240,8 +240,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/batch-processor/1.0.0/package.adwatekplugin",
-          "packageSize": 12209,
-          "packageChecksum": "0a5c5d9e1193bb958b9fe38478692c5e9a93aa498274a64455d19b8e02063873",
+          "packageSize": 18806,
+          "packageChecksum": "128ed34432ccab2a5755b104f31a3ae3b3548dd3eed5a9bca99700570ab9612d",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:58.6280417"
         }
