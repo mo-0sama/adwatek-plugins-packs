@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:57:07.9504872Z",
+  "lastUpdated": "2026-10-12T22:57:13.1727899Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -765,8 +765,8 @@
       "downloads": 5,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:57:06.0736088Z",
-      "updatedAt": "2026-10-12T22:57:06.0736301Z",
+      "publishedAt": "2026-10-12T22:57:06.0736088",
+      "updatedAt": "2026-10-12T22:57:06.0736301",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -777,7 +777,7 @@
           "packageSize": 320296,
           "packageChecksum": "4076245a9a58f0c411f3321fb307aa9dccb8b557a8a124abc75819a56788f02b",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:57:06.0736088Z"
+          "publishedAt": "2026-10-12T22:57:06.0736088"
         }
       ]
     },
@@ -800,7 +800,31 @@
         "color": "#3B82F6",
         "order": 2
       },
-      "keywords": [],
+      "keywords": [
+        "http",
+        "rest",
+        "api",
+        "client",
+        "proxy",
+        "cors",
+        "postman",
+        "insomnia",
+        "collections",
+        "environments",
+        "examples",
+        "samples",
+        "syntax-highlight",
+        "json-formatter",
+        "beautify",
+        "authentication",
+        "bearer",
+        "basic-auth",
+        "api-key",
+        "curl",
+        "fetch",
+        "request",
+        "response"
+      ],
       "platforms": [
         "web",
         "desktop"
@@ -820,7 +844,7 @@
       "rating": 0.00,
       "reviewCount": 0,
       "publishedAt": "2026-09-10T06:44:59.4568500",
-      "updatedAt": "2026-09-14T11:49:33.7118993",
+      "updatedAt": "2026-10-12T22:57:11.6329396Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
