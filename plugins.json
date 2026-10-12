@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:57:33.5896450Z",
+  "lastUpdated": "2026-10-12T22:57:39.9881750Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -913,8 +913,8 @@
       "downloads": 1,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:57:32.3888279Z",
-      "updatedAt": "2026-10-12T22:57:32.3888514Z",
+      "publishedAt": "2026-10-12T22:57:32.3888279",
+      "updatedAt": "2026-10-12T22:57:32.3888514",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -925,19 +925,19 @@
           "packageSize": 17689,
           "packageChecksum": "71bdffe67dc107ab763219465af948dc97729828ee95021c582a6e901b95cd51",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:57:32.3888279Z"
+          "publishedAt": "2026-10-12T22:57:32.3888279"
         }
       ]
     },
     {
       "id": "icon-explorer",
-      "latestVersion": "1.0.0",
-      "name": "Icons",
-      "nameAr": "\u0623\u064A\u0642\u0648\u0646\u0627\u062A",
-      "description": "Explore and export popular icons from Heroicons and Bootstrap icon sets.",
-      "descriptionAr": "\u0627\u0633\u062A\u0643\u0634\u0641 \u0648\u0635\u062F\u0631 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0627\u0644\u0634\u0647\u064A\u0631\u0629 \u0645\u0646 \u0645\u062C\u0645\u0648\u0639\u0627\u062A Heroicons \u0648 Bootstrap.",
-      "longDescription": "A developer-focused icon library that allows you to search, customize, and export icons in multiple formats including SVG, JSX, and raw paths.\\n\\nFeatures:\\n- **\uD83D\uDC8E Popular Sets**: Built-in support for Heroicons and Bootstrap icons\\n- **\uD83C\uDFA8 Customization**: Adjust size, stroke width, and colors in real-time\\n- **\u2328\uFE0F Multi-Format Export**: Copy icons as SVG code, React JSX, or SVG Path data\\n- **\uD83D\uDD0D Fast Search**: Instant filtering by icon name",
-      "longDescriptionAr": "\u0645\u0643\u062A\u0628\u0629 \u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0645\u0648\u062C\u0647\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u062A\u062A\u064A\u062D \u0644\u0643 \u0627\u0644\u0628\u062D\u062B \u0639\u0646 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0648\u062A\u062E\u0635\u064A\u0635\u0647\u0627 \u0648\u062A\u0635\u062F\u064A\u0631\u0647\u0627 \u0628\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0628\u0645\u0627 \u0641\u064A \u0630\u0644\u0643 SVG \u0648 JSX \u0648\u0645\u0633\u0627\u0631\u0627\u062A \u0627\u0644\u062E\u0627\u0645.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDC8E \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0634\u0647\u064A\u0631\u0629**: \u062F\u0639\u0645 \u0645\u062F\u0645\u062C \u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A Heroicons \u0648 Bootstrap\\n- **\uD83C\uDFA8 \u0627\u0644\u062A\u062E\u0635\u064A\u0635**: \u0627\u0636\u0628\u0637 \u0627\u0644\u062D\u062C\u0645 \u0648\u0639\u0631\u0636 \u0627\u0644\u062E\u0637 \u0648\u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A\\n- **\u2328\uFE0F \u062A\u0635\u062F\u064A\u0631 \u0628\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u0646\u0633\u062E \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0643\u0643\u0648\u062F SVG \u0623\u0648 React JSX \u0623\u0648 \u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0633\u0627\u0631 SVG\\n- **\uD83D\uDD0D \u0628\u062D\u062B \u0633\u0631\u064A\u0639**: \u062A\u0635\u0641\u064A\u0629 \u0641\u0648\u0631\u064A\u0629 \u062D\u0633\u0628 \u0627\u0633\u0645 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0629",
+      "latestVersion": "1.2.0",
+      "name": "Icon Studio",
+      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A",
+      "description": "Explore, customize, inspect, and export 1,800\u002B Lucide and popular icon sets with instant React JSX, SVG, and ZIP downloads.",
+      "descriptionAr": "\u0627\u0633\u062A\u0643\u0634\u0641 \u0648\u062E\u0635\u0635 \u0648\u0639\u0627\u064A\u0646 \u0648\u0635\u062F\u0631 \u0623\u0643\u062B\u0631 \u0645\u0646 1800 \u0623\u064A\u0642\u0648\u0646\u0629 \u0645\u0646 Lucide \u0648\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0627\u0644\u0634\u0647\u064A\u0631\u0629 \u0628\u062A\u0646\u0633\u064A\u0642\u0627\u062A SVG \u0648 React JSX \u0648\u062A\u0646\u0632\u064A\u0644 ZIP \u0641\u0648\u0631\u064A.",
+      "longDescription": "A professional developer icon studio. Browse 1,800\u002B icons, filter by categories, customize stroke widths, sizes, and colors in real-time. Features multi-format export (React JSX, Adwatek Import, clean SVG, PNG) and bulk ZIP download of favorites.\\n\\nFeatures:\\n- **\uD83D\uDC8E 1,800\u002B Lucide Icons**: Full integration with the official Adwatek Platform icon set\\n- **\uD83C\uDFA8 Live Customizer**: Real-time control of size (16px-48px), stroke width (1px-2.5px), and curated brand color palettes\\n- **\uD83D\uDD0D Fast Search \u0026 Categories**: Instant filter by category, name, or keyword\\n- **\uD83D\uDCD0 Interactive Inspector**: Multi-size scale comparison and syntax code snippets for React JSX, SVG markup, and Adwatek imports\\n- **\uD83D\uDCE6 Bulk ZIP Exporter**: Star your favorite icons and download them all at once as individual SVGs",
+      "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0648\u0627\u0644\u0645\u0635\u0645\u0645\u064A\u0646. \u062A\u0635\u0641\u062D \u0623\u0643\u062B\u0631 \u0645\u0646 1800 \u0623\u064A\u0642\u0648\u0646\u0629\u060C \u0648\u0635\u0646\u0641\u0647\u0627 \u062D\u0633\u0628 \u0627\u0644\u0641\u0626\u0627\u062A\u060C \u0648\u062E\u0635\u0635 \u0633\u064F\u0645\u0643 \u0627\u0644\u062E\u0637 \u0648\u0627\u0644\u0623\u062D\u062C\u0627\u0645 \u0648\u0627\u0644\u0623\u0644\u0648\u0627\u0646 \u0641\u064A \u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0641\u0639\u0644\u064A. \u064A\u062F\u0639\u0645 \u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0628\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 (React JSX\u060C \u0643\u0648\u062F \u0627\u0633\u062A\u064A\u0631\u0627\u062F\u060C SVG\u060C PNG) \u0648\u062A\u0646\u0632\u064A\u0644 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0627\u0644\u0645\u0641\u0636\u0644\u0629 \u0643\u0645\u0644\u0641 ZIP \u062F\u0641\u0639\u0629 \u0648\u0627\u062D\u062F\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDC8E \u0623\u0643\u062B\u0631 \u0645\u0646 1800 \u0623\u064A\u0642\u0648\u0646\u0629 Lucide**: \u062A\u0643\u0627\u0645\u0644 \u0643\u0627\u0645\u0644 \u0645\u0639 \u062D\u0632\u0645\u0629 \u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0645\u0646\u0635\u0629 Adwatek \u0627\u0644\u0631\u0633\u0645\u064A\u0629\\n- **\uD83C\uDFA8 \u0645\u062E\u0635\u0635 \u0641\u0648\u0631\u064A**: \u062A\u062D\u0643\u0645 \u0641\u0648\u0631\u064A \u0628\u0627\u0644\u062D\u062C\u0645 (16-48 \u0628\u0643\u0633\u0644) \u0648\u0633\u064F\u0645\u0643 \u0627\u0644\u062E\u0637 (1-2.5 \u0628\u0643\u0633\u0644) \u0648\u0644\u0648\u062D\u0627\u062A \u0623\u0644\u0648\u0627\u0646 \u0645\u062A\u0646\u0627\u0633\u0642\u0629\\n- **\uD83D\uDD0D \u0628\u062D\u062B \u0633\u0631\u064A\u0639 \u0648\u0641\u0626\u0627\u062A**: \u062A\u0635\u0641\u064A\u0629 \u0641\u0648\u0631\u064A\u0629 \u062D\u0633\u0628 \u0627\u0644\u0641\u0626\u0629 \u0623\u0648 \u0627\u0644\u0627\u0633\u0645 \u0623\u0648 \u0627\u0644\u0643\u0644\u0645\u0627\u062A \u0627\u0644\u062F\u0644\u0627\u0644\u064A\u0629\\n- **\uD83D\uDCD0 \u0641\u0627\u062D\u0635 \u062A\u0641\u0627\u0639\u0644\u064A**: \u0645\u0642\u0627\u0631\u0646\u0629 \u0623\u062D\u062C\u0627\u0645 \u0645\u062A\u0639\u062F\u062F\u0629 \u0648\u0642\u0635\u0627\u0635\u0627\u062A \u0643\u0648\u062F \u0644\u0640 React JSX \u0648\u0643\u0648\u062F \u0627\u0633\u062A\u064A\u0631\u0627\u062F Adwatek\\n- **\uD83D\uDCE6 \u062A\u0646\u0632\u064A\u0644 \u062C\u0645\u0627\u0639\u064A ZIP**: \u0623\u0636\u0641 \u0627\u0644\u0623\u064A\u0642\u0648\u0646\u0627\u062A \u0625\u0644\u0649 \u0627\u0644\u0645\u0641\u0636\u0644\u0629 \u0648\u0642\u0645 \u0628\u062A\u062D\u0645\u064A\u0644\u0647\u0627 \u062C\u0645\u064A\u0639\u0627\u064B \u062F\u0641\u0639\u0629 \u0648\u0627\u062D\u062F\u0629 \u0643\u0645\u0644\u0641\u0627\u062A SVG",
       "categoryId": "design",
       "category": {
         "id": "design",
@@ -949,38 +949,48 @@
         "order": 11
       },
       "keywords": [
-        "icon",
-        "explorer",
+        "icons",
+        "lucide",
         "heroicons",
-        "bootstrap",
         "svg",
         "jsx",
-        "path",
-        "developer"
+        "react",
+        "design",
+        "developer",
+        "vector",
+        "zip"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDDBC\uFE0F",
+      "icon": "Shapes",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 2,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.8185034",
-      "updatedAt": "2026-02-09T17:26:58.8185036",
+      "publishedAt": "2026-10-12T22:57:37.2119146",
+      "updatedAt": "2026-10-12T22:57:38.3370883Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.2.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/icon-explorer/1.2.0/package.adwatekplugin",
+          "packageSize": 546055,
+          "packageChecksum": "7d8f44753c31c41b0e5782505d889d8b4a3deb4b045895d5e0cdee23712b7654",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:57:37.2119146"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/icon-explorer/1.0.0/package.adwatekplugin",
