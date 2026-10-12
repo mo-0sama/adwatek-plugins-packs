@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T22:59:31.9930187Z",
+  "lastUpdated": "2026-10-12T22:59:37.2739911Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1680,8 +1680,8 @@
       "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:59:30.7627822Z",
-      "updatedAt": "2026-10-12T22:59:30.7628165Z",
+      "publishedAt": "2026-10-12T22:59:30.7627822",
+      "updatedAt": "2026-10-12T22:59:30.7628165",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1692,7 +1692,7 @@
           "packageSize": 55947,
           "packageChecksum": "7f4fade6fb4f01357e864789a0126523216abe0033073f3ce9411a6257c7a1ca",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T22:59:30.7627822Z"
+          "publishedAt": "2026-10-12T22:59:30.7627822"
         },
         {
           "version": "1.0.0",
@@ -1768,57 +1768,68 @@
     },
     {
       "id": "json-to-sql-generator",
-      "latestVersion": "1.0.0",
-      "name": "JSON to SQL",
-      "nameAr": "JSON \u0625\u0644\u0649 SQL",
-      "description": "Convert JSON data into SQL CREATE TABLE and INSERT statements for PostgreSQL, MySQL, SQLite, and SQL Server.",
-      "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0625\u0644\u0649 \u062C\u0645\u0644 SQL (\u0625\u0646\u0634\u0627\u0621 \u062C\u062F\u0627\u0648\u0644 \u0648\u0625\u062F\u0631\u0627\u062C \u0628\u064A\u0627\u0646\u0627\u062A) \u0644\u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A PostgreSQL \u0648 MySQL \u0648 SQLite \u0648 SQL Server.",
-      "longDescription": "Transform your JSON data into ready-to-use SQL statements for any major database.\\n\\nFeatures:\\n- **\uD83D\uDDC4\uFE0F Multiple Databases**: PostgreSQL, MySQL, SQLite, SQL Server support\\n- **\uD83D\uDCDD CREATE TABLE**: Auto-generates table schemas from JSON structure\\n- **\uD83D\uDCE5 INSERT Statements**: Creates INSERT statements for your data\\n- **\uD83D\uDD04 Type Inference**: Automatically detects column types from values\\n- **\uD83D\uDCCB Copy Output**: One-click copy for generated SQL",
-      "longDescriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643 \u0625\u0644\u0649 \u062C\u0645\u0644 SQL \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0644\u0623\u064A \u0642\u0627\u0639\u062F\u0629 \u0628\u064A\u0627\u0646\u0627\u062A \u0631\u0626\u064A\u0633\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDDC4\uFE0F \u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062F\u0639\u0645 PostgreSQL \u0648 MySQL \u0648 SQLite \u0648 SQL Server\\n- **\uD83D\uDCDD \u0625\u0646\u0634\u0627\u0621 \u0627\u0644\u062C\u062F\u0627\u0648\u0644**: \u062A\u0648\u0644\u064A\u062F \u062A\u0644\u0642\u0627\u0626\u064A \u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0627\u0644\u062C\u062F\u0648\u0644 \u0645\u0646 \u0628\u0646\u064A\u0629 JSON\\n- **\uD83D\uDCE5 \u062C\u0645\u0644 \u0627\u0644\u0625\u062F\u0631\u0627\u062C**: \u0625\u0646\u0634\u0627\u0621 \u062C\u0645\u0644 INSERT \u0644\u0628\u064A\u0627\u0646\u0627\u062A\u0643\\n- **\uD83D\uDD04 \u0627\u0633\u062A\u0646\u062A\u0627\u062C \u0627\u0644\u0623\u0646\u0648\u0627\u0639**: \u0627\u0644\u0643\u0634\u0641 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0639\u0646 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0623\u0639\u0645\u062F\u0629 \u0645\u0646 \u0627\u0644\u0642\u064A\u0645\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0627\u0644\u0625\u062E\u0631\u0627\u062C**: \u0646\u0633\u062E \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629 \u0644\u0640 SQL \u0627\u0644\u0645\u0648\u0644\u062F",
-      "categoryId": "json",
+      "latestVersion": "1.1.0",
+      "name": "JSON to SQL Generator",
+      "nameAr": "\u0645\u0648\u0644\u062F SQL \u0645\u0646 JSON",
+      "description": "Convert JSON data into production-ready SQL CREATE TABLE schemas and batch INSERT statements",
+      "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 \u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0645\u0633\u062A\u0646\u062F\u0627\u062A JSON \u0625\u0644\u0649 \u0645\u062E\u0637\u0637\u0627\u062A CREATE TABLE \u0648\u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A \u0625\u062F\u062E\u0627\u0644 \u062F\u0641\u0639\u064A\u0629 INSERT \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0625\u0646\u062A\u0627\u062C",
+      "longDescription": "A robust SQL schema generator and data migration tool that converts JSON documents into database DDL and DML scripts.\n\nKey Features:\n- **5 Major Dialects**: PostgreSQL, MySQL/MariaDB, SQLite, Microsoft SQL Server, and Oracle\n- **Intelligent Type Inference**: Automatically infers optimal column types (VARCHAR, INT, DECIMAL, BOOLEAN, TIMESTAMP, JSONB)\n- **CREATE TABLE DDL**: Full primary keys, not null constraints, timestamps, and drop table guards\n- **Batch INSERT DML**: Multi-row batch chunking with SQL injection-safe string quoting\n- **Interactive Schema Preview**: Tabular column inspector showing types, nullability, and primary keys",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u0642\u062F\u0645\u0629 \u0644\u062A\u0648\u0644\u064A\u062F \u0645\u062E\u0637\u0637\u0627\u062A \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A \u062A\u0631\u062D\u064A\u0644 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A \u0648\u0645\u0635\u0641\u0648\u0641\u0627\u062A JSON.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **5 \u0623\u0646\u0638\u0645\u0629 \u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A**: \u062F\u0639\u0645 \u0643\u0627\u0645\u0644 \u0644\u0640 PostgreSQL \u0648 MySQL \u0648 SQLite \u0648 SQL Server \u0648 Oracle\n- **\u0627\u0633\u062A\u0646\u062A\u0627\u062C \u0630\u0643\u064A \u0644\u0644\u0623\u0646\u0648\u0627\u0639**: \u062A\u062D\u062F\u064A\u062F \u0623\u0641\u0636\u0644 \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0623\u0639\u0645\u062F\u0629 (\u0646\u0635\u0648\u0635\u060C \u0623\u0631\u0642\u0627\u0645 \u0635\u062D\u064A\u062D\u0629\u060C \u0643\u0633\u0648\u0631 \u0639\u0634\u0631\u064A\u0629\u060C \u0642\u064A\u0645 \u0645\u0646\u0637\u0642\u064A\u0629\u060C \u062A\u0648\u0627\u0631\u064A\u062E\u060C \u0648\u062D\u0642\u0648\u0644 JSONB)\n- **\u0645\u062E\u0637\u0637\u0627\u062A DDL \u0645\u062A\u0643\u0627\u0645\u0644\u0629**: \u0645\u0641\u0627\u062A\u064A\u062D \u0623\u0633\u0627\u0633\u064A\u0629\u060C \u0642\u064A\u0648\u062F \u0639\u062F\u0645 \u0627\u0644\u0641\u0631\u0627\u063A NOT NULL\u060C \u062D\u0642\u0648\u0644 \u0627\u0644\u062A\u0648\u0642\u064A\u062A \u0627\u0644\u0632\u0645\u0646\u064A\u060C \u0648\u062E\u064A\u0627\u0631 \u062D\u0630\u0641 \u0627\u0644\u062C\u062F\u0648\u0644 \u0627\u0644\u0633\u0627\u0628\u0642\n- **\u0625\u062F\u062E\u0627\u0644 \u062F\u0641\u0639\u064A \u0633\u0631\u064A\u0639 DML**: \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0625\u0644\u0649 \u062F\u0641\u0639\u0627\u062A \u0645\u062F\u0639\u0645\u0629 \u0628\u0627\u0644\u062A\u0631\u0645\u064A\u0632 \u0627\u0644\u0622\u0645\u0646 \u0644\u0644\u0642\u064A\u0645\n- **\u0645\u0639\u0627\u064A\u0646\u0629 \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u0645\u062E\u0637\u0637**: \u062C\u062F\u0648\u0644 \u062A\u0641\u0627\u0639\u0644\u064A \u064A\u0639\u0631\u0636 \u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0623\u0639\u0645\u062F\u0629 \u0648\u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0648\u062E\u0627\u0635\u064A\u0629 \u0627\u0644\u0642\u0628\u0648\u0644 \u0628\u0627\u0644\u0641\u0631\u0627\u063A \u0648\u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0623\u0633\u0627\u0633\u064A\u0629",
+      "categoryId": "data",
       "category": {
-        "id": "json",
-        "name": "JSON Tools",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A JSON",
-        "description": "Tools for working with JSON data",
-        "icon": "Braces",
-        "color": "#10B981",
-        "order": 1
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and visualization",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
       },
       "keywords": [
         "json",
         "sql",
-        "converter",
         "database",
         "postgres",
         "mysql",
         "sqlite",
-        "insert",
-        "create"
+        "mssql",
+        "oracle",
+        "ddl",
+        "dml",
+        "schema",
+        "migration"
       ],
       "platforms": [
         "web",
         "desktop"
       ],
-      "icon": "\uD83D\uDDC4\uFE0F",
+      "icon": "Database",
       "screenshots": [],
       "author": {
-        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "name": "Super Admin"
       },
-      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 0,
       "rating": 0.00,
       "reviewCount": 0,
-      "publishedAt": "2026-02-09T17:26:58.9448701",
-      "updatedAt": "2026-02-09T17:26:58.9448702",
+      "publishedAt": "2026-10-12T22:59:35.4408281",
+      "updatedAt": "2026-10-12T22:59:35.9992046Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-sql-generator/1.1.0/package.adwatekplugin",
+          "packageSize": 60125,
+          "packageChecksum": "9c29f0b53d06709afd479c0a798d5feeecca0cfa2f79882e489fcaa1af621ed4",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-12T22:59:35.4408281"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/json-to-sql-generator/1.0.0/package.adwatekplugin",
