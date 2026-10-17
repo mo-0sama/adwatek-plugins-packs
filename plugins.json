@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-17T19:06:32.8908708Z",
-  "totalCount": 32,
+  "lastUpdated": "2026-10-17T19:07:34.6111997Z",
+  "totalCount": 33,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -163,7 +163,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:55:27.2304537",
-      "updatedAt": "2026-10-17T19:06:31.1953268Z",
+      "updatedAt": "2026-10-17T19:06:31.1953268",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2239,6 +2239,70 @@
           "packageChecksum": "a3f12080e14c215081292a050822c39dde5f501a923f10917909aadd1748123c",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-10-12T23:01:13.3430818"
+        }
+      ]
+    },
+    {
+      "id": "mock-api-generator",
+      "latestVersion": "1.0.0",
+      "name": "Mock API",
+      "nameAr": "API \u0648\u0647\u0645\u064A",
+      "description": "Create and manage mock REST APIs with entity-based endpoints and Swagger documentation",
+      "descriptionAr": "\u0625\u0646\u0634\u0627\u0621 \u0648\u0625\u062F\u0627\u0631\u0629 \u0648\u0627\u062C\u0647\u0627\u062A REST API \u0648\u0647\u0645\u064A\u0629 \u0645\u0639 \u0646\u0642\u0627\u0637 \u0646\u0647\u0627\u064A\u0629 \u0642\u0627\u0626\u0645\u0629 \u0639\u0644\u0649 \u0627\u0644\u0643\u064A\u0627\u0646\u0627\u062A \u0648\u0648\u062B\u0627\u0626\u0642 Swagger",
+      "longDescription": "A powerful tool for creating mock API servers for frontend development and testing.\\n\\nFeatures:\\n- **\uD83C\uDFD7\uFE0F Entity-Based Design**: Create entities (Users, Products, Orders) with auto-generated CRUD endpoints\\n- **\uD83D\uDCDD Response Types**: Fixed, Dynamic, Conditional, and Generated response modes\\n- **\uD83D\uDCC4 OpenAPI/Swagger**: Auto-generates OpenAPI 3.0 specifications\\n- **\uD83D\uDCE5 Import Support**: Import from Swagger/OpenAPI or Postman collections\\n- **\uD83C\uDFA8 Template Variables**: Use {{params.id}}, {{body.field}}, {{timestamp}} for dynamic responses\\n- **\u23F1\uFE0F Response Delay**: Simulate network latency\\n- **\uD83D\uDD12 Auth Simulation**: Mark endpoints as requiring authentication",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0642\u0648\u064A\u0629 \u0644\u0625\u0646\u0634\u0627\u0621 \u062E\u0648\u0627\u062F\u0645 API \u0648\u0647\u0645\u064A\u0629 \u0644\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062E\u062A\u0628\u0627\u0631 \u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83C\uDFD7\uFE0F \u0627\u0644\u062A\u0635\u0645\u064A\u0645 \u0627\u0644\u0642\u0627\u0626\u0645 \u0639\u0644\u0649 \u0627\u0644\u0643\u064A\u0627\u0646\u0627\u062A**: \u0625\u0646\u0634\u0627\u0621 \u0643\u064A\u0627\u0646\u0627\u062A (\u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u064A\u0646\u060C \u0627\u0644\u0645\u0646\u062A\u062C\u0627\u062A\u060C \u0627\u0644\u0637\u0644\u0628\u0627\u062A) \u0645\u0639 \u0646\u0642\u0627\u0637 \u0646\u0647\u0627\u064A\u0629 CRUD \u0645\u064F\u0648\u0644\u064E\u0651\u062F\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u0627\u064B\\n- **\uD83D\uDCDD \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u0623\u0648\u0636\u0627\u0639 \u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u062B\u0627\u0628\u062A\u0629 \u0648\u062F\u064A\u0646\u0627\u0645\u064A\u0643\u064A\u0629 \u0648\u0634\u0631\u0637\u064A\u0629 \u0648\u0645\u064F\u0648\u0644\u064E\u0651\u062F\u0629\\n- **\uD83D\uDCC4 OpenAPI/Swagger**: \u062A\u0648\u0644\u064A\u062F \u062A\u0644\u0642\u0627\u0626\u064A \u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A OpenAPI 3.0\\n- **\uD83D\uDCE5 \u062F\u0639\u0645 \u0627\u0644\u0627\u0633\u062A\u064A\u0631\u0627\u062F**: \u0627\u0633\u062A\u064A\u0631\u0627\u062F \u0645\u0646 \u0645\u062C\u0645\u0648\u0639\u0627\u062A Swagger/OpenAPI \u0623\u0648 Postman\\n- **\uD83C\uDFA8 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0642\u0627\u0644\u0628**: \u0627\u0633\u062A\u062E\u062F\u0627\u0645 {{params.id}}\u060C {{body.field}}\u060C {{timestamp}} \u0644\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0627\u062A \u0627\u0644\u062F\u064A\u0646\u0627\u0645\u064A\u0643\u064A\u0629\\n- **\u23F1\uFE0F \u062A\u0623\u062E\u064A\u0631 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629**: \u0645\u062D\u0627\u0643\u0627\u0629 \u062A\u0623\u062E\u0631 \u0627\u0644\u0634\u0628\u0643\u0629\\n- **\uD83D\uDD12 \u0645\u062D\u0627\u0643\u0627\u0629 \u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629**: \u0648\u0636\u0639 \u0639\u0644\u0627\u0645\u0629 \u0639\u0644\u0649 \u0646\u0642\u0627\u0637 \u0627\u0644\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u062A\u064A \u062A\u062A\u0637\u0644\u0628 \u0645\u0635\u0627\u062F\u0642\u0629",
+      "categoryId": "api",
+      "category": {
+        "id": "api",
+        "name": "API Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A API",
+        "description": "REST API development and testing",
+        "icon": "Globe",
+        "color": "#3B82F6",
+        "order": 2
+      },
+      "keywords": [
+        "mock",
+        "api",
+        "rest",
+        "swagger",
+        "openapi",
+        "postman",
+        "testing",
+        "development",
+        "server",
+        "endpoints"
+      ],
+      "platforms": [
+        "desktop"
+      ],
+      "icon": "\uD83D\uDEE0\uFE0F",
+      "screenshots": [],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
+      "downloads": 3,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-10-17T19:07:33.5254409Z",
+      "updatedAt": "2026-10-17T19:07:33.5255832Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mock-api-generator/1.0.0/package.adwatekplugin",
+          "packageSize": 27525,
+          "packageChecksum": "1b809b4f21216d7949df82fc11a022d3cdd1565f035d1c6f480b9c3ad4e1362f",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-17T19:07:33.5254409Z"
         }
       ]
     },
