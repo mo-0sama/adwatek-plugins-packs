@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-12T23:01:29.4899683Z",
+  "lastUpdated": "2026-10-17T18:53:58.4930379Z",
   "totalCount": 32,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -158,9 +158,9 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/arch-diagram",
       "documentation": "https://docs.adwatek.com/tools/arch-diagram",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
+      "downloads": 3,
+      "rating": 5.00,
+      "reviewCount": 1,
       "publishedAt": "2026-10-12T22:55:27.2304537",
       "updatedAt": "2026-10-12T22:55:27.2304785",
       "isFeatured": false,
@@ -222,14 +222,14 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 5,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:55:39.4743211",
       "updatedAt": "2026-10-12T22:55:39.4743357",
@@ -284,14 +284,14 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 6,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:55:54.2759674",
       "updatedAt": "2026-10-12T22:55:54.2759873",
@@ -358,8 +358,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 9,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:04.2632789",
       "updatedAt": "2026-10-12T22:56:04.2633108",
@@ -428,7 +428,7 @@
       "screenshots": [],
       "author": {
         "id": "eacde3db-03fa-42d7-8bea-7583204416f2",
-        "name": "Unknown"
+        "name": "Waleed Eldeeb"
       },
       "authorId": "eacde3db-03fa-42d7-8bea-7583204416f2",
       "pricingType": "free",
@@ -436,7 +436,7 @@
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 3,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:17.8832853",
       "updatedAt": "2026-10-12T22:56:17.8833143",
@@ -498,8 +498,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 8,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:27.3683664",
       "updatedAt": "2026-10-12T22:56:27.3683869",
@@ -563,14 +563,14 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 7,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:40.4148236",
       "updatedAt": "2026-10-12T22:56:40.4148389",
@@ -632,8 +632,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 16,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:51.8660021",
       "updatedAt": "2026-10-12T22:56:51.8660137",
@@ -691,7 +691,7 @@
       "screenshots": [],
       "author": {
         "id": "eacde3db-03fa-42d7-8bea-7583204416f2",
-        "name": "Unknown"
+        "name": "Waleed Eldeeb"
       },
       "authorId": "eacde3db-03fa-42d7-8bea-7583204416f2",
       "pricingType": "free",
@@ -754,7 +754,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -763,7 +763,7 @@
       "homepage": "https://adwatek.com/tools/hash-tools",
       "documentation": "https://docs.adwatek.com/tools/hash-tools",
       "downloads": 5,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:06.0736088",
       "updatedAt": "2026-10-12T22:57:06.0736301",
@@ -833,7 +833,7 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Unknown"
+        "name": "Mohamed Osama"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
@@ -841,7 +841,7 @@
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 8,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:19.9346324",
       "updatedAt": "2026-10-12T22:57:19.9346470",
@@ -904,14 +904,14 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 1,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:32.3888279",
       "updatedAt": "2026-10-12T22:57:32.3888514",
@@ -974,8 +974,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 2,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:42.5323917",
       "updatedAt": "2026-10-12T22:57:42.5324024",
@@ -1040,7 +1040,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1103,7 +1103,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1113,7 +1113,7 @@
       "homepage": "https://adwatek.com/tools/image-tools",
       "documentation": "https://docs.adwatek.com/tools/image-tools",
       "downloads": 7,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:58:11.8131858",
       "updatedAt": "2026-10-12T22:58:11.8131976",
@@ -1175,8 +1175,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 2,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:58:22.6265301",
       "updatedAt": "2026-10-12T22:58:22.6265438",
@@ -1245,8 +1245,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 8,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:58:32.0077100",
       "updatedAt": "2026-10-12T22:58:32.0077307",
@@ -1316,9 +1316,9 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
+      "downloads": 8,
+      "rating": 5.00,
+      "reviewCount": 1,
       "publishedAt": "2026-10-12T22:58:40.2814400",
       "updatedAt": "2026-10-12T22:58:40.2814536",
       "isFeatured": false,
@@ -1393,9 +1393,9 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-editor",
       "documentation": "https://docs.adwatek.com/tools/json-editor",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
+      "downloads": 23,
+      "rating": 5.00,
+      "reviewCount": 1,
       "publishedAt": "2026-10-12T22:58:51.3967767",
       "updatedAt": "2026-10-12T22:58:51.3968036",
       "isFeatured": false,
@@ -1464,8 +1464,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 3,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:00.5869908",
       "updatedAt": "2026-10-12T22:59:00.5870765",
@@ -1535,8 +1535,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 5,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:10.6930770",
       "updatedAt": "2026-10-12T22:59:10.6930899",
@@ -1606,8 +1606,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 13,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:19.4551537",
       "updatedAt": "2026-10-12T22:59:19.4551685",
@@ -1677,8 +1677,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 3,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:30.7627822",
       "updatedAt": "2026-10-12T22:59:30.7628165",
@@ -1738,7 +1738,7 @@
       "screenshots": [],
       "author": {
         "id": "ac7a3132-ce00-45a8-9b27-49a9427a4dda",
-        "name": "Unknown"
+        "name": "Osama Ahmed"
       },
       "authorId": "ac7a3132-ce00-45a8-9b27-49a9427a4dda",
       "pricingType": "free",
@@ -1813,8 +1813,8 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
+      "downloads": 5,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:39.6105541",
       "updatedAt": "2026-10-12T22:59:39.6105965",
@@ -1877,7 +1877,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1885,7 +1885,7 @@
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 4,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:01.1966422",
       "updatedAt": "2026-10-12T23:00:01.1966610",
@@ -1944,7 +1944,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -1954,7 +1954,7 @@
       "homepage": "https://adwatek.com/tools/json-to-types",
       "documentation": "https://docs.adwatek.com/tools/json-to-types",
       "downloads": 4,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:13.1508367",
       "updatedAt": "2026-10-12T23:00:13.1508554",
@@ -2009,7 +2009,7 @@
       "screenshots": [],
       "author": {
         "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
-        "name": "Unknown"
+        "name": "Adwatek Team"
       },
       "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
       "pricingType": "free",
@@ -2017,7 +2017,7 @@
       "currency": "USD",
       "licenseType": "MIT",
       "downloads": 13,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:24.7642800",
       "updatedAt": "2026-10-12T23:00:24.7642930",
@@ -2072,7 +2072,7 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Unknown"
+        "name": "Mohamed Osama"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
@@ -2082,7 +2082,7 @@
       "documentation": "./docs/README.md",
       "changelog": "./docs/changelog.md",
       "downloads": 7,
-      "rating": 0.00,
+      "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:43.1074617",
       "updatedAt": "2026-10-12T23:00:43.1074748",
@@ -2141,18 +2141,19 @@
       "icon": "FileText",
       "screenshots": [],
       "author": {
-        "id": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
         "name": "Super Admin"
       },
-      "authorId": "0dbc1f8d-cc25-4a0c-e3fa-08de65bba913",
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
+      "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0.00,
-      "reviewCount": 0,
+      "downloads": 36,
+      "rating": 5.00,
+      "reviewCount": 1,
       "publishedAt": "2026-10-12T23:00:51.9420313",
-      "updatedAt": "2026-10-12T23:00:51.9420437",
+      "updatedAt": "2026-10-17T18:53:56.2889381Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2212,7 +2213,7 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Unknown"
+        "name": "Mohamed Osama"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
@@ -2221,7 +2222,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/mermaid-editor",
       "documentation": "https://docs.adwatek.com/tools/mermaid-editor",
-      "downloads": 36,
+      "downloads": 37,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T23:01:13.3430818",
@@ -2286,18 +2287,18 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Unknown"
+        "name": "Mohamed Osama"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 4,
-      "rating": 0.00,
-      "reviewCount": 0,
-      "publishedAt": "2026-10-12T23:01:27.9155883Z",
-      "updatedAt": "2026-10-12T23:01:27.9156010Z",
+      "downloads": 99,
+      "rating": 5.00,
+      "reviewCount": 1,
+      "publishedAt": "2026-10-12T23:01:27.9155883",
+      "updatedAt": "2026-10-12T23:01:27.9156010",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2308,7 +2309,7 @@
           "packageSize": 197381,
           "packageChecksum": "2df52b68134fd0f58d230de735f1952e96a2bc1421a95f1a3d74fa56bee00383",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-12T23:01:27.9155883Z"
+          "publishedAt": "2026-10-12T23:01:27.9155883"
         },
         {
           "version": "1.0.0",
