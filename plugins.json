@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-26T14:51:25.7118179Z",
+  "lastUpdated": "2026-10-26T14:51:36.0601006Z",
   "totalCount": 50,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2922,7 +2922,7 @@
       "id": "test-lifecycle-plugin",
       "latestVersion": "1.0.0",
       "name": "Lifecycle Plugin",
-      "description": "Initial version of lifecycle plugin",
+      "description": "Updated version 1.0.0 with enhanced lifecycle tests",
       "categoryId": "dev-utils",
       "category": {
         "id": "dev-utils",
@@ -2952,11 +2952,12 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
+      "changelog": "Replaced package archive with new build payload",
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-26T14:51:07.6579905",
-      "updatedAt": "2026-10-26T14:51:22.6112366Z",
+      "updatedAt": "2026-10-26T14:51:33.1293432Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
