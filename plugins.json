@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-26T15:12:16.2974727Z",
-  "totalCount": 50,
+  "lastUpdated": "2026-10-26T15:12:26.7685174Z",
+  "totalCount": 49,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -2915,59 +2915,6 @@
           "packageChecksum": "2717e82c0c063f715175f67f7a42a960b06931a194283d625d3f0be56cef2fc5",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-04-11T14:36:19.7560677"
-        }
-      ]
-    },
-    {
-      "id": "test-lifecycle-plugin",
-      "latestVersion": "1.1.0",
-      "name": "Lifecycle Plugin v1.1",
-      "description": "New feature release version 1.1.0",
-      "categoryId": "dev-utils",
-      "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "\uD83D\uDEE0\uFE0F",
-        "color": "#6366F1",
-        "order": 7
-      },
-      "keywords": [
-        "lifecycle",
-        "v1.1",
-        "github"
-      ],
-      "platforms": [
-        "web",
-        "desktop"
-      ],
-      "icon": "Package",
-      "screenshots": [],
-      "author": {
-        "id": "37664c13-7e94-46c2-e3fd-08de65bba913",
-        "name": "Partner User"
-      },
-      "authorId": "37664c13-7e94-46c2-e3fd-08de65bba913",
-      "pricingType": "free",
-      "currency": "USD",
-      "licenseType": "MIT",
-      "downloads": 0,
-      "rating": 0,
-      "reviewCount": 0,
-      "publishedAt": "2026-10-26T14:54:00.1632791",
-      "updatedAt": "2026-10-26T14:54:00.1632799",
-      "isFeatured": false,
-      "allowPublicDemo": false,
-      "videoUrls": [],
-      "versions": [
-        {
-          "version": "1.1.0",
-          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/test-lifecycle-plugin/1.1.0/package.adwatekplugin",
-          "packageSize": 638,
-          "packageChecksum": "1728672b429edaff0da2a7235ac012cab3da5f4e293407d672fad8882e7c9a40",
-          "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-26T14:54:00.1632791"
         }
       ]
     },
