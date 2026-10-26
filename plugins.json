@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-26T14:53:46.6145276Z",
+  "lastUpdated": "2026-10-26T14:54:03.6969271Z",
   "totalCount": 50,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2920,9 +2920,9 @@
     },
     {
       "id": "test-lifecycle-plugin",
-      "latestVersion": "1.0.0",
-      "name": "Lifecycle Plugin",
-      "description": "Updated version 1.0.0 with enhanced lifecycle tests",
+      "latestVersion": "1.1.0",
+      "name": "Lifecycle Plugin v1.1",
+      "description": "New feature release version 1.1.0",
       "categoryId": "dev-utils",
       "category": {
         "id": "dev-utils",
@@ -2935,8 +2935,8 @@
       },
       "keywords": [
         "lifecycle",
-        "github",
-        "plugin"
+        "v1.1",
+        "github"
       ],
       "platforms": [
         "web",
@@ -2952,16 +2952,23 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "changelog": "Replaced package archive with new build payload",
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-10-26T14:53:17.9604194",
-      "updatedAt": "2026-10-26T14:53:43.6798225Z",
+      "publishedAt": "2026-10-26T14:54:00.1632791Z",
+      "updatedAt": "2026-10-26T14:54:00.1632799Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/test-lifecycle-plugin/1.1.0/package.adwatekplugin",
+          "packageSize": 638,
+          "packageChecksum": "1728672b429edaff0da2a7235ac012cab3da5f4e293407d672fad8882e7c9a40",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-26T14:54:00.1632791Z"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/test-lifecycle-plugin/1.0.0/package.adwatekplugin",
