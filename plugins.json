@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-26T09:49:40.3245427Z",
+  "lastUpdated": "2026-10-26T13:29:12.3410307Z",
   "totalCount": 34,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -1048,7 +1048,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 12,
+      "downloads": 13,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:57:58.1796119",
@@ -2369,7 +2369,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-26T09:31:49.8226001",
-      "updatedAt": "2026-10-26T09:31:49.8226121",
+      "updatedAt": "2026-10-26T13:29:09.7391356Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2377,8 +2377,8 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/pdf-tools/1.0.0/package.adwatekplugin",
-          "packageSize": 0,
-          "packageChecksum": "",
+          "packageSize": 1208199,
+          "packageChecksum": "f7d868a98e46c3fc58321ab693431eb3a92fe8097d2e78d463869bf6be6b8c59",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-10-26T09:31:49.8226001"
         }
