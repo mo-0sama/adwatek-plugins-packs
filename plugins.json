@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-10-28T08:18:59.2185289Z",
-  "totalCount": 51,
+  "lastUpdated": "2026-10-28T08:19:13.1712959Z",
+  "totalCount": 52,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -988,8 +988,8 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-10-28T08:18:48.0367794Z",
-      "updatedAt": "2026-10-28T08:18:48.0367822Z",
+      "publishedAt": "2026-10-28T08:18:48.0367794",
+      "updatedAt": "2026-10-28T08:18:48.0367822",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1000,7 +1000,51 @@
           "packageSize": 1654,
           "packageChecksum": "b8c34de104a2aed1cc1ae8f1e577c83c7e345ac1a47172aef466a87f9abac9d7",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-10-28T08:18:48.0367794Z"
+          "publishedAt": "2026-10-28T08:18:48.0367794"
+        }
+      ]
+    },
+    {
+      "id": "eco-notes-1793175493",
+      "latestVersion": "1.0.0",
+      "name": "Ecosystem QuickNotes",
+      "description": "Verified ecosystem plugin: Ecosystem QuickNotes",
+      "categoryId": "other",
+      "keywords": [
+        "ecosystem",
+        "verified",
+        "eco-notes-1793175493"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "Package",
+      "screenshots": [],
+      "author": {
+        "id": "d7ac56eb-4231-4c75-4327-08df34ca886c",
+        "name": "Ecosystem Developer"
+      },
+      "authorId": "d7ac56eb-4231-4c75-4327-08df34ca886c",
+      "pricingType": "free",
+      "currency": "USD",
+      "licenseType": "MIT",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-10-28T08:19:09.2254095Z",
+      "updatedAt": "2026-10-28T08:19:09.2254120Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/eco-notes-1793175493/1.0.0/package.adwatekplugin",
+          "packageSize": 1533,
+          "packageChecksum": "c48b144c2d9c357d995543bd0a1e664972103c00b7c7875a8162a20683a81100",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-10-28T08:19:09.2254095Z"
         }
       ]
     },
