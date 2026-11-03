@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-03T11:13:28.5694352Z",
+  "lastUpdated": "2026-11-03T13:16:56.7287263Z",
   "totalCount": 34,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -2308,7 +2308,7 @@
     },
     {
       "id": "pdf-tools",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.0.1",
       "name": "PDF Studio Pro",
       "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0628\u064A \u062F\u064A \u0625\u0641 \u0627\u0644\u0627\u062D\u062A\u0631\u0627\u0641\u064A",
       "description": "Full-featured client-side PDF engineering suite: Merge, Split, Compress, Rotate, Crop, Protect, Grayscale, Page Size, Images \u2194 PDF, Organize, Watermark \u0026 Metadata.",
@@ -2351,8 +2351,8 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Mohamed Osama",
-        "avatar": "https://profileapi.adwatek.com/avatars/63707765ce75427da48afa93d019d2c1.png"
+        "name": "Mohamed Osama Mohamed Khalil",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
@@ -2368,19 +2368,27 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-03T11:13:25.8684237Z",
-      "updatedAt": "2026-11-03T11:13:25.8685365Z",
+      "publishedAt": "2026-11-03T13:16:54.0022876Z",
+      "updatedAt": "2026-11-03T13:16:54.0023017Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.0.1",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/pdf-tools/1.0.1/package.adwatekplugin",
+          "packageSize": 1211773,
+          "packageChecksum": "cd1ae715ba0473b54752e3a01e6e13f34572400b21ae70fd081f9c78af51f095",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-03T13:16:54.0022876Z"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/pdf-tools/1.0.0/package.adwatekplugin",
           "packageSize": 1208199,
           "packageChecksum": "f7d868a98e46c3fc58321ab693431eb3a92fe8097d2e78d463869bf6be6b8c59",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-03T11:13:25.8684237Z"
+          "publishedAt": "2026-11-03T11:13:25.8684237"
         }
       ]
     },
