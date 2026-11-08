@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-03T13:16:56.7287263Z",
-  "totalCount": 34,
+  "lastUpdated": "2026-11-08T12:33:47.0448965Z",
+  "totalCount": 35,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -159,7 +159,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/arch-diagram",
       "documentation": "https://docs.adwatek.com/tools/arch-diagram",
-      "downloads": 7,
+      "downloads": 8,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:55:27.2304537",
@@ -763,7 +763,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/hash-tools",
       "documentation": "https://docs.adwatek.com/tools/hash-tools",
-      "downloads": 9,
+      "downloads": 10,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:06.0736088",
@@ -1678,7 +1678,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 7,
+      "downloads": 8,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:30.7627822",
@@ -1814,7 +1814,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 5,
+      "downloads": 6,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:39.6105541",
@@ -1885,7 +1885,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 8,
+      "downloads": 9,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:01.1966422",
@@ -2178,6 +2178,84 @@
       ]
     },
     {
+      "id": "mena-tech-jobs",
+      "latestVersion": "1.0.0",
+      "name": "MENA Tech Jobs",
+      "nameAr": "\u0648\u0638\u0627\u0626\u0641 \u0627\u0644\u062A\u0642\u0646\u064A\u0629 - \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637",
+      "description": "Local desktop crawler for technical jobs across Egypt and GCC from LinkedIn, Wuzzuf, Bayt, and regional portals",
+      "descriptionAr": "\u0623\u062F\u0627\u0629 \u0633\u0637\u062D \u0645\u0643\u062A\u0628 \u0644\u062C\u0645\u0639 \u0648\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0623\u062D\u062F\u062B \u0648\u0638\u0627\u0626\u0641 \u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0648\u0627\u0644\u0628\u0631\u0645\u062C\u0629 \u0641\u064A \u0645\u0635\u0631 \u0648\u0627\u0644\u062E\u0644\u064A\u062C \u0645\u0646 \u0644\u064A\u0646\u0643\u062F \u0625\u0646 \u0648\u0648\u0638\u0641 \u0648\u0628\u064A\u062A \u0645\u062D\u0644\u064A\u0627\u064B \u0628\u062F\u0648\u0646 \u062E\u0627\u062F\u0645",
+      "longDescription": "A powerful local desktop scraping and job collection engine designed for tech professionals in Egypt, Saudi Arabia, UAE, Qatar, Kuwait, and the wider MENA region.\n\n- **100% Desktop Native**: Scrapes directly from your device using native HTTP capabilities, with zero external servers and zero telemetry.\n- **Multi-Source Aggregation**: Crawls LinkedIn Public Jobs, LinkedIn Hiring Posts, Wuzzuf, Bayt.com, GulfTalent, and Tanqeeb.\n- **Granular Regional Filters**: Filter by Country (Egypt, KSA, UAE, Qatar, Kuwait, Bahrain, Oman, Jordan, or Remote MENA).\n- **Tech Role Specializations**: Software Engineering, IT Support, DevOps/Cloud, QA \u0026 Testing, Data \u0026 AI, Cyber Security, UI/UX, and Product Management.\n- **Real-Time Job Tracker**: Save listings locally, add notes, and track application states (Applied, Interview, Offer, Rejected).\n- **Export \u0026 Share**: Export listings to JSON or CSV, or copy shareable job links instantly.",
+      "longDescriptionAr": "\u0645\u062D\u0631\u0643 \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0648\u0628\u062D\u062B \u0648\u0638\u0627\u0626\u0641 \u0645\u062D\u0644\u064A \u064A\u0639\u0645\u0644 \u0628\u0627\u0644\u0643\u0627\u0645\u0644 \u0639\u0644\u0649 \u0633\u0637\u062D \u0627\u0644\u0645\u0643\u062A\u0628 \u0648\u0645\u062E\u0635\u0635 \u0644\u0644\u0645\u062A\u062E\u0635\u0635\u064A\u0646 \u0641\u064A \u0627\u0644\u062A\u0643\u0646\u0648\u0644\u0648\u062C\u064A\u0627 \u0641\u064A \u0645\u0635\u0631 \u0648\u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629 \u0648\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062A \u0648\u0642\u0637\u0631 \u0648\u0627\u0644\u0643\u0648\u064A\u062A \u0648\u0628\u0627\u0642\u064A \u062F\u0648\u0644 \u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.\n\n- **\u064A\u0639\u0645\u0644 \u0628\u0627\u0644\u0643\u0627\u0645\u0644 \u0645\u0646 \u062C\u0647\u0627\u0632\u0643**: \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0645\u0628\u0627\u0634\u0631 \u0645\u0646 \u062C\u0647\u0627\u0632 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645 \u0639\u0628\u0631 \u0628\u0631\u0648\u062A\u0648\u0643\u0648\u0644 HTTP \u0627\u0644\u0645\u062F\u0645\u062C \u0628\u062F\u0648\u0646 \u0627\u0644\u062D\u0627\u062C\u0629 \u0625\u0644\u0649 \u062E\u0627\u062F\u0645 \u062E\u0627\u0631\u062C\u064A.\n- **\u062A\u062C\u0645\u064A\u0639 \u0645\u0646 \u0645\u0635\u0627\u062F\u0631 \u0645\u062A\u0639\u062F\u062F\u0629**: \u062C\u0645\u0639 \u0627\u0644\u0648\u0638\u0627\u0626\u0641 \u0645\u0646 \u0644\u064A\u0646\u0643\u062F \u0625\u0646 (\u0648\u0638\u0627\u0626\u0641 \u0648\u0645\u0646\u0634\u0648\u0631\u0627\u062A \u0627\u0644\u062A\u0648\u0638\u064A\u0641)\u060C \u0648\u0638\u0641 (Wuzzuf)\u060C \u0628\u064A\u062A (Bayt)\u060C \u062C\u0644\u0641 \u062A\u0627\u0644\u0646\u062A (GulfTalent)\u060C \u0648\u062A\u0646\u0642\u064A\u0628.\n- **\u062A\u0635\u0641\u064A\u0629 \u0625\u0642\u0644\u064A\u0645\u064A\u0629 \u062F\u0642\u064A\u0642\u0629**: \u062A\u0635\u0641\u064A\u0629 \u062D\u0633\u0628 \u0627\u0644\u062F\u0648\u0644\u0629 (\u0645\u0635\u0631\u060C \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629\u060C \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062A\u060C \u0642\u0637\u0631\u060C \u0627\u0644\u0643\u0648\u064A\u062A\u060C \u0627\u0644\u0628\u062D\u0631\u064A\u0646\u060C \u0639\u0645\u0627\u0646\u060C \u0627\u0644\u0623\u0631\u062F\u0646\u060C \u0623\u0648 \u0648\u0638\u0627\u0626\u0641 \u0639\u0646 \u0628\u064F\u0639\u062F).\n- **\u062A\u062E\u0635\u0635\u0627\u062A \u062A\u0642\u0646\u064A\u0629 \u0645\u062E\u0635\u0635\u0629**: \u062A\u0637\u0648\u064A\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A\u060C \u0627\u0644\u062F\u0639\u0645 \u0627\u0644\u0641\u0646\u064A \u0648\u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A\u060C \u0627\u0644\u062D\u0648\u0633\u0628\u0629 \u0627\u0644\u0633\u062D\u0627\u0628\u064A\u0629 \u0648DevOps\u060C \u0627\u062E\u062A\u0628\u0627\u0631 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u0627\u062A QA\u060C \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A\u060C \u0627\u0644\u0623\u0645\u0646 \u0627\u0644\u0633\u064A\u0628\u0631\u0627\u0646\u064A\u060C \u0648\u062A\u0635\u0645\u064A\u0645 \u0648\u0627\u062C\u0647\u0627\u062A \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645 UI/UX.\n- **\u0645\u062A\u0627\u0628\u0639\u0629 \u0637\u0644\u0628\u0627\u062A \u0627\u0644\u062A\u0648\u0638\u064A\u0641**: \u062D\u0641\u0638 \u0627\u0644\u0648\u0638\u0627\u0626\u0641 \u0645\u062D\u0644\u064A\u0627\u064B\u060C \u062A\u062F\u0648\u064A\u0646 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0648\u062A\u062A\u0628\u0639 \u062D\u0627\u0644\u0629 \u0627\u0644\u062A\u0642\u062F\u064A\u0645 (\u062A\u0645 \u0627\u0644\u062A\u0642\u062F\u064A\u0645\u060C \u0645\u0642\u0627\u0628\u0644\u0629\u060C \u0639\u0631\u0636 \u0648\u0638\u064A\u0641\u064A\u060C \u0645\u0631\u0641\u0648\u0636).\n- **\u062A\u0635\u062F\u064A\u0631 \u0648\u0645\u0634\u0627\u0631\u0643\u0629**: \u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0646\u062A\u0627\u0626\u062C \u0625\u0644\u0649 \u0645\u0644\u0641\u0627\u062A JSON \u0648 CSV \u0623\u0648 \u0646\u0633\u062E \u0627\u0644\u0631\u0648\u0627\u0628\u0637 \u0628\u0646\u0642\u0631\u0629 \u0648\u0627\u062D\u062F\u0629.",
+      "categoryId": "utilities",
+      "category": {
+        "id": "utilities",
+        "name": "Utilities",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
+        "description": "General purpose utilities",
+        "icon": "Wrench",
+        "color": "#6B7280",
+        "order": 10
+      },
+      "keywords": [
+        "mena",
+        "jobs",
+        "scraper",
+        "tech",
+        "software-engineers",
+        "it-support",
+        "linkedin",
+        "wuzzuf",
+        "bayt",
+        "gulftalent",
+        "egypt",
+        "gcc",
+        "saudi",
+        "uae"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "icon": "SearchCode",
+      "screenshots": [
+        "https://profileapi.adwatek.com/products/1f5a424bfc7049eb99912a5ceae46a12.png",
+        "https://profileapi.adwatek.com/products/25c6d15f53244e0eb7ee06f53d43d76a.png"
+      ],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "MIT",
+      "licenseUrl": "",
+      "homepage": "https://adwatek.com/tools/mena-tech-jobs",
+      "documentation": "https://docs.adwatek.com/tools/mena-tech-jobs",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-08T12:33:44.4817206Z",
+      "updatedAt": "2026-11-08T12:33:44.4826117Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/mena-tech-jobs/1.0.0/package.adwatekplugin",
+          "packageSize": 118392,
+          "packageChecksum": "b713fe54644c4fdc555159e808e0bd8866f5b5a688d547e48e0f9a3acf81072d",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-08T12:33:44.4817206Z"
+        }
+      ]
+    },
+    {
       "id": "mermaid-editor",
       "latestVersion": "1.0.0",
       "name": "Mermaid Editor",
@@ -2365,11 +2443,11 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 0,
+      "downloads": 1,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-03T13:16:54.0022876Z",
-      "updatedAt": "2026-11-03T13:16:54.0023017Z",
+      "publishedAt": "2026-11-03T13:16:54.0022876",
+      "updatedAt": "2026-11-03T13:16:54.0023017",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2380,7 +2458,7 @@
           "packageSize": 1211773,
           "packageChecksum": "cd1ae715ba0473b54752e3a01e6e13f34572400b21ae70fd081f9c78af51f095",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-03T13:16:54.0022876Z"
+          "publishedAt": "2026-11-03T13:16:54.0022876"
         },
         {
           "version": "1.0.0",
@@ -2445,7 +2523,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 112,
+      "downloads": 113,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T23:01:27.9155883",
