@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-08T12:33:47.0448965Z",
+  "lastUpdated": "2026-11-09T06:29:34.7174034Z",
   "totalCount": 35,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -159,7 +159,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/arch-diagram",
       "documentation": "https://docs.adwatek.com/tools/arch-diagram",
-      "downloads": 8,
+      "downloads": 9,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:55:27.2304537",
@@ -633,7 +633,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 21,
+      "downloads": 22,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:51.8660021",
@@ -1607,7 +1607,7 @@
       "pricingType": "free",
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 17,
+      "downloads": 18,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:59:19.4551537",
@@ -2213,7 +2213,7 @@
         "uae"
       ],
       "platforms": [
-        "web"
+        "desktop"
       ],
       "icon": "SearchCode",
       "screenshots": [
@@ -2236,11 +2236,11 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 0,
+      "downloads": 1,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-08T12:33:44.4817206Z",
-      "updatedAt": "2026-11-08T12:33:44.4826117Z",
+      "publishedAt": "2026-11-08T12:33:44.4817206",
+      "updatedAt": "2026-11-09T06:29:32.2501540Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2251,7 +2251,7 @@
           "packageSize": 118392,
           "packageChecksum": "b713fe54644c4fdc555159e808e0bd8866f5b5a688d547e48e0f9a3acf81072d",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-08T12:33:44.4817206Z"
+          "publishedAt": "2026-11-08T12:33:44.4817206"
         }
       ]
     },
@@ -2523,7 +2523,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "MIT",
-      "downloads": 113,
+      "downloads": 114,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T23:01:27.9155883",
