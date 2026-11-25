@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-25T21:35:26.7916524Z",
+  "lastUpdated": "2026-11-25T21:35:48.5254063Z",
   "totalCount": 36,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -176,8 +176,8 @@
       "downloads": 9,
       "rating": 5.00,
       "reviewCount": 1,
-      "publishedAt": "2026-11-25T21:35:25.1975208Z",
-      "updatedAt": "2026-11-25T21:35:25.1976621Z",
+      "publishedAt": "2026-11-25T21:35:25.1975208",
+      "updatedAt": "2026-11-25T21:35:25.1976621",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -188,7 +188,7 @@
           "packageSize": 119671,
           "packageChecksum": "3aef4df2aa2571d3b62c2884d73dd394f2a030d97dee5467e77ae5b7f5013a76",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-25T21:35:25.1975208Z"
+          "publishedAt": "2026-11-25T21:35:25.1975208"
         },
         {
           "version": "1.0.1",
@@ -860,11 +860,11 @@
     },
     {
       "id": "http-client",
-      "latestVersion": "2.1.0",
+      "latestVersion": "2.1.1",
       "name": "API Studio",
-      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0648\u0627\u062C\u0647\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629 (API)",
-      "description": "Professional API development and testing studio with Collections, Environments, Saved Examples, Colorful JSON Editor, Auth, and Multi-Proxy support",
-      "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0644\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062E\u062A\u0628\u0627\u0631 \u0648\u0627\u062C\u0647\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629 (API) \u0645\u0639 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0627\u0644\u0628\u064A\u0626\u0627\u062A \u0648\u0623\u0645\u062B\u0644\u0629 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u0648\u0645\u062D\u0631\u0631 JSON \u0645\u0644\u0648\u0646 \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0648\u062F\u0639\u0645 \u0627\u0644\u0628\u0631\u0648\u0643\u0633\u064A \u0627\u0644\u0645\u062A\u0639\u062F\u062F",
+      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0648\u0627\u062C\u0647\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629 \u0648\u0637\u0644\u0628\u0627\u062A HTTP",
+      "description": "Professional API development and testing studio with collections, environments, auth, and multi-proxy support",
+      "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062E\u062A\u0628\u0627\u0631 \u0637\u0644\u0628\u0627\u062A \u0648\u0627\u062C\u0647\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629 \u0645\u0639 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0627\u0644\u0628\u064A\u0626\u0627\u062A \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0648\u0627\u0644\u0648\u0643\u0644\u0627\u0621 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u064A\u0646",
       "longDescription": "A full-featured API development and testing studio for WebStudio.\n\n**Features:**\n- **\uD83D\uDCE6 Collections \u0026 Workspaces**: Organize requests into collections and folders with resizable sidebar and inline rename\n- **\uD83D\uDCCB Response Examples (Samples)**: Save, view, and manage response examples with HTTP status codes like Postman\n- **\uD83C\uDFA8 Colorful JSON Editor \u0026 Viewer**: Postman \u0026 VS Code syntax highlighting, line numbers, beautify, and minify\n- **\uD83C\uDF0D Environments**: Define variables with {{variable}} syntax, table \u0026 bulk editing, secret masking\n- **\uD83D\uDD10 Authentication**: Bearer Token, Basic Auth, API Key\n- **\uD83D\uDCDD Body Types**: JSON, XML, Text, Form Data, URL Encoded\n- **\uD83D\uDCCA Query Params \u0026 Headers**: Dedicated key-value parameter management\n- **\uD83D\uDCBB Code Snippets**: Generate cURL, JavaScript, Python code snippets\n- **\uD83D\uDCDC History**: Auto-save with search, filter, and import/export\n- **\uD83D\uDEE1\uFE0F Multi-Proxy Support**: Chrome Extension Proxy, CORS Anywhere, Custom Proxy servers\n- **\u2328\uFE0F Shortcuts**: Ctrl\u002BEnter to send, Ctrl\u002BS to save\n- **\uD83C\uDFA8 Themes**: Modern dark, light, and Dracula themes\n- **\uD83C\uDF10 i18n**: English and Arabic with full RTL support",
       "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0627\u062E\u062A\u0628\u0627\u0631 \u0648\u062A\u0637\u0648\u064A\u0631 \u0648\u0627\u062C\u0647\u0627\u062A \u0628\u0631\u0645\u062C\u0629 \u0627\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A (API).\n\n**\u0627\u0644\u0645\u064A\u0632\u0627\u062A:**\n- **\uD83D\uDCE6 \u0627\u0644\u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0645\u0633\u0627\u062D\u0627\u062A \u0627\u0644\u0639\u0645\u0644**: \u062A\u0646\u0638\u064A\u0645 \u0627\u0644\u0637\u0644\u0628\u0627\u062A \u0641\u064A \u0645\u062C\u0645\u0648\u0639\u0627\u062A \u0648\u0645\u062C\u0644\u062F\u0627\u062A \u0645\u0639 \u0634\u0631\u064A\u0637 \u062C\u0627\u0646\u0628\u064A \u0642\u0627\u0628\u0644 \u0644\u062A\u063A\u064A\u064A\u0631 \u0627\u0644\u062D\u062C\u0645 \u0648\u0625\u0639\u0627\u062F\u0629 \u062A\u0633\u0645\u064A\u0629 \u0633\u0631\u064A\u0639\u0629\n- **\uD83D\uDCCB \u0623\u0645\u062B\u0644\u0629 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629 (Samples)**: \u062D\u0641\u0638 \u0648\u0639\u0631\u0636 \u0648\u0625\u062F\u0627\u0631\u0629 \u0623\u0645\u062B\u0644\u0629 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u0645\u0639 \u0631\u0645\u0648\u0632 \u062D\u0627\u0644\u0629 HTTP \u0645\u062B\u0644 Postman\n- **\uD83C\uDFA8 \u0645\u062D\u0631\u0631 \u0648\u0639\u0627\u0631\u0636 JSON \u0645\u0644\u0648\u0646**: \u062A\u0645\u064A\u064A\u0632 \u0644\u0648\u0646\u064A \u062F\u0642\u064A\u0642 \u0645\u062B\u0644 Postman \u0648 VS Code\u060C \u062A\u0631\u0642\u064A\u0645 \u0627\u0644\u0623\u0633\u0637\u0631\u060C \u0627\u0644\u062A\u0646\u0633\u064A\u0642 \u0648\u0627\u0644\u062A\u0635\u063A\u064A\u0631\n- **\uD83C\uDF0D \u0627\u0644\u0628\u064A\u0626\u0627\u062A**: \u062A\u062D\u062F\u064A\u062F \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u0635\u064A\u063A\u0629 {{\u0645\u062A\u063A\u064A\u0631}} \u0645\u0639 \u062A\u062D\u0631\u064A\u0631 \u062C\u062F\u0648\u0644\u064A \u0648\u062C\u0645\u0627\u0639\u064A \u0648\u0625\u062E\u0641\u0627\u0621 \u0627\u0644\u0623\u0633\u0631\u0627\u0631\n- **\uD83D\uDD10 \u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629**: \u0631\u0645\u0632 Bearer \u0648\u0627\u0644\u0645\u0635\u0627\u062F\u0642\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064A\u0629 \u0648\u0645\u0641\u062A\u0627\u062D API\n- **\uD83D\uDCDD \u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0645\u062D\u062A\u0648\u0649**: JSON \u0648XML \u0648\u0627\u0644\u0646\u0635 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0646\u0645\u0648\u0630\u062C \u0648URL \u0645\u0634\u0641\u0631\n- **\uD83D\uDCCA \u0627\u0644\u0645\u0639\u0644\u0645\u0627\u062A \u0648\u0627\u0644\u062A\u0631\u0648\u064A\u0633\u0627\u062A**: \u0625\u062F\u0627\u0631\u0629 \u0645\u062E\u0635\u0635\u0629 \u0644\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0648\u0627\u0644\u0642\u064A\u0645\n- **\uD83D\uDCBB \u0645\u0642\u0627\u0637\u0639 \u0627\u0644\u0643\u0648\u062F**: \u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F cURL \u0648\u062C\u0627\u0641\u0627\u0633\u0643\u0631\u0628\u062A \u0648\u0628\u0627\u064A\u062B\u0648\u0646\n- **\uD83D\uDCDC \u0627\u0644\u0633\u062C\u0644**: \u0627\u0644\u062D\u0641\u0638 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0645\u0639 \u0627\u0644\u0628\u062D\u062B \u0648\u0627\u0644\u062A\u0635\u0641\u064A\u0629 \u0648\u0627\u0644\u0627\u0633\u062A\u064A\u0631\u0627\u062F/\u0627\u0644\u062A\u0635\u062F\u064A\u0631\n- **\uD83D\uDEE1\uFE0F \u062F\u0639\u0645 \u0627\u0644\u0628\u0631\u0648\u0643\u0633\u064A \u0627\u0644\u0645\u062A\u0639\u062F\u062F**: \u0645\u0644\u062D\u0642 Chrome Proxy\u060C \u0648\u0643\u064A\u0644 CORS Anywhere\u060C \u0648\u062E\u0648\u0627\u062F\u0645 \u0628\u0631\u0648\u0643\u0633\u064A \u0645\u062E\u0635\u0635\u0629\n- **\u2328\uFE0F \u0627\u0644\u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A**: Ctrl\u002BEnter \u0644\u0644\u0625\u0631\u0633\u0627\u0644\u060C Ctrl\u002BS \u0644\u0644\u062D\u0641\u0638\n- **\uD83C\uDFA8 \u0627\u0644\u0633\u0645\u0627\u062A**: \u0633\u0645\u0627\u062A \u0639\u0635\u0631\u064A\u0629 \u062F\u0627\u0643\u0646\u0629 \u0648\u0641\u0627\u062A\u062D\u0629 \u0648Dracula\n- **\uD83C\uDF10 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0644\u063A\u0627\u062A**: \u0627\u0644\u0625\u0646\u062C\u0644\u064A\u0632\u064A\u0629 \u0648\u0627\u0644\u0639\u0631\u0628\u064A\u0629 \u0645\u0639 \u062F\u0639\u0645 \u0643\u0627\u0645\u0644 \u0644\u0627\u062A\u062C\u0627\u0647 RTL",
       "categoryId": "api",
@@ -910,22 +910,37 @@
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Mohamed Osama"
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
-      "licenseType": "MIT",
+      "licenseType": "Proprietary",
+      "licenseUrl": "",
+      "homepage": "https://store.adwatek.com/tools/http-client",
+      "documentation": "",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
       "downloads": 20,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-10-12T22:57:19.9346324",
-      "updatedAt": "2026-10-12T22:57:19.9346470",
+      "publishedAt": "2026-11-25T21:35:46.5155404Z",
+      "updatedAt": "2026-11-25T21:35:46.5155786Z",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "2.1.1",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/2.1.1/package.adwatekplugin",
+          "packageSize": 602762,
+          "packageChecksum": "d7aa80f29292bda5ee54855216d15c0d15152524e74010125455a1c4437703b3",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-25T21:35:46.5155404Z"
+        },
         {
           "version": "2.1.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/http-client/2.1.0/package.adwatekplugin",
