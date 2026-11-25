@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-25T14:24:12.0242532Z",
+  "lastUpdated": "2026-11-25T18:49:46.7884319Z",
   "totalCount": 36,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -36,16 +36,16 @@
       "name": "Generators",
       "nameAr": "\u0627\u0644\u0645\u0648\u0644\u062F\u0627\u062A",
       "description": "Generate code, data, and assets",
-      "icon": "Zap",
+      "icon": "Sparkles",
       "color": "#F59E0B",
       "order": 4
     },
     {
-      "id": "frontend",
-      "name": "Frontend",
-      "nameAr": "\u0627\u0644\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0623\u0645\u0627\u0645\u064A\u0629",
-      "description": "Frontend development tools",
-      "icon": "Layout",
+      "id": "design",
+      "name": "Design",
+      "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
+      "description": "UI, vector, color, and design tools",
+      "icon": "Palette",
       "color": "#EC4899",
       "order": 5
     },
@@ -54,16 +54,16 @@
       "name": "Security",
       "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
       "description": "Security and encryption tools",
-      "icon": "Shield",
+      "icon": "ShieldCheck",
       "color": "#EF4444",
       "order": 6
     },
     {
-      "id": "dev-utils",
-      "name": "Dev Utils",
+      "id": "devtools",
+      "name": "Dev Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-      "description": "Developer utilities and helpers",
-      "icon": "Wrench",
+      "description": "Developer utilities, helpers, and system tools",
+      "icon": "Terminal",
       "color": "#6366F1",
       "order": 7
     },
@@ -71,7 +71,7 @@
       "id": "data",
       "name": "Data Tools",
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-      "description": "Data analysis and visualization",
+      "description": "Data analysis and database management",
       "icon": "Database",
       "color": "#14B8A6",
       "order": 8
@@ -86,30 +86,13 @@
       "order": 9
     },
     {
-      "id": "utilities",
-      "name": "Utilities",
-      "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
-      "description": "General purpose utilities",
-      "icon": "Wrench",
-      "color": "#6B7280",
-      "order": 10
-    },
-    {
-      "id": "design",
-      "name": "Design",
-      "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-      "description": "Design and asset tools",
-      "icon": "Palette",
-      "color": "#8B5CF6",
-      "order": 11
-    },
-    {
       "id": "business",
       "name": "Business \u0026 FinTech",
       "nameAr": "\u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0627\u0644\u064A\u0629 \u0648\u0627\u0644\u0623\u0639\u0645\u0627\u0644",
       "description": "Trading, invoicing, ZATCA, and payment tools",
       "icon": "Landmark",
-      "order": 11
+      "color": "#059669",
+      "order": 10
     },
     {
       "id": "ai",
@@ -117,7 +100,8 @@
       "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A",
       "description": "AI prompts and agent tools",
       "icon": "Bot",
-      "order": 12
+      "color": "#7C3AED",
+      "order": 11
     },
     {
       "id": "media",
@@ -127,6 +111,15 @@
       "icon": "Film",
       "color": "#BE185D",
       "order": 12
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
+      "description": "General purpose utilities",
+      "icon": "Package",
+      "color": "#6B7280",
+      "order": 13
     }
   ],
   "plugins": [
@@ -144,10 +137,10 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
+        "description": "UI, vector, color, and design tools",
         "icon": "Palette",
-        "color": "#8B5CF6",
-        "order": 11
+        "color": "#EC4899",
+        "order": 5
       },
       "keywords": [
         "architecture",
@@ -216,7 +209,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -278,7 +271,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -340,10 +333,10 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
+        "description": "UI, vector, color, and design tools",
         "icon": "Palette",
-        "color": "#8B5CF6",
-        "order": 11
+        "color": "#EC4899",
+        "order": 5
       },
       "keywords": [
         "color",
@@ -411,13 +404,13 @@
       "descriptionAr": "\u0645\u0646\u0634\u0626 \u0648\u0645\u062D\u0644\u0644 \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0644\u0633\u0644\u0627\u0633\u0644 \u0627\u062A\u0635\u0627\u0644 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0639 \u0645\u0633\u062D \u0623\u0645\u0646\u064A \u0648\u062A\u0648\u0644\u064A\u062F \u0642\u0635\u0627\u0635\u0627\u062A \u0628\u0631\u0645\u062C\u064A\u0629.",
       "longDescription": "Building database connection strings is complex. This tool simplifies the process for multiple database engines with a focus on security and developer productivity.\n\n### \uD83D\uDE80 Features:\n- **\uD83D\uDC8E Multi-DB Support**: SQL Server, PostgreSQL, MySQL, Redis, Oracle, Snowflake, MongoDB, and more.\n- **\uD83D\uDD75\uFE0F Connection Parser**: Paste an existing string to decode its parameters instantly.\n- **\uD83D\uDEE1\uFE0F Security Scanner**: Detects exposed passwords and insecure configurations.\n- **\uD83D\uDCBB Code Snippets**: Generate ready-to-use code for .NET, NodeJS, Docker, and environment variables.\n- **\uD83D\uDCC1 Multiple Formats**: Export to \u0060.udl\u0060, \u0060.json\u0060, \u0060.env\u0060, \u0060.yaml\u0060, and \u0060.config\u0060.\n- **\uD83E\uDD16 Agent Ready**: Optimized for Adwatek AI to help fix, convert, and generate connection strings via voice or chat.\n\n### \uD83E\uDD16 Example AI Prompts:\n- \u0022Generate SQL Server connection string for Azure SQL\u0022\n- \u0022Convert this SQL Server string to PostgreSQL format\u0022\n- \u0022Fix my broken connection string: [paste string]\u0022\n- \u0022Generate environment variables for Redis on localhost\u0022",
       "longDescriptionAr": "\u0628\u0646\u0627\u0621 \u0633\u0644\u0627\u0633\u0644 \u0627\u062A\u0635\u0627\u0644 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0639\u0645\u0644\u064A\u0629 \u0645\u0639\u0642\u062F\u0629. \u062A\u0628\u0633\u0637 \u0647\u0630\u0647 \u0627\u0644\u0623\u062F\u0627\u0629 \u0627\u0644\u0639\u0645\u0644\u064A\u0629 \u0644\u0644\u0639\u062F\u064A\u062F \u0645\u0646 \u0645\u062D\u0631\u0643\u0627\u062A \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0645\u0639 \u0627\u0644\u062A\u0631\u0643\u064A\u0632 \u0639\u0644\u0649 \u0627\u0644\u0623\u0645\u0627\u0646 \u0648\u0625\u0646\u062A\u0627\u062C\u064A\u0629 \u0627\u0644\u0645\u0637\u0648\u0631\u064A\u0646.\n\n### \uD83D\uDE80 \u0627\u0644\u0645\u064A\u0632\u0627\u062A:\n- **\uD83D\uDC8E \u062F\u0639\u0645 \u0645\u062D\u0631\u0643\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: SQL Server \u0648 PostgreSQL \u0648 MySQL \u0648 Redis \u0648 Oracle \u0648 Snowflake \u0648 MongoDB \u0648\u0627\u0644\u0645\u0632\u064A\u062F.\n- **\uD83D\uDD75\uFE0F \u0645\u062D\u0644\u0644 \u0627\u0644\u0627\u062A\u0635\u0627\u0644**: \u0627\u0644\u0635\u0642 \u0633\u0644\u0633\u0644\u0629 \u0645\u0648\u062C\u0648\u062F\u0629 \u0644\u0641\u0643 \u062A\u0634\u0641\u064A\u0631 \u0645\u0639\u0644\u0645\u0627\u062A\u0647\u0627 \u0639\u0644\u0649 \u0627\u0644\u0641\u0648\u0631.\n- **\uD83D\uDEE1\uFE0F \u0627\u0644\u0645\u0627\u0633\u062D \u0627\u0644\u0623\u0645\u0646\u064A**: \u064A\u0643\u062A\u0634\u0641 \u0643\u0644\u0645\u0627\u062A \u0627\u0644\u0645\u0631\u0648\u0631 \u0627\u0644\u0645\u0643\u0634\u0648\u0641\u0629 \u0648\u0627\u0644\u062A\u0643\u0648\u064A\u0646\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0622\u0645\u0646\u0629.\n- **\uD83D\uDCBB \u0642\u0635\u0627\u0635\u0627\u062A \u0628\u0631\u0645\u062C\u064A\u0629**: \u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F \u062C\u0627\u0647\u0632 \u0644\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0644\u0640 .NET \u0648 NodeJS \u0648 Docker \u0648\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0627\u0644\u0628\u064A\u0626\u0629.\n- **\uD83D\uDCC1 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062A\u0635\u062F\u064A\u0631 \u0625\u0644\u0649 \u0060.udl\u0060 \u0648 \u0060.json\u0060 \u0648 \u0060.env\u0060 \u0648 \u0060.yaml\u0060 \u0648 \u0060.config\u0060.\n- **\uD83E\uDD16 \u062C\u0627\u0647\u0632 \u0644\u0644\u0648\u0643\u064A\u0644 \u0627\u0644\u0630\u0643\u064A**: \u0645\u062D\u0633\u0651\u0646 \u0644\u0630\u0643\u0627\u0621 Adwatek \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0644\u0644\u0645\u0633\u0627\u0639\u062F\u0629 \u0641\u064A \u0625\u0635\u0644\u0627\u062D \u0648\u062A\u062D\u0648\u064A\u0644 \u0648\u0625\u0646\u0634\u0627\u0621 \u0633\u0644\u0627\u0633\u0644 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0639\u0628\u0631 \u0627\u0644\u0635\u0648\u062A \u0623\u0648 \u0627\u0644\u062F\u0631\u062F\u0634\u0629.\n\n### \uD83E\uDD16 \u0623\u0645\u062B\u0644\u0629 \u0644\u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0648\u0643\u064A\u0644 \u0627\u0644\u0630\u0643\u064A:\n- \u0022\u0623\u0646\u0634\u0626 \u0633\u0644\u0633\u0644\u0629 \u0627\u062A\u0635\u0627\u0644 SQL Server \u0644\u0640 Azure SQL\u0022\n- \u0022\u062D\u0648\u0644 \u0633\u0644\u0633\u0644\u0629 SQL Server \u0647\u0630\u0647 \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642 PostgreSQL\u0022\n- \u0022\u0623\u0635\u0644\u062D \u0633\u0644\u0633\u0644\u0629 \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u064A: [\u0627\u0644\u0635\u0642 \u0627\u0644\u0633\u0644\u0633\u0644\u0629]\u0022\n- \u0022\u0623\u0646\u0634\u0626 \u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0628\u064A\u0626\u0629 \u0644\u0640 Redis \u0639\u0644\u0649 localhost\u0022",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -456,7 +449,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:17.8832853",
-      "updatedAt": "2026-10-12T22:56:17.8833143",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -480,13 +473,13 @@
       "descriptionAr": "\u062A\u062D\u0644\u064A\u0644 \u0648\u0628\u0646\u0627\u0621 \u062A\u0639\u0628\u064A\u0631\u0627\u062A cron \u0645\u0631\u0626\u064A\u0627\u064B\u060C \u0648\u062A\u0648\u0642\u0639 \u0623\u0648\u0642\u0627\u062A \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u0629\u060C \u0648\u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F \u0627\u0644\u062A\u0643\u0627\u0645\u0644 \u0644\u0645\u062E\u062A\u0644\u0641 \u0627\u0644\u0644\u063A\u0627\u062A.",
       "longDescription": "A complete studio for developers to inspect, design, and automate cron schedules. Features visual field builders, live countdown timers, 24-hour daily timeline distribution, production-ready templates, and multi-language code snippets.\\n\\nFeatures:\\n- **Visual Segment Inspector**: Interactive breakdown of minute, hour, day, month, and day-of-week fields\\n- **Interactive Visual Builder**: Clickable interval sliders, specific value matrices, and range pickers\\n- **Live Execution Countdown**: Real-time ticker counting down to the exact second of the next run\\n- **24-Hour Timeline Distribution**: Visual hourly heatmap of daily triggers\\n- **Multi-Language Generator**: Ready-to-copy integration code for Node.js, Python, Go, Bash, Kubernetes, GitHub Actions, and AWS EventBridge\\n- **Production Presets \u0026 Favorites**: Categorized templates for database backups, log rotation, and business reports with local bookmarks",
       "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u0641\u062D\u0635 \u0648\u062A\u0635\u0645\u064A\u0645 \u0648\u0623\u062A\u0645\u062A\u0629 \u062C\u062F\u0627\u0648\u0644 cron. \u064A\u062A\u0645\u064A\u0632 \u0628\u0645\u0646\u0634\u0626 \u0645\u0631\u0626\u064A \u0644\u0644\u062D\u0642\u0648\u0644\u060C \u0648\u0639\u062F \u062A\u0646\u0627\u0632\u0644\u064A \u0645\u0628\u0627\u0634\u0631 \u0644\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\u060C \u0648\u062A\u0648\u0632\u064A\u0639 \u0633\u0627\u0639\u0627\u062A \u0627\u0644\u064A\u0648\u0645 \u0639\u0644\u0649 24 \u0633\u0627\u0639\u0629\u060C \u0648\u0642\u0648\u0627\u0644\u0628 \u0625\u0646\u062A\u0627\u062C \u062C\u0627\u0647\u0632\u0629\u060C \u0648\u0645\u0648\u0644\u062F \u0643\u0648\u062F \u0644\u0645\u062E\u062A\u0644\u0641 \u0644\u063A\u0627\u062A \u0627\u0644\u0628\u0631\u0645\u062C\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u0641\u0627\u062D\u0635 \u0627\u0644\u062D\u0642\u0648\u0644 \u0627\u0644\u0645\u0631\u0626\u064A**: \u062A\u062D\u0644\u064A\u0644 \u062A\u0641\u0627\u0639\u0644\u064A \u0644\u062D\u0642\u0648\u0644 \u0627\u0644\u062F\u0642\u064A\u0642\u0629 \u0648\u0627\u0644\u0633\u0627\u0639\u0629 \u0648\u064A\u0648\u0645 \u0627\u0644\u0634\u0647\u0631 \u0648\u0627\u0644\u0634\u0647\u0631 \u0648\u064A\u0648\u0645 \u0627\u0644\u0623\u0633\u0628\u0648\u0639\\n- **\u0627\u0644\u0645\u0646\u0634\u0626 \u0627\u0644\u0645\u0631\u0626\u064A**: \u0634\u0631\u0627\u0626\u062D \u062A\u062D\u062F\u064A\u062F \u0627\u0644\u062E\u0637\u0648\u0627\u062A \u0627\u0644\u0632\u0645\u0646\u064A\u0629\u060C \u0648\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0627\u062E\u062A\u064A\u0627\u0631 \u0627\u0644\u0642\u064A\u0645\u060C \u0648\u0646\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0633\u0627\u0639\u0627\u062A\\n- **\u0639\u062F \u062A\u0646\u0627\u0632\u0644\u064A \u0645\u0628\u0627\u0634\u0631**: \u0639\u062F\u0627\u062F \u0641\u0648\u0631\u064A \u064A\u062D\u0633\u0628 \u0628\u0627\u0644\u062B\u0648\u0627\u0646\u064A \u0627\u0644\u0645\u062A\u0628\u0642\u064A\u0629 \u062D\u062A\u0649 \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0627\u0644\u0642\u0627\u062F\u0645\\n- **\u062E\u0631\u064A\u0637\u0629 24 \u0633\u0627\u0639\u0629**: \u0645\u062E\u0637\u0637 \u0628\u064A\u0627\u0646\u064A \u0644\u0633\u0627\u0639\u0627\u062A \u0627\u0644\u0639\u0645\u0644 \u0639\u0644\u0649 \u0645\u062F\u0627\u0631 \u0627\u0644\u064A\u0648\u0645\\n- **\u062A\u0648\u0644\u064A\u062F \u0643\u0648\u062F \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0644\u063A\u0627\u062A**: \u0623\u0643\u0648\u0627\u062F \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0646\u0633\u062E \u0644\u0640 Node.js \u0648 Python \u0648 Go \u0648 Bash \u0648 Kubernetes \u0648 GitHub Actions \u0648 AWS EventBridge\\n- **\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0625\u0646\u062A\u0627\u062C \u0648\u0627\u0644\u0645\u0641\u0636\u0644\u0629**: \u0646\u0645\u0627\u0630\u062C \u0645\u062C\u062F\u0648\u0644\u0629 \u0644\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A \u0648\u062A\u062F\u0648\u064A\u0631 \u0627\u0644\u0633\u062C\u0644\u0627\u062A \u0645\u0639 \u0625\u0645\u0643\u0627\u0646\u064A\u0629 \u062D\u0641\u0638 \u0627\u0644\u062A\u0639\u0628\u064A\u0631\u0627\u062A \u0627\u0644\u0645\u062E\u0635\u0635\u0629",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -519,7 +512,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:27.3683664",
-      "updatedAt": "2026-10-12T22:56:27.3683869",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -551,13 +544,13 @@
       "descriptionAr": "\u0623\u062F\u0627\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u0644\u062A\u0648\u0627\u0631\u064A\u062E\u060C \u0648\u0627\u0644\u0637\u0648\u0627\u0628\u0639 \u0627\u0644\u0632\u0645\u0646\u064A\u0629\u060C \u0648\u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0647\u062C\u0631\u064A\u060C \u0648\u062D\u0633\u0627\u0628\u0627\u062A \u0627\u0644\u0648\u0642\u062A.",
       "longDescription": "A professional-grade date and time utility. Combine Gregarioan/Hijri conversion, Unix timestamp analysis, and duration calculations in one place.\\n\\nFeatures:\\n- **\uD83D\uDCC5 Calendar Conversion**: Mirror Gregorian dates to Hijri with custom adjustments.\\n- **\uD83D\uDD52 Timestamp Converter**: Parse and generate Unix timestamps in seconds or milliseconds.\\n- **\uD83E\uDDEE Date Calculator**: Add or subtract durations from any date.\\n- **\uD83C\uDF0D Timezone Support**: View dates in various international timezones.\\n- **\uD83D\uDCDD Formatters**: Multiple presets for ISO 8601, RFC 2822, and human-readable formats.",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u0644\u0648\u0642\u062A \u0648\u0627\u0644\u062A\u0627\u0631\u064A\u062E. \u062A\u062C\u0645\u0639 \u0628\u064A\u0646 \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0645\u064A\u0644\u0627\u062F\u064A/\u0627\u0644\u0647\u062C\u0631\u064A\u060C \u0648\u062A\u062D\u0644\u064A\u0644 \u0627\u0644\u0637\u0648\u0627\u0628\u0639 \u0627\u0644\u0632\u0645\u0646\u064A\u0629 \u0644\u0646\u0638\u0627\u0645 Unix\u060C \u0648\u062D\u0633\u0627\u0628\u0627\u062A \u0627\u0644\u0645\u062F\u0629 \u0641\u064A \u0645\u0643\u0627\u0646 \u0648\u0627\u062D\u062F.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCC5 \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u062A\u0642\u0648\u064A\u0645**: \u0645\u0637\u0627\u0628\u0642\u0629 \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E \u0627\u0644\u0645\u064A\u0644\u0627\u062F\u064A\u0629 \u0645\u0639 \u0627\u0644\u0647\u062C\u0631\u064A\u0629 \u0645\u0639 \u0625\u0645\u0643\u0627\u0646\u064A\u0629 \u0627\u0644\u062A\u0639\u062F\u064A\u0644 \u0627\u0644\u0645\u062E\u0635\u0635.\\n- **\uD83D\uDD52 \u0645\u062D\u0648\u0644 \u0627\u0644\u0637\u0648\u0627\u0628\u0639 \u0627\u0644\u0632\u0645\u0646\u064A\u0629**: \u062A\u062D\u0644\u064A\u0644 \u0648\u062A\u0648\u0644\u064A\u062F \u0637\u0648\u0627\u0628\u0639 Unix \u0627\u0644\u0632\u0645\u0646\u064A\u0629 \u0628\u0627\u0644\u062B\u0648\u0627\u0646\u064A \u0623\u0648 \u0627\u0644\u0645\u0644\u0644\u064A \u062B\u0627\u0646\u064A\u0629.\\n- **\uD83E\uDDEE \u062D\u0627\u0633\u0628\u0629 \u0627\u0644\u062A\u0627\u0631\u064A\u062E**: \u0625\u0636\u0627\u0641\u0629 \u0623\u0648 \u0637\u0631\u062D \u0627\u0644\u0645\u062F\u062F \u0645\u0646 \u0623\u064A \u062A\u0627\u0631\u064A\u062E.\\n- **\uD83C\uDF0D \u062F\u0639\u0645 \u0627\u0644\u0645\u0646\u0627\u0637\u0642 \u0627\u0644\u0632\u0645\u0646\u064A\u0629**: \u0639\u0631\u0636 \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E \u0641\u064A \u0645\u0646\u0627\u0637\u0642 \u0632\u0645\u0646\u064A\u0629 \u062F\u0648\u0644\u064A\u0629 \u0645\u062E\u062A\u0644\u0641\u0629.\\n- **\uD83D\uDCDD \u0627\u0644\u0645\u0646\u0633\u0642\u0627\u062A**: \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0645\u0633\u0628\u0642\u0629 \u0645\u062A\u0639\u062F\u062F\u0629 \u0644\u062A\u0646\u0633\u064A\u0642\u0627\u062A ISO 8601 \u0648 RFC 2822 \u0648\u0627\u0644\u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0627\u0644\u0645\u0642\u0631\u0648\u0621\u0629 \u0628\u0634\u0631\u064A\u0627\u064B.",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -590,7 +583,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:56:40.4148236",
-      "updatedAt": "2026-10-12T22:56:40.4148389",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -619,7 +612,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -745,7 +738,16 @@
       "descriptionAr": "\u0639\u0645\u064A\u0644 Git \u0645\u0631\u0626\u064A \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0645\u062A\u0627\u0628\u0639\u0629 \u0634\u062C\u0631\u0629 \u0627\u0644\u062A\u0641\u0631\u0639\u0627\u062A \u0648\u0627\u0644\u0627\u0644\u062A\u0632\u0627\u0645\u0627\u062A (Commits) \u0648\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0645\u0633\u062A\u0648\u062F\u0639\u0627\u062A \u0645\u062D\u0644\u064A\u0627\u064B",
       "longDescription": "Git Studio transforms your Git workflow into a visual, intuitive experience. Professional features included for free: visual commit graph, branch flow swimlanes, interactive rebase, 3-way merge conflict editor, working tree diffs, command log, and AI explanations.",
       "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u062C\u064A\u062A \u064A\u062D\u0648\u0651\u0644 \u0633\u064A\u0631 \u0639\u0645\u0644\u0643 \u0645\u0639 Git \u0625\u0644\u0649 \u062A\u062C\u0631\u0628\u0629 \u0645\u0631\u0626\u064A\u0629 \u0648\u0633\u0647\u0644\u0629 \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u062C\u0627\u0646\u064B\u0627 \u0628\u0627\u0644\u0643\u0627\u0645\u0644: \u0631\u0633\u0645 \u0628\u064A\u0627\u0646\u064A \u0644\u0644\u0625\u064A\u062F\u0627\u0639\u0627\u062A\u060C \u0648\u0645\u062E\u0637\u0637\u0627\u062A \u0645\u0633\u0627\u0631\u0627\u062A \u0627\u0644\u0641\u0631\u0648\u0639\u060C \u0648\u0625\u0639\u0627\u062F\u0629 \u062A\u0646\u0638\u064A\u0645 \u062A\u0641\u0627\u0639\u0644\u064A\u0629\u060C \u0648\u0645\u062D\u0631\u0631 \u062D\u0644 \u0627\u0644\u062A\u0639\u0627\u0631\u0636\u0627\u062A \u062B\u0644\u0627\u062B\u064A \u0627\u0644\u0623\u0637\u0631\u0627\u0641\u060C \u0648\u0633\u062C\u0644 \u0627\u0644\u0623\u0648\u0627\u0645\u0631 \u0648\u0634\u0631\u0648\u062D\u0627\u062A \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A.",
-      "categoryId": "other",
+      "categoryId": "devtools",
+      "category": {
+        "id": "devtools",
+        "name": "Dev Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
+        "color": "#6366F1",
+        "order": 7
+      },
       "keywords": [],
       "platforms": [
         "desktop"
@@ -761,12 +763,12 @@
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
-      "licenseType": "MIT",
+      "licenseType": "Proprietary",
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T08:03:34.3528041",
-      "updatedAt": "2026-11-25T08:29:53.3754968",
+      "updatedAt": "2026-11-25T18:49:44.4307348Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -796,7 +798,7 @@
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
         "description": "Security and encryption tools",
-        "icon": "Shield",
+        "icon": "ShieldCheck",
         "color": "#EF4444",
         "order": 6
       },
@@ -938,13 +940,13 @@
       "descriptionAr": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0645\u0646 JSON \u0644\u0644\u062A\u0631\u062C\u0645\u0629 \u0625\u0644\u0649 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062E\u062A\u0644\u0641\u0629 (JSON\u060C CSV\u060C PO).",
       "longDescription": "A utility tool for developers to extract hardcoded strings from JSON objects and convert them into organized i18n key-value pairs.\\n\\nFeatures:\\n- **\uD83D\uDCC2 Multiple Formats**: Export strings as JSON, CSV, or PO (gettext) files\\n- **\uD83D\uDD11 Key Prefixes**: Add custom prefixes to generated keys for better organization\\n- **\uD83C\uDF32 Deep Extraction**: Recursively extracts strings from nested objects and arrays\\n- **\uD83D\uDCCB One-Click Copy**: Copy generated translation files instantly",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u0633\u0627\u0639\u062F\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0645\u0646 \u0643\u0627\u0626\u0646\u0627\u062A JSON \u0648\u062A\u062D\u0648\u064A\u0644\u0647\u0627 \u0625\u0644\u0649 \u0623\u0632\u0648\u0627\u062C \u0645\u0641\u062A\u0627\u062D-\u0642\u064A\u0645\u0629 \u0645\u0646\u0638\u0645\u0629 \u0644\u0644\u062A\u0631\u062C\u0645\u0629.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDCC2 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629**: \u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0646\u0635\u0648\u0635 \u0643\u0645\u0644\u0641\u0627\u062A JSON \u0623\u0648 CSV \u0623\u0648 PO (gettext)\\n- **\uD83D\uDD11 \u0628\u0627\u062F\u0626\u0627\u062A \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D**: \u0625\u0636\u0627\u0641\u0629 \u0628\u0627\u062F\u0626\u0627\u062A \u0645\u062E\u0635\u0635\u0629 \u0644\u0644\u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0648\u0644\u062F\u0629 \u0644\u062A\u0646\u0638\u064A\u0645 \u0623\u0641\u0636\u0644\\n- **\uD83C\uDF32 \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0639\u0645\u064A\u0642**: \u064A\u0633\u062A\u062E\u0631\u062C \u0627\u0644\u0646\u0635\u0648\u0635 \u0628\u0634\u0643\u0644 \u0645\u062A\u0643\u0631\u0631 \u0645\u0646 \u0627\u0644\u0643\u0627\u0626\u0646\u0627\u062A \u0648\u0627\u0644\u0645\u0635\u0641\u0648\u0641\u0627\u062A \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629\\n- **\uD83D\uDCCB \u0646\u0633\u062E \u0628\u0636\u063A\u0637\u0629 \u0648\u0627\u062D\u062F\u0629**: \u0646\u0633\u062E \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0631\u062C\u0645\u0629 \u0627\u0644\u0645\u0648\u0644\u062F\u0629 \u0641\u0648\u0631\u0627\u064B",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -976,7 +978,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T22:57:32.3888279",
-      "updatedAt": "2026-10-12T22:57:32.3888514",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -1005,10 +1007,10 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
+        "description": "UI, vector, color, and design tools",
         "icon": "Palette",
-        "color": "#8B5CF6",
-        "order": 11
+        "color": "#EC4899",
+        "order": 5
       },
       "keywords": [
         "icons",
@@ -1072,13 +1074,13 @@
       "descriptionAr": "\u062A\u0648\u0644\u064A\u062F UUIDs \u0648 NanoIDs \u0648 ULIDs \u0648 Snowflakes \u0648\u0627\u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u064A\u062F\u0629 \u0645\u0639 \u062E\u064A\u0627\u0631\u0627\u062A \u0645\u062A\u0642\u062F\u0645\u0629.",
       "longDescription": "A comprehensive ID generation tool combining UUID Generator and ID Generators into one powerful utility. Supports multiple ID formats for any use case.\\n\\nFeatures:\\n- **\uD83D\uDD11 UUID Versions**: Generate v1 (time-based), v4 (random), and v7 (time-ordered) UUIDs\\n- **\u26A1 Modern IDs**: NanoID, ULID, CUID for modern applications\\n- **\uD83C\uDFE2 Enterprise IDs**: MongoDB ObjectID, Twitter Snowflake for distributed systems\\n- **\u2699\uFE0F Customization**: Custom alphabets, length, case, hyphens\\n- **\uD83D\uDCCA Comparison Table**: Understand which ID type fits your needs\\n- **\uD83D\uDCCB Bulk Generation**: Generate up to 100 IDs at once\\n- **\uD83D\uDCBE Export**: Copy or download as JSON",
       "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0634\u0627\u0645\u0644\u0629 \u0644\u062A\u0648\u0644\u064A\u062F \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u062A\u062C\u0645\u0639 \u0628\u064A\u0646 \u0645\u0648\u0644\u062F UUID \u0648\u0645\u0648\u0644\u062F\u0627\u062A ID \u0641\u064A \u0623\u062F\u0627\u0629 \u0648\u0627\u062D\u062F\u0629 \u0642\u0648\u064A\u0629. \u062A\u062F\u0639\u0645 \u062A\u0646\u0633\u064A\u0642\u0627\u062A \u0645\u062A\u0639\u062F\u062F\u0629 \u0644\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0644\u0623\u064A \u062D\u0627\u0644\u0629 \u0627\u0633\u062A\u062E\u062F\u0627\u0645.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\uD83D\uDD11 \u0625\u0635\u062F\u0627\u0631\u0627\u062A UUID**: \u062A\u0648\u0644\u064A\u062F v1 (\u0645\u0628\u0646\u064A \u0639\u0644\u0649 \u0627\u0644\u0648\u0642\u062A) \u0648 v4 (\u0639\u0634\u0648\u0627\u0626\u064A) \u0648 v7 (\u0645\u0631\u062A\u0628 \u0632\u0645\u0646\u064A\u0627\u064B)\\n- **\u26A1 \u0645\u0639\u0631\u0641\u0627\u062A \u062D\u062F\u064A\u062B\u0629**: NanoID \u0648 ULID \u0648 CUID \u0644\u0644\u062A\u0637\u0628\u064A\u0642\u0627\u062A \u0627\u0644\u062D\u062F\u064A\u062B\u0629\\n- **\uD83C\uDFE2 \u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0645\u0624\u0633\u0633\u0627\u062A**: MongoDB ObjectID \u0648 Twitter Snowflake \u0644\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u0648\u0632\u0639\u0629\\n- **\u2699\uFE0F \u0627\u0644\u062A\u062E\u0635\u064A\u0635**: \u0623\u0628\u062C\u062F\u064A\u0627\u062A \u0645\u062E\u0635\u0635\u0629\u060C \u0627\u0644\u0637\u0648\u0644\u060C \u0627\u0644\u062D\u0627\u0644\u0629\u060C \u0627\u0644\u0634\u0631\u0637\u0627\u062A\\n- **\uD83D\uDCCA \u062C\u062F\u0648\u0644 \u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629**: \u0641\u0647\u0645 \u0646\u0648\u0639 \u0627\u0644\u0645\u0639\u0631\u0641 \u0627\u0644\u0645\u0646\u0627\u0633\u0628 \u0644\u0627\u062D\u062A\u064A\u0627\u062C\u0627\u062A\u0643\\n- **\uD83D\uDCCB \u062A\u0648\u0644\u064A\u062F \u062C\u0645\u0627\u0639\u064A**: \u062A\u0648\u0644\u064A\u062F \u062D\u062A\u0649 100 \u0645\u0639\u0631\u0641 \u062F\u0641\u0639\u0629 \u0648\u0627\u062D\u062F\u0629\\n- **\uD83D\uDCBE \u0627\u0644\u062A\u0635\u062F\u064A\u0631**: \u0646\u0633\u062E \u0623\u0648 \u062A\u062D\u0645\u064A\u0644 \u0643\u0640 JSON",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -1113,7 +1115,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:57:58.1796119",
-      "updatedAt": "2026-10-12T22:57:58.1796231",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -1207,7 +1209,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1278,7 +1280,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1348,7 +1350,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1419,7 +1421,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1496,7 +1498,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1567,7 +1569,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1639,7 +1641,7 @@
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
         "description": "Security and encryption tools",
-        "icon": "Shield",
+        "icon": "ShieldCheck",
         "color": "#EF4444",
         "order": 6
       },
@@ -1709,7 +1711,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1842,7 +1844,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1916,7 +1918,7 @@
         "id": "data",
         "name": "Data Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
-        "description": "Data analysis and visualization",
+        "description": "Data analysis and database management",
         "icon": "Database",
         "color": "#14B8A6",
         "order": 8
@@ -1974,13 +1976,13 @@
       "descriptionAr": "\u062A\u062D\u0648\u064A\u0644 JSON \u0625\u0644\u0649 \u062A\u0639\u0631\u064A\u0641\u0627\u062A TypeScript, Zod, JSON Schema, Python, Go, Rust, Kotlin, Swift, \u0648 C#.",
       "longDescription": "Instantly generate type definitions and schemas from your JSON data.\n\nSupported output formats:\n- **TypeScript**: Interfaces and type aliases\n- **Zod**: Runtime validation schemas\n- **JSON Schema**: Standard draft-07 schemas\n- **Python**: Pydantic BaseModel models\n- **Go**: Struct definitions with JSON tags\n- **Rust**: Serde Deserialize/Serialize structs\n- **Kotlin**: Data class models\n- **Swift**: Codable structs\n- **C#**: System.Text.Json classes",
       "longDescriptionAr": "\u062A\u0648\u0644\u064A\u062F \u062A\u0639\u0631\u064A\u0641\u0627\u062A \u0627\u0644\u0623\u0646\u0648\u0627\u0639 \u0648\u0627\u0644\u0645\u062E\u0637\u0637\u0627\u062A \u0641\u0648\u0631\u064A\u0627\u064B \u0645\u0646 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0627\u0644\u062E\u0627\u0635\u0629 \u0628\u0643 \u0644\u0639\u062F\u0629 \u0644\u063A\u0627\u062A \u0628\u0631\u0645\u062C\u064A\u0629.",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -2019,7 +2021,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:13.1508367",
-      "updatedAt": "2026-10-12T23:00:13.1508554",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2049,7 +2051,7 @@
         "name": "Security",
         "nameAr": "\u0627\u0644\u0623\u0645\u0627\u0646",
         "description": "Security and encryption tools",
-        "icon": "Shield",
+        "icon": "ShieldCheck",
         "color": "#EF4444",
         "order": 6
       },
@@ -2106,13 +2108,13 @@
       "descriptionAr": "\u0627\u0643\u062A\u0628 \u0642\u0648\u0627\u0644\u0628 \u0644\u064A\u0643\u0648\u064A\u062F \u0648\u0642\u064A\u0651\u0645\u0647\u0627 \u0645\u0642\u0627\u0628\u0644 \u0628\u064A\u0627\u0646\u0627\u062A JSON \u0645\u0639 \u0639\u0631\u0636 \u0641\u0648\u0631\u064A \u0644\u0644\u0646\u0627\u062A\u062C.",
       "longDescription": "An interactive playground for the Liquid templating language, powered by LiquidJS.\\n\\nFeatures:\\n- **\u26A1 Live rendering**: Template and JSON data are evaluated as you type, with render timing.\\n- **\uD83C\uDFAF Precise errors**: Syntax and runtime failures are reported with the offending line, and JSON problems are attributed to the data pane.\\n- **\uD83C\uDFA8 Liquid syntax highlighting**: A dedicated Monaco language with completions for every built-in tag and filter.\\n- **\uD83D\uDCDA Reference sidebar**: Searchable catalogue of Liquid tags and filters, click to insert at the cursor.\\n- **\uD83E\uDDEA Strict modes**: Toggle strict variables, strict filters, and whitespace trimming to match your production engine.\\n- **\uD83D\uDC41 Raw \u0026 preview**: Inspect the exact output text, or preview the rendered HTML in a sandboxed frame.\\n- **\uD83D\uDCBE Auto-save**: Your template, data and settings are restored the next time you open the tool.",
       "longDescriptionAr": "\u0633\u0627\u062D\u0629 \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u063A\u0629 \u0627\u0644\u0642\u0648\u0627\u0644\u0628 \u0644\u064A\u0643\u0648\u064A\u062F\u060C \u0645\u0628\u0646\u064A\u0629 \u0639\u0644\u0649 LiquidJS.\\n\\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A:\\n- **\u26A1 \u0639\u0631\u0636 \u0641\u0648\u0631\u064A**: \u064A\u062A\u0645 \u062A\u0642\u064A\u064A\u0645 \u0627\u0644\u0642\u0627\u0644\u0628 \u0648\u0628\u064A\u0627\u0646\u0627\u062A JSON \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0643\u062A\u0627\u0628\u0629 \u0645\u0639 \u0642\u064A\u0627\u0633 \u0632\u0645\u0646 \u0627\u0644\u0639\u0631\u0636.\\n- **\uD83C\uDFAF \u0623\u062E\u0637\u0627\u0621 \u062F\u0642\u064A\u0642\u0629**: \u062A\u064F\u0639\u0631\u0636 \u0623\u062E\u0637\u0627\u0621 \u0627\u0644\u0635\u064A\u0627\u063A\u0629 \u0648\u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0645\u0639 \u0631\u0642\u0645 \u0627\u0644\u0633\u0637\u0631\u060C \u0648\u062A\u064F\u0646\u0633\u0628 \u0623\u062E\u0637\u0627\u0621 JSON \u0625\u0644\u0649 \u0644\u0648\u062D\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A.\\n- **\uD83C\uDFA8 \u062A\u0644\u0648\u064A\u0646 \u0635\u064A\u0627\u063A\u0629 \u0644\u064A\u0643\u0648\u064A\u062F**: \u0644\u063A\u0629 \u0645\u062E\u0635\u0635\u0629 \u0641\u064A \u0627\u0644\u0645\u062D\u0631\u0631 \u0645\u0639 \u0627\u0642\u062A\u0631\u0627\u062D\u0627\u062A \u0644\u0643\u0644 \u0627\u0644\u0648\u0633\u0648\u0645 \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A \u0627\u0644\u0645\u062F\u0645\u062C\u0629.\\n- **\uD83D\uDCDA \u0644\u0648\u062D\u0629 \u0645\u0631\u062C\u0639\u064A\u0629**: \u0641\u0647\u0631\u0633 \u0642\u0627\u0628\u0644 \u0644\u0644\u0628\u062D\u062B \u0644\u0648\u0633\u0648\u0645 \u0648\u0645\u0631\u0634\u062D\u0627\u062A \u0644\u064A\u0643\u0648\u064A\u062F\u060C \u0627\u0646\u0642\u0631 \u0644\u0644\u0625\u062F\u0631\u0627\u062C \u0639\u0646\u062F \u0627\u0644\u0645\u0624\u0634\u0631.\\n- **\uD83E\uDDEA \u0627\u0644\u0623\u0648\u0636\u0627\u0639 \u0627\u0644\u0635\u0627\u0631\u0645\u0629**: \u0641\u0639\u0651\u0644 \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A \u0648\u0627\u0644\u0645\u0631\u0634\u062D\u0627\u062A \u0627\u0644\u0635\u0627\u0631\u0645\u0629 \u0648\u062A\u0642\u0644\u064A\u0645 \u0627\u0644\u0645\u0633\u0627\u0641\u0627\u062A \u0644\u062A\u0637\u0627\u0628\u0642 \u0645\u062D\u0631\u0643 \u0627\u0644\u0625\u0646\u062A\u0627\u062C \u0644\u062F\u064A\u0643.\\n- **\uD83D\uDC41 \u0646\u0635 \u062E\u0627\u0645 \u0648\u0645\u0639\u0627\u064A\u0646\u0629**: \u0627\u0641\u062D\u0635 \u0627\u0644\u0646\u0635 \u0627\u0644\u0646\u0627\u062A\u062C \u062A\u0645\u0627\u0645\u0627\u064B\u060C \u0623\u0648 \u0639\u0627\u064A\u0646 HTML \u0627\u0644\u0645\u0639\u0631\u0648\u0636 \u0641\u064A \u0625\u0637\u0627\u0631 \u0645\u0639\u0632\u0648\u0644.\\n- **\uD83D\uDCBE \u062D\u0641\u0638 \u062A\u0644\u0642\u0627\u0626\u064A**: \u064A\u062A\u0645 \u0627\u0633\u062A\u0639\u0627\u062F\u0629 \u0627\u0644\u0642\u0627\u0644\u0628 \u0648\u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0639\u0646\u062F \u0641\u062A\u062D \u0627\u0644\u0623\u062F\u0627\u0629 \u0645\u0631\u0629 \u0623\u062E\u0631\u0649.",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -2147,7 +2149,7 @@
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-10-12T23:00:43.1074617",
-      "updatedAt": "2026-10-12T23:00:43.1074748",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -2171,13 +2173,13 @@
       "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646 \u0645\u062A\u0643\u0627\u0645\u0644 \u0628\u0639\u0631\u0636 \u0643\u0627\u0645\u0644 \u0645\u0639 \u0645\u0639\u0627\u064A\u0646\u0629 \u062D\u064A\u0629 \u0648\u062A\u0646\u0628\u064A\u0647\u0627\u062A GFM \u0648\u0645\u0648\u0644\u062F \u062C\u062F\u0627\u0648\u0644 \u0648\u0645\u062D\u0648\u0644 HTML.",
       "longDescription": "A professional-grade environment for engineering, previewing, and converting Markdown documents.\n\nKey Capabilities:\n- **\u26A1 Full-Width Studio**: Edge-to-edge IDE interface with responsive split ratios (50:50, 60:40, 40:60), Zen editor-only, and preview-only modes.\n- **\uD83C\uDFA8 Rich Formatting Toolbar**: Instant shortcuts for headings, bold, italic, code blocks, math, GitHub callouts ([!NOTE], [!TIP], etc.), and checklists.\n- **\uD83D\uDCD1 Real-Time Table of Contents**: Dynamic outline tree navigation for jumping instantly to any document section.\n- **\uD83D\uDCCA Visual Table \u0026 CSV Studio**: Interactive grid editor to craft tables, import CSV/TSV, and generate GFM tables.\n- **\uD83D\uDCD6 Built-in Cheatsheet**: Quick searchable reference for CommonMark and GFM syntax with 1-click insert.\n- **\uD83D\uDD04 Bidirectional HTML Converter**: High-fidelity conversion between HTML and Markdown.\n- **\uD83D\uDCE6 Production Templates**: Ready-to-use templates for README, Tech Spec RFC, API Docs, Changelog, Meeting Notes, and Blog Posts.\n- **\uD83D\uDCE5 Multi-Format Export**: Export as Markdown (.md), standalone styled HTML (.html), or print to PDF.",
       "longDescriptionAr": "\u0628\u064A\u0626\u0629 \u0645\u062A\u0642\u062F\u0645\u0629 \u0648\u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u0643\u062A\u0627\u0628\u0629 \u0648\u0645\u0639\u0627\u064A\u0646\u0629 \u0648\u062A\u062D\u0648\u064A\u0644 \u0645\u0633\u062A\u0646\u062F\u0627\u062A \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u26A1 \u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0628\u0639\u0631\u0636 \u0643\u0627\u0645\u0644**: \u0648\u0627\u062C\u0647\u0629 \u0645\u062A\u0643\u0627\u0645\u0644\u0629 \u062A\u0645\u062A\u062F \u0628\u0639\u0631\u0636 \u0627\u0644\u0634\u0627\u0634\u0629 \u0645\u0639 \u0646\u0633\u0628 \u062A\u0642\u0633\u064A\u0645 \u0645\u0631\u0646\u0629 (50:50\u060C 60:40\u060C 40:60) \u0648\u0648\u0636\u0639 \u0627\u0644\u062A\u0631\u0643\u064A\u0632.\n- **\uD83C\uDFA8 \u0634\u0631\u064A\u0637 \u0623\u062F\u0648\u0627\u062A \u0627\u0644\u062A\u0646\u0633\u064A\u0642**: \u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A \u0633\u0631\u064A\u0639\u0629 \u0644\u0644\u0639\u0646\u0627\u0648\u064A\u0646\u060C \u0627\u0644\u062A\u0646\u0633\u064A\u0642\u0627\u062A\u060C \u0643\u062A\u0644 \u0627\u0644\u0623\u0643\u0648\u0627\u062F\u060C \u0627\u0644\u0645\u0639\u0627\u062F\u0644\u0627\u062A\u060C \u062A\u0646\u0628\u064A\u0647\u0627\u062A GitHub\u060C \u0648\u0642\u0648\u0627\u0626\u0645 \u0627\u0644\u0645\u0647\u0627\u0645.\n- **\uD83D\uDCD1 \u0641\u0647\u0631\u0633 \u0645\u062D\u062A\u0648\u064A\u0627\u062A \u0641\u0648\u0631\u064A**: \u0634\u062C\u0631\u0629 \u0645\u062D\u062A\u0648\u064A\u0627\u062A \u062A\u0641\u0627\u0639\u0644\u064A\u0629 \u0644\u0644\u062A\u0646\u0642\u0644 \u0627\u0644\u0641\u0648\u0631\u064A \u0628\u064A\u0646 \u0623\u0642\u0633\u0627\u0645 \u0627\u0644\u0645\u0633\u062A\u0646\u062F.\n- **\uD83D\uDCCA \u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0627\u0644\u062C\u062F\u0627\u0648\u0644 \u0648 CSV**: \u0645\u062D\u0631\u0631 \u0645\u0631\u0626\u064A \u0644\u0644\u062C\u062F\u0627\u0648\u0644 \u0645\u0639 \u0627\u0633\u062A\u064A\u0631\u0627\u062F \u0648\u062A\u0635\u062F\u064A\u0631 CSV \u0648\u062A\u062D\u0648\u064A\u0644 \u0641\u0648\u0631\u064A \u0625\u0644\u0649 \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646.\n- **\uD83D\uDCD6 \u062F\u0644\u064A\u0644 \u0627\u0644\u0635\u064A\u063A \u0627\u0644\u062A\u0641\u0627\u0639\u0644\u064A**: \u0645\u0631\u062C\u0639 \u0633\u0631\u064A\u0639 \u0642\u0627\u0628\u0644 \u0644\u0644\u0628\u062D\u062B \u0644\u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646 \u0645\u0639 \u0646\u0633\u062E \u0648\u0625\u062F\u0631\u0627\u062C \u0628\u0646\u0642\u0631\u0629 \u0648\u0627\u062D\u062F\u0629.\n- **\uD83D\uDD04 \u0645\u062D\u0648\u0644 HTML \u062B\u0646\u0627\u0626\u064A \u0627\u0644\u0627\u062A\u062C\u0627\u0647**: \u062A\u062D\u0648\u064A\u0644 \u0639\u0627\u0644\u064A \u0627\u0644\u062F\u0642\u0629 \u0628\u064A\u0646 \u0643\u0648\u062F HTML \u0648\u0627\u0644\u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646.\n- **\uD83D\uDCE6 \u0642\u0648\u0627\u0644\u0628 \u062C\u0627\u0647\u0632\u0629**: \u0642\u0648\u0627\u0644\u0628 \u0627\u062D\u062A\u0631\u0627\u0641\u064A\u0629 \u0644\u0645\u0644\u0641\u0627\u062A README\u060C \u0627\u0644\u0645\u0648\u0627\u0635\u0641\u0627\u062A \u0627\u0644\u062A\u0642\u0646\u064A\u0629\u060C \u062A\u0648\u062B\u064A\u0642 API\u060C \u0633\u062C\u0644 \u0627\u0644\u062A\u063A\u064A\u064A\u0631\u0627\u062A\u060C \u0648\u0627\u0644\u0645\u0642\u0627\u0644\u0627\u062A.\n- **\uD83D\uDCE5 \u062A\u0635\u062F\u064A\u0631 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0635\u064A\u063A**: \u062A\u0635\u062F\u064A\u0631 \u0643\u0645\u0644\u0641 \u0645\u0627\u0631\u0643 \u062F\u0627\u0648\u0646 (.md)\u060C \u0635\u0641\u062D\u0629 HTML \u0645\u0633\u062A\u0642\u0644\u0629 \u0648\u0645\u0646\u0633\u0642\u0629 (.html)\u060C \u0623\u0648 \u0637\u0628\u0627\u0639\u0629 \u0643\u0645\u0644\u0641 PDF.",
-      "categoryId": "dev-utils",
+      "categoryId": "devtools",
       "category": {
-        "id": "dev-utils",
-        "name": "Dev Utils",
+        "id": "devtools",
+        "name": "Dev Tools",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
-        "description": "Developer utilities and helpers",
-        "icon": "Wrench",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
         "color": "#6366F1",
         "order": 7
       },
@@ -2215,7 +2217,7 @@
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T23:00:51.9420313",
-      "updatedAt": "2026-10-17T18:53:56.2889381",
+      "updatedAt": "2026-11-25T18:44:00.4633333",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2254,7 +2256,8 @@
         "nameAr": "\u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0627\u0644\u064A\u0629 \u0648\u0627\u0644\u0623\u0639\u0645\u0627\u0644",
         "description": "Trading, invoicing, ZATCA, and payment tools",
         "icon": "Landmark",
-        "order": 11
+        "color": "#059669",
+        "order": 10
       },
       "keywords": [
         "mena",
@@ -2300,8 +2303,8 @@
       "downloads": 1,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-25T14:24:09.2094720Z",
-      "updatedAt": "2026-11-25T14:24:09.2098540Z",
+      "publishedAt": "2026-11-25T14:24:09.2094720",
+      "updatedAt": "2026-11-25T14:24:09.2098540",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2312,7 +2315,7 @@
           "packageSize": 70999,
           "packageChecksum": "07b323d310a4e3843ef4a3da2eb2087b9a7acb247d45d9b0697fb9ba9bb325b1",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-25T14:24:09.2094720Z"
+          "publishedAt": "2026-11-25T14:24:09.2094720"
         },
         {
           "version": "1.0.0",
@@ -2338,10 +2341,10 @@
         "id": "design",
         "name": "Design",
         "nameAr": "\u0627\u0644\u062A\u0635\u0645\u064A\u0645",
-        "description": "Design and asset tools",
+        "description": "UI, vector, color, and design tools",
         "icon": "Palette",
-        "color": "#8B5CF6",
-        "order": 11
+        "color": "#EC4899",
+        "order": 5
       },
       "keywords": [
         "mermaid",
@@ -2468,9 +2471,9 @@
         "name": "Utilities",
         "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
         "description": "General purpose utilities",
-        "icon": "Wrench",
+        "icon": "Package",
         "color": "#6B7280",
-        "order": 10
+        "order": 13
       },
       "keywords": [
         "pdf",
