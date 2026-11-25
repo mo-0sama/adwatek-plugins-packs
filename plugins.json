@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-25T21:35:48.5254063Z",
+  "lastUpdated": "2026-11-25T21:37:38.7937482Z",
   "totalCount": 36,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -927,8 +927,8 @@
       "downloads": 20,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-25T21:35:46.5155404Z",
-      "updatedAt": "2026-11-25T21:35:46.5155786Z",
+      "publishedAt": "2026-11-25T21:35:46.5155404",
+      "updatedAt": "2026-11-25T21:35:46.5155786",
       "isFeatured": false,
       "allowPublicDemo": true,
       "videoUrls": [],
@@ -939,7 +939,7 @@
           "packageSize": 602762,
           "packageChecksum": "d7aa80f29292bda5ee54855216d15c0d15152524e74010125455a1c4437703b3",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-25T21:35:46.5155404Z"
+          "publishedAt": "2026-11-25T21:35:46.5155404"
         },
         {
           "version": "2.1.0",
@@ -2486,22 +2486,22 @@
     },
     {
       "id": "pdf-tools",
-      "latestVersion": "1.0.1",
-      "name": "PDF Studio Pro",
-      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0628\u064A \u062F\u064A \u0625\u0641 \u0627\u0644\u0627\u062D\u062A\u0631\u0627\u0641\u064A",
-      "description": "Full-featured client-side PDF engineering suite: Merge, Split, Compress, Rotate, Crop, Protect, Grayscale, Page Size, Images \u2194 PDF, Organize, Watermark \u0026 Metadata.",
-      "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0628\u064A \u062F\u064A \u0625\u0641 \u0645\u062A\u0643\u0627\u0645\u0644 \u0648\u0627\u062D\u062A\u0631\u0627\u0641\u064A \u064A\u0639\u0645\u0644 \u0645\u062D\u0644\u064A\u0627\u064B \u0641\u064A \u0627\u0644\u0645\u062A\u0635\u0641\u062D: \u062F\u0645\u062C\u060C \u062A\u0642\u0633\u064A\u0645\u060C \u0636\u063A\u0637\u060C \u062A\u062F\u0648\u064A\u0631\u060C \u0642\u0635 \u0648\u0647\u0648\u0627\u0645\u0634\u060C \u062D\u0645\u0627\u064A\u0629 \u0648\u062A\u0634\u0641\u064A\u0631\u060C \u062A\u062F\u0631\u062C \u0631\u0645\u0627\u062F\u064A\u060C \u0623\u0628\u0639\u0627\u062F \u0627\u0644\u0635\u0641\u062D\u0627\u062A\u060C \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0635\u0648\u0631\u060C \u062A\u0646\u0638\u064A\u0645\u060C \u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0627\u0626\u064A\u0629 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0648\u0635\u0641\u064A\u0629.",
+      "latestVersion": "1.0.2",
+      "name": "PDF Studio",
+      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u0633\u062A\u0646\u062F\u0627\u062A PDF",
+      "description": "Full client-side PDF utility: merge, split, compress, watermark, rotate, and export securely 100% locally",
+      "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u0644\u0641\u0627\u062A PDF \u0645\u062D\u0644\u064A\u0627\u064B: \u062F\u0645\u062C\u060C \u062A\u0642\u0633\u064A\u0645\u060C \u0636\u063A\u0637\u060C \u0625\u0636\u0627\u0641\u0629 \u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0627\u0626\u064A\u0629\u060C \u0648\u062A\u062F\u0648\u064A\u0631 \u0627\u0644\u0635\u0641\u062D\u0627\u062A \u0628\u0623\u0645\u0627\u0646",
       "longDescription": "A professional-grade in-browser PDF suite engineered for complete privacy and maximum client-side performance.\n\nKey Capabilities:\n- **Unified Workspace**: Single persistent document across all 13 tools \u2014 no re-uploading between operations.\n- **Password Protection \u0026 Encryption**: Set user/owner passwords and granular permissions (print, copy, modify).\n- **Crop \u0026 Margin Trim**: Fine-tune crop box margins and trim whitespace.\n- **Monochrome Grayscale**: Convert full-color documents to grayscale for printing and archival.\n- **Page Size Converter**: Standardize page dimensions across A4, Letter, Legal, A3, and B5 with Fit or Scale modes.\n- **Visual Page Organizer**: Interactive page grid with drag-and-drop reordering, duplicate, delete, and keyboard shortcuts.\n- **Full History Stack**: Undo/Redo (Ctrl\u002BZ / Ctrl\u002BShift\u002BZ) across all destructive page operations.\n- **Merge, Split \u0026 Extract**: Combine PDFs or extract ranges to individual files or ZIP packages.\n- **Smart Client-Side Compression**: Multi-tier compression with before/after byte comparisons.\n- **Images \u2194 PDF**: Bi-directional conversion between image galleries and PDF pages.\n- **Watermarks \u0026 Numbering**: Dynamic text watermarks and multi-format page numbering.\n- **100% In-Browser Privacy**: Zero server uploads, completely local processing.",
       "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0628\u064A \u062F\u064A \u0625\u0641 \u0627\u062D\u062A\u0631\u0627\u0641\u064A \u0645\u062A\u0643\u0627\u0645\u0644 \u064A\u0639\u0645\u0644 \u0628\u0627\u0644\u0643\u0627\u0645\u0644 \u062F\u0627\u062E\u0644 \u0627\u0644\u0645\u062A\u0635\u0641\u062D \u0644\u0636\u0645\u0627\u0646 \u0623\u0642\u0635\u0649 \u062F\u0631\u062C\u0627\u062A \u0627\u0644\u062E\u0635\u0648\u0635\u064A\u0629 \u0648\u0627\u0644\u0623\u062F\u0627\u0621 \u0627\u0644\u0639\u0627\u0644\u064A.\n\n\u0627\u0644\u0645\u064A\u0632\u0627\u062A \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629:\n- **\u0645\u0633\u0627\u062D\u0629 \u0639\u0645\u0644 \u0645\u0648\u062D\u062F\u0629**: \u0645\u0633\u062A\u0646\u062F \u062F\u0627\u0626\u0645 \u0648\u0627\u062D\u062F \u0639\u0628\u0631 \u062C\u0645\u064A\u0639 \u0627\u0644\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u064013 \u062F\u0648\u0646 \u0627\u0644\u062D\u0627\u062C\u0629 \u0644\u0625\u0639\u0627\u062F\u0629 \u0627\u0644\u0631\u0641\u0639 \u0628\u064A\u0646 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A.\n- **\u062D\u0645\u0627\u064A\u0629 \u0648\u062A\u0634\u0641\u064A\u0631 \u0628\u0643\u0644\u0645\u0629 \u0645\u0631\u0648\u0631**: \u062A\u0639\u064A\u064A\u0646 \u0643\u0644\u0645\u0627\u062A \u0645\u0631\u0648\u0631 \u0644\u0644\u0645\u0633\u062A\u062E\u062F\u0645 \u0648\u0627\u0644\u0645\u0627\u0644\u0643 \u0648\u0636\u0628\u0637 \u0627\u0644\u0623\u0630\u0648\u0646\u0627\u062A (\u0637\u0628\u0627\u0639\u0629\u060C \u0646\u0633\u062E\u060C \u062A\u0639\u062F\u064A\u0644).\n- **\u0642\u0635 \u0648\u062A\u0639\u062F\u064A\u0644 \u0627\u0644\u0647\u0648\u0627\u0645\u0634**: \u0636\u0628\u0637 \u0647\u0648\u0627\u0645\u0634 \u0627\u0644\u0635\u0641\u062D\u0627\u062A \u0648\u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u0641\u0631\u0627\u063A\u0627\u062A \u063A\u064A\u0631 \u0627\u0644\u0645\u0631\u063A\u0648\u0628\u0629.\n- **\u062A\u062D\u0648\u064A\u0644 \u0644\u062A\u062F\u0631\u062C \u0631\u0645\u0627\u062F\u064A**: \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0645\u0633\u062A\u0646\u062F\u0627\u062A \u0627\u0644\u0645\u0644\u0648\u0646\u0629 \u0625\u0644\u0649 \u062F\u0631\u062C\u0627\u062A \u0627\u0644\u0631\u0645\u0627\u062F\u064A \u0644\u062A\u0648\u0641\u064A\u0631 \u0627\u0644\u062D\u0628\u0631 \u0648\u0623\u063A\u0631\u0627\u0636 \u0627\u0644\u0623\u0631\u0634\u0641\u0629.\n- **\u062A\u0648\u062D\u064A\u062F \u0623\u0628\u0639\u0627\u062F \u0627\u0644\u0635\u0641\u062D\u0627\u062A**: \u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0645\u0642\u0627\u0633\u0627\u062A \u0628\u064A\u0646 A4 \u0648 Letter \u0648 Legal \u0648 A3 \u0648 B5 \u0645\u0639 \u0645\u0644\u0627\u0621\u0645\u0629 \u0627\u0644\u0645\u062D\u062A\u0648\u0649.\n- **\u0645\u0646\u0638\u0645 \u0627\u0644\u0635\u0641\u062D\u0627\u062A \u0627\u0644\u0645\u0631\u0626\u064A**: \u0625\u0639\u0627\u062F\u0629 \u062A\u0631\u062A\u064A\u0628 \u0627\u0644\u0635\u0641\u062D\u0627\u062A \u0628\u0627\u0644\u0633\u062D\u0628 \u0648\u0627\u0644\u0625\u0641\u0644\u0627\u062A\u060C \u062A\u0643\u0631\u0627\u0631\u060C \u062D\u0630\u0641\u060C \u0648\u0627\u062E\u062A\u0635\u0627\u0631\u0627\u062A \u0644\u0648\u062D\u0629 \u0627\u0644\u0645\u0641\u0627\u062A\u064A\u062D.\n- **\u0633\u062C\u0644 \u062A\u0631\u0627\u062C\u0639 \u0645\u062A\u0643\u0627\u0645\u0644**: \u062F\u0639\u0645 \u0627\u0644\u062A\u0631\u0627\u062C\u0639 \u0648\u0627\u0644\u0625\u0639\u0627\u062F\u0629 (Ctrl\u002BZ / Ctrl\u002BShift\u002BZ) \u0644\u0643\u0627\u0641\u0629 \u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u0635\u0641\u062D\u0627\u062A.\n- **\u062F\u0645\u062C \u0648\u062A\u0642\u0633\u064A\u0645 \u0648\u0627\u0633\u062A\u062E\u0631\u0627\u062C**: \u062F\u0645\u062C \u0627\u0644\u0645\u0633\u062A\u0646\u062F\u0627\u062A \u0623\u0648 \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0646\u0637\u0627\u0642\u0627\u062A \u0643\u0645\u0644\u0641\u0627\u062A \u0645\u0633\u062A\u0642\u0644\u0629 \u0623\u0648 \u0645\u0644\u0641 \u0645\u0636\u063A\u0648\u0637 ZIP.\n- **\u0636\u063A\u0637 \u0630\u0643\u064A \u0645\u062D\u0644\u064A**: \u0645\u0633\u062A\u0648\u064A\u0627\u062A \u0636\u063A\u0637 \u0645\u062A\u0639\u062F\u062F\u0629 \u0645\u0639 \u062D\u0633\u0627\u0628 \u062F\u0642\u064A\u0642 \u0644\u0646\u0633\u0628\u0629 \u0627\u0644\u062A\u0648\u0641\u064A\u0631.\n- **\u0635\u0648\u0631 \u2194 PDF**: \u062A\u062D\u0648\u064A\u0644 \u0645\u062A\u0628\u0627\u062F\u0644 \u0639\u0627\u0644\u064A \u0627\u0644\u062F\u0642\u0629 \u0628\u064A\u0646 \u0627\u0644\u0635\u0648\u0631 \u0648\u0645\u0644\u0641\u0627\u062A PDF.\n- **\u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0627\u0626\u064A\u0629 \u0648\u062A\u0631\u0642\u064A\u0645**: \u0639\u0644\u0627\u0645\u0627\u062A \u0645\u0627\u0626\u064A\u0629 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062A\u062E\u0635\u064A\u0635 \u0648\u062A\u0631\u0642\u064A\u0645 \u0635\u0641\u062D\u0627\u062A \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0623\u0646\u0645\u0627\u0637.\n- **\u062E\u0635\u0648\u0635\u064A\u0629 \u062A\u0627\u0645\u0629 100%**: \u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u062D\u0644\u064A\u0629 \u0628\u0627\u0644\u0643\u0627\u0645\u0644 \u062F\u0648\u0646 \u0631\u0641\u0639 \u0623\u064A \u0645\u0644\u0641 \u0625\u0644\u0649 \u0623\u064A \u062E\u0627\u062F\u0645.",
-      "categoryId": "utilities",
+      "categoryId": "media",
       "category": {
-        "id": "utilities",
-        "name": "Utilities",
-        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0639\u0627\u0645\u0629",
-        "description": "General purpose utilities",
-        "icon": "Package",
-        "color": "#6B7280",
-        "order": 13
+        "id": "media",
+        "name": "Media Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
+        "description": "Image, video, and audio processing tools",
+        "icon": "Film",
+        "color": "#BE185D",
+        "order": 12
       },
       "keywords": [
         "pdf",
@@ -2522,23 +2522,23 @@
         "privacy"
       ],
       "platforms": [
-        "desktop",
-        "web"
+        "web",
+        "desktop"
       ],
       "icon": "FileText",
       "screenshots": [],
       "author": {
         "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
-        "name": "Mohamed Osama Mohamed Khalil",
+        "name": "Mohamed Osama",
         "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
       },
       "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
       "pricingType": "free",
       "price": 0,
       "currency": "USD",
-      "licenseType": "MIT",
+      "licenseType": "Proprietary",
       "licenseUrl": "",
-      "homepage": "",
+      "homepage": "https://store.adwatek.com/tools/pdf-tools",
       "documentation": "",
       "changelog": "",
       "repositoryType": "GitHub",
@@ -2546,12 +2546,20 @@
       "downloads": 2,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-03T13:16:54.0022876",
-      "updatedAt": "2026-11-03T13:16:54.0023017",
+      "publishedAt": "2026-11-25T21:37:36.7633775Z",
+      "updatedAt": "2026-11-25T21:37:36.7634103Z",
       "isFeatured": false,
-      "allowPublicDemo": false,
+      "allowPublicDemo": true,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.0.2",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/pdf-tools/1.0.2/package.adwatekplugin",
+          "packageSize": 933549,
+          "packageChecksum": "0987f21a7a8039c3a2974d3e9c4e4b316b1a2d39d976fbc77a7a054ddae67039",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-25T21:37:36.7633775Z"
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/pdf-tools/1.0.1/package.adwatekplugin",
