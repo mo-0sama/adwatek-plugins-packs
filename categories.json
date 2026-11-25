@@ -99,6 +99,22 @@
     "order": 11
   },
   {
+    "id": "business",
+    "name": "Business \u0026 FinTech",
+    "nameAr": "\u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0627\u0644\u064A\u0629 \u0648\u0627\u0644\u0623\u0639\u0645\u0627\u0644",
+    "description": "Trading, invoicing, ZATCA, and payment tools",
+    "icon": "Landmark",
+    "order": 11
+  },
+  {
+    "id": "ai",
+    "name": "AI Tools",
+    "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A",
+    "description": "AI prompts and agent tools",
+    "icon": "Bot",
+    "order": 12
+  },
+  {
     "id": "media",
     "name": "Media Tools",
     "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0648\u0633\u0627\u0626\u0637",
