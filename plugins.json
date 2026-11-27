@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-27T00:24:36.0020058Z",
-  "totalCount": 38,
+  "lastUpdated": "2026-11-27T00:24:45.1854074Z",
+  "totalCount": 39,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -2733,8 +2733,8 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-27T00:24:34.5873930Z",
-      "updatedAt": "2026-11-27T00:24:34.5874198Z",
+      "publishedAt": "2026-11-27T00:24:34.5873930",
+      "updatedAt": "2026-11-27T00:24:34.5874198",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2745,7 +2745,7 @@
           "packageSize": 31082,
           "packageChecksum": "4204f331174065ae03b65a18b0dd1a5c15725cae392ee9f017a28b931569d31a",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-27T00:24:34.5873930Z"
+          "publishedAt": "2026-11-27T00:24:34.5873930"
         }
       ]
     },
@@ -2841,6 +2841,81 @@
           "packageChecksum": "14910684b0b4d7422524e0bdf3f9761962fa974efd8ea4700333c20ee1512d88",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:59.0636866"
+        }
+      ]
+    },
+    {
+      "id": "zatca-batch-extractor",
+      "latestVersion": "1.0.0",
+      "name": "ZATCA Invoices Extractor \u0026 Auditor",
+      "nameAr": "\u0645\u0633\u062A\u062E\u0631\u062C \u0648\u0645\u062F\u0642\u0642 \u0641\u0648\u0627\u062A\u064A\u0631 \u0632\u0627\u062A\u0643\u0627",
+      "description": "Extract, audit, and export ZATCA Phase 2 PDF/A-3 embedded XML invoices to multi-tab Excel and Saudi ERP presets 100% locally",
+      "descriptionAr": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0648\u062A\u062F\u0642\u064A\u0642 \u0648\u062A\u0635\u062F\u064A\u0631 \u0641\u0648\u0627\u062A\u064A\u0631 \u0647\u064A\u0626\u0629 \u0627\u0644\u0632\u0643\u0627\u0629 \u0627\u0644\u0645\u0631\u062D\u0644\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 (PDF/A-3 \u0648 XML) \u0625\u0644\u0649 \u0625\u0643\u0633\u0644 \u0648\u0628\u0631\u0627\u0645\u062C \u0627\u0644\u0645\u062D\u0627\u0633\u0628\u0629 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629 \u0645\u062D\u0644\u064A\u0627\u064B \u0628\u0627\u0644\u0643\u0627\u0645\u0644",
+      "longDescription": "High-throughput 100% client-side extractor for Saudi ZATCA Phase 2 e-invoices.\n\nKey Capabilities:\n- **Tier 1 Extraction**: Extracts embedded UBL 2.1 XML directly from PDF/A-3 streams and raw XML files with full multi-currency and dual TaxTotal support.\n- **Tier 2 Local QR Fallback**: Decodes ZATCA TLV Base64 QR tags (Tags 1-9) for Phase 1 / flattened PDFs with full Arabic UTF-8 decoding.\n- **Saudi VAT Compliance Audit**: Checks 15-digit Saudi VAT ID format, credit note sign normalization, header math, and line-to-header reconciliation within 0.05 tolerance.\n- **Deduplication Engine**: Identifies duplicate UUIDs and (Supplier VAT \u002B Invoice Number) collisions across large batches.\n- **Multi-Tab Excel Workbook**: Generates VAT Summary, Line Items, and Audit Exceptions with frozen headers, currency formatting, and RTL worksheet toggle.\n- **Saudi ERP CSV Presets**: Pre-formatted UTF-8 BOM CSV exports for Qoyod, Daftra, Zoho Books KSA, and Odoo KSA.\n- **Zero Server Uploads**: Process thousands of invoices directly in-browser with zero network calls and complete confidentiality.",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u0643\u0641\u0627\u0621\u0629 \u062A\u0639\u0645\u0644 \u0628\u0627\u0644\u0643\u0627\u0645\u0644 \u0641\u064A \u0627\u0644\u0645\u062A\u0635\u0641\u062D \u0644\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0648\u062A\u062F\u0642\u064A\u0642 \u0641\u0648\u0627\u062A\u064A\u0631 \u0647\u064A\u0626\u0629 \u0627\u0644\u0632\u0643\u0627\u0629 \u0648\u0627\u0644\u0636\u0631\u064A\u0628\u0629 \u0648\u0627\u0644\u062C\u0645\u0627\u0631\u0643 (\u0627\u0644\u0645\u0631\u062D\u0644\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629).\n\n\u0623\u0628\u0631\u0632 \u0627\u0644\u0645\u0632\u0627\u064A\u0627:\n- **\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u0633\u062A\u0648\u0649 \u0627\u0644\u0623\u0648\u0644**: \u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0645\u0644\u0641\u0627\u062A UBL 2.1 XML \u0627\u0644\u0645\u0636\u0645\u0646\u0629 \u062F\u0627\u062E\u0644 \u0645\u0644\u0641\u0627\u062A PDF/A-3 \u0645\u0639 \u062F\u0639\u0645 \u0643\u0627\u0645\u0644 \u0644\u0644\u0639\u0645\u0644\u0627\u062A \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629 \u0648\u0645\u062C\u0627\u0645\u064A\u0639 \u0627\u0644\u0636\u0631\u064A\u0628\u0629 \u0627\u0644\u0645\u0632\u062F\u0648\u062C\u0629.\n- **\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0627\u0644\u0645\u0633\u062A\u0648\u0649 \u0627\u0644\u062B\u0627\u0646\u064A (QR)**: \u0641\u0643 \u062A\u0634\u0641\u064A\u0631 \u062A\u0631\u0645\u064A\u0632 TLV Base64 \u0644\u0631\u0645\u0648\u0632 \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629 \u0627\u0644\u0633\u0631\u064A\u0639\u0629 (\u0627\u0644\u0648\u0633\u0648\u0645 1 \u0625\u0644\u0649 9) \u0645\u0639 \u062F\u0639\u0645 \u0627\u0644\u0644\u063A\u0629 \u0627\u0644\u0639\u0631\u0628\u064A\u0629.\n- **\u0645\u062D\u0631\u0643 \u0627\u0644\u062A\u062F\u0642\u064A\u0642 \u0648\u0627\u0644\u062A\u062D\u0642\u0642 \u0627\u0644\u0636\u0631\u064A\u0628\u064A**: \u0627\u0644\u062A\u062D\u0642\u0642 \u0645\u0646 \u0635\u062D\u0629 \u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0636\u0631\u064A\u0628\u064A (15 \u0631\u0642\u0645\u0627\u064B)\u060C \u0645\u0637\u0627\u0628\u0642\u0629 \u0645\u0639\u0627\u062F\u0644\u0627\u062A \u0627\u0644\u0636\u0631\u064A\u0628\u0629 15%\u060C \u0648\u0625\u0634\u0627\u0631\u0629 \u0627\u0644\u0625\u0634\u0639\u0627\u0631\u0627\u062A \u0627\u0644\u062F\u0627\u0626\u0646\u0629.\n- **\u0643\u0634\u0641 \u0627\u0644\u0641\u0648\u0627\u062A\u064A\u0631 \u0627\u0644\u0645\u0643\u0631\u0631\u0629**: \u0631\u0635\u062F \u0627\u0644\u0645\u0639\u0631\u0641\u0627\u062A \u0627\u0644\u0645\u0643\u0631\u0631\u0629 (UUID) \u0648\u0623\u0631\u0642\u0627\u0645 \u0627\u0644\u0641\u0648\u0627\u062A\u064A\u0631 \u0627\u0644\u0645\u062A\u0637\u0627\u0628\u0642\u0629.\n- **\u062F\u0641\u062A\u0631 \u0625\u0643\u0633\u0644 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0635\u0641\u062D\u0627\u062A**: \u0645\u0644\u062E\u0635 \u0627\u0644\u0636\u0631\u064A\u0628\u0629\u060C \u0628\u0646\u0648\u062F \u0627\u0644\u0641\u0648\u0627\u062A\u064A\u0631\u060C \u0648\u0633\u062C\u0644 \u0627\u0644\u062A\u062F\u0642\u064A\u0642 \u0645\u0639 \u062F\u0639\u0645 \u0627\u0644\u0627\u062A\u062C\u0627\u0647 \u0645\u0646 \u0627\u0644\u064A\u0645\u064A\u0646 \u0644\u0644\u064A\u0633\u0627\u0631 (RTL).\n- **\u0642\u0648\u0627\u0644\u0628 \u0627\u0644\u0628\u0631\u0627\u0645\u062C \u0627\u0644\u0645\u062D\u0627\u0633\u0628\u064A\u0629**: \u062A\u0635\u062F\u064A\u0631 \u0645\u062A\u0648\u0627\u0641\u0642 \u0628\u062A\u0631\u0645\u064A\u0632 UTF-8 BOM \u0644\u0628\u0631\u0627\u0645\u062C \u0642\u064A\u0648\u062F\u060C \u062F\u0641\u062A\u0631\u0629\u060C \u0632\u0648\u0647\u0648\u060C \u0648\u0623\u0648\u062F\u0648 \u0627\u0644\u0633\u0639\u0648\u062F\u064A\u0629.\n- **\u062E\u0635\u0648\u0635\u064A\u0629 \u0648\u0623\u0645\u0627\u0646 100%**: \u0645\u0639\u0627\u0644\u062C\u0629 \u0645\u062D\u0644\u064A\u0629 \u062F\u0627\u062E\u0644 \u062C\u0647\u0627\u0632\u0643 \u062F\u0648\u0646 \u0631\u0641\u0639 \u0623\u064A \u0645\u0633\u062A\u0646\u062F \u0644\u0623\u064A \u062E\u0627\u062F\u0645.",
+      "categoryId": "business",
+      "category": {
+        "id": "business",
+        "name": "Business \u0026 FinTech",
+        "nameAr": "\u0627\u0644\u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0627\u0644\u064A\u0629 \u0648\u0627\u0644\u0623\u0639\u0645\u0627\u0644",
+        "description": "Trading, invoicing, ZATCA, and payment tools",
+        "icon": "Landmark",
+        "color": "#059669",
+        "order": 10
+      },
+      "keywords": [
+        "zatca",
+        "saudi-vat",
+        "e-invoicing",
+        "fatoora",
+        "pdf-a3",
+        "ubl-xml",
+        "excel",
+        "qoyod",
+        "daftra",
+        "zoho-ksa",
+        "odoo-ksa",
+        "tax-audit",
+        "client-side"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "FileSpreadsheet",
+      "screenshots": [],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "Proprietary",
+      "licenseUrl": "",
+      "homepage": "https://store.adwatek.com/tools/zatca-batch-extractor",
+      "documentation": "",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-27T00:24:43.4668796Z",
+      "updatedAt": "2026-11-27T00:24:43.4669125Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/zatca-batch-extractor/1.0.0/package.adwatekplugin",
+          "packageSize": 642912,
+          "packageChecksum": "97ecb04c90b7dc4376b10f6ea9a0e421984a6ff70e845b4ead2c6153c1c39f86",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-27T00:24:43.4668796Z"
         }
       ]
     }
