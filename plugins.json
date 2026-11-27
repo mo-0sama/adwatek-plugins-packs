@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-27T00:24:45.1854074Z",
-  "totalCount": 39,
+  "lastUpdated": "2026-11-27T00:24:53.5261184Z",
+  "totalCount": 40,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -2750,6 +2750,79 @@
       ]
     },
     {
+      "id": "software-manager",
+      "latestVersion": "1.0.0",
+      "name": "Software \u0026 Package Manager",
+      "nameAr": "\u0645\u062F\u064A\u0631 \u0627\u0644\u0628\u0631\u0627\u0645\u062C \u0648\u062D\u0632\u0645 \u0627\u0644\u0646\u0638\u0627\u0645",
+      "description": "Deep Windows software uninstaller, leftovers cleaner, startup manager, services viewer, and Winget installer",
+      "descriptionAr": "\u0645\u062F\u064A\u0631 \u0628\u0631\u0627\u0645\u062C Windows \u0645\u062A\u0643\u0627\u0645\u0644: \u0625\u0644\u063A\u0627\u0621 \u062A\u062B\u0628\u064A\u062A \u0639\u0645\u064A\u0642\u060C \u062A\u0646\u0638\u064A\u0641 \u0628\u0642\u0627\u064A\u0627 \u0627\u0644\u0645\u0644\u0641\u0627\u062A \u0648\u0627\u0644\u0633\u062C\u0644\u060C \u0625\u062F\u0627\u0631\u0629 \u0628\u062F\u0621 \u0627\u0644\u062A\u0634\u063A\u064A\u0644 \u0648\u062D\u0632\u0645 Winget",
+      "longDescription": "Powerful software management for Windows: inventory all Win32 and AppX/UWP apps, deep leftover scanning (safe, moderate, deep) with automatic registry and file quarantine backup, force uninstall, startup entries management, Windows services viewer, and a full winget catalog with batch installations and updates. Everything runs safely and locally.",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u0642\u062F\u0645\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0628\u0631\u0627\u0645\u062C \u0639\u0644\u0649 Windows: \u062D\u0635\u0631 \u0643\u0627\u0641\u0629 \u0628\u0631\u0627\u0645\u062C Win32 \u0648\u062D\u0632\u0645 AppX/UWP\u060C \u0641\u062D\u0635 \u0639\u0645\u064A\u0642 \u0644\u0644\u0628\u0642\u0627\u064A\u0627 \u0645\u0639 \u0627\u0644\u0646\u0633\u062E \u0627\u0644\u0627\u062D\u062A\u064A\u0627\u0637\u064A \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0644\u0644\u062D\u062C\u0631\u060C \u0625\u0644\u063A\u0627\u0621 \u062A\u062B\u0628\u064A\u062A \u0628\u0627\u0644\u0642\u0648\u0629\u060C \u0625\u062F\u0627\u0631\u0629 \u0628\u062F\u0621 \u0627\u0644\u062A\u0634\u063A\u064A\u0644\u060C \u0641\u062D\u0635 \u0627\u0644\u062E\u062F\u0645\u0627\u062A\u060C \u0648\u0643\u062A\u0627\u0644\u0648\u062C \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0640 winget \u0644\u062A\u062B\u0628\u064A\u062A \u0648\u062A\u062D\u062F\u064A\u062B \u0627\u0644\u0628\u0631\u0627\u0645\u062C \u0645\u062D\u0644\u064A\u0627\u064B \u0648\u0628\u0623\u0645\u0627\u0646 \u062A\u0627\u0645.",
+      "categoryId": "devtools",
+      "category": {
+        "id": "devtools",
+        "name": "Dev Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
+        "color": "#6366F1",
+        "order": 7
+      },
+      "keywords": [
+        "software",
+        "uninstaller",
+        "leftovers",
+        "cleaner",
+        "winget",
+        "startup",
+        "services",
+        "uwp",
+        "appx",
+        "backup",
+        "restore"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "Package",
+      "screenshots": [],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "Proprietary",
+      "licenseUrl": "",
+      "homepage": "https://store.adwatek.com/tools/software-manager",
+      "documentation": "",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-27T00:24:51.9430207Z",
+      "updatedAt": "2026-11-27T00:24:51.9431153Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/software-manager/1.0.0/package.adwatekplugin",
+          "packageSize": 116493,
+          "packageChecksum": "b69abe1d2fc794479d7eea6a228b35300b30439d2e54c154be624e28c028c597",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-27T00:24:51.9430207Z"
+        }
+      ]
+    },
+    {
       "id": "swagger-editor",
       "latestVersion": "1.1.1",
       "name": "Swagger Studio",
@@ -2903,8 +2976,8 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-27T00:24:43.4668796Z",
-      "updatedAt": "2026-11-27T00:24:43.4669125Z",
+      "publishedAt": "2026-11-27T00:24:43.4668796",
+      "updatedAt": "2026-11-27T00:24:43.4669125",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2915,7 +2988,7 @@
           "packageSize": 642912,
           "packageChecksum": "97ecb04c90b7dc4376b10f6ea9a0e421984a6ff70e845b4ead2c6153c1c39f86",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-27T00:24:43.4668796Z"
+          "publishedAt": "2026-11-27T00:24:43.4668796"
         }
       ]
     }
