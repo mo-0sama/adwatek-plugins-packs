@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-25T21:51:18.6126257Z",
-  "totalCount": 36,
+  "lastUpdated": "2026-11-27T00:24:27.1485642Z",
+  "totalCount": 37,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -173,7 +173,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "https://github.com/adwatek/arch-diagram",
-      "downloads": 9,
+      "downloads": 10,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-11-25T21:35:25.1975208",
@@ -545,6 +545,75 @@
           "packageChecksum": "efe687840d0ed7fae1e46901881d13536142bb128c65634196bc6825e2896be1",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:58.7025313"
+        }
+      ]
+    },
+    {
+      "id": "database-studio",
+      "latestVersion": "1.0.0",
+      "name": "Database Studio",
+      "nameAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+      "description": "Professional database management studio for Microsoft SQL Server and modern database engines",
+      "descriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0625\u062F\u0627\u0631\u0629 \u0648\u0627\u0633\u062A\u0639\u0644\u0627\u0645 \u0648\u0641\u062D\u0635 \u0642\u0648\u0627\u0639\u062F \u0628\u064A\u0627\u0646\u0627\u062A Microsoft SQL Server \u0648\u0645\u062D\u0631\u0643\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u062D\u062F\u064A\u062B\u0629",
+      "longDescription": "A full-featured database studio inspired by SSMS. Connect to servers, browse schemas, execute T-SQL with GO batches and streaming results, edit table rows, design schemas, and inspect query execution plans.",
+      "longDescriptionAr": "\u0627\u0633\u062A\u0648\u062F\u064A\u0648 \u0645\u062A\u0643\u0627\u0645\u0644 \u0644\u0625\u062F\u0627\u0631\u0629 \u0642\u0648\u0627\u0639\u062F \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A \u0628\u0646\u0645\u0637 SSMS. \u064A\u062A\u064A\u062D \u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0628\u0627\u0644\u062E\u0648\u0627\u062F\u0645\u060C \u0648\u062A\u0635\u0641\u062D \u0627\u0644\u0647\u064A\u0643\u0644 \u0627\u0644\u0628\u0631\u0645\u062C\u064A\u060C \u0648\u062A\u0646\u0641\u064A\u0630 \u0627\u0633\u062A\u0639\u0644\u0627\u0645\u0627\u062A T-SQL \u0645\u0639 \u062F\u0639\u0645 \u062F\u0641\u0639\u0627\u062A GO \u0648\u0628\u062B \u0627\u0644\u0646\u062A\u0627\u0626\u062C \u0641\u0648\u0631\u064A\u0627\u064B\u060C \u0648\u062A\u0639\u062F\u064A\u0644 \u0627\u0644\u062C\u062F\u0627\u0648\u0644 \u0648\u062A\u0635\u0645\u064A\u0645\u0647\u0627\u060C \u0648\u0641\u062D\u0635 \u062E\u0637\u0637 \u0627\u0644\u062A\u0646\u0641\u064A\u0630.",
+      "categoryId": "data",
+      "category": {
+        "id": "data",
+        "name": "Data Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+        "description": "Data analysis and database management",
+        "icon": "Database",
+        "color": "#14B8A6",
+        "order": 8
+      },
+      "keywords": [
+        "database",
+        "sql-server",
+        "mssql",
+        "ssms",
+        "query-editor",
+        "data-studio",
+        "t-sql"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "Database",
+      "screenshots": [],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "Proprietary",
+      "licenseUrl": "",
+      "homepage": "https://store.adwatek.com/tools/database-studio",
+      "documentation": "",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-27T00:24:24.8683473Z",
+      "updatedAt": "2026-11-27T00:24:24.8686985Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/database-studio/1.0.0/package.adwatekplugin",
+          "packageSize": 423385,
+          "packageChecksum": "b622749cfa67b1051f807fe876676c448d69ed1849fc8dff7d543a0bdae88666",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-27T00:24:24.8683473Z"
         }
       ]
     },
@@ -924,7 +993,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 20,
+      "downloads": 21,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T21:35:46.5155404",
@@ -2251,7 +2320,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 38,
+      "downloads": 39,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-11-25T21:37:49.5089955",
@@ -2346,7 +2415,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 1,
+      "downloads": 3,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T14:24:09.2094720",
@@ -2494,8 +2563,8 @@
       "downloads": 4,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-25T21:51:16.8306782Z",
-      "updatedAt": "2026-11-25T21:51:16.8307136Z",
+      "publishedAt": "2026-11-25T21:51:16.8306782",
+      "updatedAt": "2026-11-25T21:51:16.8307136",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2506,7 +2575,7 @@
           "packageSize": 55862,
           "packageChecksum": "dcc4d11d6f0950be4e48d4d0205d3a99b70e157e12c018ad617d59c332b6c88a",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-25T21:51:16.8306782Z"
+          "publishedAt": "2026-11-25T21:51:16.8306782"
         },
         {
           "version": "1.0.0",
@@ -2577,7 +2646,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 2,
+      "downloads": 3,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T21:37:36.7633775",
@@ -2672,7 +2741,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 115,
+      "downloads": 116,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-11-25T21:35:00.3222485",
