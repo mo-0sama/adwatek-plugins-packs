@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-27T00:24:53.5261184Z",
+  "lastUpdated": "2026-11-27T14:21:06.1101679Z",
   "totalCount": 40,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
@@ -598,7 +598,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 0,
+      "downloads": 2,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-27T00:24:24.8683473",
@@ -1554,7 +1554,7 @@
       "licenseType": "MIT",
       "homepage": "https://adwatek.com/tools/json-editor",
       "documentation": "https://docs.adwatek.com/tools/json-editor",
-      "downloads": 25,
+      "downloads": 27,
       "rating": 5.00,
       "reviewCount": 1,
       "publishedAt": "2026-10-12T22:58:51.3967767",
@@ -2415,7 +2415,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 3,
+      "downloads": 5,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T14:24:09.2094720",
@@ -2730,7 +2730,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 0,
+      "downloads": 2,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-27T00:24:34.5873930",
@@ -2806,8 +2806,8 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-27T00:24:51.9430207Z",
-      "updatedAt": "2026-11-27T00:24:51.9431153Z",
+      "publishedAt": "2026-11-27T00:24:51.9430207",
+      "updatedAt": "2026-11-27T00:24:51.9431153",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -2818,7 +2818,7 @@
           "packageSize": 116493,
           "packageChecksum": "b69abe1d2fc794479d7eea6a228b35300b30439d2e54c154be624e28c028c597",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-27T00:24:51.9430207Z"
+          "publishedAt": "2026-11-27T00:24:51.9430207"
         }
       ]
     },
@@ -2919,7 +2919,7 @@
     },
     {
       "id": "zatca-batch-extractor",
-      "latestVersion": "1.0.0",
+      "latestVersion": "1.0.1",
       "name": "ZATCA Invoices Extractor \u0026 Auditor",
       "nameAr": "\u0645\u0633\u062A\u062E\u0631\u062C \u0648\u0645\u062F\u0642\u0642 \u0641\u0648\u0627\u062A\u064A\u0631 \u0632\u0627\u062A\u0643\u0627",
       "description": "Extract, audit, and export ZATCA Phase 2 PDF/A-3 embedded XML invoices to multi-tab Excel and Saudi ERP presets 100% locally",
@@ -2973,15 +2973,23 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 0,
+      "downloads": 2,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-27T00:24:43.4668796",
-      "updatedAt": "2026-11-27T00:24:43.4669125",
+      "publishedAt": "2026-11-27T14:21:03.1174644Z",
+      "updatedAt": "2026-11-27T14:21:03.1179380Z",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
       "versions": [
+        {
+          "version": "1.0.1",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/zatca-batch-extractor/1.0.1/package.adwatekplugin",
+          "packageSize": 640650,
+          "packageChecksum": "6566df50b3faa1520b5ad77a67b767c965a58161c4aa0b4ffda60f590ffd1987",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-27T14:21:03.1174644Z"
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/zatca-batch-extractor/1.0.0/package.adwatekplugin",
