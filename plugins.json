@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-27T00:24:27.1485642Z",
-  "totalCount": 37,
+  "lastUpdated": "2026-11-27T00:24:36.0020058Z",
+  "totalCount": 38,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -601,8 +601,8 @@
       "downloads": 0,
       "rating": 0,
       "reviewCount": 0,
-      "publishedAt": "2026-11-27T00:24:24.8683473Z",
-      "updatedAt": "2026-11-27T00:24:24.8686985Z",
+      "publishedAt": "2026-11-27T00:24:24.8683473",
+      "updatedAt": "2026-11-27T00:24:24.8686985",
       "isFeatured": false,
       "allowPublicDemo": false,
       "videoUrls": [],
@@ -613,7 +613,7 @@
           "packageSize": 423385,
           "packageChecksum": "b622749cfa67b1051f807fe876676c448d69ed1849fc8dff7d543a0bdae88666",
           "minPlatformVersion": "1.0.0",
-          "publishedAt": "2026-11-27T00:24:24.8683473Z"
+          "publishedAt": "2026-11-27T00:24:24.8683473"
         }
       ]
     },
@@ -2678,6 +2678,74 @@
           "packageChecksum": "f7d868a98e46c3fc58321ab693431eb3a92fe8097d2e78d463869bf6be6b8c59",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-11-03T11:13:25.8684237"
+        }
+      ]
+    },
+    {
+      "id": "port-manager",
+      "latestVersion": "1.0.0",
+      "name": "Port \u0026 Process Inspector",
+      "nameAr": "\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0646\u0627\u0641\u0630 \u0648\u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u0634\u0628\u0643\u064A\u0629",
+      "description": "Inspect network listening ports, identify holding process PIDs, and terminate blocking processes safely",
+      "descriptionAr": "\u0641\u062D\u0635 \u0627\u0644\u0645\u0646\u0627\u0641\u0630 \u0627\u0644\u0634\u0628\u0643\u064A\u0629 \u0627\u0644\u0646\u0634\u0637\u0629 \u0648\u0627\u0644\u0645\u0633\u062A\u0645\u0639\u0629\u060C \u0648\u062A\u062D\u062F\u064A\u062F \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062D\u0627\u062C\u0632\u0629 \u0644\u0647\u0627\u060C \u0648\u0625\u0646\u0647\u0627\u0626\u0647\u0627 \u0628\u0623\u0645\u0627\u0646 \u0644\u062D\u0644 \u062A\u0639\u0627\u0631\u0636 \u0627\u0644\u0645\u0646\u0627\u0641\u0630",
+      "longDescription": "Developer tool to view active TCP and UDP listeners, filter localhost ports, search by PID or application, and terminate blocking processes safely across macOS, Windows, and Linux.",
+      "longDescriptionAr": "\u0623\u062F\u0627\u0629 \u0645\u062A\u0642\u062F\u0645\u0629 \u0644\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0644\u0639\u0631\u0636 \u0645\u0646\u0627\u0641\u0630 TCP \u0648 UDP \u0627\u0644\u0646\u0634\u0637\u0629\u060C \u0648\u062A\u0635\u0641\u064A\u0629 \u0645\u0646\u0627\u0641\u0630 \u0627\u0644\u0645\u0637\u0648\u0631\u064A\u0646 \u0627\u0644\u0645\u062D\u0644\u064A\u0629\u060C \u0648\u0627\u0644\u0628\u062D\u062B \u062D\u0633\u0628 \u0627\u0644\u0645\u0639\u0631\u0641 \u0623\u0648 \u0627\u0633\u0645 \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062C\u060C \u0648\u0625\u0646\u0647\u0627\u0621 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u0645\u0639\u0637\u0644\u0629 \u0628\u0623\u0645\u0627\u0646 \u062A\u0627\u0645 \u0639\u0644\u0649 macOS \u0648 Windows \u0648 Linux.",
+      "categoryId": "devtools",
+      "category": {
+        "id": "devtools",
+        "name": "Dev Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
+        "color": "#6366F1",
+        "order": 7
+      },
+      "keywords": [
+        "port",
+        "process",
+        "kill",
+        "listener",
+        "localhost",
+        "netstat"
+      ],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "Network",
+      "screenshots": [],
+      "author": {
+        "id": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+        "name": "Mohamed Osama",
+        "avatar": "https://profileapi.adwatek.com/avatars/7505cda480744cd88af39600c11c50f6.png"
+      },
+      "authorId": "2d1da70d-37a1-45e7-b7a8-dbc6ee51ab7f",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "Proprietary",
+      "licenseUrl": "",
+      "homepage": "https://store.adwatek.com/tools/port-manager",
+      "documentation": "",
+      "changelog": "",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-27T00:24:34.5873930Z",
+      "updatedAt": "2026-11-27T00:24:34.5874198Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/port-manager/1.0.0/package.adwatekplugin",
+          "packageSize": 31082,
+          "packageChecksum": "4204f331174065ae03b65a18b0dd1a5c15725cae392ee9f017a28b931569d31a",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-27T00:24:34.5873930Z"
         }
       ]
     },
