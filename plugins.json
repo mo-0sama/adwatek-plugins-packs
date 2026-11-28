@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-27T23:56:31.2115134Z",
-  "totalCount": 40,
+  "lastUpdated": "2026-11-28T04:20:06.4289891Z",
+  "totalCount": 41,
   "packageBaseUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages",
   "categories": [
     {
@@ -847,7 +847,7 @@
       "price": 0,
       "currency": "USD",
       "licenseType": "Proprietary",
-      "downloads": 104,
+      "downloads": 106,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-03-29T00:00:00.0000000",
@@ -994,7 +994,7 @@
       "changelog": "",
       "repositoryType": "GitHub",
       "repositoryUrl": "",
-      "downloads": 21,
+      "downloads": 23,
       "rating": 0,
       "reviewCount": 0,
       "publishedAt": "2026-11-25T21:35:46.5155404",
@@ -2915,6 +2915,61 @@
           "packageChecksum": "14910684b0b4d7422524e0bdf3f9761962fa974efd8ea4700333c20ee1512d88",
           "minPlatformVersion": "1.0.0",
           "publishedAt": "2026-02-09T17:26:59.0636866"
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "latestVersion": "1.0.0",
+      "name": "Terminal",
+      "nameAr": "\u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0627\u0645\u0631",
+      "description": "Multi-terminal developer workspace (PTY, process inspector, script editor, debugger)",
+      "descriptionAr": "\u0645\u0633\u0627\u062D\u0629 \u0639\u0645\u0644 \u0645\u062A\u0637\u0648\u0631\u0629 \u0644\u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0627\u0645\u0631 \u0648\u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0648\u0645\u062D\u0631\u0631 \u0627\u0644\u0633\u0643\u0631\u0628\u062A\u0627\u062A \u0648\u0645\u0635\u062D\u062D \u0627\u0644\u0623\u062E\u0637\u0627\u0621",
+      "longDescription": "A multi-terminal developer workspace with full PTY shell access, process inspector, script editor, and debugger.",
+      "longDescriptionAr": "\u0645\u0633\u0627\u062D\u0629 \u0639\u0645\u0644 \u0645\u062A\u0637\u0648\u0631\u0629 \u0644\u0625\u062F\u0627\u0631\u0629 \u062C\u0644\u0633\u0627\u062A \u0633\u0637\u0631 \u0627\u0644\u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629 \u0645\u0639 \u0648\u0635\u0648\u0644 \u0643\u0627\u0645\u0644 \u0644\u0644\u0635\u062F\u0641\u0629\u060C \u0648\u0641\u0627\u062D\u0635 \u0627\u0644\u0639\u0645\u0644\u064A\u0627\u062A \u0627\u0644\u062D\u064A\u0629\u060C \u0648\u0645\u062D\u0631\u0631 \u0644\u0644\u0633\u0643\u0631\u0628\u062A\u0627\u062A\u060C \u0648\u0645\u0635\u062D\u062D \u0623\u062E\u0637\u0627\u0621 \u062A\u0641\u0627\u0639\u0644\u064A.",
+      "categoryId": "devtools",
+      "category": {
+        "id": "devtools",
+        "name": "Dev Tools",
+        "nameAr": "\u0623\u062F\u0648\u0627\u062A \u0627\u0644\u0645\u0637\u0648\u0631",
+        "description": "Developer utilities, helpers, and system tools",
+        "icon": "Terminal",
+        "color": "#6366F1",
+        "order": 7
+      },
+      "keywords": [],
+      "platforms": [
+        "web",
+        "desktop"
+      ],
+      "icon": "SquareTerminal",
+      "screenshots": [],
+      "author": {
+        "id": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+        "name": "Super Admin",
+        "avatar": "https://profileapi.adwatek.com/avatars/b8a99a40b2f743dc846eac05a83b527b.png"
+      },
+      "authorId": "82d96cde-5cf4-4a40-88f5-b1e9365c82d6",
+      "pricingType": "free",
+      "price": 0,
+      "currency": "USD",
+      "licenseType": "Proprietary",
+      "downloads": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "publishedAt": "2026-11-28T04:20:03.5400761",
+      "updatedAt": "2026-11-28T04:20:04.7157615Z",
+      "isFeatured": false,
+      "allowPublicDemo": false,
+      "videoUrls": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://raw.githubusercontent.com/mo-0sama/adwatek-plugins-packs/main/packages/terminal/1.0.0/package.adwatekplugin",
+          "packageSize": 420955,
+          "packageChecksum": "9aee2be2d4e58f7843044c79bed57c1d7e22195844adf520514e8382892a7e81",
+          "minPlatformVersion": "1.0.0",
+          "publishedAt": "2026-11-28T04:20:03.5400761"
         }
       ]
     },
